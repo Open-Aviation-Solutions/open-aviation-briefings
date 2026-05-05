@@ -1,6 +1,7 @@
 ---
 marp: true
 title: Marp PoC — FourForces Web Component
+license: CC-BY-SA-4.0
 ---
 
 # The Four Forces of Flight
