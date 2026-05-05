@@ -1,3 +1,4 @@
 node_modules/
 dist/
-open-aviation-components
+.astro/
+public/brief-slides/

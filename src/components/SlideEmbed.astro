@@ -1,0 +1,30 @@
+---
+interface Props {
+  src: string
+  title: string
+}
+const { src, title } = Astro.props
+---
+
+<div class="slide-embed">
+  <iframe src={src} title={title}></iframe>
+  <a href={src} target="_blank" rel="noopener noreferrer">Open slides ↗</a>
+</div>
+
+<style>
+  .slide-embed {
+    margin: 1rem 0;
+  }
+  .slide-embed iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 4px;
+  }
+  .slide-embed a {
+    display: block;
+    margin-top: 0.5rem;
+    text-align: right;
+    font-size: 0.9em;
+  }
+</style>

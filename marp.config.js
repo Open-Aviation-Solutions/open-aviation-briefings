@@ -1,4 +1,10 @@
+import { readFileSync } from 'fs'
 import { Marp } from '@marp-team/marp-core'
+
+const { version } = JSON.parse(readFileSync(
+  new URL('./node_modules/@open-aviation-solutions/components/package.json', import.meta.url)
+))
+const CDN_SCRIPT = `https://cdn.jsdelivr.net/npm/@open-aviation-solutions/components@${version}/dist/lib/define.es.js`
 
 // Treat custom elements (hyphenated tag names) as block-level HTML.
 // Without this, markdown-it wraps them in <p> because they're not
@@ -37,13 +43,9 @@ function customElementBlock(md) {
   })
 }
 
-// Map from custom element tag name to its script source.
-// The engine auto-injects only the scripts used in each deck.
-const COMPONENT_SCRIPTS = {
-  'four-forces':          '/open-aviation-components/assets/fourForces-CKybd77k.js',
-  'flight-path-overview': '/open-aviation-components/assets/flightPathOverview-DAWYUpMb.js',
-  'climb-performance':    '/open-aviation-components/assets/climbPerformance-CacJkHhC.js',
-  'youtube-video':        '/components/youtube-video.js',
+const PUBLISHED_COMPONENTS = ['four-forces', 'flight-path-overview', 'climb-performance']
+const LOCAL_COMPONENTS = {
+  'youtube-video': '/components/youtube-video.js',
 }
 
 // Marpit scopes all theme CSS with this high-specificity prefix (id=1, elements=3).
@@ -95,10 +97,15 @@ export default {
       // Inject layout CSS (goes into <head> via the CLI template)
       result.css += LAYOUT_CSS
 
-      // Auto-inject only the component scripts actually used in this deck
-      const scripts = Object.entries(COMPONENT_SCRIPTS)
-        .filter(([tag]) => markdown.includes(`<${tag}`))
-        .map(([, src]) => `<script type="module" src="${src}"></script>`)
+      const scripts = []
+      if (PUBLISHED_COMPONENTS.some(tag => markdown.includes(`<${tag}`))) {
+        scripts.push(`<script type="module" src="${CDN_SCRIPT}"></script>`)
+      }
+      for (const [tag, src] of Object.entries(LOCAL_COMPONENTS)) {
+        if (markdown.includes(`<${tag}`)) {
+          scripts.push(`<script type="module" src="${src}"></script>`)
+        }
+      }
 
       if (scripts.length > 0) {
         result.html = scripts.join('\n') + '\n' + result.html
