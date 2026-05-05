@@ -42,7 +42,7 @@ Use the **attitude** and **power** sliders to see how each force responds. At cr
 # Video: Hand as Wing
 
 <video controls style="max-height: 480px; width: auto;">
-  <source src="/brief-assets/forces-on-hand-wing.mp4" type="video/mp4">
+  <source src="/brief-assets/recreational-pilot-license/01-effects-of-controls/forces-on-hand-wing.mp4" type="video/mp4">
 </video>
 
 ---
