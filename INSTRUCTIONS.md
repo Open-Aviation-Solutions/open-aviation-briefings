@@ -39,6 +39,7 @@ Marp must run before Astro in both `dev` and `build` scripts so the slide HTML e
 | `src/content.config.ts` | Astro 6 content layer config — wires Starlight's `docsLoader` |
 | `public/brief-assets` | Symlink → `../brief-assets` (Astro serves at `/brief-assets/…`) |
 | `public/components` | Symlink → `../components` (Astro serves at `/components/…`) |
+| `public/open-aviation-components` | Symlink → `../node_modules/@open-aviation-solutions/components/dist/lib` (Astro serves at `/open-aviation-components/…`) |
 | `public/brief-slides/` | Marp build output — gitignored |
 
 ### Marp engine (`marp.config.js`)
@@ -46,8 +47,24 @@ Marp must run before Astro in both `dev` and `build` scripts so the slide HTML e
 Custom engine extending `@marp-team/marp-core` with three additions:
 
 1. **`customElementBlock` plugin** — teaches markdown-it to treat hyphenated custom element tags (`<four-forces>`, etc.) as block-level HTML instead of wrapping them in `<p>`.
-2. **Script injection** — if a slide deck uses any `PUBLISHED_COMPONENTS` tag (`four-forces`, `flight-path-overview`, `climb-performance`), a `<script type="module">` is prepended pointing to the CDN-pinned `@open-aviation-solutions/components` lib. If a `LOCAL_COMPONENTS` tag (`youtube-video`) appears, `/components/youtube-video.js` is injected. Version for the CDN URL is read from `node_modules/@open-aviation-solutions/components/package.json` at build time.
-3. **`.interactive` layout CSS** — two-column grid (text left, component right) scoped with Marpit's high-specificity selector prefix. Applied by adding `<!-- _class: interactive -->` to a slide.
+2. **Script injection** — if a slide deck uses any `PUBLISHED_COMPONENTS` tag (`four-forces`, `flight-path-overview`, `climb-performance`, `pitch-roll-yaw`), a `<script type="module" src="/open-aviation-components/define.es.js">` is prepended, served locally via the `public/open-aviation-components` symlink. If a `LOCAL_COMPONENTS` tag (`youtube-video`, `secondary-effect-climb-car`, `secondary-effect-elevator`) appears, the matching `/components/<tag>.js` file is injected.
+
+### Developing `@open-aviation-solutions/components` locally
+
+To iterate on the components package without a publish/install cycle:
+
+```bash
+# one-time setup (here)
+npm link ../open-aviation-components
+```
+
+The `public/open-aviation-components` symlink resolves through `node_modules/`, so after rebuilding the components package (`npm run build:lib` in `open-aviation-components/`) just rebuild the slides here and the changes are picked up automatically.
+
+When finished, restore the published version:
+
+```bash
+npm install @open-aviation-solutions/components
+```
 
 ### Starlight content
 
@@ -57,7 +74,7 @@ Each lesson lives under `src/content/docs/<course>/<lesson-number>-<slug>/index.
 import SlideEmbed from '../../../../components/SlideEmbed.astro'
 
 <SlideEmbed
-  src="/brief-slides/recreational-pilot-license/01-effects-of-controls/02-theory-part-1.html"
+  src="/brief-slides/recreational-pilot-license/01-effects-of-controls/01-theory-part-1.html"
   title="Effects of Controls — Theory Part 1"
 />
 ```

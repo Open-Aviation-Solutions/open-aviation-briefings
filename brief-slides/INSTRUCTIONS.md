@@ -31,6 +31,50 @@ brief-slides/
 
 Example: `brief-slides/recreational-pilot-license/01-effects-of-controls/02-theory-part-1.md`
 
+## Layout utilities
+
+The theme provides composable utility classes for positioning and sizing any element — images or custom components.
+
+**Direction** (sets float, adds margin):
+
+| class | effect |
+|-------|--------|
+| `right` | float right |
+| `left` | float left |
+
+**Size** (sets width; height scales naturally, or set explicitly):
+
+| class | width |
+|-------|-------|
+| `small` | 25% |
+| `medium` | 40% |
+| `large` | 55% |
+
+**Effect:**
+
+| class | effect |
+|-------|--------|
+| `drop-shadow` | soft drop shadow |
+
+Classes compose freely. For custom components, add `class=` to the element tag:
+
+```html
+<pitch-roll-yaw class="right medium" height="400px" …></pitch-roll-yaw>
+```
+
+For images, leading layout directive words in the alt text are applied as classes automatically — the rest of the alt text is preserved as the accessible description:
+
+```markdown
+![right medium A diagram of the four forces](diagram.png)
+![left small](checklist.png)
+```
+
+Marp's own image directives (`drop-shadow`, `w:`, `h:`, etc.) still work and can be combined freely:
+
+```markdown
+![right medium drop-shadow A diagram of the four forces](diagram.png)
+```
+
 ## Presenter notes
 
 HTML comments within a slide become presenter notes, visible in `npm run marp:serve`:
