@@ -1,10 +1,7 @@
 import { readFileSync } from 'fs'
 import { Marp } from '@marp-team/marp-core'
 
-const { version } = JSON.parse(readFileSync(
-  new URL('./node_modules/@open-aviation-solutions/components/package.json', import.meta.url)
-))
-const CDN_SCRIPT = `https://cdn.jsdelivr.net/npm/@open-aviation-solutions/components@${version}/dist/lib/define.es.js`
+const COMPONENT_SCRIPT = '/open-aviation-components/define.es.js'
 
 // Treat custom elements (hyphenated tag names) as block-level HTML.
 // Without this, markdown-it wraps them in <p> because they're not
@@ -43,68 +40,87 @@ function customElementBlock(md) {
   })
 }
 
-const PUBLISHED_COMPONENTS = ['four-forces', 'flight-path-overview', 'climb-performance']
+// Adds CSS classes to inline images from leading directive words in the alt text.
+// e.g. ![right medium A diagram of forces](diagram.png) → <img class="right medium" alt="A diagram of forces">
+// Runs as a core rule after Marp's parse phase so Marp's own directives (drop-shadow,
+// w:, h:, etc.) are consumed first and applied by Marp's renderer as normal.
+function imageDirectives(md) {
+  const LAYOUT_DIRECTIVES = new Set(['right', 'left', 'small', 'medium', 'large'])
+
+  md.core.ruler.push('image_layout_classes', state => {
+    for (const blockToken of state.tokens) {
+      if (blockToken.type !== 'inline') continue
+      for (const token of (blockToken.children || [])) {
+        if (token.type !== 'image') continue
+
+        const firstText = (token.children || [])[0]
+        if (!firstText || firstText.type !== 'text') continue
+
+        const words = firstText.content.trim().split(/\s+/).filter(Boolean)
+        const classes = []
+        let i = 0
+        for (; i < words.length; i++) {
+          if (LAYOUT_DIRECTIVES.has(words[i])) classes.push(words[i])
+          else break
+        }
+
+        if (classes.length === 0) continue
+
+        firstText.content = words.slice(i).join(' ')
+        token.attrJoin('class', classes.join(' '))
+      }
+    }
+  })
+}
+
+const PUBLISHED_COMPONENTS = ['four-forces', 'flight-path-overview', 'climb-performance', 'pitch-roll-yaw']
 const LOCAL_COMPONENTS = {
   'youtube-video': '/components/youtube-video.js',
+  'secondary-effect-climb-car': '/components/secondary-effect-climb-car.js',
+  'secondary-effect-elevator': '/components/secondary-effect-elevator.js',
 }
 
-// Marpit scopes all theme CSS with this high-specificity prefix (id=1, elements=3).
-// Our rules must use the same prefix to beat the theme's `display:block` on section.
-const S = 'div#\\:\\$p > svg > foreignObject > '
+// All custom element tag names known to this config (published + local).
+const ALL_INTERACTIVE_TAGS = [...PUBLISHED_COMPONENTS, ...Object.keys(LOCAL_COMPONENTS)]
 
-// CSS for the `interactive` slide class: two-column layout with component on the right.
-// Direct children of section.interactive are placed by tag type — no wrapper divs needed.
-const LAYOUT_CSS = `
-${S}section.interactive {
-  display: grid;
-  grid-template-columns: 1fr 1.8fr;
-  grid-template-rows: auto 1fr;
-  gap: 0 24px;
-  padding: 40px;
-  align-content: start;
-}
-${S}section.interactive > h1 {
-  grid-column: 1 / -1;
-  margin-bottom: 8px;
-}
-${S}section.interactive > p {
-  grid-column: 1;
-  grid-row: 2;
-  align-self: start;
-  font-size: 0.85em;
-}
-${S}section.interactive > four-forces,
-${S}section.interactive > flight-path-overview,
-${S}section.interactive > climb-performance,
-${S}section.interactive > youtube-video {
-  grid-column: 2;
-  grid-row: 2;
+// In Marp's presenter view all slides get `pointer-events:none` (specificity 0-2-1),
+// which ties with the active-slide rule and wins because it comes later — blocking
+// shadow-DOM controls inside custom elements from receiving clicks.
+// Re-enable pointer events using :has() so only slides that actually contain an
+// interactive component are affected. Specificity 0-3-3 beats the presenter rule.
+// The selector list is derived from ALL_INTERACTIVE_TAGS so no separate maintenance
+// is needed when components are added.
+const PRESENTER_INTERACTIVE_CSS = `
+body[data-bespoke-view=presenter] svg.bespoke-marp-slide.bespoke-marp-active:has(${ALL_INTERACTIVE_TAGS.join(', ')}) {
+  pointer-events: auto;
 }
 `
 
 export default {
   html: true,
-  themeSet: [],
+  theme: 'open-aviation',
+  themeSet: ['./themes/open-aviation-solutions/style.css'],
   engine: class extends Marp {
     constructor(opts) {
       super(opts)
       this.markdown.use(customElementBlock)
+      this.markdown.use(imageDirectives)
     }
 
     render(markdown, env) {
       const result = super.render(markdown, env)
 
-      // Inject layout CSS (goes into <head> via the CLI template)
-      result.css += LAYOUT_CSS
-
       const scripts = []
       if (PUBLISHED_COMPONENTS.some(tag => markdown.includes(`<${tag}`))) {
-        scripts.push(`<script type="module" src="${CDN_SCRIPT}"></script>`)
+        scripts.push(`<script type="module" src="${COMPONENT_SCRIPT}"></script>`)
       }
       for (const [tag, src] of Object.entries(LOCAL_COMPONENTS)) {
         if (markdown.includes(`<${tag}`)) {
           scripts.push(`<script type="module" src="${src}"></script>`)
         }
+      }
+      if (ALL_INTERACTIVE_TAGS.some(tag => markdown.includes(`<${tag}`))) {
+        result.css += PRESENTER_INTERACTIVE_CSS
       }
 
       if (scripts.length > 0) {

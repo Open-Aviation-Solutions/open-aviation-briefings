@@ -1,0 +1,156 @@
+/* @theme open-aviation */
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/barlow-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/barlow-latin-600-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/barlow-latin-700-normal.woff2') format('woff2');
+}
+
+section {
+  width: 1280px;
+  height: 720px;
+  background: #f0f0eb;
+  font-family: 'Barlow', 'Helvetica Neue', system-ui, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #2e2e3a;
+  padding: 72px 48px 40px;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #1a5fb4;
+  margin: 0 0 0.3em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.35em;
+  font-weight: 600;
+  color: #1a1a26;
+  margin: 0.5em 0 0.25em;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #1a1a26;
+  margin: 0.5em 0 0.2em;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0.4em 0;
+}
+
+ul, ol {
+  margin: 0.4em 0;
+  padding-left: 1.2em;
+}
+
+li {
+  margin: 0.2em 0;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: linear-gradient(to right, #1a5fb4, #000);
+  display: flex;
+  align-items: center;
+  padding: 0 16px 0 24px;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+header::after {
+  content: '';
+  display: block;
+  width: 180px;
+  height: 40px;
+  background: url('/themes/open-aviation-solutions/header-brand.svg') no-repeat center / contain;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+section::after {
+  position: absolute;
+  bottom: 14px;
+  right: 20px;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* Lead / title slide */
+section.lead header {
+  display: none;
+}
+
+section.lead {
+  background: #1a5fb4;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 72px 80px 60px;
+}
+
+section.lead h1 {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+section.lead h2 {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 400;
+}
+
+section.lead p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Layout utilities — apply to any element or custom component */
+.right {
+  float: right;
+  margin-left: 1em;
+}
+
+.left {
+  float: left;
+  margin-right: 1em;
+}
+
+.small  { width: 25%; }
+.medium { width: 40%; }
+.large  { width: 55%; }
+
+.drop-shadow {
+  filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.3));
+}
