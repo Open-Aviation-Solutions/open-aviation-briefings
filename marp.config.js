@@ -99,7 +99,10 @@ body[data-bespoke-view=presenter] svg.bespoke-marp-slide.bespoke-marp-active:has
 export default {
   html: true,
   theme: 'open-aviation',
-  themeSet: ['./themes/open-aviation-solutions/style.css'],
+  themeSet: [
+    './themes/open-aviation-solutions/style.css',
+    './themes/open-aviation-solutions/portrait.css',
+  ],
   engine: class extends Marp {
     constructor(opts) {
       super(opts)
