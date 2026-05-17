@@ -7,7 +7,8 @@ header: Slow Flight and Stalling — Theory Part 1
 
 <!-- _class: lead -->
 
-# Slow Flight and Stalling - Theory Part 1
+# Slow Flight and Stalling - Theory Part 1:
+# Understanding and Recognising Stalls
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 5, Pre-flight theory_
 
@@ -89,50 +90,11 @@ Try searching for "aeroplane stall test" on YouTube:
 
 ---
 
-# What actually causes a wing to stop producing lift?
-
----
-
-# What actually causes a wing to stop producing lift?
-
-![right drop-shadow width:500px A 1905 photograph from a wind tunnel](/brief-assets/recreational-pilot-license/05-stalling/1915ca_abger_fluegel_wikipedia.jpg)
-
-- A separation of the airflow from the wing after the critical angle of attack
-
-Image originally from the German Aerospace Centre (DLR - Deutsches Zentrum für Luft- und Raumfahrt) but available on the [Wikipedia page for Stall and Flow Separation](https://en.wikipedia.org/wiki/Stall_(fluid_dynamics)) and licensed by DLR under a [Creative Commons By Attribution License 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
-
-
-<!--
-
-Note the spirals of air, with some air going backwards - we'll see more of this later.
-
-- When this angle between the surrounding airflow and the wing passes a critical angle (around 16 degrees), the air breaks away from the wing as we'll see soon.
-
-- It's a good thing that aeroplanes are designed to pitch forward when they stall - it doesn't have to be that way, but it's designed in to help in a stall
-
-Lead in: But what does that look like outside of a wind tunnel? Is it something we can see? With some help of wool, yes!
-
--->
-
----
-
-# What actually causes a wing to stop producing lift?
-
-<youtube-video video-id="Lce_4oA_UBI" start="60" width="80%" />
-
-<!--
-
-One of the best *real* visualisations I've found for what's actually happening in a stall is achieved by taping pieces of cotten or wool to the wing of an aircraft.
-
--->
-
----
-
 # Theory Lesson Overview — Part 1
 
 <briefing-overview plane-position="0" controls-start>
   <briefing-topic label="Learning&#10;Objectives" time="1"></briefing-topic>
-  <briefing-topic label="Stall&#10;Aerodynamics" time="5"></briefing-topic>
+  <briefing-topic label="Stall&#10;Aerodynamics" time="7"></briefing-topic>
   <briefing-topic label="Stall&#10;Avoidance" time="4"></briefing-topic>
   <briefing-topic label="Recognising&#10;the Stall" time="5"></briefing-topic>
   <briefing-topic label="Recap" time="3"></briefing-topic>
@@ -191,11 +153,12 @@ This downward deflection of air by the wing has an **equal and opposite force** 
 - The lift is split into the vertical component of lift and the horizontal component of lift when banking.
 
 -->
+
 ---
 
 # Review - Angle of Attack 
 
-![right medium drop-shadow A 1905 photograph from a wind tunnel](/brief-assets/recreational-pilot-license/05-stalling/1915ca_abger_fluegel_wikipedia.jpg)
+![right drop-shadow width:400px](/brief-assets/recreational-pilot-license/05-stalling/lift-airflow-karman-trefftz-1.gif)
 
 The **angle of attack** is the angle between the chord line of the wing and the **relative airflow** (the direction the air is coming from).
 
@@ -210,6 +173,45 @@ This is why the **first action** in every stall recovery is: **reduce the angle 
 Use a physical aeroplane model to show, or have the student show, what happens as we increase back pressure or decrease back pressure.
 
 As the elevator changes, the angle of attack of the wing, the main lifting surface is changed.
+
+-->
+
+---
+
+# What actually causes a wing to stop producing lift?
+
+---
+
+# What actually causes a wing to stop producing lift?
+
+![right drop-shadow width:500px A 1905 photograph from a wind tunnel](/brief-assets/recreational-pilot-license/05-stalling/1915ca_abger_fluegel_wikipedia.jpg)
+
+- A separation of the airflow from the wing after the critical angle of attack
+
+Image originally from the German Aerospace Centre (DLR - Deutsches Zentrum für Luft- und Raumfahrt) but available on the [Wikipedia page for Stall and Flow Separation](https://en.wikipedia.org/wiki/Stall_(fluid_dynamics)) and licensed by DLR under a [Creative Commons By Attribution License 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+
+
+<!--
+
+Note the spirals of air, with some air going backwards - we'll see more of this later.
+
+- When this angle between the surrounding airflow and the wing passes a critical angle (around 16 degrees), the air breaks away from the wing as we'll see soon.
+
+- It's a good thing that aeroplanes are designed to pitch forward when they stall - it doesn't have to be that way, but it's designed in to help in a stall
+
+Lead in: But what does that look like outside of a wind tunnel? Is it something we can see? With some help of wool, yes!
+
+-->
+
+---
+
+# What actually causes a wing to stop producing lift?
+
+<youtube-video video-id="Lce_4oA_UBI" start="60" width="80%" />
+
+<!--
+
+One of the best *real* visualisations I've found for what's actually happening in a stall is achieved by taping pieces of cotten or wool to the wing of an aircraft.
 
 -->
 

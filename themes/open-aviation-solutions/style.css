@@ -181,6 +181,19 @@ section.lead a {
   filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.3));
 }
 
+blockquote {
+  border-left: 4px solid #1a5fb4;
+  background: rgba(26, 95, 180, 0.08);
+  margin: 0.6em 0;
+  padding: 0.4em 0.75em;
+  font-style: italic;
+  color: #1a1a26;
+}
+
+blockquote p {
+  margin: 0;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
