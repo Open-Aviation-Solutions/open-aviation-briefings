@@ -11,20 +11,22 @@ header: Stalling — Theory Part 2
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 5, Pre-flight theory part 2_
 
+All text and presenter notes in this briefing are licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
+
 <!-- Part 2 covers everything the student needs to know to act correctly during the flight: how to recover, what power and flap do, what changes the stall speed, and the HASELL safety check. -->
 
 ---
 
 # Theory Lesson Overview — Part 2
 
-<flight-path-overview plane-position="0" controls-start>
-  <fpo-topic label="Learning&#10;Objectives" time="1"></fpo-topic>
-  <fpo-topic label="Recovery&#10;Techniques" time="8"></fpo-topic>
-  <fpo-topic label="Effect of Power&#10;Flap &amp; Config" time="5"></fpo-topic>
-  <fpo-topic label="Factors Affecting&#10;Stall Speed" time="5"></fpo-topic>
-  <fpo-topic label="Instrument&#10;Indications" time="3"></fpo-topic>
-  <fpo-topic label="HASELL&#10;&amp; Recap" time="5"></fpo-topic>
-</flight-path-overview>
+<briefing-overview plane-position="0" controls-start>
+  <briefing-topic label="Learning&#10;Objectives" time="1"></briefing-topic>
+  <briefing-topic label="Recovery&#10;Techniques" time="8"></briefing-topic>
+  <briefing-topic label="Effect of Power&#10;Flap &amp; Config" time="5"></briefing-topic>
+  <briefing-topic label="Factors Affecting&#10;Stall Speed" time="5"></briefing-topic>
+  <briefing-topic label="Instrument&#10;Indications" time="3"></briefing-topic>
+  <briefing-topic label="HASELL&#10;&amp; Recap" time="5"></briefing-topic>
+</briefing-overview>
 
 <!-- Part 2 is more applied — it prepares the student to act correctly during each exercise in the air. Emphasise that stall recovery is a well-rehearsed response: there is no time to think when it happens for real. -->
 
@@ -45,7 +47,7 @@ By the end of this session, our aim is to be able to:
 
 # Waypoint 1 — Recovery Techniques
 
-<flight-path-overview plane-position="1" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="1" arrival-label="Done" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Recovery Techniques. -->
 
@@ -115,7 +117,7 @@ This demonstrates that **reducing AOA is always the primary recovery action** �
 
 # Waypoint 2 — Effect of Power, Flap and Configuration
 
-<flight-path-overview plane-position="2" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="2" arrival-label="Done" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to effects on the stall. -->
 
@@ -154,7 +156,7 @@ Flap affects both lift and stall characteristics:
 
 # Waypoint 3 — Factors Affecting Stall Speed
 
-<flight-path-overview plane-position="3" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="3" arrival-label="Done" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to factors affecting stall speed. -->
 
@@ -196,7 +198,7 @@ This is why a steep turn during the base-to-final turn is dangerous — the airc
 
 # Waypoint 4 — Instrument Indications
 
-<flight-path-overview plane-position="4" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="4" arrival-label="Done" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to instrument indications. -->
 
@@ -222,7 +224,7 @@ During a stall entry and recovery, monitor the following instruments:
 
 # Waypoint 5 — HASELL and Recap
 
-<flight-path-overview plane-position="5" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="5" arrival-label="Done" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to HASELL and Recap. -->
 
@@ -288,7 +290,7 @@ Can you explain:
 
 # Done
 
-<flight-path-overview plane-position="6" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="6" arrival-label="Done" controls></briefing-overview>
 
 ---
 

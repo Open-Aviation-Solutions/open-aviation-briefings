@@ -73,7 +73,7 @@ function imageDirectives(md) {
   })
 }
 
-const PUBLISHED_COMPONENTS = ['four-forces', 'flight-path-overview', 'climb-performance', 'pitch-roll-yaw']
+const PUBLISHED_COMPONENTS = ['aerofoil-dynamics', 'four-forces', 'briefing-overview', 'climb-performance', 'pitch-roll-yaw']
 const LOCAL_COMPONENTS = {
   'youtube-video': '/components/youtube-video.js',
   'secondary-effect-climb-car': '/components/secondary-effect-climb-car.js',

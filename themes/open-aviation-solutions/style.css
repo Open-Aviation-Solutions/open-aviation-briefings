@@ -112,14 +112,24 @@ section.lead header {
 }
 
 section.lead {
-  background: #1a5fb4;
+  background: linear-gradient(to right, #1a5fb4, #000);
   color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 72px 80px 60px;
+  padding: 60px 80px;
+}
+
+section.lead::before {
+  content: '';
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 460px;
+  height: 100px;
+  background: url('/themes/open-aviation-solutions/lead-brand.svg') no-repeat right center / contain;
 }
 
 section.lead h1 {
@@ -134,6 +144,22 @@ section.lead h2 {
 
 section.lead p {
   color: rgba(255, 255, 255, 0.8);
+}
+
+section.lead > p:last-child {
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+  right: 80px;
+  font-size: 0.6em;
+}
+
+a {
+  color: #1a5fb4;
+}
+
+section.lead a {
+  color: #93c5fd;
 }
 
 /* Layout utilities — apply to any element or custom component */
@@ -153,4 +179,33 @@ section.lead p {
 
 .drop-shadow {
   filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+  margin: 0.5em 0;
+}
+
+th {
+  background: #1a5fb4;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.4em 0.75em;
+}
+
+td {
+  padding: 0.35em 0.75em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  vertical-align: top;
+}
+
+tr:nth-child(even) td {
+  background: #e6eef8;
+}
+
+tr:last-child td {
+  border-bottom: none;
 }

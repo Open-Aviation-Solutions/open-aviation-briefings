@@ -13,6 +13,8 @@ _CASA Recreational Pilot License (Aeroplane) — Lesson 5_
 
 > Say **"ease forward"** not "push down." Say **"reduce angle of attack"** — reinforce the concept, not just the action.
 
+All text and presenter notes in this briefing are licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
+
 ---
 
 # Before starting the plane

@@ -3,8 +3,11 @@ class YoutubeVideo extends HTMLElement {
     const id = this.getAttribute('video-id')
     const start = this.getAttribute('start')
     const params = start ? `?start=${start}` : ''
+    const width = this.getAttribute('width') ?? "100%"
+    const shorts = this.hasAttribute('shorts')
+    const aspectRatio = shorts ? '9/16' : '16/9'
     this.innerHTML = `<iframe
-      style="width:100%;aspect-ratio:16/9;border:0"
+      style="width:${width};aspect-ratio:${aspectRatio};border:0"
       src="https://www.youtube-nocookie.com/embed/${id}${params}"
       allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
       allowfullscreen></iframe>`

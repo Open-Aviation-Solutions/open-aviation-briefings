@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight'
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'Open Aviation Lessons',
+      title: 'Open Aviation Briefings',
       sidebar: [
         {
           label: 'Recreational Pilot License',

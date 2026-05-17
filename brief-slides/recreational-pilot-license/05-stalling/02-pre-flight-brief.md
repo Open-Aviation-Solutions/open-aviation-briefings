@@ -11,6 +11,8 @@ header: Stalling — Pre-flight Brief
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 5, Pre-flight Briefing_
 
+All text and presenter notes in this briefing are licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
+
 <!-- Short brief immediately before the flight — approximately 0.3 hours. The long briefing (theory parts 1 and 2) has already been completed. This session reviews the flight sequence, confirms essential knowledge, and reinforces the HASELL check and stall recovery technique. -->
 
 ---
@@ -19,10 +21,10 @@ _CASA Recreational Pilot License (Aeroplane) — Lesson 5, Pre-flight Briefing_
 
 _Stalling_
 
-<flight-path-overview id="fpo-brief" plane-position="0" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview id="fpo-brief" plane-position="0" arrival-label="Arrival" controls></briefing-overview>
 
 <script>
-customElements.whenDefined('flight-path-overview').then(() => {
+customElements.whenDefined('briefing-overview').then(() => {
   document.getElementById('fpo-brief').topics = [
     { label: 'Risk Analysis\nI\'M SAFE & PAVE', time: 3 },
     { label: 'HASELL &\nLookout', time: 3 },
@@ -81,7 +83,7 @@ Use **PAVE** to identify hazards before every flight.
 
 _Stalling_
 
-<flight-path-overview plane-position="1" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="1" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
@@ -112,7 +114,7 @@ We will complete a **HASELL check** before every stalling exercise today:
 
 _Stalling_
 
-<flight-path-overview plane-position="2" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="2" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
@@ -158,7 +160,7 @@ This is **normal** — the aircraft is behaving as designed. Your job is to reco
 
 _Stalling_
 
-<flight-path-overview plane-position="3" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="3" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
@@ -191,7 +193,7 @@ I will demonstrate the first stall, then hand control to you.
 
 _Stalling_
 
-<flight-path-overview plane-position="4" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="4" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
@@ -218,6 +220,6 @@ _Stalling_
 
 _Stalling_
 
-<flight-path-overview plane-position="5" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="5" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to arrival. -->

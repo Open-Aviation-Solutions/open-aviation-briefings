@@ -11,6 +11,8 @@ header: Stalling — Post-flight Debrief
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 5, Post-flight Debrief_
 
+All text and presenter notes in this briefing are licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
+
 <!-- Sit down together straight after the flight — while the experience is fresh. This debrief should take around 10 minutes. Let the student lead where possible. The stall exercises can feel alarming the first time — acknowledge that and create space to discuss. -->
 
 ---
@@ -19,10 +21,10 @@ _CASA Recreational Pilot License (Aeroplane) — Lesson 5, Post-flight Debrief_
 
 _Stalling_
 
-<flight-path-overview id="fpo-debrief" plane-position="0" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview id="fpo-debrief" plane-position="0" arrival-label="Done" controls></briefing-overview>
 
 <script>
-customElements.whenDefined('flight-path-overview').then(() => {
+customElements.whenDefined('briefing-overview').then(() => {
   document.getElementById('fpo-debrief').topics = [
     { label: 'Outline', time: 1 },
     { label: 'Flight\nReview', time: 4 },
@@ -54,7 +56,7 @@ _Stalling_
 
 _Stalling_
 
-<flight-path-overview plane-position="1" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="1" arrival-label="Done" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Flight Review. -->
 
@@ -114,7 +116,7 @@ _Stalling_
 
 _Stalling_
 
-<flight-path-overview plane-position="2" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="2" arrival-label="Done" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Training Outcomes. -->
 
@@ -167,7 +169,7 @@ _Stalling_
 
 _Stalling_
 
-<flight-path-overview plane-position="3" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="3" arrival-label="Done" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Next Steps. -->
 
@@ -199,4 +201,4 @@ _Stalling_
 
 _Stalling_
 
-<flight-path-overview plane-position="4" arrival-label="Done" controls></flight-path-overview>
+<briefing-overview plane-position="4" arrival-label="Done" controls></briefing-overview>
