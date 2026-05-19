@@ -2,13 +2,19 @@
 interface Props {
   src: string
   title: string
+  orientation?: 'landscape' | 'portrait'
+  float?: 'right' | 'left'
+  pdf?: string
 }
-const { src, title } = Astro.props
+const { src, title, orientation = 'landscape', float, pdf } = Astro.props
 ---
 
-<div class="slide-embed">
+<div class:list={['slide-embed', `slide-embed--${orientation}`, float && `slide-embed--float-${float}`]}>
   <iframe src={src} title={title}></iframe>
-  <a href={src} target="_blank" rel="noopener noreferrer">Open slides ↗</a>
+  {pdf
+    ? <a href={pdf} target="_blank" rel="noopener noreferrer">Download PDF ↓</a>
+    : <a href={src} target="_blank" rel="noopener noreferrer">Open slides ↗</a>
+  }
 </div>
 
 <style>
@@ -17,9 +23,29 @@ const { src, title } = Astro.props
   }
   .slide-embed iframe {
     width: 100%;
-    aspect-ratio: 16 / 9;
     border: 1px solid var(--sl-color-gray-5);
     border-radius: 4px;
+  }
+  .slide-embed--landscape iframe {
+    aspect-ratio: 16 / 9;
+  }
+  .slide-embed--portrait {
+    width: 60%;
+  }
+  .slide-embed--portrait iframe {
+    aspect-ratio: 210 / 297;
+  }
+  .slide-embed--float-right {
+    float: right;
+    width: 48%;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .slide-embed--float-left {
+    float: left;
+    width: 48%;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
   }
   .slide-embed a {
     display: block;

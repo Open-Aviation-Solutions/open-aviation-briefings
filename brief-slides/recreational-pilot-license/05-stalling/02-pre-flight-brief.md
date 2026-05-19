@@ -1,13 +1,14 @@
 ---
 marp: true
-title: Stalling — Pre-flight Brief
+theme: open-aviation
+title: Slow Flight and Stalling — Pre-flight Brief
 license: CC-BY-SA-4.0
-header: Stalling — Pre-flight Brief
+header: Slow Flight and Stalling — Pre-flight Brief
 ---
 
 <!-- _class: lead -->
 
-# Stalling
+# Slow Flight and Stalling: Pre-flight brief
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 5, Pre-flight Briefing_
 
@@ -21,19 +22,12 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 _Stalling_
 
-<briefing-overview id="fpo-brief" plane-position="0" arrival-label="Arrival" controls></briefing-overview>
-
-<script>
-customElements.whenDefined('briefing-overview').then(() => {
-  document.getElementById('fpo-brief').topics = [
-    { label: 'Risk Analysis\nI\'M SAFE & PAVE', time: 3 },
-    { label: 'HASELL &\nLookout', time: 3 },
-    { label: 'Stall Recovery\nSequence', time: 4 },
-    { label: "Today's Flight", time: 3 },
-    { label: 'Recap and Fly', time: 2 }
-  ]
-})
-</script>
+<briefing-overview id="fpo-brief" plane-position="0" arrival-label="Arrival" controls>
+  <briefing-topic label="Risk Analysis&#10;I'm SAFE & PAVE" time="2"></briefing-topic>
+  <briefing-topic label="HASELL&#10;Lookout" time="2"></briefing-topic>
+  <briefing-topic label="Stall Recovery&#10;Sequency" time="2"></briefing-topic>
+  <briefing-topic label="Today's Flight" time="1"></briefing-topic>
+</briefing-overview>
 
 <!-- Quick refresh on risk analysis, then the key pre-exercise checks and recovery sequence. Today's flight involves intentional stalling — it is important the student knows exactly what to expect and what they will be asked to do. -->
 

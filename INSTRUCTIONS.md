@@ -5,9 +5,10 @@ Aviation instructor lesson system. Marp generates slide decks (briefs); Astro/St
 ## Commands
 
 ```bash
-npm run dev          # Marp build → Astro dev server (primary workflow)
-npm run build        # Marp build → Astro static build → dist/
-npm run marp:build   # Marp-only: brief-slides/ → public/brief-slides/
+npm run dev          # Marp build + PDF export → Astro dev server (primary workflow)
+npm run build        # Marp build + PDF export → Astro static build → dist/
+npm run marp:build   # Marp-only: brief-slides/ → public/brief-slides/ (HTML)
+npm run marp:pdf     # PDF export: *-in-flight-notes.md → public/brief-slides/**/*.pdf
 npm run marp:serve   # Marp server from repo root (presenter view + notes)
 ```
 
@@ -35,7 +36,8 @@ Marp must run before Astro in both `dev` and `build` scripts so the slide HTML e
 | `brief-assets/` | Static assets referenced in slides (video, images) |
 | `components/` | Local custom elements (`youtube-video.js`) |
 | `src/content/docs/` | Starlight instructor notes pages (`.mdx`) |
-| `src/components/SlideEmbed.astro` | iframe embed + "Open slides ↗" link component |
+| `src/components/SlideEmbed.astro` | iframe embed component; shows "Open slides ↗" by default, or "Download PDF ↓" when a `pdf` prop is passed |
+| `scripts/build-pdfs.mjs` | Finds all `*-in-flight-notes.md` files and exports them as PDFs alongside the HTML in `public/brief-slides/` |
 | `src/content.config.ts` | Astro 6 content layer config — wires Starlight's `docsLoader` |
 | `public/brief-assets` | Symlink → `../brief-assets` (Astro serves at `/brief-assets/…`) |
 | `public/components` | Symlink → `../components` (Astro serves at `/components/…`) |

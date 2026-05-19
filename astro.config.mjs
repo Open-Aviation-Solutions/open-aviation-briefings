@@ -5,6 +5,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Open Aviation Briefings',
+      customCss: ['./src/styles/global.css'],
       sidebar: [
         {
           label: 'Recreational Pilot License',

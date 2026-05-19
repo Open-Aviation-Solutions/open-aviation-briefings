@@ -9,12 +9,14 @@ Every brief slide file must include the following frontmatter fields:
 ```yaml
 ---
 marp: true
+theme: open-aviation
 title: <human-readable title of the brief>
 license: CC-BY-SA-4.0
 ---
 ```
 
 - `marp: true` — required for Marp to process the file
+- `theme` — `open-aviation` for the standard 1280×720 landscape deck, or `open-aviation-portrait` for A4 portrait in-flight notes (see [Themes](#themes))
 - `title` — used by the browser tab and presenter view
 - `license` — all brief content is licensed under Creative Commons Attribution-ShareAlike 4.0 International (see [LICENSE-CC-BY-SA](../LICENSE-CC-BY-SA))
 
@@ -33,9 +35,14 @@ Example: `brief-slides/recreational-pilot-license/01-effects-of-controls/02-theo
 
 ## Themes
 
-The default theme (`open-aviation`) is a 1280×720 landscape deck. In-flight training notes use `open-aviation-portrait` instead, which inherits all branding from the base theme but renders at A4 portrait (210×297 mm) for display on an instructor's portrait tablet or printing.
+Two themes are available:
 
-Set the theme per-file in frontmatter:
+- `open-aviation` — 1280×720 landscape, used for the standard briefing decks.
+- `open-aviation-portrait` — A4 portrait (210×297 mm) for in-flight notes displayed on a portrait tablet or printed. Inherits all branding from the base theme.
+
+The `theme` key must be set explicitly in frontmatter; there is no implicit default. Marp CLI's `theme` config option behaves as an override (forcing every deck to one theme) rather than a default, so it isn't set in `marp.config.js`.
+
+Example for in-flight notes:
 
 ```yaml
 ---
@@ -45,8 +52,6 @@ title: Effects of Controls — In-Flight Notes
 license: CC-BY-SA-4.0
 ---
 ```
-
-The default theme (`open-aviation`) applies when no `theme` key is set.
 
 ## Layout utilities
 

@@ -1,8 +1,9 @@
 ---
 marp: true
+theme: open-aviation
 title: Slow Flight and Stalling — Theory Part 1
 license: CC-BY-SA-4.0
-header: Slow Flight and Stalling — Theory Part 1
+header: Slow Flight and Stalling — Theory Part 1: Understanding and Recognising Stalls
 ---
 
 <!-- _class: lead -->
