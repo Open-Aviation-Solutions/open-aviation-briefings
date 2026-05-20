@@ -120,13 +120,13 @@ _Stalling_
 
 When I call "recover!" (or when you recognise the stall cue), the sequence is:
 
-1. **Forward** — ease the control column forward to reduce AOA
+1. **Forward** — ease the control column forward to reduce AoA
 2. **Full power** — apply full power to minimise height loss
 3. **Rudder** — use rudder to prevent yaw and keep wings level; correct any wing drop with rudder
 4. **Level up** — once flying speed is regained, level the wings with coordinated aileron and rudder
 5. **Climb** — establish a positive climb to regain height
 
-> **Always reduce AOA first.** Power without reducing AOA will not unstall the wing.
+> **Always reduce AoA first.** Power without reducing AoA will not unstall the wing.
 
 <!-- Walk through this with hand gestures — the student should be able to say the five steps in order before we go to the plane. This verbal rehearsal is important for building the motor memory that will be needed in the air. -->
 
@@ -202,7 +202,7 @@ _Stalling_
 **Remember:**
 
 - HASELL before every exercise — say it out loud
-- **Forward first** — reduce AOA before applying power
+- **Forward first** — reduce AoA before applying power
 - Use rudder to prevent yaw and control any wing drop
 - If the stall surprises you — that's normal. That's why we practise.
 

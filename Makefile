@@ -1,4 +1,4 @@
-.PHONY: help dev build install local-components-symlink
+.PHONY: help dev build install local-components-symlink lint-prose
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "%-12s %s\n", $$1, $$2}'
@@ -18,3 +18,6 @@ dev: node_modules ## Build slides and start dev server at localhost:4321
 
 build: node_modules ## Build slides and site to ./dist/
 	npm run build
+
+lint-prose: ## Spell- and style-check slides and instructor notes with Vale
+	vale brief-slides/ src/content/docs/

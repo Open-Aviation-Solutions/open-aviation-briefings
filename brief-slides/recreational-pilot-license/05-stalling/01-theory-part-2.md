@@ -3,7 +3,7 @@ marp: true
 theme: open-aviation
 title: Slow Flight and Stalling — Theory Part 2
 license: CC-BY-SA-4.0
-header: Slow Flight and Stalling — Theory Part 2: Performing and Recoveray from Stalls
+header: "Slow Flight and Stalling — Theory Part 2: Performing and Recovering from Stalls"
 ---
 
 <!-- _class: lead -->
@@ -63,15 +63,15 @@ By the end of this session, our aim is to be able to:
 
 The imminent stall is the easiest recovery — act the moment you recognise it:
 
-1. **Reduce AOA** — ease forward on the control column (the primary action)
+1. **Reduce AoA** — ease forward on the control column (the primary action)
 2. **Apply full power** — reduces height loss and helps regain flying speed
 3. **Level the wings** — with coordinated aileron and rudder, if banked
 4. **Climb away** — once flying speed is regained, establish a positive climb
 
-> **Priority: reduce AOA first.** Power alone will not recover a stalled wing.
+> **Priority: reduce AoA first.** Power alone will not recover a stalled wing.
 
 
-<!-- This is the most important point of the whole lesson: the first action is always to reduce AOA. The instinct to pull back must be actively replaced with the correct response. Repetition in the air today is what builds the correct response. -->
+<!-- This is the most important point of the whole lesson: the first action is always to reduce AoA. The instinct to pull back must be actively replaced with the correct response. Repetition in the air today is what builds the correct response. -->
 
 ---
 
@@ -93,7 +93,7 @@ If the stall is fully developed (nose has dropped, lift collapsed):
 
 Listen to this pilot's response for how he's recovering from the stall.
 
-The secondary stall is a common student error: the nose drops, the student pulls back hard, the wing is not yet flying, and a second (sometimes steeper) stall results. Insist on a smooth, deliberate pull-back after the AOA is clearly reduced.
+The secondary stall is a common student error: the nose drops, the student pulls back hard, the wing is not yet flying, and a second (sometimes steeper) stall results. Insist on a smooth, deliberate pull-back after the AoA is clearly reduced.
 
 -->
 
@@ -103,14 +103,14 @@ The secondary stall is a common student error: the nose drops, the student pulls
 
 We will also practise stall recovery **without applying power**:
 
-- Reduce AOA — ease forward to unstall the wing
+- Reduce AoA — ease forward to unstall the wing
 - Use gentle coordinated inputs to level the wings
 - Accept the height loss — convert height to speed to re-establish controlled flight
 - Once flying speed is regained, ease back to recover from the descent
 
-This demonstrates that **reducing AOA is always the primary recovery action** — power assists but is not the first step.
+This demonstrates that **reducing AoA is always the primary recovery action** — power assists but is not the first step.
 
-<!-- This exercise builds the correct reflex: forward first, then power. If power is applied to a stalled wing without first reducing AOA, the nose yaws and the situation worsens. -->
+<!-- This exercise builds the correct reflex: forward first, then power. If power is applied to a stalled wing without first reducing AoA, the nose yaws and the situation worsens. -->
 
 ---
 
@@ -129,7 +129,7 @@ Power **affects stall speed and recovery**:
 | Power setting | Effect |
 |---------------|--------|
 | **High power** | Propeller thrust and slipstream over the inner part of the wings may **delay the stall** on that inner section only, which can mean the stall occurs first on the outer wing, causing a wing drop. Power also provides **elevator and rudder authority** (but not aileron) |
-| **Idle power** | No slipstream benefit — higher AOA required to maintain lift — **stall speed is slightly higher** |
+| **Idle power** | No slipstream benefit — higher AoA required to maintain lift — **stall speed is slightly higher** |
 | **During recovery** | Full power minimises height loss and accelerates back to flying speed |
 
 > Power may reduce stall speed — but power alone will not recover a stalled wing. Always reduce the angle of attack first.

@@ -3,7 +3,7 @@ marp: true
 theme: open-aviation
 title: Slow Flight and Stalling — Theory Part 1
 license: CC-BY-SA-4.0
-header: Slow Flight and Stalling — Theory Part 1: Understanding and Recognising Stalls
+header: "Slow Flight and Stalling — Theory Part 1: Understanding and Recognising Stalls"
 ---
 
 <!-- _class: lead -->
@@ -483,7 +483,7 @@ The fully developed stall requires **prompt recovery action** — especially at 
 
 | Topic | Key point |
 |-------|-----------|
-| Stall aerodynamics | A stall occurs when AoA exceeds the critical angle — not necessarily when airspeed is "too low" (though that is the most commen scenario) |
+| Stall aerodynamics | A stall occurs when AoA exceeds the critical angle — not necessarily when airspeed is "too low" (though that is the most common scenario) |
 | Stall avoidance | Slow flight, steep turns, uncoordinated flight all increase stall risk |
 | Imminent stall symptoms | Low speed, high nose, control effectiveness, buffet, stall horn — act immediately |
 | Fully developed stall | Lift collapses, nose drops, possible wing drop — requires prompt recovery |
