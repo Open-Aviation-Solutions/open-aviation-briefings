@@ -113,6 +113,27 @@ export default {
     render(markdown, env) {
       const result = super.render(markdown, env)
 
+      // When building for deployment (SITE_BASE set), prefix all absolute asset
+      // paths so they resolve correctly under the base path on GitHub Pages.
+      // This covers: CSS url() for fonts and SVG logos (in result.css, which
+      // Marp CLI embeds into the HTML after render() returns), and img src
+      // attributes in result.html for slide images.
+      //
+      // Must run before the script-injection block below, because those script
+      // srcs are already constructed with BASE and would be double-prefixed if
+      // the src="/" replacement ran over them.
+      //
+      // SITE_BASE is intentionally absent for `marp:serve` so that the
+      // standalone presenter view works without a base path.
+      if (BASE) {
+        const prefixUrls = s => s
+          .replace(/url\('\/(?!\/)/g, `url('${BASE}/`)
+          .replace(/url\("\/(?!\/)/g, `url("${BASE}/`)
+        result.css = prefixUrls(result.css)
+        result.html = prefixUrls(result.html)
+          .replace(/ src="\/(?!\/)/g, ` src="${BASE}/`)
+      }
+
       const scripts = []
       if (PUBLISHED_COMPONENTS.some(tag => markdown.includes(`<${tag}`))) {
         scripts.push(`<script type="module" src="${COMPONENT_SCRIPT}"></script>`)
