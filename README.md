@@ -13,20 +13,10 @@ This repository uses two licenses depending on file type:
 
 All brief slide files (`brief-slides/**/*.md`) must include `license: CC-BY-SA-4.0` in their YAML frontmatter. See [brief-slides/INSTRUCTIONS.md](brief-slides/INSTRUCTIONS.md).
 
-## Usage
+## Getting started
 
 ```bash
-npm run dev          # Marp build → Astro dev server (primary workflow)
-npm run build        # Marp build → Astro static build → dist/
-npm run marp:build   # Marp-only: brief-slides/ → public/brief-slides/
-npm run marp:serve   # Marp server from repo root (presenter view + notes)
-```
-
-For slide hot-reload during authoring, run two terminals in parallel:
-
-```bash
-# terminal 1
-npx marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-slides --watch
-# terminal 2
-npx astro dev
+make dev             # Build slides and start dev server at localhost:4321
+make build           # Build slides and site to ./dist/
+make check           # Run all checks (prose linting etc.)
 ```

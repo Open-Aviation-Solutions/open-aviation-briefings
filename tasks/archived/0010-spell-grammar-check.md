@@ -1,6 +1,6 @@
 # Task 0010 — Automatic spell and grammar checking for slides
 
-**Status:** research pending
+**Status:** complete
 
 ## Goal
 
