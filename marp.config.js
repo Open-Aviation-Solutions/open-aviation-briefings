@@ -1,7 +1,8 @@
 import { readFileSync } from 'fs'
 import { Marp } from '@marp-team/marp-core'
 
-const COMPONENT_SCRIPT = '/open-aviation-components/define.es.js'
+const BASE = process.env.SITE_BASE ?? ''
+const COMPONENT_SCRIPT = `${BASE}/open-aviation-components/define.es.js`
 
 // Treat custom elements (hyphenated tag names) as block-level HTML.
 // Without this, markdown-it wraps them in <p> because they're not
@@ -75,9 +76,9 @@ function imageDirectives(md) {
 
 const PUBLISHED_COMPONENTS = ['aerofoil-dynamics', 'four-forces', 'briefing-overview', 'climb-performance', 'pitch-roll-yaw']
 const LOCAL_COMPONENTS = {
-  'youtube-video': '/components/youtube-video.js',
-  'secondary-effect-climb-car': '/components/secondary-effect-climb-car.js',
-  'secondary-effect-elevator': '/components/secondary-effect-elevator.js',
+  'youtube-video': `${BASE}/components/youtube-video.js`,
+  'secondary-effect-climb-car': `${BASE}/components/secondary-effect-climb-car.js`,
+  'secondary-effect-elevator': `${BASE}/components/secondary-effect-elevator.js`,
 }
 
 // All custom element tag names known to this config (published + local).
