@@ -380,7 +380,7 @@ At the minimum power required, around V_x, as we slow down further, *more* power
 
 ---
 
-# Waypoint 4 — Recognising the Stall
+# Waypoint 3 — Recognising the Stall
 
 <briefing-overview plane-position="2" arrival-label="Arrival" controls></briefing-overview>
 
@@ -456,7 +456,7 @@ The fully developed stall requires **prompt recovery action** — especially at 
 
 ---
 
-# Waypoint 5 — Recap
+# Waypoint 4 — Recap
 
 <briefing-overview plane-position="3" arrival-label="Arrival" controls></briefing-overview>
 

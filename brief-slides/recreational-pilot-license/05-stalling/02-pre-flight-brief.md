@@ -20,8 +20,6 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 # Briefing overview
 
-_Stalling_
-
 <briefing-overview id="fpo-brief" plane-position="0" arrival-label="Arrival" controls>
   <briefing-topic label="Risk Analysis&#10;I'm SAFE & PAVE" time="2"></briefing-topic>
   <briefing-topic label="HASELL&#10;Lookout" time="2"></briefing-topic>
@@ -34,8 +32,6 @@ _Stalling_
 ---
 
 # I'M SAFE — Pre-flight Self-Assessment
-
-_Stalling_
 
 Complete before **every** flight. Display this checklist in the briefing room.
 
@@ -56,8 +52,6 @@ Complete before **every** flight. Display this checklist in the briefing room.
 
 # PAVE — Risk Analysis Framework
 
-_Stalling_
-
 Use **PAVE** to identify hazards before every flight.
 
 | Letter | Category | Key questions |
@@ -75,17 +69,13 @@ Use **PAVE** to identify hazards before every flight.
 
 # Waypoint 1 — Risk Analysis
 
-_Stalling_
-
-<briefing-overview plane-position="1" arrival-label="Arrival" controls></briefing-overview>
+<briefing-overview plane-position="0" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
 ---
 
 # HASELL — The Pre-Stall Check
-
-_Stalling_
 
 We will complete a **HASELL check** before every stalling exercise today:
 
@@ -106,17 +96,14 @@ We will complete a **HASELL check** before every stalling exercise today:
 
 # Waypoint 2 — HASELL and Lookout
 
-_Stalling_
 
-<briefing-overview plane-position="2" arrival-label="Arrival" controls></briefing-overview>
+<briefing-overview plane-position="1" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
 ---
 
 # Stall Recovery — What You Will Do
-
-_Stalling_
 
 When I call "recover!" (or when you recognise the stall cue), the sequence is:
 
@@ -132,37 +119,35 @@ When I call "recover!" (or when you recognise the stall cue), the sequence is:
 
 ---
 
-# What to Expect — the Startle Effect
+# What to Expect — the First Stall
 
-_Stalling_
-
-The first time you experience a full stall, the nose drop can be **surprising or alarming**:
+The first time you experience a full stall, the nose drop can be **surprising**:
 
 - The nose pitches down suddenly
 - The horizon disappears below the cowling
 - The airspeed drops rapidly and the controls feel different
 
-This is **normal** — the aircraft is behaving as designed. Your job is to recognise it and respond with the correct sequence.
+This is **normal** — the aircraft is behaving as designed. **Knowing what's coming reduces surprise** — that's one purpose of this briefing.
 
-> The 'startle effect' is a real thing — we practise stall recovery so the response is **automatic** when it counts.
+> We practise the recovery sequence so that the response is **automatic** when it counts.
 
-<!-- Normalising the startle effect reduces anxiety and helps the student respond correctly. If they know the nose is going to drop, they are less likely to instinctively pull back. Be ready to take control and demonstrate a calm recovery on the first exercise. -->
+<!-- 
+
+Normalising surprise reduces anxiety and helps the student respond correctly. If they know the nose is going to drop, they are less likely to instinctively pull back. Be ready to take control and demonstrate a calm recovery on the first exercise.
+
+-->
 
 ---
 
 # Waypoint 3 — Stall Recovery Sequence
 
-_Stalling_
-
-<briefing-overview plane-position="3" arrival-label="Arrival" controls></briefing-overview>
+<briefing-overview plane-position="2" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
 ---
 
 # Today's Flight — What to Expect
-
-_Stalling_
 
 **Sequence:**
 
@@ -185,17 +170,13 @@ I will demonstrate the first stall, then hand control to you.
 
 # Waypoint 4 — Today's Flight
 
-_Stalling_
-
-<briefing-overview plane-position="4" arrival-label="Arrival" controls></briefing-overview>
+<briefing-overview plane-position="3" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
 ---
 
 # Questions — then let's fly
-
-_Stalling_
 
 **Any questions before we head out?**
 
@@ -211,8 +192,6 @@ _Stalling_
 ---
 
 # Arrival
-
-_Stalling_
 
 <briefing-overview plane-position="5" arrival-label="Arrival" controls></briefing-overview>
 

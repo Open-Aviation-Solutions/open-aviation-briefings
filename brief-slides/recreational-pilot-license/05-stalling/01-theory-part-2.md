@@ -221,7 +221,7 @@ Note the **flaps which are still extended** in the first steep turn (so lower st
 
 ---
 
-# Waypoint 4 — Instrument Indications
+# Waypoint 3 — Instrument Indications
 
 <briefing-overview plane-position="2" arrival-label="Done" controls></briefing-overview>
 
@@ -253,7 +253,7 @@ The pitot system effect: during a nose-high stall, the pitot tube may point away
 
 ---
 
-# Waypoint 5 — HASELL and Recap
+# Waypoint 4 — HASELL and Recap
 
 <briefing-overview plane-position="3" arrival-label="Done" controls></briefing-overview>
 
