@@ -2,6 +2,8 @@ name: CI
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'brief-slides/**/*.md'
       - 'src/content/docs/**/*.mdx'
