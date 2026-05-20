@@ -1,19 +1,22 @@
 {
-  "name": "open-aviation-lessons",
+  "name": "open-aviation-briefings",
   "private": true,
   "type": "module",
   "scripts": {
     "marp:build": "marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-slides",
+    "marp:pdf": "node scripts/build-pdfs.mjs",
+    "marp:watch": "marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-slides --watch",
     "marp:serve": "marp --server . --config marp.config.js",
-    "dev": "npm run marp:build && astro dev",
-    "build": "npm run marp:build && astro build"
+    "dev": "npm run marp:build && npm run marp:pdf && concurrently --names marp,astro -c blue,cyan \"npm run marp:watch\" \"astro dev --port 4324\"",
+    "build": "npm run marp:build && npm run marp:pdf && astro build"
   },
   "devDependencies": {
     "@astrojs/starlight": "^0.38.4",
     "@marp-team/marp-cli": "^4.3.1",
     "@marp-team/marp-core": "^4.3.0",
     "@open-aviation-solutions/components": "^0.1.3",
-    "astro": "^6.2.1"
+    "astro": "^6.2.1",
+    "concurrently": "^9.2.1"
   },
   "dependencies": {
     "@fontsource/barlow": "^5.2.8"

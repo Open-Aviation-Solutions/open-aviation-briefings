@@ -1,13 +1,14 @@
-# open-aviation-lessons
+# open-aviation-briefings
 
 Aviation instructor lesson system. Marp generates slide decks (briefs); Astro/Starlight provides the instructor documentation site that embeds those slides.
 
 ## Commands
 
 ```bash
-npm run dev          # Marp build → Astro dev server (primary workflow)
-npm run build        # Marp build → Astro static build → dist/
-npm run marp:build   # Marp-only: brief-slides/ → public/brief-slides/
+npm run dev          # Marp build + PDF export → Astro dev server (primary workflow)
+npm run build        # Marp build + PDF export → Astro static build → dist/
+npm run marp:build   # Marp-only: brief-slides/ → public/brief-slides/ (HTML)
+npm run marp:pdf     # PDF export: *-in-flight-notes.md → public/brief-slides/**/*.pdf
 npm run marp:serve   # Marp server from repo root (presenter view + notes)
 ```
 
@@ -35,7 +36,8 @@ Marp must run before Astro in both `dev` and `build` scripts so the slide HTML e
 | `brief-assets/` | Static assets referenced in slides (video, images) |
 | `components/` | Local custom elements (`youtube-video.js`) |
 | `src/content/docs/` | Starlight instructor notes pages (`.mdx`) |
-| `src/components/SlideEmbed.astro` | iframe embed + "Open slides ↗" link component |
+| `src/components/SlideEmbed.astro` | iframe embed component; shows "Open slides ↗" by default, or "Download PDF ↓" when a `pdf` prop is passed |
+| `scripts/build-pdfs.mjs` | Finds all `*-in-flight-notes.md` files and exports them as PDFs alongside the HTML in `public/brief-slides/` |
 | `src/content.config.ts` | Astro 6 content layer config — wires Starlight's `docsLoader` |
 | `public/brief-assets` | Symlink → `../brief-assets` (Astro serves at `/brief-assets/…`) |
 | `public/components` | Symlink → `../components` (Astro serves at `/components/…`) |
@@ -47,7 +49,7 @@ Marp must run before Astro in both `dev` and `build` scripts so the slide HTML e
 Custom engine extending `@marp-team/marp-core` with three additions:
 
 1. **`customElementBlock` plugin** — teaches markdown-it to treat hyphenated custom element tags (`<four-forces>`, etc.) as block-level HTML instead of wrapping them in `<p>`.
-2. **Script injection** — if a slide deck uses any `PUBLISHED_COMPONENTS` tag (`four-forces`, `flight-path-overview`, `climb-performance`, `pitch-roll-yaw`), a `<script type="module" src="/open-aviation-components/define.es.js">` is prepended, served locally via the `public/open-aviation-components` symlink. If a `LOCAL_COMPONENTS` tag (`youtube-video`, `secondary-effect-climb-car`, `secondary-effect-elevator`) appears, the matching `/components/<tag>.js` file is injected.
+2. **Script injection** — if a slide deck uses any `PUBLISHED_COMPONENTS` tag (`four-forces`, `briefing-overview`, `climb-performance`, `pitch-roll-yaw`), a `<script type="module" src="/open-aviation-components/define.es.js">` is prepended, served locally via the `public/open-aviation-components` symlink. If a `LOCAL_COMPONENTS` tag (`youtube-video`, `secondary-effect-climb-car`, `secondary-effect-elevator`) appears, the matching `/components/<tag>.js` file is injected.
 
 ### Developing `@open-aviation-solutions/components` locally
 
@@ -55,15 +57,17 @@ To iterate on the components package without a publish/install cycle:
 
 ```bash
 # one-time setup (here)
-npm link ../open-aviation-components
+make local-components-symlink
 ```
+
+This replaces the installed package in `node_modules` with a direct symlink to `../open-aviation-components`. `npm link` is not used because it requires write access to the global node_modules (`/usr/local/lib/node_modules`).
 
 The `public/open-aviation-components` symlink resolves through `node_modules/`, so after rebuilding the components package (`npm run build:lib` in `open-aviation-components/`) just rebuild the slides here and the changes are picked up automatically.
 
 When finished, restore the published version:
 
 ```bash
-npm install @open-aviation-solutions/components
+npm install
 ```
 
 ### Starlight content

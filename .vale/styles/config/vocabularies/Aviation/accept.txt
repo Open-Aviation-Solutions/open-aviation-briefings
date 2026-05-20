@@ -1,0 +1,56 @@
+# Aviation acronyms and checks
+AGL
+AoA
+ASI
+ATIS
+CASA
+HASELL
+IAS
+IFR
+NOTAM
+PAVE
+QNH
+RPL
+TAS
+VFR
+VNE
+VSO
+VX
+VY
+
+# Aviation / navigation terms
+backpressure
+carb
+kneeboard
+(?i)pitot
+unstall
+Waypoint
+
+# Aircraft types
+PA28
+
+# Organisation abbreviations
+DLR
+Wikimedia
+
+# Foreign words appearing in attributions
+Deutsches
+Raumfahrt
+und
+Zentrum
+
+# Surnames in attributions
+Murrman
+
+# Common abbreviations used in slide shorthand
+config
+g's
+walkthrough
+
+# Project tooling (proper names — capitalised only)
+(?i)astro
+CLI
+composable
+(?i)frontmatter
+Marp
+Starlight

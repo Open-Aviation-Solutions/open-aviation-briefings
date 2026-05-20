@@ -3,3 +3,5 @@ dist/
 .astro/
 public/brief-slides/
 .claude/skills/
+casa-sample-syllabus/
+.*.swp

@@ -1,4 +1,4 @@
-# open-aviation-lessons
+# open-aviation-briefings
 
 Aviation instructor lesson system. Marp generates slide decks (briefs); Astro/Starlight provides the instructor documentation site that embeds those slides.
 
