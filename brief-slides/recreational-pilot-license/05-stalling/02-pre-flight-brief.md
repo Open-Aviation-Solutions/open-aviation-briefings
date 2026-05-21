@@ -18,9 +18,10 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 ---
 
-# Briefing overview
+# Briefing overview and Risk analysis
 
 <briefing-overview id="fpo-brief" plane-position="0" arrival-label="Arrival" controls>
+  <briefing-topic label="Overview" time="1"></briefing-topic>
   <briefing-topic label="Risk Analysis&#10;I'm SAFE & PAVE" time="2"></briefing-topic>
   <briefing-topic label="HASELL&#10;Lookout" time="2"></briefing-topic>
   <briefing-topic label="Stall Recovery&#10;Sequency" time="2"></briefing-topic>
@@ -67,9 +68,9 @@ Use **PAVE** to identify hazards before every flight.
 
 ---
 
-# Waypoint 1 — Risk Analysis
+# Waypoint 2 — HASELL Lookout
 
-<briefing-overview plane-position="0" arrival-label="Arrival" controls></briefing-overview>
+<briefing-overview plane-position="1" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
@@ -94,10 +95,10 @@ We will complete a **HASELL check** before every stalling exercise today:
 
 ---
 
-# Waypoint 2 — HASELL and Lookout
+# Waypoint 3 — Stall Recovery Sequence
 
 
-<briefing-overview plane-position="1" arrival-label="Arrival" controls></briefing-overview>
+<briefing-overview plane-position="2" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
@@ -139,9 +140,9 @@ Normalising surprise reduces anxiety and helps the student respond correctly. If
 
 ---
 
-# Waypoint 3 — Stall Recovery Sequence
+# Waypoint 4 — Today's flight
 
-<briefing-overview plane-position="2" arrival-label="Arrival" controls></briefing-overview>
+<briefing-overview plane-position="3" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
@@ -168,9 +169,9 @@ I will demonstrate the first stall, then hand control to you.
 
 ---
 
-# Waypoint 4 — Today's Flight
+# Arrival 
 
-<briefing-overview plane-position="3" arrival-label="Arrival" controls></briefing-overview>
+<briefing-overview plane-position="4" arrival-label="Arrival" controls></briefing-overview>
 
 <!-- Click Direct-To to advance. -->
 
@@ -189,10 +190,3 @@ I will demonstrate the first stall, then hand control to you.
 
 **Let's fly!**
 
----
-
-# Arrival
-
-<briefing-overview plane-position="5" arrival-label="Arrival" controls></briefing-overview>
-
-<!-- Click Direct-To to advance to arrival. -->
