@@ -165,7 +165,7 @@ The stall always occurs at the **same critical angle of attack**, but the **airs
 |--------|----------------------|
 | **Weight** | Heavier aircraft stall at higher speed (more lift needed → higher angle of attack at a given speed) |
 | **Load factor ('g')** | Increased 'g' (steep turns, pull-ups) raises stall speed — at 60° angle of bank level turn, stall speed × 1.41 - more about this on the following slides |
-| **Centre of Gravity** | A forward CoG means the elevator needs a greater downward force to balance which means the lift force needs to balance more than just the weight |
+| **Centre of Gravity** | A forward CoG means the elevator needs a greater downward force to balance which means the lift force needs to balance more than just the weight. A rearwards CoG makes recover from the stall more difficult |
 | **Dynamic loading** | Turbulence or abrupt pitch inputs increase effective 'g' and can stall the wing unexpectedly |
 | **Ice or wing damage** | Disrupts airflow, raises stall speed; can cause stall at much higher speed than placard |
 
