@@ -4,3 +4,4 @@ Wind tunnel photograph (`1915ca_abger_fluegel_wikipedia.jpg`) originally from th
 
 PA28 stall warning vane photo (`pa28-stall-warning.jpg`) by [Frank Murrman](https://commons.wikimedia.org/wiki/File:Metallzunge_Ueberziehwarnanlage_Piper_PA28.jpg), licensed [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
+Lift Coefficient versus Angle of Attack (`lift-coeff-vs-aoa.svg`): Public domain from [Botag](https://en.wikipedia.org/wiki/File:Lift_curve.svg)

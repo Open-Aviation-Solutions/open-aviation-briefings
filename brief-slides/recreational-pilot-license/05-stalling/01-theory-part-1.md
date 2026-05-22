@@ -165,15 +165,28 @@ The **angle of attack** is the angle between the chord line of the wing and the 
 
 - As we increase back pressure on the elevator, we **increase the AoA**
 - As we decrease back pressure (or push forward), we **reduce the AoA**
-- The **critical AoA** for most light training aircraft is approximately **15–17°**
+- The **critical AoA** for most light training aircraft is approximately **16°** (see next slide)
 
-This is why the **first action** in every stall recovery is: **reduce the angle of attack** — push forward on the control column.
+
+This is why the **first action** in every stall recovery is: **reduce the angle of attack** — ease forward on the control column.
 
 <!--
 
 Use a physical aeroplane model to show, or have the student show, what happens as we increase back pressure or decrease back pressure.
 
 As the elevator changes, the angle of attack of the wing, the main lifting surface is changed.
+
+-->
+---
+
+# Review - Angle of Attack 
+
+![right drop-shadow](/brief-assets/recreational-pilot-license/05-stalling/lift-coeff-vs-aoa.svg)
+The graph shows the **Lift Coefficient** $C_{L}$ on the vertical axis, which is effectively how big the lift force will be, versus the **Angle of Attack** on the horizontal axis:
+- Note that the lift force increases at a constant rate until the angle of attack approaches the critical angle of 16 
+- After the critical angle, it **falls rapidly**
+
+<!--
 
 -->
 
@@ -208,11 +221,14 @@ Lead in: But what does that look like outside of a wind tunnel? Is it something 
 
 # What actually causes a wing to stop producing lift?
 
-<youtube-video video-id="Lce_4oA_UBI" start="60" width="80%" />
+Notice *where* the stall starts on the wing surface!
+
+<youtube-video video-id="Lce_4oA_UBI" start="60" width="70%" />
 
 <!--
 
 One of the best *real* visualisations I've found for what's actually happening in a stall is achieved by taping pieces of cotten or wool to the wing of an aircraft.
+
 
 -->
 
@@ -227,7 +243,7 @@ A stall is **not** about airspeed.
 A stall occurs when the **angle of attack** (AoA) exceeds the **critical angle of attack** — the point at which the smooth airflow over the wing **separates**, and lift collapses.
 
 - **Below critical AoA:** airflow stays attached, lift is generated
-- **At critical AoA:** airflow begins to separate from the upper wing surface and we start losing lift
+- **At critical AoA:** airflow begins to separate from the upper wing surface and we start losing lift, resulting turbulent air buffeting tailplane
 - **Above critical AoA:** airflow fully separates, lift drops dramatically
 
 > A wing can stall at **any airspeed** — even at cruise speed if the AoA is high enough (e.g. a steep turn with back pressure).
@@ -254,12 +270,10 @@ As AoA increases beyond the critical angle:
 
 1. Airflow can no longer follow the curvature of the upper wing surface
 2. The boundary layer **separates** from the wing, creating turbulent eddies
-3. The **low-pressure region** that was producing lift disappears
+3. The **low pressure region** that was producing lift near the leading edge of the wing collapses, causing the **centre of lift to move rearwards** 
 4. Drag **increases sharply** at the point of stall
 
-The result: rapid loss of lift combined with a pitch-down tendency (the wing drops its nose as the centre of pressure moves rearward).
-
-Let's see this in action...
+The result: rapid loss of lift, combined with a pitch-down tendency as the centre of lift (what's left of it) moves rearwards.
 
 <!--
 
@@ -268,21 +282,6 @@ The pitch-down tendency is a useful natural self-recovery tendency in most light
 -->
 
 
----
-
-# Why Does Lift Collapse?
-
-<aerofoil-dynamics
-  style="height: 560px; display: block;"
-/>
-
-<!--
-
-To see buffetting, use full power and 15 or 16 AoA
-
-27 and 17.5 show lift dropping to nothing, but 18 collapses the simulation at full power.
-
--->
 ---
 
 # Waypoint 2 — Stall Avoidance
@@ -305,18 +304,17 @@ Situations that increase the angle of attack and therefore **increase stall risk
 
 > Always maintain awareness of **airspeed and pitch attitude** together. Neither alone is enough.
 
----
+<!--
 
-# Stall Avoidance
+You might notice that pulling back on the controls and slow flight are risks that we're exposed to both during take-off and landing.
 
-<youtube-video video-id="4Px1f3ukBpo" shorts start="10" class="right small"></youtube-video>
-
-Not for the feint hearted, this video shows this exact situation of:
-- slow flight right after take off,
-- pulling back on the controls for a steep climb, increasing the load,
-- steep turns also increasing the load (well, it may not have been intentionally so steep, but the wing drops after stalling)
+There are videos on the internet showing stalls on take-off due to these two factors, such as:
+- https://www.youtube.com/shorts/4Px1f3ukBpo
+but I removed the slide with that from the deck since it's quite confronting for the first stalls lesson. Feedback was maybe introduce those for advanced stalling. Leaving the link here in the presenter notes in case.
 
 The only real problem in this video and many others like it, is that it happens so close to the ground. It's easy to recover from if you have sufficient height, but low to the ground you don't have that option. That's why the **H**eight, for sufficient height, is the first item is our **HASELL** check.
+
+-->
 
 ---
 
@@ -342,9 +340,12 @@ The turning stall and base-to-final stall (with a low, slow, uncoordinated turn)
 
 Uncoordinated flight is particularly dangerous near the stall:
 
-- In a **slip** (outside rudder, inside aileron), the lower wing can reach its critical AoA while the upper wing is still flying — causing a **wing drop**
+- In a **skid** (too much inside rudder compared to aileron), the lower wing can reach its critical AoA while the upper wing is still flying — causing a **wing drop**
 - A wing drop at low altitude (e.g. during a base-to-final turn) leaves almost no height to recover
 - **Always use balanced (coordinated) flight**, especially at low speeds
+
+![right small drop-shadow Bold Method article](/brief-assets/thumbnails/bold-method-skid-slip-stall.png)
+Read the [Bold Method article "Why skids are more dangerous than slips"](https://www.boldmethod.com/learn-to-fly/aerodynamics/slip-skid-stall/) for more detail about why a skidding (adding too much inside rudder for the turn) during slow flight is dangerous when low.
 
 > Keep the balance ball centred. At slow speeds, every input matters.
 
@@ -404,6 +405,22 @@ The **imminent stall** is the moment to act — recovery is easiest here, with m
 
 ---
 
+# Buffeting demo
+
+<aerofoil-dynamics
+  style="height: 560px; display: block;"
+/>
+
+<!--
+
+To see buffetting, use full power and 15 or 16 AoA
+
+17 and 17.5 show lift dropping to nothing, but 18 collapses the simulation at full power.
+
+-->
+
+---
+
 # Control Effectiveness at Slow Speed
 
 Control surfaces work by deflecting airflow. As airspeed decreases:
@@ -447,7 +464,7 @@ If the imminent stall warnings are ignored, the full stall develops:
 
 - **Sudden, significant loss of lift** — the aircraft is descending, possibly rapidly
 - **Loss of control effectiveness** — controls may feel reversed or ineffective
-- **Wing drop** — if any yaw or asymmetric lift is present, one wing may drop
+- **Wing drop** — if any yaw or asymmetric lift is present, one wing may stall first and drop - **keep ailerons neutral!**
 - **Nose pitches down** — the natural self-recovery tendency of most training aircraft
 
 The fully developed stall requires **prompt recovery action** — especially at low altitude.

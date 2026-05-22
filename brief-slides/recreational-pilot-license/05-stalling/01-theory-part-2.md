@@ -87,7 +87,7 @@ If the stall is fully developed (nose has dropped, lift collapsed):
 4. **Level the wings** — with coordinated control inputs once flying
 5. **Recover height** — establish climb and regain lost altitude
 
-**Avoid the secondary stall:** do not pull back too aggressively once the nose drops — the wing may not yet be flying, and a secondary stall follows.
+**Avoid the secondary stall:** do not pull back aggressively when the nose drops — the wings may not yet be flying and a secondary stall can follow.
 
 <!--
 
@@ -104,11 +104,11 @@ The secondary stall is a common student error: the nose drops, the student pulls
 We will also practise stall recovery **without applying power**:
 
 - Reduce AoA — ease forward to unstall the wing
-- Use gentle coordinated inputs to level the wings
+- Use rudder input to level wings until flying speed is regained
 - Accept the height loss — convert height to speed to re-establish controlled flight
-- Once flying speed is regained, ease back to recover from the descent
+- Once flying speed is regained, ease back to recover from the descent, aiming for your minimum drag speed $V_{MD}$
 
-This demonstrates that **reducing AoA is always the primary recovery action** — power assists but is not the first step.
+**Reducing AoA is always the primary recovery action** — power assists but is not the first step.
 
 <!-- This exercise builds the correct reflex: forward first, then power. If power is applied to a stalled wing without first reducing AoA, the nose yaws and the situation worsens. -->
 
@@ -146,7 +146,8 @@ Power **affects stall speed and recovery**:
 Flap affects both lift and stall characteristics:
 
 - **Flap extended** — increases lift at low speed, **lowers stall speed** (improves slow-speed performance)
-- **Flap extended** — also increases drag; changes the nose attitude at which the stall occurs (typically stalls at a lower nose attitude with flap)
+- **Flap extended** — also increases drag;
+- **Flap extended** — changes the nose attitude at which the stall occurs since the chord - the line from leading edge to trailing edge - now has a higher angle of attack for the same attitude, so that the stall happens at a lower nose attitude with flap than without flap
 - **Flap retracted** — higher stall speed; higher nose attitude needed to stall
 - **Landing configuration stall** — flap and slower speed typical of approach; a stall here is particularly dangerous due to the low altitude
 
@@ -164,8 +165,15 @@ The stall always occurs at the **same critical angle of attack**, but the **airs
 |--------|----------------------|
 | **Weight** | Heavier aircraft stall at higher speed (more lift needed → higher angle of attack at a given speed) |
 | **Load factor ('g')** | Increased 'g' (steep turns, pull-ups) raises stall speed — at 60° angle of bank level turn, stall speed × 1.41 - more about this on the following slides |
+| **Centre of Gravity** | A forward CoG means the elevator needs a greater downward force to balance which means the lift force needs to balance more than just the weight |
 | **Dynamic loading** | Turbulence or abrupt pitch inputs increase effective 'g' and can stall the wing unexpectedly |
 | **Ice or wing damage** | Disrupts airflow, raises stall speed; can cause stall at much higher speed than placard |
+
+<!--
+
+Note that 4 of 5 factors here are effectively a greater weight needing to be balanced by lift.
+
+-->
 
 ---
 
@@ -178,10 +186,12 @@ Why do the 'g's increase?
 <!--
 
 Turn the aeroplane to look head-on, then:
-- Note that the aeroplane is flying level
+- Note that the aeroplane is flying level and that the L balances W
 - gradually bank to 45 degrees
 - Note that the aeroplane is sinking - to restore level flight:
 - Add power to 82% and attitude to 10 degrees for stable flight at 45 bank.
+
+Actually, there's no need to restore level flight: as long as the aircraft has settled and is not accelerating, the vertical component of the lift should balance the weight. So we can test with 60 degrees too, which is simpler.
 
 -->
 
@@ -206,18 +216,15 @@ This is why a steep turn during slow flight - whether on take-off or the base-to
 
 Use a concrete example: if Vs is 50 kt in straight level flight, at 60° AOB the stall speed is 50 × 1.41 = 70.5 kt. If you are flying at 75 kt on a steep base-to-final turn, you have very little margin. 
 
--->
-
----
-
-# Load Factor and Bank Angle
-
-<youtube-video video-id="XiId0z5EKtk" class="large right"></youtube-video>
+Originally had another slide following with this text and video, but removed for now:
 
 Again, it's not fun to watch (and we don't need to see the end - the video doesn't show the actual impact), but the report into this crash indicated that the **stall warning was activated but apparently ignored** during these turns.
 
 Note the **flaps which are still extended** in the first steep turn (so lower stall speed) are then retracted for the second steep turn.
 
+https://www.youtube.com/watch?v=XiId0z5EKtk
+
+-->
 
 ---
 
@@ -267,7 +274,7 @@ Before every stalling exercise, we'll complete the **HASELL** check:
 
 | Letter | What to check |
 |--------|--------------|
-| **H** | **Height** — sufficient to complete the manoeuvre and recover (minimum TODO: ft AGL for RPL training) |
+| **H** | **Height** — sufficient to complete the manoeuvre and recover (minimum is for recovery to be over 3000ft AGL) |
 | **A** | **Airframe** — correct configuration for the manoeuvre; no abnormal indications |
 | **S** | **Security** — harnesses fastened, loose articles stowed, no hatches or locks insecure |
 | **E** | **Engine** — temperatures and pressures in the green; carburettor heat applied and then off |
@@ -320,8 +327,8 @@ The **360° lookout turn** (or two 90° turns) is critical because:
 | **Cause** | Angle of attack exceeds critical angle — can happen at any speed |
 | **Imminent symptoms** | Low speed, high nose, mushy controls, buffet, stall horn |
 | **Fully developed effects** | Lift collapses, nose drops, possible wing drop |
-| **Recovery procedures** | Reduce AoA first; full power; level wings; regain height |
-| **Factors affecting** | Weight, 'g', flap, power, ice — all affect stall speed |
+| **Recovery procedures** | Reduce AoA first; full power; level wings with rudder; regain height |
+| **Factors affecting** | Weight, 'g', flap, power, CoG, ice — all affect stall speed |
 | **Pre-acro safety check** | HASELL before every exercise; maintain coordinated flight |
 
 ---
