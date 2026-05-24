@@ -1,4 +1,4 @@
-.PHONY: help dev build install local-components-symlink lint-prose check
+.PHONY: help dev build install local-components-symlink lint-prose check clean-unused-images
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "%-12s %s\n", $$1, $$2}'
@@ -23,3 +23,6 @@ lint-prose: ## Spell- and style-check slides and instructor notes with Vale
 	vale brief-slides/ src/content/docs/
 
 check: lint-prose ## Run all checks
+
+clean-unused-images: ## List brief-assets/ files no slide deck references (DELETE=1 to remove)
+	@scripts/clean-unused-images.sh
