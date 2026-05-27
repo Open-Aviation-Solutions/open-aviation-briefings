@@ -73,13 +73,13 @@ Use **PAVE** to identify hazards before every flight.
 
 ---
 
-# Waypoint 2 — Hand-over Technique
+# Waypoint 3 — Hand-over Technique
 
 _Circuit Introduction_
 
-<briefing-overview plane-position="1" controls></briefing-overview>
+<briefing-overview plane-position="2" controls></briefing-overview>
 
-<!-- Click Direct-To to advance. -->
+<!-- Click Direct-To to arrive at Hand-over Technique. -->
 
 ---
 
@@ -98,13 +98,13 @@ _Circuit Introduction_
 
 ---
 
-# Waypoint 3 — Lookout and Clock Code
+# Waypoint 4 — Lookout and Clock Code
 
 _Circuit Introduction_
 
-<briefing-overview plane-position="2" controls></briefing-overview>
+<briefing-overview plane-position="3" controls></briefing-overview>
 
-<!-- Click Direct-To to advance. -->
+<!-- Click Direct-To to arrive at Lookout and Clock Code. -->
 
 ---
 
@@ -129,13 +129,13 @@ Emphasise: empty sky doesn't mean no traffic — scan even when ATC has told you
 
 ---
 
-# Waypoint 4 — Today's Flight
+# Waypoint 5 — Today's Flight
 
 _Circuit Introduction_
 
-<briefing-overview plane-position="3" controls></briefing-overview>
+<briefing-overview plane-position="4" controls></briefing-overview>
 
-<!-- Click Direct-To to advance. -->
+<!-- Click Direct-To to arrive at Today's Flight. -->
 
 ---
 
@@ -171,13 +171,13 @@ For the first circuit lesson, expect the instructor to demonstrate the first cir
 
 ---
 
-# Waypoint 5 — Recap and Fly
+# Waypoint 6 — Recap and Fly
 
 _Circuit Introduction_
 
-<briefing-overview plane-position="4" controls></briefing-overview>
+<briefing-overview plane-position="5" controls></briefing-overview>
 
-<!-- Click Direct-To to advance. -->
+<!-- Click Direct-To to arrive at Recap and Fly. -->
 
 ---
 
@@ -200,4 +200,4 @@ _Circuit Introduction_
 
 _Circuit Introduction_
 
-<briefing-overview plane-position="5" controls></briefing-overview>
+<briefing-overview plane-position="6" controls></briefing-overview>

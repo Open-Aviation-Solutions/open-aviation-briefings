@@ -27,8 +27,9 @@ Part 2 picks up at the top of the climb and works through operating in the circu
 
 # Where we left off
 
+![right medium Diagram showing the left-hand standard traffic pattern with the five legs (upwind, crosswind, downwind, base, final) labelled around a runway, with wind direction indicated.](/brief-assets/recreational-pilot-license/06-circuits/traffic-pattern-left.png)
 - You can describe the five legs of the circuit and the take-off.
-- Now: what does each in-circuit leg actually *involve*?
+- Now: we need to complete the circuit by learning our downwind and approach procedures.
 
 <!--
 
@@ -58,6 +59,7 @@ Quick recap question to reorient the student before the next chunk. Don't spend 
 By the end of this session, our aim is to be able to:
 
 - **Describe** local aerodrome circuit procedures and how to integrate with other traffic.
+- **State** the pre-landing (BUMFISH) and short-final (PUFFC) checklists and when each is completed.
 - **Explain** the approach profile, the aiming point, and how to regain a correct approach path.
 - **Outline** the landing technique from final to touchdown.
 - **Describe** the touch-and-go procedure and the cautions that apply.
@@ -68,21 +70,19 @@ By the end of this session, our aim is to be able to:
 
 # Waypoint 1 — Local Procedures and Traffic
 
-_Circuit Introduction_
+<briefing-overview plane-position="0" controls></briefing-overview>
 
-<briefing-overview plane-position="1" controls></briefing-overview>
-
-<!-- Click Direct-To to advance to Local Procedures and Traffic. -->
+<!-- Click Direct-To to arrive at Local Procedures and Traffic. -->
 
 ---
 
 # Local aerodrome circuit procedures
 
-- Every aerodrome has **published** circuit direction, height, joining procedures, and noise abatement.
-- Source: ERSA, AIP, local FIG or pilot guide.
-- For uncontrolled aerodromes: **broadcast position** on the CTAF at standard reporting points.
+- Every aerodrome has a **published** aerodrome guide that specifies any non-standard circuit directions, heights, joining procedures, and noise abatement procedures.
+- Source: ERSA, AIP, or for non-certified aerodromes, there may be a separate website with a pilot guide.
+- At uncontrolled aerodromes be sure to **broadcast your position** on the CTAF at standard reporting points such as entering the runway, rolling (taking off), downwind, turning final.
 
-> TODO: List the **local aerodrome's** circuit direction, height, joining procedures, and CTAF.
+> Look-up your **local aerodrome's** circuit direction, height, joining procedures, and CTAF. What special requirements does your aerodrome have?
 
 <!--
 
@@ -107,7 +107,7 @@ Emphasise: this is *the* place where every aerodrome is different. The procedure
 
 CASA HF & NTS: NTS1 4(a) Effective communication, NTS2 4(c) Situational awareness, NTS2 4(i) Task management.
 
-PHAK Ch 8 (Airport Operations) and Ch 14 (ADM) both cover this.
+AFH Ch 8 (Airport Traffic Patterns) and AIH Ch 9 (Risk Management) both cover this.
 
 -->
 
@@ -131,44 +131,115 @@ This is reinforced in the pre-flight brief. CASA HF & NTS item; introduced here 
 
 # Waypoint 2 — Approach Technique
 
-_Circuit Introduction_
+<briefing-overview plane-position="1" controls></briefing-overview>
 
-<briefing-overview plane-position="2" controls></briefing-overview>
-
-<!-- Click Direct-To to advance to Approach Technique. -->
+<!-- Click Direct-To to arrive at Approach Technique. -->
 
 ---
 
-# The approach — the three judgements
+# Pre-landing checklist — BUMFISH
 
-- **Glide path** — am I high, low, or on profile?
-- **Track** — am I aligned with the runway centreline?
-- **Speed** — am I at the target approach speed (typically ≥ 1.3 Vs)?
+Before we begin the approach, we complete our pre-landing checks while on the **downwind leg**, before turning base and starting our descent.
 
-> If any one is off, **fix it now** — not later.
+| Letter | Item | Action |
+|--------|------|--------|
+| **B** | Brakes | Check pressure / correct operation |
+| **U** | Undercarriage | Down and locked (if retractable) |
+| **M** | Mixture | Rich (or as required for altitude) |
+| **F** | Fuel | On, sufficient, correct tank, primer in |
+| **I** | Instruments | Altimeter set, T's and P's in green |
+| **S** | Switches | Lights, beacon, fuel pump as required |
+| **H** | Hatches and harnesses | Closed and secure |
+
+> Complete BUMFISH **before** turning base — not while turning.
 
 <!--
 
-TODO: insert PHAK Fig (Ch 8) — stable approach diagram.
+Emphasise: the goal is to have everything configured and confirmed before workload increases on base and final. Completing it on downwind gives you time to do it unhurried.
 
-Emphasise: a stable approach starts on base. By short final it's too late to correct large errors.
+AFH Ch 9 (Approaches and Landings) — pre-landing procedures.
 
 -->
 
 ---
 
-# Aiming point and approach profile
+# Normal Approach and Landing — 5 Stages
 
-- Pick an **aiming point** on the runway — typically the threshold markings or the touchdown zone.
-- On a correct profile, the aiming point **stays in the same spot** in the windscreen.
-- Aiming point **moving up** = you're going to land short → more power / less descent.
-- Aiming point **moving down** = you're going to overshoot → less power / more descent.
+_FAA AFH Chapter 9_
+
+1. **The base leg** — positioning and configuring for the stabalised descent approach
+2. **The final approach** — stabilised descent to the aiming point
+3. **The round out (flare)** — transitioning from descent to landing attitude
+4. **The touchdown** — placing the aircraft on the runway
+5. **The after-landing roll** — directional control to runway exit
 
 <!--
 
-TODO: insert aiming-point sketch (3 panels: on profile, low, high).
+Phases 1–2 are covered here under Approach Technique. Phases 3–5 continue under Landing Technique.
 
-This is the single most important visual cue on final. Drill it.
+Source: FAA AFH Ch 9, Normal Approach and Landing.
+
+-->
+
+---
+
+# Phase 1 — The Base Leg
+
+![right large Aerial view of an aircraft turning from base leg to final approach, aligning with the runway centreline.](/brief-assets/recreational-pilot-license/06-circuits/base-leg-and-final-approach.png)
+
+- Judge your **height, distance, and rate of descent** to set up a stabilised approach.
+- Reduce power; extend flaps **incrementally** and re-trim.
+- Target approximately **1.4 V<sub>SO</sub>** on base. For e.g., if your V<sub>SO</sub> is 45 kts then you're targetting around 65 kts on base.
+- Track perpendicular to the runway centreline - which might require a **drift correction**, depending on the wind.
+
+<!--
+
+Source: FAA AFH Fig 9-3 (Base leg and final approach).
+
+AFH Ch 9: "The placement of the base leg is one of the important judgments made by the pilot to set up for a good landing." Flaps should be deployed as recommended — full flaps not recommended until final approach is established.
+
+-->
+
+---
+
+# Short-final checklist — PUFFC
+
+Complete when **established on short final**, typically around 500 ft AGL.
+
+| Letter | Item | Action |
+|--------|------|--------|
+| **P** | Prop | Fully fine (not yet relevant for us) |
+| **U** | Undercarriage | Verified down and locked (also not yet relevant)|
+| **F** | Flap | Use landing setting |
+| **F** | Fuel | Fuel auxilary pump verified on for fuel pressure |
+| **C** | Carb heat | Cold to ensure best power if you need to go around |
+
+> If anything is not right on short final → **go around**.
+
+<!--
+
+Emphasise: PUFFC is a last check before commitment. The go-around option is always available; naming it here explicitly reinforces the habit of treating short final as a decision point, not just a formality.
+
+AFH Ch 9 (Approaches and Landings) — short-final check.
+
+-->
+
+---
+
+# Phase 2 — The Final Approach
+
+![right large Three-panel diagram showing runway shape at a constant 3° approach angle from 1,600 ft, 800 ft, and 400 ft from the threshold — the trapezoidal shape stays the same on a stabilised approach.](/brief-assets/recreational-pilot-license/06-circuits/runway-shape-stabilised-approach.png)
+
+- Align with the **runway centreline**; complete the final flap setting.
+- Target **1.3 V<sub>SO</sub>**; control descent angle with pitch and power together.
+- On a stabilised approach the **runway shape does not change** — it just grows larger.
+- **Aiming point** stays still in the windscreen on a correct profile.
+
+<!--
+
+Source: FAA AFH Fig 9-6 (Runway shape during stabilised approach).
+
+Aim to land in the **first third** of the runway. Attempting to stretch the approach with pitch alone causes AOA increase, airspeed decay, and risk of stall — always add power if low.
 
 -->
 
@@ -176,17 +247,19 @@ This is the single most important visual cue on final. Drill it.
 
 # Regaining the correct approach path
 
-- Small corrections **early** — large corrections close to the ground are dangerous.
-- If the approach becomes **unstable** below 500 ft → **go around**. No exceptions.
-- A go-around is **not a failure** — it's the right decision when the approach isn't right.
+![right large Three cockpit views: too high (runway appears long and narrow), proper descent angle, too low (runway appears short and wide).](/brief-assets/recreational-pilot-license/06-circuits/approach-angle-visual-cues.png)
+
+- **Too high** — runway appears long and narrow → reduce power, increase descent.
+- **Too low** — runway appears short and wide → add power, reduce descent.
+- If the approach becomes **unstable** at this point → **go around**. No exceptions.
 
 > When in doubt, go around. There's always another circuit.
 
 <!--
 
-This is a foundational airmanship message — repeat it across this lesson and every circuit lesson that follows.
+Source: FAA AFH Fig 9-7 (Approach angle visual cues).
 
-PHAK Ch 8 stabilised-approach guidance.
+This is a foundational airmanship message — repeat it across this lesson and every circuit lesson that follows. Attempting to stretch a low approach with pitch alone is one of the most common causes of approach-to-landing accidents.
 
 -->
 
@@ -194,42 +267,60 @@ PHAK Ch 8 stabilised-approach guidance.
 
 # Waypoint 3 — Landing Technique
 
-_Circuit Introduction_
+<briefing-overview plane-position="2" controls></briefing-overview>
 
-<briefing-overview plane-position="3" controls></briefing-overview>
-
-<!-- Click Direct-To to advance to Landing Technique. -->
+<!-- Click Direct-To to arrive at Landing Technique. -->
 
 ---
 
-# Round-out, hold-off, touchdown
+# Phase 3 — The Round Out (Flare)
 
-- At round-out height (typically just above the runway): **reduce power** to idle, raise the nose smoothly.
-- **Hold off** — keep the aircraft flying just above the runway, letting it slow.
-- **Touchdown** at minimum flying speed, on the main wheels, on the centreline.
+![right large Side view of a stabilised approach: the descent path intersects the ground at a defined aiming point, the aircraft then flares over the runway and touches down further along after the flare distance.](/brief-assets/recreational-pilot-license/06-circuits/stable-approach-and-flare.png)
 
-> Eyes **down the runway**, not at the nose.
+- Begin the round-out at approximately **15 ft AGL**: smoothly reduce power to idle, ease the nose up.
+- The curved flight path transitions from the approach angle to a landing attitude just above the runway.
+- Eyes **down the runway**, not at the nose.
 
 <!--
 
-TODO: insert PHAK Fig (Ch 8 Landings) — round-out and flare illustration.
+Source: FAA AFH Fig 9-5 (Stabilised approach and flare geometry).
 
-The student's eye position is the single biggest determinant of a good landing. They want to look at the runway just in front of the aircraft — wrong. They need to look at the far end of the runway like a car driver looks down the road.
+The figure shows the flare distance — how far along the runway the aircraft travels between starting the round-out and touching down. Emphasise that the round-out must be smooth; a sharp pull will balloon the aircraft back up.
 
 -->
 
 ---
 
-# After touchdown
+# Phase 4 — The Touchdown
 
-- Maintain **centreline** with rudder; keep the **nose-wheel light** as it lowers.
-- **Brake** as required — most landings don't need much.
+![right large Round-out and hold-off heights: aircraft levels at about 15 feet, descends to 2-3 feet, then holds off at around 1 foot with a near-zero rate of descent until touchdown.](/brief-assets/recreational-pilot-license/06-circuits/round-out-hold-off.png)
+
+- **Hold off** — keep the aircraft flying just above the runway as it decelerates.
+- The hold-off ends when the aircraft touches down at **minimum flying speed**.
+- Main wheels contact first; keep the **nose-wheel light** as it settles.
+- Maintain **centreline** with rudder throughout.
+
+<!--
+
+Source: FAA AFH Fig 9-12 (Round-out and hold-off sequence).
+
+The figure shows the gradual height reduction from ~15 ft round-out down to ~1 ft hold-off. Emphasise that hold-off is "fly it down slowly", not "let it drop". The student's job is to keep flying until the aircraft settles — not to force it down.
+
+-->
+
+---
+
+# Phase 5 — The After-Landing Roll
+
+- Maintain **centreline** with rudder as speed decays.
+- **Brake** progressively as required — most landings don't need much.
+- Keep the **nose-wheel light** until speed reduces naturally.
 - Vacate the runway at the **nominated taxiway**.
 - Complete the **after-landing checklist** when clear of the runway.
 
 <!--
 
-Emphasise: the landing isn't over until the aircraft is stationary and the after-landing checks are done. Distraction risk is high in this phase.
+Emphasise: the landing isn't over until the aircraft has cleared the runway and after-landing checks are done. Distraction risk is high in this phase.
 
 CASA MOS reference: A4.1.
 
@@ -239,11 +330,9 @@ CASA MOS reference: A4.1.
 
 # Waypoint 4 — Touch and Go
 
-_Circuit Introduction_
+<briefing-overview plane-position="3" controls></briefing-overview>
 
-<briefing-overview plane-position="4" controls></briefing-overview>
-
-<!-- Click Direct-To to advance to Touch and Go. -->
+<!-- Click Direct-To to arrive at Touch and Go. -->
 
 ---
 
@@ -262,7 +351,7 @@ _Circuit Introduction_
 Cautions:
 
 - Workload is highest at the moment of transition. Brief and practise the configuration changes.
-- Some aircraft / aerodromes prohibit touch and go (single-runway training, noise). Confirm before the lesson.
+- Some aircraft / aerodromes prohibit touch and go (single-runway training, noise). 
 
 -->
 
@@ -273,11 +362,13 @@ Cautions:
 - **Configuration in the right order** — flaps and trim before power.
 - Don't **rotate early** — let the aircraft reach take-off speed first.
 - Maintain **centreline** through the whole sequence.
-- If the landing isn't clean → **go around** rather than convert it to a take-off.
+- If the landing isn't clean → **go around** rather than converting it to a take-off. That is, re-establish control, power and performance rather than taking-off while not configured for take-off.
+
+> We may start with full-stop, or stop-and-go before getting to a touch-and-go.
 
 <!--
 
-TODO: confirm whether the local aerodrome / aircraft type permits touch-and-go for this stage of the student's training.
+Plan to introduce the circuit workload in stages rather than all at once, and re-enforce this through the lesson.
 
 -->
 
@@ -285,21 +376,21 @@ TODO: confirm whether the local aerodrome / aircraft type permits touch-and-go f
 
 # Waypoint 5 — Recap
 
-_Circuit Introduction_
+<briefing-overview plane-position="4" controls></briefing-overview>
 
-<briefing-overview plane-position="5" controls></briefing-overview>
-
-<!-- Click Direct-To to advance to Recap. -->
+<!-- Click Direct-To to arrive at Recap. -->
 
 ---
 
 # What do you remember?
 
-- Where do you find the published circuit procedure for an aerodrome?
-- What are the three judgements on the approach?
-- What does the aiming point do when you're going to land short?
-- What's the rule when the approach is unstable below 500 ft?
-- Why do you keep looking at the far end of the runway in the flare?
+- Where do you find the **published circuit procedures and other information** for an aerodrome?
+- Identify the components of the **two pre-landing checklists** (BUMFISH and PUFFC) and when each is completed.
+- What are the **five phases of a normal approach and landing**?
+- What is the **target airspeed on base**, and how does it differ from the **target airspeed on short final**?
+- What does the **aiming point** do when you're going to land short?
+- What's the rule when the approach is **unstable** during short final?
+- Why do you look at the **far end** of the runway in the round out?
 
 ---
 
@@ -310,18 +401,16 @@ _Circuit Introduction_
 | **Local procedures** | ERSA / AIP / local FIG. CTAF for uncontrolled aerodromes. |
 | **Traffic** | Listen, look, decide. Adjust spacing, extend downwind if needed. |
 | **Hand over** | "I have control" — "You have control" — "I have control". |
-| **Approach** | Glide path, track, speed. Aiming point stays still on profile. |
-| **Unstable below 500 ft** | Go around. Always. |
-| **Landing** | Round-out, hold off, touchdown on main wheels. Eyes down the runway. |
+| **Checklists** | BUMFISH is the pre-landing checklist — complete on downwind before turning base. PUFFC is the short-final check; go around if anything is wrong |
+| **5 phases** | Base leg (1.4V<sub>SO</sub>) → Final approach (1.3V<sub>SO</sub>, aiming point still) → Round out (~15 ft, power off) → Touchdown (main wheels, nose light) → After-landing roll (centreline, brake, vacate). |
+| **Unstable during short final** | Go around. Always. |
 | **Touch and go** | Flaps, carb heat, trim, then full power. Configuration in order. |
 
 ---
 
 # Arrival — End of Part 2
 
-_Circuit Introduction_
-
-<briefing-overview plane-position="6" controls></briefing-overview>
+<briefing-overview plane-position="5" controls></briefing-overview>
 
 ---
 
