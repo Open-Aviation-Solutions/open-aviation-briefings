@@ -1,15 +1,18 @@
 ---
 marp: true
+theme: open-aviation
 title: Effects of Controls — Theory Part 2
 license: CC-BY-SA-4.0
-header: Effects of Controls — Theory Part 2
+header: "Effects of Controls — Theory Part 2: Ancillary Controls, Power and the Slipstream"
 ---
 
 <!-- _class: lead -->
 
 # The Effects of the Aeroplane Controls
 
-_CASA Recreational Pilot License (Aeroplane) — Lesson 1, Pre-flight theory part 2: Ancillary controls, power and the slipstream_
+_CASA Recreational Pilot License (Aeroplane) — Lesson 1, Pre-flight theory part 2_
+
+All text and presenter notes in this briefing are licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
 
 <!-- Question: So far we've looked at the main control surfaces of the aeroplane: elevator, ailerons and rudder. Can you list any other controls that we might have in the aeroplane? Remember: Understanding the effects of the aeroplane controls will be the basis of all your safe flying into the future. -->
 
@@ -19,18 +22,12 @@ _CASA Recreational Pilot License (Aeroplane) — Lesson 1, Pre-flight theory par
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview id="fpo-overview-pt2" plane-position="0" arrival-label="Arrival" controls></flight-path-overview>
-
-<script>
-customElements.whenDefined('flight-path-overview').then(() => {
-  document.getElementById('fpo-overview-pt2').topics = [
-    { label: 'Learning\nObjectives', time: 2 },
-    { label: 'On the Sim or in the plane\nFlap, Trim and Throttle', time: 7 },
-    { label: 'Effects of Power\n& slipstream', time: 3 },
-    { label: 'Recap', time: 2 }
-  ]
-})
-</script>
+<briefing-overview plane-position="0" controls-start>
+  <briefing-topic label="Learning&#10;Objectives" time="2"></briefing-topic>
+  <briefing-topic label="On the Sim or in the plane&#10;Flap, Trim and Throttle" time="7"></briefing-topic>
+  <briefing-topic label="Effects of Power&#10;&amp; Slipstream" time="3"></briefing-topic>
+  <briefing-topic label="Recap" time="2"></briefing-topic>
+</briefing-overview>
 
 <!-- Outline the lesson plan based on the image: we'll jump on the simulator or sitting in the real plane, giving us a chance to see how we control those main surfaces as well as introduce a couple of other controls — flap and trim. These are called "ancillary controls" which just means supporting controls. We'll then focus on how the aeroplane power from the propeller and the slipstream it creates, how that affects aeroplane controls. Recap what we've learned, revisiting our objectives. -->
 
@@ -58,7 +55,7 @@ And then later in our actual flight:
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview plane-position="0" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="0" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to waypoint 1. -->
 
@@ -134,11 +131,11 @@ After being shown where the trim wheel is, see if you can spot it moving on the 
 
 ---
 
-# Waypoint 2 — Effects of Power & Slipstream
+# Waypoint 2 — Effects of Power &amp; Slipstream
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview plane-position="1" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="1" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to waypoint 2. -->
 
@@ -201,7 +198,7 @@ _The effects of the aeroplane controls_
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview plane-position="2" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="2" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to the recap waypoint. -->
 
@@ -258,7 +255,7 @@ _The effects of the aeroplane controls_
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview plane-position="3" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="3" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to arrival. -->
 

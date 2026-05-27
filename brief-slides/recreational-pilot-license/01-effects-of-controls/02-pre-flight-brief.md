@@ -1,5 +1,6 @@
 ---
 marp: true
+theme: open-aviation
 title: Effects of Controls — Pre-flight Brief
 license: CC-BY-SA-4.0
 header: Effects of Controls — Pre-flight Brief
@@ -11,36 +12,30 @@ header: Effects of Controls — Pre-flight Brief
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 1, Pre-flight Briefing_
 
+All text and presenter notes in this briefing are licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
+
 <!-- This is the short brief immediately before the flight — approximately 0.3 hours. The long briefing (theory) has already been completed. Purpose: review the flight sequence, confirm essential knowledge, reinforce airmanship and threat/error management. Keep it tight — the student is eager to fly. -->
 
 ---
 
-# Briefing overview
+# Briefing overview and Risk analysis
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview id="fpo-brief" plane-position="0" arrival-label="Arrival" controls></flight-path-overview>
-
-<script>
-customElements.whenDefined('flight-path-overview').then(() => {
-  document.getElementById('fpo-brief').topics = [
-    { label: 'Overview', time: 1 },
-    { label: 'Risk Analysis\nI\'M SAFE & PAVE', time: 3 },
-    { label: '"See and Avoid"\nOur joint responsibility', time: 2 },
-    { label: 'Who has control', time: 2 },
-    { label: "Today's Flight", time: 2 },
-    { label: 'Recap and Fly', time: 2 }
-  ]
-})
-</script>
+<briefing-overview plane-position="0" controls>
+  <briefing-topic label="Overview" time="1"></briefing-topic>
+  <briefing-topic label="Risk Analysis&#10;I'M SAFE &amp; PAVE" time="3"></briefing-topic>
+  <briefing-topic label="&quot;See and Avoid&quot;&#10;Our joint responsibility" time="2"></briefing-topic>
+  <briefing-topic label="Who has control" time="2"></briefing-topic>
+  <briefing-topic label="Today's Flight" time="2"></briefing-topic>
+  <briefing-topic label="Recap and Fly" time="2"></briefing-topic>
+</briefing-overview>
 
 <!-- We'll introduce some risk analysis which we'll practise during each flight brief. A brief chat about our joint responsibility to lookout for other traffic during the flight, always. We'll practise our handover technique for who has control of the plane. We'll brief our flight plan and then recap and fly! -->
 
 ---
 
 # I'M SAFE — Pre-flight Self-Assessment
-
-_The effects of the aeroplane controls_
 
 Complete before **every** flight. Display this checklist in the briefing room.
 
@@ -61,8 +56,6 @@ Complete before **every** flight. Display this checklist in the briefing room.
 
 # PAVE — Risk Analysis Framework
 
-_The effects of the aeroplane controls_
-
 Use **PAVE** to identify hazards before every flight.
 
 | Letter | Category | Key questions |
@@ -82,7 +75,7 @@ Use **PAVE** to identify hazards before every flight.
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview plane-position="1" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="1" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to See and Avoid. -->
 
@@ -125,7 +118,7 @@ _The effects of the aeroplane controls_
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview plane-position="2" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="2" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Who has control. -->
 
@@ -156,7 +149,7 @@ _The effects of the aeroplane controls_
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview plane-position="3" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="3" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Today's Flight. -->
 
@@ -208,7 +201,7 @@ _The effects of the aeroplane controls_
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview plane-position="4" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="4" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Recap and Fly. -->
 
@@ -227,7 +220,7 @@ _The effects of the aeroplane controls_
 - Look out before every manoeuvre
 - Smooth inputs — feel what the aeroplane is doing
 
-<!-- We're ready to go. End with a clear statement of who will handle taxi and take-off (instructor, for Lesson 1? Check with Tammy what she'd recommend). -->
+<!-- We're ready to go. End with a clear statement of who will handle taxi and take-off for Lesson 1. -->
 
 ---
 
@@ -235,6 +228,6 @@ _The effects of the aeroplane controls_
 
 _The effects of the aeroplane controls_
 
-<flight-path-overview plane-position="5" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="5" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to arrival. -->

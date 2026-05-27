@@ -1,8 +1,9 @@
 ---
 marp: true
+theme: open-aviation
 title: Effects of Controls — Theory Part 1
 license: CC-BY-SA-4.0
-header: The Effects of Aeroplane Controls — Theory Part 1
+header: "Effects of Controls — Theory Part 1: Primary and Secondary Effects"
 ---
 
 <!-- _class: lead -->
@@ -10,6 +11,8 @@ header: The Effects of Aeroplane Controls — Theory Part 1
 # The Effects of the Aeroplane Controls
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 1, Pre-flight theory part 1_
+
+All text and presenter notes in this briefing are licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
 
 <!-- We won't be focusing on learning to fly the plane in this lesson (though we will do some of that), but that will start in earnest next lesson. Instead, in this lesson, we'll be learning what the effects of each of the aeroplane's controls are. Later on today we'll be experimenting (in a safe way) and experiencing those effects in the aeroplane. Understanding the effects of the aeroplane controls will be the basis of all our safe flying into the future. Question: Have you ever done this... -->
 
@@ -38,12 +41,12 @@ Key point: the forces you feel on your hand as you change the angle are the same
 
 # Theory Lesson Overview
 
-<flight-path-overview plane-position="0" controls-start>
-  <fpo-topic label="Learning&#10;Objectives" time="2"></fpo-topic>
-  <fpo-topic label="Pitch, Roll and Yaw &amp;&#10;the Three axes of aeroplane flight" time="4"></fpo-topic>
-  <fpo-topic label="The Primary &amp; Secondary effects&#10;of each main control" time="10"></fpo-topic>
-  <fpo-topic label="Recap" time="4"></fpo-topic>
-</flight-path-overview>
+<briefing-overview plane-position="0" controls-start>
+  <briefing-topic label="Learning&#10;Objectives" time="2"></briefing-topic>
+  <briefing-topic label="Pitch, Roll and Yaw &amp;&#10;the Three axes of aeroplane flight" time="4"></briefing-topic>
+  <briefing-topic label="The Primary &amp; Secondary effects&#10;of each main control" time="10"></briefing-topic>
+  <briefing-topic label="Recap" time="4"></briefing-topic>
+</briefing-overview>
 
 <!--
 
@@ -85,7 +88,7 @@ And then later in our actual flight:
 
 # Waypoint 1 — Pitch, Roll and Yaw
 
-<flight-path-overview plane-position="0" controls></flight-path-overview>
+<briefing-overview plane-position="0" controls></briefing-overview>
 
 <!-- Click Direct-To when ready to advance to waypoint 1. -->
 
@@ -106,7 +109,7 @@ Hover a row to reveal the axis. Drag the slider to rotate the aircraft about tha
 
 # Waypoint 2 — Primary and Secondary Effects of each control
 
-<flight-path-overview plane-position="1" controls></flight-path-overview>
+<briefing-overview plane-position="1" controls></briefing-overview>
 
 <!-- Click Direct-To when ready to advance to waypoint 2. -->
 
@@ -302,7 +305,7 @@ So the secondary effect of using the rudder to yaw the plane around the normal a
 
 # Waypoint 3 — Recap
 
-<flight-path-overview plane-position="2" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="2" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to the recap waypoint. -->
 
@@ -349,7 +352,7 @@ Next up, in part 2 of our Effects of Control theory, we'll be jumping on the sim
 
 # Arrival
 
-<flight-path-overview plane-position="3" arrival-label="Arrival" controls></flight-path-overview>
+<briefing-overview plane-position="3" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to arrival. -->
 
