@@ -23,10 +23,10 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 <briefing-overview id="fpo-brief" plane-position="0" controls>
   <briefing-topic label="Overview" time="1"></briefing-topic>
   <briefing-topic label="Risk Analysis&#10;I'M SAFE &amp; PAVE" time="2"></briefing-topic>
+  <briefing-topic label="Aerodrome&#10;Weather" time="2"></briefing-topic>
   <briefing-topic label="Hand-over&#10;technique" time="2"></briefing-topic>
   <briefing-topic label="Lookout &amp;&#10;clock code" time="2"></briefing-topic>
   <briefing-topic label="Today's Flight" time="3"></briefing-topic>
-  <briefing-topic label="Recap and Fly" time="2"></briefing-topic>
 </briefing-overview>
 
 <!-- Quick refresh on risk analysis, then the two airmanship items that matter most in the circuit (hand-over and lookout), then the flight sequence and a final readiness check. -->
@@ -73,7 +73,37 @@ Use **PAVE** to identify hazards before every flight.
 
 ---
 
-# Waypoint 3 — Hand-over Technique
+# Waypoint 3 — Aerodrome Weather
+
+_Circuit Introduction_
+
+<briefing-overview plane-position="1" controls></briefing-overview>
+
+<!-- Click Direct-To to arrive at Aerodrome Weather. -->
+
+---
+
+# Aerodrome weather forecast
+
+_Circuit Introduction_
+
+Check the **TAF** and **ATIS/AWIS** before every flight — not just wind, but all factors that could affect the lesson.
+
+| Item | What to check |
+|------|---------------|
+| **Wind** | Speed, gusts, crosswind component on the runway in use |
+| **Visibility** | VFR minimum 5 km — lower means a reduced or cancelled lesson |
+| **Cloud base** | Circuit height (~1000 ft AGL) must be clear of cloud with margin |
+| **QNH** | Note for altimeter setting before departure |
+| **Trend / TAF** | Improving or deteriorating — plan for the full lesson duration |
+
+> If conditions are at or near limits — **discuss now**, not on the runway.
+
+<!-- Cover how to read a TAF and ATIS at this aerodrome. Emphasise that the V in PAVE is assessed here — this is the tool that fills in the environment box. For first lessons, also note the BOM website / NAIPS / AVWEATHER as sources students can check themselves before arriving. -->
+
+---
+
+# Waypoint 4 — Hand-over Technique
 
 _Circuit Introduction_
 
@@ -98,7 +128,7 @@ _Circuit Introduction_
 
 ---
 
-# Waypoint 4 — Lookout and Clock Code
+# Waypoint 5 — Lookout and Clock Code
 
 _Circuit Introduction_
 
@@ -129,7 +159,7 @@ Emphasise: empty sky doesn't mean no traffic — scan even when ATC has told you
 
 ---
 
-# Waypoint 5 — Today's Flight
+# Waypoint 6 — Today's Flight
 
 _Circuit Introduction_
 
@@ -162,37 +192,20 @@ For the first circuit lesson, expect the instructor to demonstrate the first cir
 
 # Today's flight — what I'll demonstrate and what you'll fly
 
-- I'll fly the **first circuit** fully — narrating what I'm doing and why.
-- From circuit 2: you'll **fly the downwind and base legs**; I'll handle radio and configuration.
-- From circuit 3 onward: you'll progressively take more — including the **approach** and (if ready) the **landing**.
-- I'll always have my hands close to the controls. If I need to take over, I'll say **"I have control."**
+| Task | C1 | C2–C3 | C4–C5 | C6+ |
+|---|:---:|:---:|:---:|:---:|
+| Take-off → downwind | I | **S** | S | S |
+| BUMFISH check | I | I | **S** | S |
+| Base turn + leg | I | I | I | **S** |
+| Approach + landing | I | I | I | I |
+| Radio | I | I | I | I |
 
-<!-- TODO: adjust the demonstration / hand-over progression based on the student's prior performance and today's conditions. -->
+_I = instructor · S = student_
 
----
+- Start **hands off** — tasks grow each circuit.
+- I'll always have my hands ready. If I take over: **"I have control."**
 
-# Waypoint 6 — Recap and Fly
-
-_Circuit Introduction_
-
-<briefing-overview plane-position="5" controls></briefing-overview>
-
-<!-- Click Direct-To to arrive at Recap and Fly. -->
-
----
-
-# Recap — are we ready?
-
-- What's the **three-call** hand-over phrase?
-- What do you do if your approach is **unstable below 500 ft**?
-- Where do you look during the **landing flare**?
-- Who is responsible for **lookout** in the circuit?
-
-> If any answer is uncertain — pause and re-cover it now.
-
-**Let's fly!**
-
-<!-- If any uncertainty, pause and re-cover. Better to spend 60 seconds here than to discover the gap in the air. -->
+<!-- Adjust the starting point based on conditions and student's prior performance. Approach and landing stay with the instructor this session unless the student is clearly ahead of the arc. -->
 
 ---
 
@@ -200,4 +213,4 @@ _Circuit Introduction_
 
 _Circuit Introduction_
 
-<briefing-overview plane-position="6" controls></briefing-overview>
+<briefing-overview plane-position="5" controls></briefing-overview>
