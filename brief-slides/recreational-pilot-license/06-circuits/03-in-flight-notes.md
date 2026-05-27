@@ -25,82 +25,135 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 > **"Stabilised"** or **"going around"** — explicit call by ~500 ft AGL on every approach.
 
-# Demonstration-Performance
-For the sequence of each activity, choose whether you use:
-- Demonstration-Performance: Explain, Demonstrate, Performance and Monitor, Evaluation
-- DDM: Demonstrate, Direct, Monitor
+---
 
-or some other preference. Each in-flight activity just describes the sequence to be demonstrated and performed, regardless of the method you use.
+# Session arc
+
+| Task | C1 | C2–C3 | C4–C5 | C6+ |
+|---|:---:|:---:|:---:|:---:|
+| Take-off | I | **S** | S | S |
+| Upwind climb | I | **S** | S | S |
+| Crosswind leg | I | **S** | S | S |
+| Downwind tracking | I | **S** | S | S |
+| BUMFISH check | I | I | **S** | S |
+| Base turn + leg | I | I | I | **S** |
+| Approach | I | I | I | I† |
+| Landing | I | I | I | I† |
+| Radio | I | I | I | I |
+
+_I = instructor · S = student · † = leave for a later session unless student demonstrates readiness _
+
+> Use this as a debrief checklist too — tick off tasks the student has consolidated.
+
+---
 
 # Before starting the plane
 
 - Confirm runway in use, circuit direction, circuit height.
-- Confirm number of circuits planned and break-off altitude if conditions deteriorate.
-- Brief hand-over technique on the ground; practise the three calls.
+- Confirm approximate number of circuits planned and break-off plan if conditions deteriorate.
+- Brief the session arc above — student knows they start hands-off and tasks will grow each lap.
+- Brief hand-over technique; practise the three calls on the ground before engine start.
+- Brief the go-around: **normalise it before the first circuit** so it's never a surprise.
 
 ---
 
-# After departing / first circuit
+# Circuit 1 — Full instructor demonstration
 
-- Demonstrate the **whole first circuit**, narrating what you're doing on each leg.
-- Brief downwind: "Now I'm levelling at circuit height; downwind checks are coming up."
-- Brief base turn: "Selecting flap, reducing power, starting the descent."
-- Brief final: "Aiming for the threshold; aiming point isn't moving — we're on profile."
+> **Instructor flies the whole circuit.** Student observes; hands-on feel only if calm and comfortable.
 
----
+Narrate every action as you do it:
 
-# Pre-take-off and take-off
+- "Lining up — I'm placing the nose on the far end of the centreline."
+- "Full power — feet alive on the rudder to keep straight."
+- "Crosswind turn at 500 ft — tracking 90° to the runway."
+- "Levelling at circuit height — runway around 2/3 along the left wing."
+- "Pre-lading check now" - and after BUMFISH - "Pre-landing check completed"
+- "Abeam the numbers — power back, first stage of flap."
+- "Final — aiming point isn't moving, we're on profile."
 
-## Sequence
-
-- Pre-take-off checks complete at the holding point
-- Clear approach: visual scan + radio listen
-- Line up on centreline; aircraft straight
-- Smooth full power; engine instruments in the green
-- Keep straight with rudder
-- Hold attitude; let the aircraft fly off at rotation speed
-- Pitch for Vy at positive rate
-- Track extended centreline to 500 ft AGL
+After landing: brief what comes next circuit before lining up again.
 
 ---
 
-# Crosswind leg
+# Circuits 2–3 — Student takes to end of downwind
 
-## Sequence
+> **Hand over at the holding point:** "Your circuit from lined up. I'll take back at the BUMFISH point on downwind."
 
-- At 500 ft (or local turn-point): turn crosswind, continue climb
-- After take-off checklist (if not done on upwind)
-- Track 90° to the runway
-- Anticipate the downwind turn — start lookout for traffic on downwind
+Student owns: take-off, upwind climb, crosswind turn and leg, downwind turn and tracking.
+
+Instructor takes back: from the BUMFISH check through to touchdown.
+
+**Watch for:**
+- Centreline discipline on take-off
+- Prompt crosswind turn and tracking
+- Runway position on downwind — inside wingtip reference
+- Student should be settling by circuit 3; if not, extend this stage
+
+After each circuit: 30-second verbal debrief before the next take-off.
 
 ---
 
-# Downwind leg
+# Circuits 4–5 — Student adds BUMFISH check
+
+> **Hand over:** "Your circuit — this time you'll run the BUMFISH check too. I'll take from the base turn."
+
+Student owns: everything above + BUMFISH downwind check.
+
+Instructor takes back: base turn, approach, landing.
+
+**Watch for:**
+- Check completed before abeam the numbers (not rushed into the base turn)
+- All items covered, not just the speed items
+- Lookout maintained during the check — not head-down
+
+---
+
+# Circuits 6+ — Student adds base turn and leg
+
+> **Hand over:** "Your circuit — take the base turn as well. I'll take from 500 ft on final."
+
+Student owns: everything above + base turn initiation and tracking.
+
+Instructor: manages approach and landing; initiates go-around if required.
+
+**Watch for:**
+- Base turn timing — not too early (undershooting final) or too late (overshooting)
+- Speed and flap selection stable by the time instructor takes back
+- Go-around decision made early if anything is off
+
+---
+
+# Downwind leg — technique reference
+
+> **Hand over:** C2–3 (tracking); C4–5 (BUMFISH check added)
 
 ## Sequence
 
 - Level off at circuit height; trim
-- Track parallel to the runway, runway off the inside wing
-- Downwind checks (TODO: confirm full list for your aircraft type — typically BUMFHH or similar)
-- Lookout for traffic ahead and on base; brief mental picture of where they are
-- Radio call at the appropriate downwind reporting point
+- Track parallel to the runway — runway off the inside wingtip
+- Pre-landing BUMFISH check 
+- Lookout for traffic ahead and on base; build a mental picture
+- Radio call at the downwind reporting point _(instructor handles — not handed over this session)_
 
 ---
 
-# Base leg
+# Base leg — technique reference
+
+> **Hand over:** C6+
 
 ## Sequence
 
-- Abeam touchdown zone (or aerodrome-published point): turn base
-- Reduce power to commence descent
-- Select first stage of flap (per type)
+- Abeam the numbers: reduce power; select first stage of flap (per type)
+- At 45° behind the threshold: turn base
 - Maintain target descent speed
-- Adjust descent commencement point if downwind was extended
-- Plan the final turn so you roll out aligned with the runway
+- Adjust base turn timing if downwind was extended
+- Plan the final turn to roll out aligned with the runway
 
 ---
 
-# Final approach
+# Final approach — technique reference
+
+> **Hand over:** later session
 
 ## Sequence
 
@@ -109,12 +162,14 @@ or some other preference. Each in-flight activity just describes the sequence to
 - Stabilised by 500 ft: glide path, track, speed all correct
 - Aiming point staying still in the windscreen
 - If anything is not stabilised — call **"going around"** and execute
-- Maintain target approach speed (TODO: confirm Vapp for your aircraft)
+- Maintain target approach speed
 - Cross the threshold at round-out height
 
 ---
 
-# Landing
+# Landing — technique reference
+
+> **Hand over:** later session
 
 ## Sequence
 
@@ -154,13 +209,13 @@ or some other preference. Each in-flight activity just describes the sequence to
 - Climb on the extended centreline
 - Re-enter circuit on crosswind
 
-> A go-around is **not a failure**. Brief this **before** the first circuit so it doesn't surprise the student.
+> A go-around is **not a failure**. Brief this before C1 so it never surprises the student.
 
 ---
 
 # Return to aerodrome / final circuit
 
-- Brief which circuit is the final landing.
+- Brief which circuit is the final landing before lining up.
 - Plan after-landing taxi route.
 - Complete after-landing checklist when clear of the runway.
 - Shutdown and post-flight inspection per aircraft checklist.
