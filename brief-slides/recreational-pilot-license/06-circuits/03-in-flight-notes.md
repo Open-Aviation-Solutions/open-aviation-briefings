@@ -188,7 +188,7 @@ Instructor: manages approach and landing; initiates go-around if required.
 
 - After touchdown, without stopping:
   - Flaps to take-off setting
-  - Carb heat cold (if applicable)
+  - carb heat cold (if applicable)
   - Trim to neutral
 - Apply full power smoothly
 - Continue as a normal take-off
@@ -204,7 +204,7 @@ Instructor: manages approach and landing; initiates go-around if required.
 - **Decision** by ~500 ft AGL if not stabilised
 - Apply **full power** smoothly
 - Pitch for climb attitude
-- Carb heat cold (if applicable)
+- carb heat cold (if applicable)
 - Flaps to go-around setting (per type)
 - Climb on the extended centreline
 - Re-enter circuit on crosswind

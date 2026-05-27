@@ -274,12 +274,12 @@ Emphasise: the windsock at the threshold matters more than the windsock across t
 
 # The take-off roll
 
-![right large Take-off sequence: takeoff roll on the runway, takeoff pitch attitude at rotation, lift-off, climb at best climb speed (Vy or Vx), transition to safe manoeuvring altitude and en-route climb.](/brief-assets/recreational-pilot-license/06-circuits/take-off-sequence.png)
+![right large Take-off sequence: takeoff roll on the runway, takeoff pitch attitude at rotation, lift-off, climb at best climb speed (VY or VX), transition to safe manoeuvring altitude and en-route climb.](/brief-assets/recreational-pilot-license/06-circuits/take-off-sequence.png)
 
 - Release brakes and **Smoothly** apply full power; check engine instruments in the green.
 - Keep straight with **rudder** — expect a left yaw from prop effects.
 - Hold the **attitude** — let the aircraft fly itself off at the rotation speed.
-- At positive rate of climb, **pitch for Vy** (best rate of climb).
+- At positive rate of climb, **pitch for VY** (best rate of climb).
 - Track the **extended centreline** to 500 ft AGL.
 
 > **Smooth power. Centreline. Attitude. Climb.**
@@ -320,12 +320,12 @@ Reference: CASA MOS A2.2 (Take off aeroplane) covers the full performance criter
 
 # After take-off — checklist
 
-There are different mnenomics for after-takeoff checklists that people use, such as FACTS or FLAREE (in fact, there are [too many mnenomics](https://en.wikipedia.org/wiki/List_of_aviation_mnemonics)). The key points for an after take-off checklist at this stage in our training is:
+There are different mnemonics for after-takeoff checklists that people use, such as FACTS or FLAREE (in fact, there are [too many mnemonics](https://en.wikipedia.org/wiki/List_of_aviation_mnemonics)). The key points for an after take-off checklist at this stage in our training is:
 - **Flaps** - retract in stages once above 200ft and with sufficient speed
 - **Landing lights** - can be switched off at 500ft
-- **Auxilary fuel pump** - can be switched off at 500ft (verify fuel pressure when doing so.
+- **Auxiliary fuel pump** - can be switched off at 500ft (verify fuel pressure when doing so.
 
-> Check your aeroplane manual for other items and create your own mnenomic checklist.
+> Check your aeroplane manual for other items and create your own mnemonic checklist.
 
 ---
 
@@ -376,7 +376,7 @@ Emphasise: in the circuit, every leg has work to do — checks, lookout, radio, 
 | **Circuit pattern** | Five legs — upwind, crosswind, downwind, base, final. 1000 ft AGL circuit height (typical). Left-hand unless published otherwise. |
 | **Wind & runway** | Take off and land into wind for lower groundspeed and better control. |
 | **Windsock** | Points the way the wind is going. Fully out ≥ 15 kt, 45° ≈ 7–10 kt. |
-| **Take-off** | Smooth power, centreline with rudder, attitude, let it fly off, climb at Vy. |
+| **Take-off** | Smooth power, centreline with rudder, attitude, let it fly off, climb at VY. |
 | **After take-off** | Checklist at ~500 ft AGL; level off at circuit height on downwind. |
 | **Operating** | Checklists are the safety net for high-workload circuit operations. |
 

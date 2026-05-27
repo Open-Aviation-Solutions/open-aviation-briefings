@@ -167,7 +167,7 @@ AFH Ch 9 (Approaches and Landings) — pre-landing procedures.
 
 _FAA AFH Chapter 9_
 
-1. **The base leg** — positioning and configuring for the stabalised descent approach
+1. **The base leg** — positioning and configuring for the stabilised descent approach
 2. **The final approach** — stabilised descent to the aiming point
 3. **The round out (flare)** — transitioning from descent to landing attitude
 4. **The touchdown** — placing the aircraft on the runway
@@ -189,7 +189,7 @@ Source: FAA AFH Ch 9, Normal Approach and Landing.
 
 - Judge your **height, distance, and rate of descent** to set up a stabilised approach.
 - Reduce power; extend flaps **incrementally** and re-trim.
-- Target approximately **1.4 V<sub>SO</sub>** on base. For e.g., if your V<sub>SO</sub> is 45 kts then you're targetting around 65 kts on base.
+- Target approximately **1.4 V<sub>SO</sub>** on base. For e.g., if your V<sub>SO</sub> is 45 kts then you're targeting around 65 kts on base.
 - Track perpendicular to the runway centreline - which might require a **drift correction**, depending on the wind.
 
 <!--
@@ -211,8 +211,8 @@ Complete when **established on short final**, typically around 500 ft AGL.
 | **P** | Prop | Fully fine (not yet relevant for us) |
 | **U** | Undercarriage | Verified down and locked (also not yet relevant)|
 | **F** | Flap | Use landing setting |
-| **F** | Fuel | Fuel auxilary pump verified on for fuel pressure |
-| **C** | Carb heat | Cold to ensure best power if you need to go around |
+| **F** | Fuel | Fuel auxiliary pump verified on for fuel pressure |
+| **C** | carb heat | Cold to ensure best power if you need to go around |
 
 > If anything is not right on short final → **go around**.
 
@@ -340,7 +340,7 @@ CASA MOS reference: A4.1.
 
 - After touchdown, **without stopping**: reset for take-off.
   - **Flaps** to take-off setting.
-  - **Carb heat** cold (if applicable).
+  - **carb heat** cold (if applicable).
   - **Trim** to neutral.
 - Apply full power smoothly; continue as a normal take-off.
 

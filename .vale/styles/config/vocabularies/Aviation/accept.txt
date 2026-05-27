@@ -3,11 +3,13 @@ AGL
 AoA
 ASI
 ATIS
+CAA
 CASA
 HASELL
 IAS
 IFR
 NOTAM
+NOTAMs
 PAVE
 QNH
 RPL
@@ -21,7 +23,9 @@ VY
 # Aviation / navigation terms
 backpressure
 carb
+(?i)centreline
 kneeboard
+kts
 (?i)pitot
 unstall
 Waypoint
