@@ -53,12 +53,6 @@ or some other preference. Each in-flight activity just describes the sequence to
 
 ---
 
-# After departing and established in the climb
-
-On the way to the training area.
-
----
-
 # Elevator — primary and secondary
 
 ## Sequence

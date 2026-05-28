@@ -14,7 +14,11 @@ _CASA Recreational Pilot License (Aeroplane) — Lesson 1, Pre-flight theory par
 
 All text and presenter notes in this briefing are licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
 
-<!-- We won't be focusing on learning to fly the plane in this lesson (though we will do some of that), but that will start in earnest next lesson. Instead, in this lesson, we'll be learning what the effects of each of the aeroplane's controls are. Later on today we'll be experimenting (in a safe way) and experiencing those effects in the aeroplane. Understanding the effects of the aeroplane controls will be the basis of all our safe flying into the future. Question: Have you ever done this... -->
+<!--
+
+We won't be focusing on learning to fly the plane in this lesson (though we will do some of that), that will start in earnest next lesson. Instead, in this lesson, we'll be learning what the effects of each of the aeroplane's controls are. Later on today we'll be experimenting (in a safe way) and experiencing those effects in the aeroplane. Understanding the effects of the aeroplane controls will be the basis of all our safe flying into the future. Question: Have you ever done this... 
+
+-->
 
 ---
 
@@ -147,6 +151,8 @@ The primary control surfaces of an aeroplane are the surfaces that we can affect
 - ailerons
 - rudder
 
+A physical aeroplane model, or the aeroplane itself, is useful to identify these controls.
+
 <!-- Clearly sticking our hands out of the cabin window does not give us much control of the aeroplane! Let's look at our physical model and first learn where they are. Once the student knows which of the three control surfaces is which, play a quick "game" of I point, you say. Again, just like the experiment with your hand in the wind, with a sufficient air flow you can: push the elevator up or down, pitching the aeroplane to rotate around the lateral axis, or push the ailerons of one wing down and the other wing up, rolling the aeroplane to rotate around the longitudinal axis, or push the tail of the plane to the left or right, yawing the aeroplane to rotate around the normal axis. Let's look at those one at a time. -->
 
 ---
@@ -181,15 +187,9 @@ What happens when you're **driving your car along a flat road and encounter a hi
 
 <secondary-effect-climb-car height="400px"></secondary-effect-climb-car>
 
-<!-- While on the flat road, the car maintains constant speed because thrust exactly balances the drag on the car from friction. When the car encounters the hill, it not only has the friction to contend with, but it's also pushing against gravity up the slope — so the speed drops. 50% throttle cruises at around 90 kts and slows down to around 60. 35% throttle cruises at around 60 kts and slows down to around 25. 30% stalls — it just can't pull anywhere. DON'T go into stalling or even make a point of it — leave it for later. -->
-
----
-
 Try modifying the throttle setting as you would when driving.
 
-<secondary-effect-climb-car height="400px"></secondary-effect-climb-car>
-
-
+<!-- While on the flat road, the car maintains constant speed because thrust exactly balances the drag on the car from friction. When the car encounters the hill, it not only has the friction to contend with, but it's also pushing against gravity up the slope — so the speed drops. 50% throttle cruises at around 90 kts and slows down to around 60. 35% throttle cruises at around 60 kts and slows down to around 25. 30% stalls — it just can't pull anywhere. DON'T go into stalling or even make a point of it — leave it for later. -->
 
 
 ---
@@ -255,7 +255,7 @@ So the secondary effect of using the ailerons to roll the plane around the longi
 
 # A video explanation from GoFly
 
-<youtube-video video-id="bKuTC2A7jg0" start="259" />
+<youtube-video video-id="bKuTC2A7jg0" start="259" width="800px"></youtube-video>
 
 <!-- So again, the secondary effect of using the ailerons to roll the plane around the longitudinal axis is: slip and yaw in the direction of the lower wing — and (very slowly!) potentially entering into a spiral dive. -->
 
@@ -302,7 +302,7 @@ So the secondary effect of using the rudder to yaw the plane around the normal a
 
 # A video explanation using a simulator
 
-<youtube-video video-id="5QYa4uPnzCE" start="78"></youtube-video>
+<youtube-video video-id="5QYa4uPnzCE" start="78" width="800px"></youtube-video>
 
 ---
 

@@ -87,7 +87,7 @@ Use **PAVE** to identify hazards before every flight.
 
 - One of **the most important cockpit tasks**
 - The fovea (sharpest vision) is only ~2° wide — a static gaze misses moving aircraft
-- Systematic scan: left to right, pausing to focus every 10–15°
+- Systematic scan: left to right, pausing to focus every 10–15° (and much further left and right than shown in the generated image here)
 
 > Before every manoeuvre today: **look out and clear the area**
 
@@ -151,8 +151,8 @@ When scanning the sky for traffic, it's important to have a consistent way of co
 
 - Taxi
 - → take-off
-- → climb to 4500ft towards training area
-- → effects of controls
+- → fly to the training area
+- → worth through the effects of controls activities (next slide)
 - → return
 
 <!-- Just outline the procedure, likely departure, distances to the lake centre, edge and road (10, 9, 8nm respectively). -->
@@ -161,7 +161,7 @@ When scanning the sky for traffic, it's important to have a consistent way of co
 
 # Today's Flight — What to Expect — cont.
 
-![bg right:40%](/brief-assets/recreational-pilot-license/01-effects-of-controls/propeller-slipstream.png)
+![right drop-shadow](/brief-assets/recreational-pilot-license/01-effects-of-controls/propeller-slipstream.png)
 
 **For the first few controls:**
 

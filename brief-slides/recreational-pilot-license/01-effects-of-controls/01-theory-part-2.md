@@ -127,13 +127,25 @@ After being shown where the trim wheel is, see if you can spot it moving on the 
 
 # Slipstream and Power Effects
 
-![bg right:45%](/brief-assets/recreational-pilot-license/01-effects-of-controls/propeller-slipstream.png)
+![right drop-shadow medium](/brief-assets/recreational-pilot-license/01-effects-of-controls/propeller-slipstream.png)
 
 What is the slipstream?
 
 **Question:** How does the aeroplane move forward when you apply power?
 
-The propeller creates a **Slipstream — a spiral column of air driven back by the propeller**.
+---
+
+# Slipstream and Power Effects
+
+![right drop-shadow medium](/brief-assets/recreational-pilot-license/01-effects-of-controls/propeller-slipstream.png)
+
+What is the slipstream?
+
+**Question:** How does the aeroplane move forward when you apply power?
+
+The propeller pushes the air from in front to behind the plane to move the plane forward.
+
+But in doing so, it creates a **Slipstream — a spiral column of air driven back by the propeller**.
 
 This slipstream has two noticeable effects. Can you guess from the diagram what they might be?
 
@@ -141,10 +153,18 @@ This slipstream has two noticeable effects. Can you guess from the diagram what 
 
 # Effects of the slipstream
 
+![right drop-shadow medium](/brief-assets/recreational-pilot-license/01-effects-of-controls/propeller-slipstream.png)
+
 The slipstream has two noticeable effects on the aeroplane controls, mainly when using high or full power:
 
 1. The slipstream spirals around the fuselage to **"hit" the vertical stabilizer**, pushing the tail to the right and causing the aeroplane to yaw to the left. This may need to be corrected by applying right rudder, especially during take-off when the power is at a maximum.
 2. The slipstream causes a stronger airflow over the tail of the plane, including the elevator and rudder, but **not** the ailerons.
+
+---
+
+# Effects of the slipstream
+
+![right drop-shadow medium](/brief-assets/recreational-pilot-license/01-effects-of-controls/propeller-slipstream.png)
 
 The **effectiveness of all the control surfaces increases with the airspeed** of the aeroplane, since that means airflow over all controls. But additionally, **the rudder and elevator effectiveness increases with high power (even without high airspeed)** whereas the aileron doesn't.
 
