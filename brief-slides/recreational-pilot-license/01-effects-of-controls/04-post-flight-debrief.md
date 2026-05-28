@@ -17,8 +17,6 @@ _CASA Recreational Pilot License (Aeroplane) — Lesson 1, Post-flight Debrief_
 
 # Debrief overview
 
-_The effects of the aeroplane controls_
-
 <flight-path-overview id="fpo-debrief" plane-position="0" arrival-label="Done" controls></flight-path-overview>
 
 <script>
@@ -38,8 +36,6 @@ customElements.whenDefined('flight-path-overview').then(() => {
 
 # How did it go?
 
-_The effects of the aeroplane controls_
-
 **Let's start with your experience:**
 
 - What felt natural? What felt unexpected?
@@ -51,8 +47,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Controls review — elevator and ailerons
-
-_The effects of the aeroplane controls_
 
 **See if you can describe each of the following effects:**
 
@@ -71,8 +65,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Controls review — rudder and ancillary controls
-
-_The effects of the aeroplane controls_
 
 **Rudder**
 
@@ -96,8 +88,6 @@ Any other thoughts about the flight that you want to point out?
 
 # Waypoint 2 — Training Outcomes
 
-_The effects of the aeroplane controls_
-
 <flight-path-overview plane-position="1" arrival-label="Done" controls></flight-path-overview>
 
 <!-- Click Direct-To to advance to Training Outcomes. -->
@@ -105,8 +95,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Training outcomes — ground operations
-
-_The effects of the aeroplane controls_
 
 All criteria today are at **Level 3 — Introduced**: training has been received. Consistency is not yet expected.
 
@@ -123,8 +111,6 @@ All criteria today are at **Level 3 — Introduced**: training has been received
 ---
 
 # Training outcomes — lookout and air work
-
-_The effects of the aeroplane controls_
 
 **Visual lookout** (Level 3 — Introduced)
 
@@ -145,8 +131,6 @@ _The effects of the aeroplane controls_
 
 # Waypoint 3 — Next Steps
 
-_The effects of the aeroplane controls_
-
 <flight-path-overview plane-position="2" arrival-label="Done" controls></flight-path-overview>
 
 <!-- Click Direct-To to advance to Next Steps. -->
@@ -154,8 +138,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Next steps
-
-_The effects of the aeroplane controls_
 
 **Lesson 2 — Straight and Level Flight**
 
@@ -179,7 +161,5 @@ _The effects of the aeroplane controls_
 ---
 
 # Done
-
-_The effects of the aeroplane controls_
 
 <flight-path-overview plane-position="3" arrival-label="Done" controls></flight-path-overview>

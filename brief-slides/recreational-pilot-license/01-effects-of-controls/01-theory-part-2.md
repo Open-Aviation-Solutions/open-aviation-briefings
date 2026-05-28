@@ -20,8 +20,6 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 # Theory Lesson Overview
 
-_The effects of the aeroplane controls_
-
 <briefing-overview plane-position="0" controls-start>
   <briefing-topic label="Learning&#10;Objectives" time="2"></briefing-topic>
   <briefing-topic label="On the Sim or in the plane&#10;Flap, Trim and Throttle" time="7"></briefing-topic>
@@ -34,8 +32,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Learning Objectives for this lesson
-
-_The effects of the aeroplane controls_
 
 By the end of this lesson, our aim is to be able to:
 
@@ -53,8 +49,6 @@ And then later in our actual flight:
 
 # Waypoint 1 — On the Sim with Flap and Trim
 
-_The effects of the aeroplane controls_
-
 <briefing-overview plane-position="0" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to waypoint 1. -->
@@ -62,8 +56,6 @@ _The effects of the aeroplane controls_
 ---
 
 # On the Sim with Flap and Trim — and ancillary controls
-
-_The effects of the aeroplane controls_
 
 First, settle in and play with the main controls, ensuring that each does what you expect (or not!) to control the aeroplane.
 
@@ -84,8 +76,6 @@ You'll also discover that:
 
 # Ancillary Controls: Flaps
 
-_The effects of the aeroplane controls_
-
 **Purpose:** Increase lift at lower speed; also increase drag (changes wing camber)
 
 | Flap Setting | Lift | Drag | Typical Use |
@@ -101,8 +91,6 @@ _The effects of the aeroplane controls_
 
 # Ancillary Controls: Flaps — cont.
 
-_The effects of the aeroplane controls_
-
 **Key points:**
 
 - Flap **"up"** or **"retracted"** means **flush with the wing** — flap does not extend above the wing surface
@@ -113,8 +101,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Ancillary Controls: Trim
-
-_The effects of the aeroplane controls_
 
 After being shown where the trim wheel is, see if you can spot it moving on the simulator or plane as you manipulate it (it may be harder to spot than the flaps).
 
@@ -133,8 +119,6 @@ After being shown where the trim wheel is, see if you can spot it moving on the 
 
 # Waypoint 2 — Effects of Power &amp; Slipstream
 
-_The effects of the aeroplane controls_
-
 <briefing-overview plane-position="1" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to waypoint 2. -->
@@ -142,8 +126,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Slipstream and Power Effects
-
-_The effects of the aeroplane controls_
 
 ![bg right:45%](/brief-assets/recreational-pilot-license/01-effects-of-controls/propeller-slipstream.png)
 
@@ -159,8 +141,6 @@ This slipstream has two noticeable effects. Can you guess from the diagram what 
 
 # Effects of the slipstream
 
-_The effects of the aeroplane controls_
-
 The slipstream has two noticeable effects on the aeroplane controls, mainly when using high or full power:
 
 1. The slipstream spirals around the fuselage to **"hit" the vertical stabilizer**, pushing the tail to the right and causing the aeroplane to yaw to the left. This may need to be corrected by applying right rudder, especially during take-off when the power is at a maximum.
@@ -175,8 +155,6 @@ The **effectiveness of all the control surfaces increases with the airspeed** of
 ---
 
 # Slipstream and Power Effects — cont.
-
-_The effects of the aeroplane controls_
 
 - **Slipstream** strikes the left side of the vertical fin → **yawing left** at high power.
 - Adding or removing **power** (Throttle) affects the **pitch** of the plane.
@@ -196,8 +174,6 @@ _The effects of the aeroplane controls_
 
 # Waypoint 3 — Recap
 
-_The effects of the aeroplane controls_
-
 <briefing-overview plane-position="2" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to the recap waypoint. -->
@@ -205,8 +181,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Lesson Summary
-
-_The effects of the aeroplane controls_
 
 **The Effects of the Aeroplane Controls:**
 
@@ -227,8 +201,6 @@ First a re-cap of the main controls and their effects:
 
 # Lesson Summary — cont.
 
-_The effects of the aeroplane controls_
-
 **Slipstream and power:**
 
 - Ailerons are **outside** the slipstream — unaffected by power changes
@@ -241,8 +213,6 @@ _The effects of the aeroplane controls_
 
 # Objectives check
 
-_The effects of the aeroplane controls_
-
 **At the start of the lesson, we set out to be able to:**
 
 - **Identify three ancillary controls of the aeroplane**
@@ -253,8 +223,6 @@ _The effects of the aeroplane controls_
 
 # Arrival
 
-_The effects of the aeroplane controls_
-
 <briefing-overview plane-position="3" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to arrival. -->
@@ -262,7 +230,5 @@ _The effects of the aeroplane controls_
 ---
 
 # Questions?
-
-_The effects of the aeroplane controls_
 
 Any further questions that we haven't yet asked or addressed?

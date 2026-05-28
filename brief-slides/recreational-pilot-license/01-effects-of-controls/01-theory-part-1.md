@@ -24,6 +24,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 _Aerodynamics lesson 101_
 
+Have **you** ever done this?
 
 <!--
 
@@ -96,11 +97,13 @@ And then later in our actual flight:
 
 # The Three Axes of Flight
 
-<pitch-roll-yaw class="right large" model-rotation="0,90,0" model-offest="0,-0.1,0"></pitch-roll-yaw>
+<pitch-roll-yaw class="right large"></pitch-roll-yaw>
 
 Every aircraft movement occurs about one of three axes, all passing through the **centre of gravity (CG)**.
 
-Hover a row to reveal the axis. Drag the slider to rotate the aircraft about that axis.
+Hover over each of the three axis controls to reveal the axis name. Drag the slider to rotate the aircraft about that axis.
+
+Click on the reset icon on the top-right to have a random movement that you can guess before confirming your guess with the axis controls!
 
 
 <!-- Start with rolling along the longitudinal axis, as that's "along" the length of the plane — easier to remember. Use the physical 3D model first, then support with the viewer's visual axis. Use the physical 3D model with random movement, so student can name/call out "pitch", "roll" etc. Next "pitch around lateral axis" etc. Finish by using the random movement to have a bit of fun testing our use of the vocabulary. -->
@@ -136,7 +139,7 @@ Hover a row to reveal the axis. Drag the slider to rotate the aircraft about tha
 
 # What are the primary control surfaces of an aeroplane?
 
-![right medium drop-shadow](/brief-assets/recreational-pilot-license/01-effects-of-controls/piper_warrior_model.jpg)
+![right medium drop-shadow](/brief-assets/recreational-pilot-license/01-effects-of-controls/piper_warrior_model.png)
 
 The primary control surfaces of an aeroplane are the surfaces that we can affect as the pilot to control the aeroplane's pitch, roll and yaw.
 
@@ -227,7 +230,7 @@ The primary effect of the ailerons is to **roll** the aeroplane around the **lon
 
 ---
 
-![right medium](/brief-assets/recreational-pilot-license/01-effects-of-controls/car-banked.jpg)
+![right medium](/brief-assets/recreational-pilot-license/01-effects-of-controls/car-banked.png)
 
 # Secondary effect of the ailerons
 
@@ -235,7 +238,7 @@ Have you ever driven along a road which was banked very heavily to one side? Wha
 
 ---
 
-![right medium](/brief-assets/recreational-pilot-license/01-effects-of-controls/car-banked.jpg)
+![right medium](/brief-assets/recreational-pilot-license/01-effects-of-controls/car-banked.png)
 
 # Secondary effect of the ailerons
 

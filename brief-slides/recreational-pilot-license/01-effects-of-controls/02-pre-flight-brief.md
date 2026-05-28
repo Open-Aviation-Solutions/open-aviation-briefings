@@ -20,8 +20,6 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 # Briefing overview and Risk analysis
 
-_The effects of the aeroplane controls_
-
 <briefing-overview plane-position="0" controls>
   <briefing-topic label="Overview" time="1"></briefing-topic>
   <briefing-topic label="Risk Analysis&#10;I'M SAFE &amp; PAVE" time="3"></briefing-topic>
@@ -73,8 +71,6 @@ Use **PAVE** to identify hazards before every flight.
 
 # Waypoint 2 — See and Avoid
 
-_The effects of the aeroplane controls_
-
 <briefing-overview plane-position="1" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to See and Avoid. -->
@@ -83,9 +79,7 @@ _The effects of the aeroplane controls_
 
 # "See and Avoid" — our joint responsibility
 
-_The effects of the aeroplane controls_
-
-![bg right:40%](/brief-assets/recreational-pilot-license/01-effects-of-controls/scan-technique.png)
+![right medium drop-shadow](/brief-assets/recreational-pilot-license/01-effects-of-controls/scan-technique.png)
 
 **We are responsible for collision avoidance — always.**
 
@@ -95,11 +89,6 @@ _The effects of the aeroplane controls_
 - The fovea (sharpest vision) is only ~2° wide — a static gaze misses moving aircraft
 - Systematic scan: left to right, pausing to focus every 10–15°
 
-**Visual scan and the clock code**
-
-- Traffic positions reported by clock: 12 o'clock = straight ahead, 3 = right, 9 = left
-- Aircraft above the horizon are higher than you; below are lower
-
 > Before every manoeuvre today: **look out and clear the area**
 
 <!-- This will be reinforced throughout the RPL(A) syllabus — so we introduce it properly now. Demonstrate the scan pattern. Emphasise that the lookout check before each manoeuvre is not a formality — it is the primary collision-avoidance mechanism in uncontrolled airspace. -->
@@ -108,15 +97,20 @@ _The effects of the aeroplane controls_
 
 # Clock Code Reference
 
-_The effects of the aeroplane controls_
+![right](/brief-assets/recreational-pilot-license/01-effects-of-controls/clock-codes.svg)
 
-![bg contain](/brief-assets/recreational-pilot-license/01-effects-of-controls/clock-codes.svg)
+When scanning the sky for traffic, it's important to have a consistent way of communicating spotted traffic to each other in the cockpit.
+
+**Visual scan and the clock code**
+
+- Traffic positions reported by the direction relative to a clock: 12 o'clock = straight ahead, 3 = right, 9 = left
+- Aircraft above the horizon are higher than you; below are lower
+
+> For example: Helicopter 3 o'clock low.
 
 ---
 
 # Waypoint 3 — Who Has Control?
-
-_The effects of the aeroplane controls_
 
 <briefing-overview plane-position="2" controls></briefing-overview>
 
@@ -125,8 +119,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Who has control and Control Handover
-
-_The effects of the aeroplane controls_
 
 **Hand over / take over — say it every time:**
 
@@ -147,8 +139,6 @@ _The effects of the aeroplane controls_
 
 # Waypoint 4 — Today's Flight
 
-_The effects of the aeroplane controls_
-
 <briefing-overview plane-position="3" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Today's Flight. -->
@@ -156,10 +146,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Today's Flight — What to Expect
-
-_The effects of the aeroplane controls_
-
-![bg right:40%](/brief-assets/recreational-pilot-license/01-effects-of-controls/ybth-to-training-area.png)
 
 **Sequence:**
 
@@ -174,8 +160,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Today's Flight — What to Expect — cont.
-
-_The effects of the aeroplane controls_
 
 ![bg right:40%](/brief-assets/recreational-pilot-license/01-effects-of-controls/propeller-slipstream.png)
 
@@ -199,8 +183,6 @@ _The effects of the aeroplane controls_
 
 # Waypoint 5 — Recap and Fly
 
-_The effects of the aeroplane controls_
-
 <briefing-overview plane-position="4" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Recap and Fly. -->
@@ -208,8 +190,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Questions — then let's fly
-
-_The effects of the aeroplane controls_
 
 **Any questions before we head out?**
 
@@ -225,8 +205,6 @@ _The effects of the aeroplane controls_
 ---
 
 # Arrival
-
-_The effects of the aeroplane controls_
 
 <briefing-overview plane-position="5" controls></briefing-overview>
 
