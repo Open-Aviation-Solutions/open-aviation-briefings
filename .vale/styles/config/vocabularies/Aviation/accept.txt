@@ -22,6 +22,7 @@ VY
 
 # Aviation / navigation terms
 backpressure
+stabilator
 carb
 (?i)centreline
 kneeboard
