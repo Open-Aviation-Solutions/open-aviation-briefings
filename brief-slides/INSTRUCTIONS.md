@@ -97,6 +97,21 @@ Marp's own image directives (`drop-shadow`, `w:`, `h:`, etc.) still work and can
 ![right medium drop-shadow A diagram of the four forces](diagram.png)
 ```
 
+### Inline video and audio
+
+`<video>` and `<audio>` are treated as block-level elements (like the hyphenated
+custom components) and accept the same layout classes via `class=`. This lets a
+looping clip float alongside slide text:
+
+```html
+<video class="right medium" autoplay loop muted playsinline
+  src="/brief-assets/<course>/<lesson>/clip.mp4"></video>
+```
+
+Leave a blank line above and below the tag so it's parsed as a block rather than
+wrapped in a paragraph. (markdown-it doesn't treat `video`/`audio` as block-level
+by default; the `customElementBlock` plugin in `marp.config.js` adds them.)
+
 ## Presenter notes
 
 HTML comments within a slide become presenter notes, visible in `npm run marp:serve`:

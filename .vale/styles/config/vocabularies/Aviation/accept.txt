@@ -28,6 +28,7 @@ carb
 kneeboard
 kts
 (?i)pitot
+subscale
 unstall
 Waypoint
 
@@ -37,6 +38,10 @@ PA28
 # Organisation abbreviations
 DLR
 Wikimedia
+
+# External resources / brand names cited in slides
+SKYbrary
+Veritasium
 
 # Foreign words appearing in attributions
 Deutsches
