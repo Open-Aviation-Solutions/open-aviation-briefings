@@ -1,7 +1,10 @@
 # 0012 — Convert Straight and Level lesson from Slidev to Marp
 
-**Status:** in progress — all decks + Astro page converted and building; remaining:
-visual verification pass and asset-provenance confirmation (see end of file).
+**Status:** done — all decks + Astro page converted and building clean; asset
+provenance resolved (placeholders replaced with public-domain FAA figures or
+confirmed licences). Cruise-config numbers intentionally ship as placeholders
+(out of scope — instructor to supply). Remaining is an instructor visual pass
+only (see end of file).
 
 ## Goal
 
@@ -414,17 +417,43 @@ Ordered so each step is testable. Steps 2–5 each depend on step 1.
   (in-flight-notes PDF), and `astro build` all pass clean. No Slidev leftovers
   (`$clicks`, `v-click`, old component names, `/rpl-a/` paths) remain.
 
-### Remaining
+### Resolution of the post-conversion items
+
+- **Asset provenance — resolved.** The placeholder/unconfirmed assets were
+  either confirmed or replaced with public-domain FAA figures:
+  - `hand-wing.mp4` → CC-BY-4.0, self-recorded (Michael Nelson, towing
+    sailplanes in a Pawnee PA-25).
+  - `deflection-and-lift.svg` → Wikimedia Commons, CC-BY-SA-4.0.
+  - `Aerofoil-bernoulli-false.jpg` → SKYbrary, copyright retained (credited on
+    the slide, used illustratively as an example of an *incorrect* diagram).
+  - `lift-weight-thrust-drag-2.jpg` → **replaced** by
+    `four-forces-straight-flight.png` (PHAK Fig 5-1, public domain).
+  - `attitude-flying.png` → **replaced** by `attitude-pitch-reference.png`
+    (AFH Fig 3-8) and `attitude-bank-reference.png` (AFH Fig 3-16, left/analog
+    panel only) — the one attitude slide was split into Pitch and Bank.
+  - `ybth-to-training-area.png` → **removed** (matches the later lessons, which
+    use a text-only "Today's Flight" slide).
+- **`<video>`/`<audio>` block support documented** in
+  `brief-slides/INSTRUCTIONS.md` ("Inline video and audio").
+- **Cruise-config numbers** (theory + in-flight-notes tables) remain
+  placeholders with a `TODO` — out of scope, instructor to supply real Warrior
+  figures.
+
+### Remaining (instructor only)
 
 - **Visual pass** (`npm run dev`): confirm `<four-forces>` ASI arcs render,
   `<pitch-roll-yaw>` rotates, both `hand-wing.mp4` videos autoplay/loop and
   float right, and `<briefing-overview>` Direct-To advances the plane through
   the waypoints on each deck.
-- **Asset provenance** for the five items above — needs instructor input;
-  sidecars carry `TODO` notes until then.
-- **Cruise-config numbers** (theory + in-flight-notes tables) remain
-  placeholders with a `TODO` to confirm against the Warrior config sheet.
-- Archive this task file once the visual pass is clean.
+
+### Known pre-existing issue (not introduced here)
+
+- **Alt-text leak** when a Marpit native filter keyword (e.g. `drop-shadow`)
+  combines with leading layout words (`right`/`medium`) and a description: the
+  layout words leak into the rendered `alt`. This is project-wide and predates
+  this lesson (lesson 01's `piper_warrior_model` ships `alt="right medium"`).
+  Drop-shadow itself renders correctly. A proper fix (run layout extraction
+  before Marpit's image-option parser) is a separate task if wanted.
 
 ## Out of scope
 
