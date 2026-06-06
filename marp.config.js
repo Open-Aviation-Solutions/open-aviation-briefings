@@ -6,7 +6,10 @@ const COMPONENT_SCRIPT = `${BASE}/open-aviation-components/define.es.js`
 
 // Treat custom elements (hyphenated tag names) as block-level HTML.
 // Without this, markdown-it wraps them in <p> because they're not
-// in its list of known block elements.
+// in its list of known block elements. A small set of non-hyphenated media
+// tags (video, audio) is included for the same reason — markdown-it doesn't
+// treat them as block-level either, so an inline <video> would otherwise be
+// wrapped in <p> and lose its layout utility behaviour.
 function customElementBlock(md) {
   md.block.ruler.before('html_block', 'custom_element_block', (state, startLine, endLine, silent) => {
     let pos = state.bMarks[startLine] + state.tShift[startLine]
@@ -15,8 +18,9 @@ function customElementBlock(md) {
     if (state.src.charCodeAt(pos) !== 0x3C /* < */) return false
     pos++
 
-    // Custom elements must contain a hyphen: e.g. four-forces, flight-path-overview
-    const tagMatch = state.src.slice(pos, lineMax).match(/^([a-z][a-z0-9]*(?:-[a-z0-9]+)+)/)
+    // Custom elements must contain a hyphen (e.g. four-forces, briefing-overview);
+    // video/audio are matched explicitly as block-level media tags.
+    const tagMatch = state.src.slice(pos, lineMax).match(/^([a-z][a-z0-9]*(?:-[a-z0-9]+)+|video|audio)/)
     if (!tagMatch) return false
 
     if (silent) return true
