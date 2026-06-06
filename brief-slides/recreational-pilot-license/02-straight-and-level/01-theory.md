@@ -169,7 +169,7 @@ The goal is to build an intuition for force balance before moving to the perform
 
 # Generation of Lift
 
-![right medium drop-shadow A Skybrary aerofoil diagram showing the Bernoulli-only explanation of lift](/brief-assets/recreational-pilot-license/02-straight-and-level/Aerofoil-bernoulli-false.jpg)
+![right medium drop-shadow A SKYbrary aerofoil diagram showing the Bernoulli-only explanation of lift](/brief-assets/recreational-pilot-license/02-straight-and-level/Aerofoil-bernoulli-false.jpg)
 
 But **how does the wing actually generate lift?**
 
@@ -183,7 +183,7 @@ _Aerofoil image © [SKYbrary](https://skybrary.aero/articles/bernoullis-principl
 
 # Generation of Lift
 
-![right medium drop-shadow A Skybrary aerofoil diagram showing the Bernoulli-only explanation of lift](/brief-assets/recreational-pilot-license/02-straight-and-level/Aerofoil-bernoulli-false.jpg)
+![right medium drop-shadow A SKYbrary aerofoil diagram showing the Bernoulli-only explanation of lift](/brief-assets/recreational-pilot-license/02-straight-and-level/Aerofoil-bernoulli-false.jpg)
 
 _What is wrong with this diagram's explanation?_
 
