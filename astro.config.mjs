@@ -46,6 +46,16 @@ export default defineConfig({
     starlight({
       title: 'Open Aviation Briefings',
       customCss: ['./src/styles/global.css'],
+      head: [
+        {
+          tag: 'script',
+          attrs: {
+            defer: true,
+            src: 'https://static.cloudflareinsights.com/beacon.min.js',
+            'data-cf-beacon': '{"token": "c996028d44e34f17a30b5bc693372d9e"}',
+          },
+        },
+      ],
       sidebar: [
         {
           label: 'Recreational Pilot License',
