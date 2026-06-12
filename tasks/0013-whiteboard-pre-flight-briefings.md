@@ -1,7 +1,8 @@
 # 0013 — Convert pre-flight briefs to whiteboard briefing notes (portrait PDF)
 
-**Status:** in progress — steps 1 (PDF-export generalisation) and 2
-(planning-page theme utilities) done and verified; steps 3–7 remaining
+**Status:** in progress — steps 1–5 done (PDF export, theme utilities,
+Lesson 2 conversion, Astro page, build verification); remaining: step 6
+(scaffold-lesson-plan skill update) and step 7 (instructor evaluation)
 
 ## Goal
 
@@ -161,6 +162,22 @@ Pilot on **Lesson 2 (straight-and-level)** only; evaluate before rolling out.
   blank lines inside the `<div>`s are required for inner markdown parsing.
   Verified with a temporary test deck in both built HTML and exported PDF
   (also confirming `pdf: true` picks up new decks); test files removed.
+
+- **Steps 3–5 — done.** `02-pre-flight-brief.md` renamed (`git mv`) to
+  `02-pre-flight-briefing-notes.md` and rewritten as a 7-page portrait
+  document: cover ("components to draw from, not a script"), planning page
+  (running order + sketch area, NZ CAA FIG Straight-and-Level whiteboard
+  linked), Using-these-notes (components + rough timings; the default
+  order in the table places threats after the walk-through) + aim, flight
+  walk-through with local-detail blanks, threats (I'M SAFE/PAVE referenced
+  not re-taught, TEAM, blank threat lines), airmanship emphasis (lookout +
+  handover), questions→fly. The cruise-config reference table was dropped —
+  it duplicates the in-flight notes. All
+  `<briefing-overview>` slides and the recap removed. Astro page section
+  renamed "Pre-flight briefing notes" with portrait embed + PDF download
+  and a paragraph explaining the whiteboard approach. Stale
+  `02-pre-flight-brief.html` removed. Full `npm run build` clean; all 7
+  PDF pages visually verified.
 
 ## Out of scope
 
