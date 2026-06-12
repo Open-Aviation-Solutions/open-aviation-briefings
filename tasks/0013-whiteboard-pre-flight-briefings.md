@@ -1,8 +1,9 @@
 # 0013 — Convert pre-flight briefs to whiteboard briefing notes (portrait PDF)
 
-**Status:** in progress — steps 1–5 done (PDF export, theme utilities,
-Lesson 2 conversion, Astro page, build verification); remaining: step 6
-(scaffold-lesson-plan skill update) and step 7 (instructor evaluation)
+**Status:** in progress — steps 1–6 done (PDF export, theme utilities,
+Lesson 2 conversion, Astro page, build verification, skill update);
+remaining: step 7 (instructor evaluation, then decide on rolling out
+lessons 01/05/06 as a follow-up task)
 
 ## Goal
 
@@ -178,6 +179,15 @@ Pilot on **Lesson 2 (straight-and-level)** only; evaluate before rolling out.
   and a paragraph explaining the whiteboard approach. Stale
   `02-pre-flight-brief.html` removed. Full `npm run build` clean; all 7
   PDF pages visually verified.
+
+- **Step 6 — done.** `scaffold-lesson-plan` skill (v0.6 in
+  `~/dev/personal/agent-skills`) updated: file table and frontmatter
+  templates (`02-pre-flight-briefing-notes.md`, portrait, `pdf: true`),
+  NZ CAA whiteboard URL now also feeds the planning page, the old
+  waypoint/I'M SAFE/PAVE pre-flight section replaced with the
+  briefing-notes spec (principles + 7-page structure, lesson 02 named as
+  the format reference), `.mdx` template section updated, and refine mode
+  now flags old-format pre-flight decks for conversion.
 
 ## Out of scope
 
