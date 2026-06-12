@@ -1,7 +1,7 @@
 # 0013 — Convert pre-flight briefs to whiteboard briefing notes (portrait PDF)
 
-**Status:** in progress — step 1 (PDF-export generalisation) done and
-verified; steps 2–7 remaining
+**Status:** in progress — steps 1 (PDF-export generalisation) and 2
+(planning-page theme utilities) done and verified; steps 3–7 remaining
 
 ## Goal
 
@@ -150,6 +150,17 @@ Pilot on **Lesson 2 (straight-and-level)** only; evaluate before rolling out.
   "some local files are missing" marp warnings are pre-existing — absolute
   `/brief-assets/…` paths during file-based conversion — not introduced
   here.)
+
+- **Step 2 — done.** Planning-page utilities added to
+  `themes/open-aviation-solutions/portrait.css`: `section.planning` (flex
+  column), `.planning-columns` (flex row filling remaining height),
+  `.running-order` (30% wide, ruled lines via repeating gradient), and
+  `.sketch-area` (bordered, faint 10 mm grid, fills remaining space —
+  works full-width or inside the columns). Markup pattern documented in
+  `brief-slides/INSTRUCTIONS.md` ("Whiteboard planning page") — note the
+  blank lines inside the `<div>`s are required for inner markdown parsing.
+  Verified with a temporary test deck in both built HTML and exported PDF
+  (also confirming `pdf: true` picks up new decks); test files removed.
 
 ## Out of scope
 
