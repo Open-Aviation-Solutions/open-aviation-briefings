@@ -4,17 +4,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'brief-slides/**/*.md'
-      - 'src/content/docs/**/*.mdx'
-      - '.vale.ini'
-      - '.vale/**'
   pull_request:
-    paths:
-      - 'brief-slides/**/*.md'
-      - 'src/content/docs/**/*.mdx'
-      - '.vale.ini'
-      - '.vale/**'
 
 env:
   VALE_VERSION: '3.14.2'
@@ -35,3 +25,22 @@ jobs:
 
       - name: Check
         run: make check
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium for PDF export
+        run: npx puppeteer browsers install chrome
+
+      - name: Build
+        run: make build
