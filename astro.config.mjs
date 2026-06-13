@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
+import sitemap from '@astrojs/sitemap'
 import fs from 'node:fs'
 import path from 'node:path'
 
@@ -63,5 +64,6 @@ export default defineConfig({
         },
       ],
     }),
+    sitemap(),
   ],
 })

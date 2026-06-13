@@ -11,6 +11,7 @@
     "build": "npm run marp:build && npm run marp:pdf && astro build"
   },
   "devDependencies": {
+    "@astrojs/sitemap": "^3.7.2",
     "@astrojs/starlight": "^0.38.4",
     "@marp-team/marp-cli": "^4.3.1",
     "@marp-team/marp-core": "^4.3.0",
