@@ -17,12 +17,12 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 <!--
 
-By this lesson the student has flown circuits (lessons 6–7) and can fly the standard pattern, approach and landing. This lesson consolidates that and adds two distinct new skills, taught one at a time:
+By this lesson the student has flown circuits (lessons 6–7) and can fly the standard pattern, approach and landing. In addition to more consolidation, this lesson adds two distinct new skills:
 
 1. The flapless approach and landing — a flatter, faster approach flown with power.
-2. The missed approach (go-around), and recovery from a baulked landing — abandoning an approach or a poor landing.
+2. The missed approach (go-around) and recovery from a baulked landing — abandoning an approach or a poor landing.
 
-The deck takes them in that order, which matches the in-flight notes and the order they are flown: consolidation circuit, then flapless, then go-arounds, then the baulked-landing recovery (the most demanding, built on the go-around).
+The theory brief takes them in that order, which matches the in-flight notes and the order they are flown: consolidation circuit, then flapless, then go-arounds, then the baulked-landing recovery (the most demanding, built on the go-around). That said, there may be opportunity to demonstrate go-arounds throughout the lesson.
 
 -->
 
@@ -40,9 +40,9 @@ Likely answers to draw out:
 - The approach is unstable (too high, too low, too fast, not aligned).
 - Something is on or near the runway (traffic, animals, vehicle).
 - A gust, windshear, or a bounce upsets the landing.
-- You are simply not happy — that is reason enough.
+- You are simply not happy with the approach — that is reason enough.
 
-Plant the message: deciding to go around is a normal, well-flown outcome, not a failure. We will make it routine today. Then move on — we'll do flapless first.
+Plant the message: deciding to go around is a normal, well-flown outcome, not a failure. This lesson aims to make a go-around routine.
 
 -->
 
@@ -75,7 +75,11 @@ We'll come back to this. First, the other new skill for today — landing withou
   <briefing-topic label="Recap" time="3"></briefing-topic>
 </briefing-overview>
 
-<!-- About 30 minutes — matches the 0.5 hr long-briefing allowance for lesson 8. -->
+<!--
+
+Talk through the outline before clicking on the Start to start the timer.
+
+-->
 
 ---
 
@@ -83,13 +87,19 @@ We'll come back to this. First, the other new skill for today — landing withou
 
 By the end of this session, our aim is to be able to:
 
-- **Explain** why and when a flapless approach is used, and how its profile differs from a normal approach.
-- **Describe** the flapless approach and landing technique, including the longer float and landing distance.
-- **State** the conditions that call for a missed approach, and **list** the go-around actions in order.
-- **Describe** recovery from a baulked landing, including the added care needed close to the ground.
-- **Apply** a clear priority order (aviate, navigate, communicate) when an approach or landing is abandoned.
+- **Identify** in what situations a flapless approach might be used.
+- **Explain** how a flapless profile differs from a normal approach profile.
+- **Describe** the flapless approach and landing technique, including its effects on the landing distance.
+- **State** the conditions that call for a go-around.
+- **List** the go-around actions in order.
+- **Describe** recovery from a baulked landing including the added care needed close to the ground.
+- **Apply** a clear priority order of **Aviate, Navigate, Communicate** when an approach or landing is abandoned.
 
-<!-- These map to CASA lesson-8 elements A4.3, A4.4, NTS1.1, NTS1.3, NTS2.1 and the underpinning-knowledge list. -->
+<!--
+
+These map to CASA lesson-8 elements A4.3, A4.4, NTS1.1, NTS1.3, NTS2.1 and the underpinning-knowledge list.
+
+-->
 
 ---
 
@@ -103,12 +113,25 @@ By the end of this session, our aim is to be able to:
 
 # First, recall what flap gives us
 
+**Why do we normally use flaps during the approach?**
+
+Before we look at flying **without** it, recall what flap gives us:
+
+---
+
+# First, recall what flap gives us
+
+**Why do we normally use flaps during the approach?**
+
 Before we look at flying **without** it, recall what flap gives us:
 
 - More **lift** at a given speed → a lower stall speed and slower approach.
 - More **drag** → a **steeper** approach path and a shorter float.
+- More **visibility** → a **lower** nose attitude during descent
 
-> Take the flap away and both of those change. That is the whole story of a flapless approach.
+> Take the flap away and all of those change. That is the whole story of a flapless approach.
+
+TODO: Add an image of flaps here to break up, and remind. 
 
 <!--
 
@@ -134,19 +157,27 @@ Underpinning knowledge: causes and handling of flap problems; crosswind techniqu
 
 FIM Ch 12: flapless used "in gusty or strong cross wind conditions or in the event of mechanical failure of the ﬂaps."
 
+It may be worth discussing *why* less or no flaps are used in strong wind conditionts:
+- Reduced go-around performance - longer to accelerate and climbe on the more-likely go around
+- Less controllability at lower speeds
+- Pitch sensitivity - flaps shift the centre of pressure and change the pitch moment. Gusts will increase those pitches and flaps may make it harder to dampen those pitches.
+
 -->
 
 ---
 
 # How the flapless profile differs
 
-![right large Profile diagram comparing a normal flapped approach (steeper, nearer aiming point) with a flatter flapless approach to a further aiming point, with a longer float and landing distance.](/brief-assets/recreational-pilot-license/08-circuits-flapless-and-missed-approaches/flapless-vs-normal-profile.png)
 
 - Without flap drag, the approach path is **flatter** — judgement of the aim point is harder.
 - The approach is **faster** — fly the higher speed your POH recommends for flapless.
 - Fly it **engine-assisted** (with power), not as a glide — the lowest safe speed is achieved **power-on**.
 
-> Flatter path, higher speed, power on. Brief the new sight picture before you fly it.
+> Flatter path, higher speed, power on. Some briefs recommend **extending downwind by 5 seconds** to accommadate the flatter path.
+
+TODO: idea for a new component: circuit viewer which allows specifing runway(s) and a patch that includes altitude. 3D path is then rendered as a translucent arrow and a 3D scene that can be viewed. Perhaps multiple paths (with colours) to compare, say, flapless vs with flaps.
+
+![large TODO Profile diagram comparing a normal flapped approach (steeper, nearer aiming point) with a flatter flapless approach to a further aiming point, with a longer float and landing distance.](/brief-assets/recreational-pilot-license/08-circuits-flapless-and-missed-approaches/flapless-vs-normal-profile.png)
 
 <!--
 
@@ -167,6 +198,8 @@ A clean, flat-style instructional aviation diagram in a side-on (profile) view, 
 - Hold it off and let it land; then **brake normally**, allowing for the **longer landing distance**.
 
 > Same hold-off discipline as always — it just takes longer. Plan the extra runway before you commit.
+
+TODO: Same image from previous slide here.
 
 <!--
 
@@ -194,9 +227,11 @@ Emphasise the energy-management consequence: more speed + less drag = more runwa
 
 > "If it isn't stable, it isn't a landing." Commit to the go-around early and fly it positively.
 
+TODO: Add a youtube link to a late go-around that could have been safer as an earlier decision.
+
 <!--
 
-This is where the opening hook is paid off. CASA NTS1.3 (assess situations and make decisions) is graded across this lesson. The pedagogy: give the student firm, repeatable gates so the decision is rule-based, not a judgement call made under pressure.
+CASA NTS1.3 (assess situations and make decisions) is graded across this lesson. The pedagogy: give the student firm, repeatable gates so the decision is rule-based, not a judgement call made under pressure.
 
 AFH Ch 9 (stabilised approach concept). Reinforce that a stabilised-approach standard removes the temptation to "save" a poor approach — including the flatter flapless one.
 
@@ -208,12 +243,13 @@ AFH Ch 9 (stabilised approach concept). Reinforce that a stabilised-approach sta
 
 ![right large Profile diagram of a go-around: an aircraft descends on final, arrests the descent at a low decision point, then climbs away along the extended centreline, with the four go-around actions labelled in sequence.](/brief-assets/recreational-pilot-license/08-circuits-flapless-and-missed-approaches/go-around-profile.png)
 
-1. **Full power** — applied smoothly; carb heat cold (if fitted).
-2. **Attitude** — arrest the descent, pitch to the climb attitude, balance with rudder.
-3. **Flap** — raise to the go-around setting **progressively**, not all at once.
-4. **Climb** — positive rate established, then clean up and **re-trim**.
+This is a modified **P**ower, **A**ttitude and **T**rim:
 
-> Power · Attitude · Flap · Climb — large trim change as the flap comes up; trim it off.
+1. Full **Power** — applied smoothly; carb heat cold (if fitted). Balance yaw with rudder.
+2. **Attitude** and **Flap** — arrest the descent and fly level while building sufficient speed to retract any full-flap. Raise flap to the go-around setting **progressively**, not all at once, continuing to adjust the attitude to a normal climb attitude.
+3. **Trim** — with a positive rate established, trim for the climb.
+
+> Power · Attitude & Flap · Trim — it can be a large trim change as the flap comes up; trim it off.
 
 <!--
 
@@ -262,7 +298,8 @@ A **baulked (missed) landing** is a go-around begun **during or after a poor tou
 
 - **Do not** try to rescue a bad landing — commit to the go-around **without hesitation**.
 - Apply **full power** and **check the descent** — but do **not** pitch back into the ground nose-down.
-- Establish **at least level flight, then a positive climb**, before raising flap to the go-around setting.
+- Follow the same **PAT** sequence: **P**ower, **A**ttitude & Flap and **T**rim, ensuring to establish
+**at least level flight with sufficient speed**, before raising flap gradually to the go-around setting while climbing.
 
 > When in doubt, go around — even from the runway. A second circuit always beats a bad landing.
 
@@ -282,7 +319,7 @@ This is the same go-around actions from the previous section, begun from a worse
 - Power and pitch must be **coordinated** — too much pitch with low speed risks a stall; too little risks a second touchdown.
 - **Loss of control on landing** usually comes from a swing, a drift, or over-controlling — keep it **straight** and fly it positively.
 
-> Low energy means small, smooth, decisive inputs — and patience for the speed to build.
+> Low airspeed in the air close to the ground means small, smooth, decisive inputs — and patience for the speed to build.
 
 <!--
 
@@ -310,7 +347,7 @@ Underpinning knowledge: "causes of loss of control of aeroplane on landing" [A4 
 **The go-around and baulked landing**
 
 - **List** three situations that would make you go around.
-- **State** the four go-around actions in order.
+- **State** the go-around actions in order.
 - **Recall** the priority order when any approach or landing is abandoned.
 - **Identify** the one thing you must avoid when going around from a bounced landing.
 
