@@ -109,7 +109,7 @@ I'M SAFE and PAVE are standing checks before **every** flight — by now the stu
 
 **Ask** — introduce **TEAM** for each identified threat: "What are our options?"
 
-- **T**ransfer the risk · **E**liminate · **A**ccept · **M**itigate
+- **Transfer** the risk · **Eliminate** · **Accept** · **Mitigate**
 
 For this lesson the answers are usually straightforward — training aircraft, local area, no passengers — but the habit starts now.
 

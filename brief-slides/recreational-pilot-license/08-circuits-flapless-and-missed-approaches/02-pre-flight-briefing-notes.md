@@ -102,14 +102,15 @@ I'M SAFE and PAVE are standing checks before **every** flight — by now the stu
 
 **Draw** — the genuine threats you and the student identify for *this* flight:
 
-- ______
-- ______
+&nbsp;
+
+&nbsp;
 
 **Ask** — apply **TEAM** to each: "What are our options?"
 
-- **T**ransfer · **E**liminate · **A**ccept · **M**itigate
+- **Transfer** · **Eliminate** · **Accept** · **Mitigate**
 
-Likely ones to surface: **wake turbulence** behind other traffic on a go-around; a **flatter flapless approach** misjudged; **directional control** on a longer/faster landing roll.
+Likely ones to surface: **wake turbulence** behind other traffic on a go-around; a **flatter flapless approach** misjudged; **directional control** on a longer/faster landing roll; **slow speed at low altitude** after a baulked landing — full power applied but time and distance needed to accelerate to a safe climb speed.
 
 ---
 

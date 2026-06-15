@@ -21,6 +21,9 @@ VX
 VY
 
 # Aviation / navigation terms
+(?i)airmanship
+(?i)flapless
+foveal
 backpressure
 stabilator
 carb
@@ -40,6 +43,7 @@ DLR
 Wikimedia
 
 # External resources / brand names cited in slides
+(?i)youtube
 SKYbrary
 Veritasium
 

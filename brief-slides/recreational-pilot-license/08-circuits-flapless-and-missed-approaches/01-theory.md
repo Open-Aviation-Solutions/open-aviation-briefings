@@ -173,9 +173,9 @@ It may be worth discussing *why* less or no flaps are used in strong wind condit
 - The approach is **faster** — fly the higher speed your POH recommends for flapless.
 - Fly it **engine-assisted** (with power), not as a glide — the lowest safe speed is achieved **power-on**.
 
-> Flatter path, higher speed, power on. Some briefs recommend **extending downwind by 5 seconds** to accommadate the flatter path.
+> Flatter path, higher speed, power on. Some briefs recommend **extending downwind by 5 seconds** to accommodate the flatter path.
 
-TODO: idea for a new component: circuit viewer which allows specifing runway(s) and a patch that includes altitude. 3D path is then rendered as a translucent arrow and a 3D scene that can be viewed. Perhaps multiple paths (with colours) to compare, say, flapless vs with flaps.
+TODO: idea for a new component: circuit viewer which allows specifying runway(s) and a patch that includes altitude. 3D path is then rendered as a translucent arrow and a 3D scene that can be viewed. Perhaps multiple paths (with colours) to compare, say, flapless vs with flaps.
 
 ![large TODO Profile diagram comparing a normal flapped approach (steeper, nearer aiming point) with a flatter flapless approach to a further aiming point, with a longer float and landing distance.](/brief-assets/recreational-pilot-license/08-circuits-flapless-and-missed-approaches/flapless-vs-normal-profile.png)
 
@@ -243,7 +243,7 @@ AFH Ch 9 (stabilised approach concept). Reinforce that a stabilised-approach sta
 
 ![right large Profile diagram of a go-around: an aircraft descends on final, arrests the descent at a low decision point, then climbs away along the extended centreline, with the four go-around actions labelled in sequence.](/brief-assets/recreational-pilot-license/08-circuits-flapless-and-missed-approaches/go-around-profile.png)
 
-This is a modified **P**ower, **A**ttitude and **T**rim:
+This is a modified **Power**, **Attitude** and **Trim**:
 
 1. Full **Power** — applied smoothly; carb heat cold (if fitted). Balance yaw with rudder.
 2. **Attitude** and **Flap** — arrest the descent and fly level while building sufficient speed to retract any full-flap. Raise flap to the go-around setting **progressively**, not all at once, continuing to adjust the attitude to a normal climb attitude.
@@ -298,7 +298,7 @@ A **baulked (missed) landing** is a go-around begun **during or after a poor tou
 
 - **Do not** try to rescue a bad landing — commit to the go-around **without hesitation**.
 - Apply **full power** and **check the descent** — but do **not** pitch back into the ground nose-down.
-- Follow the same **PAT** sequence: **P**ower, **A**ttitude & Flap and **T**rim, ensuring to establish
+- Follow the same **PAT** sequence: **Power**, **Attitude** & Flap and **Trim**, ensuring to establish
 **at least level flight with sufficient speed**, before raising flap gradually to the go-around setting while climbing.
 
 > When in doubt, go around — even from the runway. A second circuit always beats a bad landing.

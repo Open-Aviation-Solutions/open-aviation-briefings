@@ -105,7 +105,7 @@ or some other preference. Each in-flight activity just describes the sequence to
 
 # Baulked landing recovery — from a bad or bounced touchdown
 
-> **Brief:** never try to rescue a bad landing — go around without hesitation.
+> **Brief:** don't try to rescue a bad landing — go around without hesitation.
 
 ## Sequence
 
@@ -133,7 +133,7 @@ or some other preference. Each in-flight activity just describes the sequence to
 
 # Return to aerodrome / final circuit
 
-- Brief which circuit is the final landing before lining up.
+- Brief which circuit is the final landing before lining up (or downwind if it's after a touch and go).
 - Plan the after-landing taxi route; give way to other circuit traffic.
 - Complete after-landing checklist when clear of the runway.
 - Shutdown and post-flight inspection per aircraft checklist.
