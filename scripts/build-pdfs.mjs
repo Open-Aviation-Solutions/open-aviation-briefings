@@ -1,5 +1,5 @@
 import { execSync } from 'child_process'
-import { existsSync, mkdirSync, readdirSync, statSync } from 'fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, statSync } from 'fs'
 import { join, dirname } from 'path'
 
 const BROWSER_SEARCH_PATHS = [
@@ -34,8 +34,14 @@ if (!browserPath) {
   process.exit(1)
 }
 
+// A deck opts in to PDF export with `pdf: true` in its frontmatter.
+function wantsPdf(file) {
+  const match = readFileSync(file, 'utf8').match(/^---\n([\s\S]*?)\n---/)
+  return match !== null && /^pdf:\s*true\s*$/m.test(match[1])
+}
+
 const env = { ...process.env, PUPPETEER_EXECUTABLE_PATH: browserPath }
-const files = findFiles('brief-slides', /-in-flight-notes\.md$/)
+const files = findFiles('brief-slides', /\.md$/).filter(wantsPdf)
 
 for (const file of files) {
   const out = file

@@ -8,3 +8,45 @@ section {
   font-size: 20px;
   padding: 72px 40px 40px;
 }
+
+/* Whiteboard planning page — use with <!-- _class: planning -->.
+   The section becomes a flex column so the sketch area fills whatever
+   page height remains below the intro content. Optionally wrap a
+   .running-order column and the .sketch-area in .planning-columns to
+   place a fill-in running order alongside the sketch area. */
+section.planning {
+  display: flex;
+  flex-direction: column;
+}
+
+section.planning .planning-columns {
+  display: flex;
+  gap: 24px;
+  flex: 1;
+  min-height: 0;
+  margin-top: 0.5em;
+}
+
+section.planning .running-order {
+  width: 30%;
+  /* ruled lines for a handwritten sequence + timings */
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 43px,
+    rgba(0, 0, 0, 0.25) 43px,
+    rgba(0, 0, 0, 0.25) 44px
+  );
+}
+
+section.planning .sketch-area {
+  flex: 1;
+  min-height: 0;
+  border: 2px solid rgba(26, 95, 180, 0.35);
+  border-radius: 6px;
+  /* faint grid as a sketching guide */
+  background-image:
+    linear-gradient(rgba(26, 95, 180, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26, 95, 180, 0.1) 1px, transparent 1px);
+  background-size: 10mm 10mm;
+}

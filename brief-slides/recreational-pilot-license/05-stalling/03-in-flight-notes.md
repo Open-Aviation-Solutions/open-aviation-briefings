@@ -3,6 +3,7 @@ marp: true
 theme: open-aviation-portrait
 title: Slow Flight and Stalling — In-flight Notes
 license: CC-BY-SA-4.0
+pdf: true
 ---
 
 <!-- _class: lead -->

@@ -3,6 +3,7 @@ marp: true
 theme: open-aviation-portrait
 title: Effects of Controls — In-flight Notes
 license: CC-BY-SA-4.0
+pdf: true
 ---
 
 <!-- _class: lead -->

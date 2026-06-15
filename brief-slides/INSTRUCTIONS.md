@@ -20,6 +20,11 @@ license: CC-BY-SA-4.0
 - `title` — used by the browser tab and presenter view
 - `license` — all brief content is licensed under Creative Commons Attribution-ShareAlike 4.0 International (see [LICENSE-CC-BY-SA](../LICENSE-CC-BY-SA))
 
+Two optional fields:
+
+- `pdf: true` — opts the deck in to PDF export (`npm run marp:pdf`, via `scripts/build-pdfs.mjs`). The PDF is written alongside the HTML in `public/brief-slides/`. Used for printable documents such as in-flight notes; typically paired with the portrait theme.
+- `draft: true` — renders a faint diagonal "DRAFT" watermark across every slide, to flag a brief that is still a work in progress. The watermark carries through to the Starlight instructor-notes page via the embedded slide iframe. Omit the field (the default) for finished briefs.
+
 ## Directory structure
 
 Briefs are organised by course, mirroring the Astro content tree under `src/content/docs/`:
@@ -52,6 +57,30 @@ title: Effects of Controls — In-Flight Notes
 license: CC-BY-SA-4.0
 ---
 ```
+
+### Whiteboard planning page (portrait theme)
+
+The portrait theme provides a planning-page layout for printable briefing notes: a page where the instructor sketches their whiteboard plan and fills in their own running order. Apply `<!-- _class: planning -->` to the slide; the `.sketch-area` (bordered, faint grid) then fills all remaining page height. Optionally pair it with a ruled `.running-order` column inside `.planning-columns`:
+
+```markdown
+<!-- _class: planning -->
+
+# Plan your whiteboard
+
+<div class="planning-columns">
+
+<div class="running-order">
+
+### My running order
+
+</div>
+
+<div class="sketch-area"></div>
+
+</div>
+```
+
+The blank lines inside the `<div>`s are required so the inner content is still parsed as markdown. Omit the `.planning-columns` wrapper and use a bare `<div class="sketch-area"></div>` for a full-width sketch area.
 
 ## Layout utilities
 
