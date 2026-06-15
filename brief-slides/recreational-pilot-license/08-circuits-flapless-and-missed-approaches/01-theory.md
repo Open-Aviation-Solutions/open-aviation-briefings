@@ -3,6 +3,7 @@ marp: true
 theme: open-aviation
 title: Circuits — Flapless and Missed Approaches — Theory
 license: CC-BY-SA-4.0
+draft: true
 header: "Circuits — Flapless and Missed Approaches — Theory"
 ---
 

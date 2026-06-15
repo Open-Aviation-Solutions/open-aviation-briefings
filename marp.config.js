@@ -101,6 +101,39 @@ body[data-bespoke-view=presenter] svg.bespoke-marp-slide.bespoke-marp-active:has
 }
 `
 
+// A deck opts in to a "DRAFT" watermark with `draft: true` in its frontmatter,
+// to flag an unfinished brief. The faint diagonal text overlays every slide
+// while leaving the content readable.
+//
+// The theme already uses some section pseudo-elements: `section::after` is the
+// page number and `section.lead::before` is the title-slide brand logo. So the
+// watermark uses the free slots — `section::before` on standard slides and
+// `section.lead::after` on the title slide (which carries no pagination).
+//
+// The standard-slide rule must exclude `.lead` (`:not(.lead)`): a bare
+// `section::before` matches the lead slide's logo pseudo-element too, and
+// although the theme's more specific `section.lead::before` keeps the logo's
+// own properties, undeclared ones here (notably `transform`) would cascade
+// onto the logo and rotate it.
+const DRAFT_WATERMARK_CSS = `
+section:not(.lead)::before,
+section.lead::after {
+  content: 'DRAFT';
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-30deg);
+  font-size: 220px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: rgba(200, 0, 0, 0.12);
+  pointer-events: none;
+  z-index: 9999;
+}
+`
+
 export default {
   html: true,
   themeSet: [
@@ -149,6 +182,14 @@ export default {
       }
       if (ALL_INTERACTIVE_TAGS.some(tag => markdown.includes(`<${tag}`))) {
         result.css += PRESENTER_INTERACTIVE_CSS
+      }
+
+      // Opt-in DRAFT watermark, detected from the deck's frontmatter (the
+      // frontmatter block is retained in `markdown` here; Marpit strips it
+      // during tokenisation, not from this string).
+      const frontmatter = markdown.match(/^---\n([\s\S]*?)\n---/)
+      if (frontmatter && /^draft:\s*true\s*$/m.test(frontmatter[1])) {
+        result.css += DRAFT_WATERMARK_CSS
       }
 
       if (scripts.length > 0) {
