@@ -279,7 +279,7 @@ Before every stalling exercise, we'll complete the **HASELL** check:
 | **S** | **Security** — harnesses fastened, loose articles stowed, no hatches or locks insecure |
 | **E** | **Engine** — temperatures and pressures in the green; carburettor heat applied and then off |
 | **L** | **Location** — not over a built-up area, aerodrome, or controlled airspace |
-| **L** | **Lookout** — 360° clearing turn (or two 90° turns) to check for other traffic |
+| **L** | **Lookout** — clearing turn of at least 180°, preferably 360°, to check for other traffic |
 
 > HASELL is not optional — complete it **before any acrobatic manoeuvre**
 
@@ -293,7 +293,7 @@ Carburettor heat during HASELL: apply carb heat briefly to clear any carb ice be
 
 # Why HASELL Matters — the Lookout Turn
 
-The **360° lookout turn** (or two 90° turns) is critical because:
+The **lookout turn — at least 180°, preferably 360°** — is critical because:
 
 - Before the stall, we may be **climbing slowing** — other aircraft cannot easily predict our path
 - The stall may involve a **rapid pitch change and altitude loss** — we need clear airspace below

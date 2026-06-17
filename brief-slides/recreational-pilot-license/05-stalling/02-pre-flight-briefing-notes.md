@@ -99,7 +99,7 @@ This lesson's airmanship emphasis: **we don't stall the aircraft until the area 
 - **S** — Security: harnesses fastened, no loose articles
 - **E** — Engine: Ts & Ps in the green; carb heat on briefly, then off
 - **L** — Location: clear of built-up areas, aerodromes, controlled airspace
-- **L** — Lookout: a 360° clearing turn (or two 90° turns)
+- **L** — Lookout: a clearing turn of at least 180°, preferably 360°
 
 **Ask** — "Why a full clearing turn and not just a glance?"
 
