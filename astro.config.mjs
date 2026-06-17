@@ -46,6 +46,9 @@ const devPublicUnderBase = {
 export default defineConfig({
   site: SITE,
   base: BASE,
+  // When running inside the dev container (see Makefile/Dockerfile) the server
+  // must listen on all interfaces so the forwarded host port can reach it.
+  server: process.env.ASTRO_HOST ? { host: true } : {},
   vite: {
     plugins: [devPublicUnderBase],
   },

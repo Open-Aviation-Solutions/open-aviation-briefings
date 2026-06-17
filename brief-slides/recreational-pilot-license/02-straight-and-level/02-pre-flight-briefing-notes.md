@@ -20,21 +20,11 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 <!-- _class: planning -->
 
-# Plan your whiteboard
+# My whiteboard and running order
 
 Before the lesson, read the sections that follow, then come back here: note *your* running order and approximate timings, and sketch the whiteboard you'll draw — your aerodrome, your training area, today's weather and traffic. For inspiration, see the [NZ CAA Flight Instructor Guide whiteboard for Straight and Level](https://www.aviation.govt.nz/assets/licensing-and-certification/flight-instructor-guide/whiteboards/fig-whiteboard-bc-sl.pdf).
 
-<div class="planning-columns">
-
-<div class="running-order">
-
-### My running order
-
-</div>
-
 <div class="sketch-area"></div>
-
-</div>
 
 ---
 

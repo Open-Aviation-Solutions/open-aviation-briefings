@@ -180,18 +180,56 @@ Pilot on **Lesson 2 (straight-and-level)** only; evaluate before rolling out.
   `02-pre-flight-brief.html` removed. Full `npm run build` clean; all 7
   PDF pages visually verified.
 
-- **Step 6 — done.** `scaffold-lesson-plan` skill (v0.6 in
-  `~/dev/personal/agent-skills`) updated: file table and frontmatter
-  templates (`02-pre-flight-briefing-notes.md`, portrait, `pdf: true`),
-  NZ CAA whiteboard URL now also feeds the planning page, the old
+- **Step 6 — done.** `scaffold-lesson-plan` skill (in
+  `~/dev/personal/agent-skills`, a separate repo) updated to scaffold the
+  briefing-notes format: file table and frontmatter templates
+  (`02-pre-flight-briefing-notes.md`, portrait, `pdf: true`), NZ CAA
+  whiteboard URL now also feeds the planning page, the old
   waypoint/I'M SAFE/PAVE pre-flight section replaced with the
-  briefing-notes spec (principles + 7-page structure, lesson 02 named as
+  briefing-notes spec (principles + page structure, lesson 02 named as
   the format reference), `.mdx` template section updated, and refine mode
-  now flags old-format pre-flight decks for conversion.
+  now flags old-format pre-flight decks for conversion. (This work was
+  done across machines and committed there; it landed as skill v0.8, not
+  the v0.6 originally noted here.)
+
+- **Rollout — Lesson 5 (Slow Flight and Stalling) converted.**
+  `02-pre-flight-brief.md` renamed (`git mv`) to
+  `02-pre-flight-briefing-notes.md` and rewritten to the briefing-notes
+  format (portrait, `pdf: true`). 9 pages: cover, planning page (NZ CAA
+  Basic-stalling + Slow-flight whiteboards linked), Using-these-notes,
+  aim, today's-flight walk-through (HASELL rung per exercise, local-detail
+  blanks), **HASELL — the pre-stall check** and **Stall recovery —
+  rehearse it now** as the lesson's two airmanship-emphasis pages
+  (recovery page also normalises the first-stall surprise), threats
+  (I'M SAFE/PAVE referenced not re-taught, TEAM, blank threat lines),
+  questions→fly. All `<briefing-overview>` waypoint slides and the
+  duplicated I'M SAFE/PAVE tables dropped. "Using these notes" and "The
+  aim" needed splitting onto separate slides (Marp clips overflow rather
+  than reflowing) — that's why this deck runs to 9 pages vs lesson 2's 7.
+  Astro page (`05-stalling.mdx`) section renamed "Pre-flight briefing
+  notes" with the portrait embed + PDF download and a whiteboard-approach
+  paragraph. Stale `02-pre-flight-brief.html` removed. Full `make build`
+  clean; all 9 PDF pages rendered and visually checked for overflow.
+  (Lessons 01 and 06 still pending.)
+
+- **Lesson 5 spin-demo caveat.** Both the pre-flight briefing notes and the
+  in-flight notes now state the wing-drop / spin-avoidance demonstration may
+  only be flown if the aeroplane's flight manual approves intentional
+  spinning; otherwise it is limited to wing-drop avoidance and incipient
+  recognition. Both affected pages re-rendered — no overflow.
+
+- **Planning page redesigned to a full-width grid.** The two-column
+  running-order + sketch layout was replaced by a single full-width
+  `.sketch-area` titled "My whiteboard and running order", which serves for
+  both the sketch and the running order. Applied to lessons 02, 05 and 08;
+  documented as the new default in `brief-slides/INSTRUCTIONS.md` (two-column
+  variant kept as an option) and folded into the `scaffold-lesson-plan` skill
+  (separate repo). Planning pages of all three lessons re-rendered to confirm
+  the grid fills the page.
 
 ## Out of scope
 
-- Converting lessons 01, 05, 06 (pending evaluation of the Lesson 2 pilot).
+- Converting lessons 01 and 06 (05 now done; rollout continuing per-lesson).
 - I'M SAFE / PAVE standalone posters or reference sheets (possible follow-up).
 - Theory, in-flight notes, and post-flight debrief decks — unchanged.
 - Theme work beyond the sketch-area utility.

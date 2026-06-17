@@ -60,7 +60,19 @@ license: CC-BY-SA-4.0
 
 ### Whiteboard planning page (portrait theme)
 
-The portrait theme provides a planning-page layout for printable briefing notes: a page where the instructor sketches their whiteboard plan and fills in their own running order. Apply `<!-- _class: planning -->` to the slide; the `.sketch-area` (bordered, faint grid) then fills all remaining page height. Optionally pair it with a ruled `.running-order` column inside `.planning-columns`:
+The portrait theme provides a planning-page layout for printable briefing notes: a page where the instructor sketches their whiteboard plan *and* notes their own running order. Apply `<!-- _class: planning -->` to the slide; the `.sketch-area` (bordered, faint grid) then fills all remaining page height. The default is a single full-width grid that serves for both the sketch and the running order — title the slide `# My whiteboard and running order`:
+
+```markdown
+<!-- _class: planning -->
+
+# My whiteboard and running order
+
+<div class="sketch-area"></div>
+```
+
+The blank lines inside a `<div>` with inner content are required so it is still parsed as markdown (the bare `.sketch-area` above has none, so it needs no blank lines).
+
+A two-column variant with a separate ruled `.running-order` column beside the grid is also available, if a lesson wants the running order kept apart from the sketch:
 
 ```markdown
 <!-- _class: planning -->
@@ -79,8 +91,6 @@ The portrait theme provides a planning-page layout for printable briefing notes:
 
 </div>
 ```
-
-The blank lines inside the `<div>`s are required so the inner content is still parsed as markdown. Omit the `.planning-columns` wrapper and use a bare `<div class="sketch-area"></div>` for a full-width sketch area.
 
 ## Layout utilities
 

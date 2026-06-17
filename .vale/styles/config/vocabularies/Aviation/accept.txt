@@ -32,7 +32,7 @@ kneeboard
 kts
 (?i)pitot
 subscale
-unstall
+unstalls?
 Waypoint
 
 # Aircraft types
