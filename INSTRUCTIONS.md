@@ -22,14 +22,20 @@ npx astro dev
 
 ### Running without a local Node toolchain
 
-`make dev` and `make build` work whether or not Node is installed on the host:
+`make dev`, `make build` and `make check` work whether or not Node is installed
+on the host:
 
 - If `npm` is on `PATH`, the Make targets run it directly.
 - If not, they fall back to a container built from `Dockerfile` (Node 22 +
-  Chromium, the latter needed by Marp for PDF export). The image is built
-  automatically on first use. Either `podman` or `docker` is detected; override
-  with `CONTAINER_RUNTIME=docker` or force the container path with
+  Chromium for Marp's PDF export, plus the Vale prose linter and the en_AU
+  Hunspell dictionary `make check` needs). The image is built automatically on
+  first use. Either `podman` or `docker` is detected; override with
+  `CONTAINER_RUNTIME=docker` or force the container path with
   `make dev USE_CONTAINER=1`.
+
+The Vale version baked into the image (`VALE_VERSION` ARG in `Dockerfile`) is
+kept in sync with the `VALE_VERSION` env var in `.github/workflows/ci.yml`,
+which is how CI installs Vale on the runner directly.
 
 The container bind-mounts the repo (so edits and `node_modules` live on the
 host as usual) and forwards the Astro dev server on port **4324**. Rootless

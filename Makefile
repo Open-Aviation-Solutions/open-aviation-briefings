@@ -33,11 +33,13 @@ endif
 TTY := $(shell [ -t 0 ] && echo -it)
 CONTAINER_RUN := $(CONTAINER_RUNTIME) run --rm $(TTY) -v $(CURDIR):/app $(CONTAINER_USER) -e ASTRO_HOST=1
 NPM := $(CONTAINER_RUN) $(IMAGE) npm
+VALE := $(CONTAINER_RUN) $(IMAGE) vale
 # Stamp file marking the last successful image build, so plain `make` runs only
 # rebuild the image when the Dockerfile is newer (no runtime call otherwise).
 IMAGE_STAMP := .image.stamp
 else
 NPM := npm
+VALE := vale
 endif
 
 help:
@@ -72,8 +74,8 @@ endif
 build: node_modules ## Build slides and site to ./dist/
 	$(NPM) run build
 
-lint-prose: ## Spell- and style-check slides and instructor notes with Vale
-	vale brief-slides/ src/content/docs/
+lint-prose: $(IMAGE_STAMP) ## Spell- and style-check slides and instructor notes with Vale
+	$(VALE) brief-slides/ src/content/docs/
 
 check: lint-prose ## Run all checks
 
