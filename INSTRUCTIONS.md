@@ -20,6 +20,24 @@ npx marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-sl
 npx astro dev
 ```
 
+### Running without a local Node toolchain
+
+`make dev` and `make build` work whether or not Node is installed on the host:
+
+- If `npm` is on `PATH`, the Make targets run it directly.
+- If not, they fall back to a container built from `Dockerfile` (Node 22 +
+  Chromium, the latter needed by Marp for PDF export). The image is built
+  automatically on first use. Either `podman` or `docker` is detected; override
+  with `CONTAINER_RUNTIME=docker` or force the container path with
+  `make dev USE_CONTAINER=1`.
+
+The container bind-mounts the repo (so edits and `node_modules` live on the
+host as usual) and forwards the Astro dev server on port **4324**. Rootless
+podman keeps host file ownership automatically; under rootful docker the
+container runs as the host user for the same reason. The image rebuilds
+automatically when the `Dockerfile` changes (tracked via a `.image.stamp`
+file); `touch Dockerfile` forces a rebuild.
+
 ## Architecture
 
 ### Two pipelines
