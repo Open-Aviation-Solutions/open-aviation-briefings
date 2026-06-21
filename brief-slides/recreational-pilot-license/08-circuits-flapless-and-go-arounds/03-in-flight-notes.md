@@ -1,14 +1,14 @@
 ---
 marp: true
 theme: open-aviation-portrait
-title: Circuits — Flapless and Missed Approaches — In-flight Notes
+title: Circuits — Flapless and Go-Arounds — In-flight Notes
 license: CC-BY-SA-4.0
 pdf: true
 ---
 
 <!-- _class: lead -->
 
-# Circuits — Flapless and Missed Approaches — In-flight Notes
+# Circuits — Flapless and Go-Arounds — In-flight Notes
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 8_
 

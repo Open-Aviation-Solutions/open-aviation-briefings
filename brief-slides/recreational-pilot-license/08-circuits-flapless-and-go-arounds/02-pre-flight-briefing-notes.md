@@ -1,14 +1,14 @@
 ---
 marp: true
 theme: open-aviation-portrait
-title: Circuits — Flapless and Missed Approaches — Pre-flight Briefing Notes
+title: Circuits — Flapless and Go-Arounds — Pre-flight Briefing Notes
 license: CC-BY-SA-4.0
 pdf: true
 ---
 
 <!-- _class: lead -->
 
-# Circuits — Flapless and Missed Approaches
+# Circuits — Flapless and Go-Arounds
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 8, Pre-flight Briefing Notes_
 
@@ -50,7 +50,7 @@ By this lesson the student flies the circuit, approach and landing. Keep this br
 
 - **consolidate** the normal circuit, approach and landing
 - fly a **flapless approach and landing** — a flatter, faster, powered approach
-- carry out a **missed approach (go-around)** before touchdown
+- carry out a **go-around** before touchdown
 - **recover from a baulked landing** — go around from a bad or bounced touchdown
 
 Write the aim on the board — these all hang off *deciding not to land*.
@@ -63,7 +63,7 @@ Write the aim on the board — these all hang off *deciding not to land*.
 
 - Runway: ______ &nbsp;&nbsp; Circuit direction: ______ &nbsp;&nbsp; Circuit height: ______ ft
 - CTAF / frequencies: ______ &nbsp;&nbsp; Flapless approach speed (POH): ______ kt
-- Go-around / missed-approach point: ______ &nbsp;&nbsp; Who flies which circuit: ______
+- Go-around point: ______ &nbsp;&nbsp; Who flies which circuit: ______
 
 **Draw** — the exercise sequence (build it up over several circuits):
 
