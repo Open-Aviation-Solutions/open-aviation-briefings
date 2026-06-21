@@ -1,16 +1,16 @@
 ---
 marp: true
 theme: open-aviation
-title: Circuits — Flapless and Missed Approaches — Theory
+title: Circuits — Flapless and Go-Arounds — Theory
 license: CC-BY-SA-4.0
 draft: true
-header: "Circuits — Flapless and Missed Approaches — Theory"
+header: "Circuits — Flapless and Go-Arounds — Theory"
 ---
 
 <!-- _class: lead -->
 
 # Circuits —
-# Flapless and Missed Approaches
+# Flapless and Go-Arounds
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 8, Pre-flight theory_
 
@@ -21,7 +21,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 By this lesson the student has flown circuits (lessons 6–7) and can fly the standard pattern, approach and landing. In addition to more consolidation, this lesson adds two distinct new skills:
 
 1. The flapless approach and landing — a flatter, faster approach flown with power.
-2. The missed approach (go-around) and recovery from a baulked landing — abandoning an approach or a poor landing.
+2. The go-around and recovery from a baulked landing — abandoning an approach or a poor landing.
 
 The theory brief takes them in that order, which matches the in-flight notes and the order they are flown: consolidation circuit, then flapless, then go-arounds, then the baulked-landing recovery (the most demanding, built on the go-around). That said, there may be opportunity to demonstrate go-arounds throughout the lesson.
 
@@ -71,7 +71,7 @@ We'll come back to this. First, the other new skill for today — landing withou
 <briefing-overview plane-position="0" controls-start>
   <briefing-topic label="Learning&#10;Objectives" time="2"></briefing-topic>
   <briefing-topic label="Flapless&#10;Approach &amp; Landing" time="8"></briefing-topic>
-  <briefing-topic label="The Go-Around&#10;(Missed Approach)" time="9"></briefing-topic>
+  <briefing-topic label="The&#10;Go-Around" time="9"></briefing-topic>
   <briefing-topic label="Missed Landing&#10;Recovery" time="5"></briefing-topic>
   <briefing-topic label="Recap" time="3"></briefing-topic>
 </briefing-overview>
@@ -178,7 +178,7 @@ It may be worth discussing *why* less or no flaps are used in strong wind condit
 
 TODO: idea for a new component: circuit viewer which allows specifying runway(s) and a patch that includes altitude. 3D path is then rendered as a translucent arrow and a 3D scene that can be viewed. Perhaps multiple paths (with colours) to compare, say, flapless vs with flaps.
 
-![large TODO Profile diagram comparing a normal flapped approach (steeper, nearer aiming point) with a flatter flapless approach to a further aiming point, with a longer float and landing distance.](/brief-assets/recreational-pilot-license/08-circuits-flapless-and-missed-approaches/flapless-vs-normal-profile.png)
+![large TODO Profile diagram comparing a normal flapped approach (steeper, nearer aiming point) with a flatter flapless approach to a further aiming point, with a longer float and landing distance.](/brief-assets/recreational-pilot-license/08-circuits-flapless-and-go-arounds/flapless-vs-normal-profile.png)
 
 <!--
 
@@ -212,11 +212,11 @@ Emphasise the energy-management consequence: more speed + less drag = more runwa
 
 ---
 
-# Waypoint 2 — The Go-Around (Missed Approach)
+# Waypoint 2 — The Go-Around
 
 <briefing-overview plane-position="1" controls></briefing-overview>
 
-<!-- Click Direct-To to arrive at The Go-Around (Missed Approach). -->
+<!-- Click Direct-To to arrive at The Go-Around. -->
 
 ---
 
@@ -242,7 +242,7 @@ AFH Ch 9 (stabilised approach concept). Reinforce that a stabilised-approach sta
 
 # The go-around actions, in order
 
-![right large Profile diagram of a go-around: an aircraft descends on final, arrests the descent at a low decision point, then climbs away along the extended centreline, with the four go-around actions labelled in sequence.](/brief-assets/recreational-pilot-license/08-circuits-flapless-and-missed-approaches/go-around-profile.png)
+![right large Profile diagram of a go-around: an aircraft descends on final, arrests the descent at a low decision point, then climbs away along the extended centreline, with the four go-around actions labelled in sequence.](/brief-assets/recreational-pilot-license/08-circuits-flapless-and-go-arounds/go-around-profile.png)
 
 This is a modified **Power**, **Attitude** and **Trim**:
 
@@ -266,7 +266,7 @@ A clean, flat-style instructional aviation diagram in a side-on (profile) view, 
 
 ---
 
-# Flying the missed approach safely
+# Flying the go-around safely
 
 - Climb on the **extended runway centreline** — do not turn until at a safe height.
 - **Allow for wind** during the go-around and rejoin.
