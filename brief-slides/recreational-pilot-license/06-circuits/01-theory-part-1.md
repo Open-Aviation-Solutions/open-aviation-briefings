@@ -279,7 +279,7 @@ Emphasise: the windsock at the threshold matters more than the windsock across t
 - Release brakes and **Smoothly** apply full power; check engine instruments in the green.
 - Keep straight with **rudder** — expect a left yaw from prop effects.
 - Hold the **attitude** — let the aircraft fly itself off at the rotation speed.
-- At positive rate of climb, **pitch for VY** (best rate of climb).
+- At positive rate of climb, **pitch for $V_Y$** (best rate of climb).
 - Track the **extended centreline** to 500 ft AGL.
 
 > **Smooth power. Centreline. Attitude. Climb.**
@@ -376,7 +376,7 @@ Emphasise: in the circuit, every leg has work to do — checks, lookout, radio, 
 | **Circuit pattern** | Five legs — upwind, crosswind, downwind, base, final. 1000 ft AGL circuit height (typical). Left-hand unless published otherwise. |
 | **Wind & runway** | Take off and land into wind for lower groundspeed and better control. |
 | **Windsock** | Points the way the wind is going. Fully out ≥ 15 kt, 45° ≈ 7–10 kt. |
-| **Take-off** | Smooth power, centreline with rudder, attitude, let it fly off, climb at VY. |
+| **Take-off** | Smooth power, centreline with rudder, attitude, let it fly off, climb at $V_Y$. |
 | **After take-off** | Checklist at ~500 ft AGL; level off at circuit height on downwind. |
 | **Operating** | Checklists are the safety net for high-workload circuit operations. |
 
