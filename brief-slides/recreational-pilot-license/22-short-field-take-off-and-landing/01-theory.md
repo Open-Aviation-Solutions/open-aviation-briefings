@@ -3,6 +3,7 @@ marp: true
 theme: open-aviation
 title: Short Field Take-off and Landing — Theory
 license: CC-BY-SA-4.0
+draft: true
 header: "Short Field Take-off and Landing — Theory: Performance, Planning and Technique"
 ---
 
@@ -30,6 +31,8 @@ Note the CASA caveat we will return to: "short field" is really a misnomer. The 
 
 - Picture a strip with tall trees at the far end. Same aeroplane, same weight — but it's a hot day and the grass is long and wet.
 
+TODO: update this with a youtube short of a STOL landing on the creek, to chat about *how* that is possible, then *how* our safety margins are very different.
+
 <!--
 
 Open with the student's own experience. By now they have taxied onto plenty of runways. Get them imagining the variables before we name them.
@@ -44,6 +47,9 @@ Let the question sit. We want them to volunteer "hot day", "uphill", "soft surfa
 
 - Picture a strip with tall trees at the far end. Same aeroplane, same weight — but it's a hot day and the grass is long and wet.
 - What's changed about how much runway you need — to get off, and to stop?
+
+TODO: possibly add the new circuits 3D component showing difference between the normal and short-field take-off?
+
 
 <!--
 

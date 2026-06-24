@@ -30,18 +30,18 @@ Before the lesson, read the sections that follow, then come back here: note *you
 
 # Using these notes
 
-By this lesson the student plans much of the flight themselves. The pre-flight brief is where the **performance numbers** they calculated get checked and the **threats of a marginal strip** get named — keep it to about **15 minutes**, at the whiteboard, working interactively: **ask, draw, and listen** rather than present.
+By this lesson the student plans much of the flight themselves. The pre-flight brief is where the **performance numbers** they calculated get checked and the **threats of a marginal strip** get named — keep it to about **10 minutes**, at the whiteboard, working interactively: **ask, draw, and listen** rather than present.
 
 **The components** (choose your own order on the planning page):
 
 | Component | ~ time |
 |-----------|--------|
-| The aim of the flight | 1–2 min |
-| Today's numbers — performance check | 3–4 min |
-| Today's flight — whiteboard walk-through | 3–4 min |
-| Threats and how we'll manage them | 3 min |
-| Airmanship emphasis — the go/no-go decision | 2–3 min |
-| Questions, then fly | 1–2 min |
+| The aim of the flight | 1 min |
+| Today's numbers — performance check | 3 min |
+| Today's flight — whiteboard walk-through | 2 min |
+| Threats and how we'll manage them | 2 min |
+| Airmanship emphasis — the go/no-go decision | 1–2 min |
+| Questions, then fly | 1 min |
 
 ## The aim of the flight
 
