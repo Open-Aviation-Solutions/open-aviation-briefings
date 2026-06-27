@@ -122,6 +122,21 @@ or some other preference. Each in-flight activity just describes the sequence to
 
 ---
 
+# The stall is pilot-induced — hands off at the warning
+
+> The key point: it is the pilot holding the nose up that causes the stall. Release the controls and the aircraft recovers on its own.
+
+## Sequence
+
+- HASELL — include carb heat check
+- Power to idle, carb heat
+- Student raises the nose and holds back pressure to maintain height as speed bleeds off
+- At the stall warning — **release all controls** (hands and feet off)
+- Observe: nose lowers, speed builds, aircraft settles into a glide at the trimmed speed
+- Be ready to recover if it does not self-recover: ease forward, then power, carb heat cold
+
+---
+
 # Wing drop / spin avoidance — instructor demonstration only
 
 > **Only if the aeroplane is approved for intentional spinning** (check the aircraft flight manual). If it is not, do not fly this demonstration — limit it to wing-drop avoidance and incipient recognition.
