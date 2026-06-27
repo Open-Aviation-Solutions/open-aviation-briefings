@@ -2,6 +2,10 @@
 
 Aviation instructor lesson system. Marp generates slide decks (briefs); Astro/Starlight provides the instructor documentation site that embeds those slides.
 
+## Before committing
+
+Always run `make check` before committing to catch Vale prose lint errors early.
+
 ## Commands
 
 ```bash

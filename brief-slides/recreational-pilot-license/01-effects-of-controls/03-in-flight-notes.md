@@ -136,6 +136,6 @@ If there's time, demonstrate stability by applying a small rudder and roll input
 - **Listen to AWIS** — note runway in use, circuit direction, QNH
 - Fill in the blanks; student reads the call at 10 NM:
 
-> Traffic ___, ________ ___ miles ___ ___ft, inbound, estimated circuit time __. Plan to join ____________ RWY __
+> Traffic ___, ________ ___ miles ___ ___ ft, inbound, estimated circuit time __. Plan to join ____________ RWY __
 
 - My aircraft — join circuit and land, demonstrating as we go
