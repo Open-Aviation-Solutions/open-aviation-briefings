@@ -9,7 +9,7 @@
     "marp:serve": "marp --server . --config marp.config.js",
     "dev": "npm run marp:build && npm run marp:pdf && concurrently --names marp,astro -c blue,cyan \"npm run marp:watch\" \"astro dev --port 4324\"",
     "build": "npm run marp:build && npm run marp:pdf && astro build",
-    "build:pages": "npx puppeteer browsers install chrome && npm run build"
+    "build:pages": "npm run marp:build && astro build"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.7.2",
