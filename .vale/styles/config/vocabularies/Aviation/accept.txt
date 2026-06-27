@@ -30,10 +30,14 @@ carb
 (?i)centreline
 kneeboard
 kts
+mitigations?
 (?i)pitot
+POHs?
 subscale
+(?i)unstabilised
 unstalls?
 Waypoint
+(?i)weathervan(e|ing)
 
 # Aircraft types
 PA28
