@@ -3,12 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "marp:build": "SITE_BASE=/open-aviation-briefings marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-slides",
+    "marp:build": "marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-slides",
     "marp:pdf": "node scripts/build-pdfs.mjs",
-    "marp:watch": "SITE_BASE=/open-aviation-briefings marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-slides --watch",
+    "marp:watch": "marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-slides --watch",
     "marp:serve": "marp --server . --config marp.config.js",
     "dev": "npm run marp:build && npm run marp:pdf && concurrently --names marp,astro -c blue,cyan \"npm run marp:watch\" \"astro dev --port 4324\"",
-    "build": "npm run marp:build && npm run marp:pdf && astro build"
+    "build": "npm run marp:build && npm run marp:pdf && astro build",
+    "build:pages": "npx puppeteer browsers install chrome && npm run build"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.7.2",
