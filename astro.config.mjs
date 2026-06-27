@@ -4,8 +4,11 @@ import sitemap from '@astrojs/sitemap'
 import fs from 'node:fs'
 import path from 'node:path'
 
-const SITE = 'https://open-aviation-solutions.github.io'
-const BASE = '/open-aviation-briefings'
+// When building on Cloudflare Pages (PR previews), CF_PAGES_URL is set automatically
+// to the preview deployment URL. Use it as-is with no base path so asset paths resolve
+// correctly under that URL. GitHub Pages production builds use the fixed constants.
+const SITE = process.env.CF_PAGES_URL ?? 'https://open-aviation-solutions.github.io'
+const BASE = process.env.CF_PAGES_URL ? '' : '/open-aviation-briefings'
 
 // Open Aviation Solutions brand social card, served from this site's base path.
 // Source of truth for the image is the website repo (public/og-image.png); the

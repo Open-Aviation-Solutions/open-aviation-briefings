@@ -1,7 +1,11 @@
 import { readFileSync } from 'fs'
 import { Marp } from '@marp-team/marp-core'
 
-const BASE = process.env.SITE_BASE ?? ''
+// Cloudflare Pages PR preview builds: no base path (site served at URL root).
+// Local and CI builds: default to the GitHub Pages base path, overridable via SITE_BASE.
+const BASE = process.env.CF_PAGES_URL !== undefined
+  ? ''
+  : (process.env.SITE_BASE ?? '/open-aviation-briefings')
 const COMPONENT_SCRIPT = `${BASE}/open-aviation-components/define.es.js`
 
 // Treat custom elements (hyphenated tag names) as block-level HTML.
