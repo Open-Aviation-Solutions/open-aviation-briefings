@@ -106,9 +106,13 @@ For each exercise: **Demonstrate** → **Direct** → **Monitor**.
 # Return to airport
 
 - Retract flap in stages if extended; establish normal cruise
-- CTAF call as appropriate
-- TODO: brief approach and circuit entry for home aerodrome
 - Let student fly straight and level during return for consolidation
+- **Listen to AWIS** — note runway in use, circuit direction, QNH
+- Fill in the blanks; student reads the call at 10 NM:
+
+> Traffic ___, ________ ___ miles ___ ___ft, inbound, estimated circuit time __. Plan to join ____________ RWY __
+
+- Instructor to fly the approach and landing
 
 ---
 

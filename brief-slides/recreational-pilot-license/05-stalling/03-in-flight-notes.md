@@ -142,5 +142,12 @@ or some other preference. Each in-flight activity just describes the sequence to
 
 ---
 
-# Return to aerodrome
+# Return to airport
 
+- Establish cruise; head back towards the airport
+- **Listen to AWIS** — note runway in use, circuit direction, QNH
+- Fill in the blanks; student reads the call at 10 NM:
+
+> Traffic ___, ________ ___ miles ___ ___ft, inbound, estimated circuit time __. Plan to join ____________ RWY __
+
+- Instructor to fly the approach and landing
