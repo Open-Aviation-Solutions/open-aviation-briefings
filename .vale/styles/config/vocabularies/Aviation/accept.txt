@@ -27,11 +27,15 @@ foveal
 backpressure
 stabilator
 carb
+(?i)avgas
 (?i)centreline
 kneeboard
 kts
+(?i)overbank(ing)?
 (?i)pitot
 subscale
+TAFs?
+(?i)underbank(ing)?
 unstalls?
 Waypoint
 
