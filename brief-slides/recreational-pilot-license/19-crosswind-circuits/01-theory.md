@@ -16,7 +16,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 <!--
 
-This theory session covers crosswind limitations, the crosswind component, and the two main techniques for correcting for drift — from take-off through to the after-landing roll. The pre-flight brief and air exercise build directly on this content.
+This theory session covers crosswind limitations from take-off through to the after-landing roll, the crosswind component, and the two main techniques for correcting for drift during landing. The pre-flight brief and air exercise build directly on this content.
 
 -->
 
@@ -24,18 +24,23 @@ This theory session covers crosswind limitations, the crosswind component, and t
 
 # What happens when the wind isn't aligned with the runway?
 
-- Have you been in a strong crosswind — in a car, on a bike, or even walking?
+- Have you ever found yourself trying to walk in a straight line with a strong wind pushing you sideways?
+- Or perhaps swimming or boating across a river towards a point on the other side?
 
 ---
 
 # What happens when the wind isn't aligned with the runway?
 
-- Have you been in a strong crosswind — in a car, on a bike, or even walking?
-- Without any correction, an aircraft on final **drifts sideways across the ground**
+<youtube-video shorts video-id="0Z7LYsIuqsc" class="right"></youtube-video>
+
+- Have you ever found yourself trying to walk in a straight line with a strong wind pushing you sideways?
+- Or perhaps swimming or boating across a river towards a point on the other side?
+- Without any correction, an aircraft on final **also drifts sideways across the ground**
+- When you lean into the wind while walking, or swim against the stream while swimming, you are trying to go straight while **accounting for the drift**
 
 <!--
 
-Most people have instinctively leaned into a crosswind on a bike, or felt a car pushed sideways on an exposed motorway. That instinct is the right one — we need to actively correct for drift.
+Draw the everyday parallel out of the students first: leaning into the wind while walking, or angling upstream while swimming or rowing, are all instinctive drift corrections. That instinct is exactly what we apply on final.
 
 -->
 
@@ -43,8 +48,12 @@ Most people have instinctively leaned into a crosswind on a bike, or felt a car 
 
 # What happens when the wind isn't aligned with the runway?
 
-- Have you been in a strong crosswind — in a car, on a bike, or even walking?
-- Without any correction, an aircraft on final **drifts sideways across the ground**
+<youtube-video shorts video-id="0Z7LYsIuqsc" class="right"></youtube-video>
+
+- Have you ever found yourself trying to walk in a straight line with a strong wind pushing you sideways?
+- Or perhaps swimming or boating across a river towards a point on the other side?
+- Without any correction, an aircraft on final **also drifts sideways across the ground**
+- When you lean into the wind while walking, or swim against the stream while swimming, you are trying to go straight while **accounting for the drift**
 - At touchdown, the aircraft contacts the runway while moving sideways — the lateral force on the undercarriage can cause a runway excursion or structural damage
 
 > Crosswind technique exists to ensure the aircraft is **tracking straight down the runway** at the moment of touchdown — every time.
@@ -91,18 +100,17 @@ By the end of this session, our aim is to be able to:
 
 # What we know from circuits
 
-From Lessons 6–15, we already correct for wind throughout every circuit:
+From previous lessons, we already correct for wind in parts of every circuit, but usually we've been taking off and landing into wind, so that correction has been limited to:
 
 - **Crosswind leg** — adjust heading to track square across the runway
-- **Downwind** — apply a heading correction to run parallel to the runway
-- **Base to final** — adjust the turn to intercept the centreline from the correct angle
-- **Final** — track the extended centreline to the threshold
+- **Base leg** — adjust heading to track square towards the centreline, and then
+- **Base to final turn** — adjust the turn to intercept the centreline from the correct angle
 
-In most circuit lessons, the wind has been light and roughly aligned with the runway. Today, the **crosswind component is significant** — the same corrections become larger, more deliberate, and technically different at the threshold and on the roll.
+In most circuit lessons, the wind has been light and roughly aligned with the runway. For this lesson, the **crosswind component is significant** — the same corrections become larger, more deliberate, and technically different at the threshold and on the roll.
 
 <!--
 
-Quick show of hands: how many circuits have you flown? Then: "All of that practice still applies today. We're adding one more layer — what to do when the wind has a meaningful component across the runway."
+How many circuits have you flown? All of that practice still applies today. We're adding one more layer — what to do when the wind has a meaningful component across the runway.
 
 This revision is brief by design. The student knows circuits; today extends them.
 
@@ -119,13 +127,14 @@ The pattern is the same — the **corrections are larger and the technique at to
 | **Take-off roll** | Into-wind aileron; maintain centreline with rudder |
 | **Lift-off** | Establish crab angle immediately to track centreline |
 | **Crosswind / downwind** | Heading offset to compensate; tighter or wider turns to stay square |
-| **Base → final** | Crab or wing-low to hold extended centreline |
+| **Base** | Anticipate early or late turn depending on cross-wind |
+| **Final** | Crab or wing-low to hold extended centreline |
 | **Threshold → touchdown** | Aircraft aligned with runway; upwind wheel first |
 | **Landing roll** | Progressive into-wind aileron; prevent weathervaning with rudder |
 
 <!--
 
-Draw this as a quick sketch on the whiteboard if helpful: the runway, the wind arrow, and where corrections are applied.
+Draw this as a quick sketch on the whiteboard if helpful: the runway, the wind arrow, and where corrections are applied. TODO: add new 3D circuit component for use here.
 
 -->
 
@@ -165,7 +174,7 @@ Before every crosswind flight, check **all three**:
 | Limit | Source | Notes |
 |-------|--------|-------|
 | **Aircraft limit** | POH — max demonstrated crosswind | Upper bound on any day |
-| **Operator limit** | School or company ops manual | Often more conservative than POH |
+| **Operator limit** | School or company ops manual | Can be more conservative than POH, but not less conservative |
 | **Personal limit** | Your own experience and currency | Lower again in early training |
 
 > If any one of these is exceeded by the forecast crosswind, use an alternate runway or don't fly.
@@ -187,7 +196,7 @@ A useful PAVE question: "Does today's crosswind fit within all three limits?"
 The windsock gives **real-time wind at the runway threshold** — check it before every approach:
 
 - **Direction** — the open end of the sock faces into wind; the tail trails downwind
-- **Speed** — fully extended horizontally ≈ 15 kt; drooping at 45° ≈ 7–8 kt; limp ≈ calm
+- **Speed** — fully extended horizontally ≈ 25–30 kt; drooping at 45° ≈ 15 kt; limp ≈ calm
 - **Crosswind angle** — if the sock is at 90° to the runway, wind is fully across the runway
 
 **Before every circuit**, check the windsock:
@@ -240,6 +249,8 @@ TODO image — generate and save as crosswind-component-diagram.png in brief-ass
 IMAGE PROMPT (for an image generator):
 A clean, flat instructional aviation diagram viewed from directly above (plan view), on a light grey background. A runway strip runs horizontally across the centre of the image from left to right, labelled "Runway — Heading 090" at the right end. A large bold arrow originates from the upper-left pointing toward the lower-right along the runway, labelled "Wind: 060° / 20 kt". Overlaid on the runway a right-angle triangle: the hypotenuse runs parallel to the wind arrow and is labelled "Total wind: 20 kt"; a horizontal side runs along the runway direction and is labelled "Headwind component: 17 kt"; a short vertical side drops perpendicular to the runway and is labelled "Crosswind component: 10 kt". The angle between the wind arrow and the runway heading is annotated "30°". A small formula box in the lower-right corner reads: "XW component = Wind × sin(angle) = 20 × sin(30°) = 10 kt". Blue arrows on blue lines, grey runway strip, light background. Clean flat instructional / whiteboard style, bold sans-serif labels, no photorealism. Landscape orientation with generous margins so it reads at slide size.
 
+TODO — this would be another excellent interactive component for open-aviation-components: a 2-D runway viewed from overhead with an adjustable wind, showing the clock approximation below or beside it, so the student can see how the rule-of-thumb works.
+
 PHAK Ch 11 covers the crosswind component chart. AFH Ch 6 (Crosswind Takeoff) and Ch 9 (Crosswind Approach and Landing) cover technique.
 
 -->
@@ -258,7 +269,7 @@ The crosswind component tells us **how much** correction we need and whether con
 
 <!--
 
-Reinforce: the same crosswind that causes a gentle drift correction on downwind is the same wind that causes a sideways thump at touchdown if uncorrected on final. The consequences depend entirely on whether the technique is applied.
+Reinforce: the same crosswind that causes a gentle drift correction on downwind is the same wind that causes a sideways thump at touchdown if uncorrected on final.
 
 -->
 
@@ -324,14 +335,14 @@ Point the nose into wind so the **ground track** follows the extended centreline
 - Determine the **crab angle** — the heading correction needed to track straight (intuitive once practiced)
 - **Maintain this heading** throughout final; wings remain level
 - The nose points across the runway, but the aircraft tracks straight down it
-- **Just before the flare** — apply rudder to align the nose with the runway; wings remain level
+- **Just before touchdown** — apply rudder to align the nose with the runway; wings remain level
 - **Touchdown** — both main wheels contact simultaneously, tracking straight
 
 **The critical moment:** if the crab is not removed promptly, the aircraft lands **sideways** — side-load on the undercarriage.
 
 <!--
 
-The crab method is standard in transport-category jets (a 5° bank on a B737 final approach would put an engine nacelle dangerously close to the runway). For light aircraft, it is a useful concept to understand, but the wing-low method is the trained technique.
+The crab method is standard in transport-category jets (a 5° bank on a B737 final approach would put an engine nacelle dangerously close to the runway). It is also preferred in the Australian Flight Instructor Manual, but the wing-low method or a combination is also fine.
 
 -->
 
@@ -356,7 +367,7 @@ The biggest student challenge: they've been taught to keep the ball centred. Her
 
 The into-wind aileron during the roll: as speed falls, aerodynamic effectiveness decreases, so more aileron is needed progressively. This is the opposite of what students expect.
 
-AFH Ch 9 covers the wing-low technique in detail.
+AFH Ch 9 covers the wing-low technique in detail. Question: some aeroplanes are not approved for side-slipping with flap out — why isn't this mentioned in relation to this method in any of the texts?
 
 -->
 
@@ -377,13 +388,27 @@ AFH Ch 9 covers the wing-low technique in detail.
 - **Full into-wind aileron** by taxi speed
 - Use **brakes as needed** to maintain directional control
 
-**Flap selection:** in a strong crosswind, use less flap than usual (or none) to reduce the likelihood of being ballooned sideways. Check your aircraft's POH for specific guidance — some types give explicit crosswind flap limits.
-
 > Loss of directional control on the landing roll is the **most common cause of runway excursions** in crosswind operations — the technique continues until the aircraft is stopped.
 
 <!--
 
 The weathervaning tendency increases as speed falls: the fin loses effectiveness while the aircraft's tendency to point into the wind remains. This is the moment most crosswind accidents occur — well after the runway threshold has been crossed and the technique feels "done."
+
+-->
+
+---
+
+# Flap Selection in a Crosswind
+
+In a strong crosswind, consider using **less flap than usual** (or none):
+
+- Reduces the likelihood of being **ballooned sideways** in the flare
+- Gives a slightly higher approach and touchdown speed, improving control authority when it matters most
+- Check your aircraft's **POH** for specific guidance — some types give explicit crosswind flap limits
+
+<!--
+
+Less flap is a trade-off: a faster, flatter approach with more positive control versus a longer landing roll. For early crosswind training, reduced flap keeps the aircraft more responsive at the moment it matters most. Always defer to the POH where it gives an explicit limit.
 
 -->
 
@@ -414,7 +439,7 @@ The weathervaning tendency increases as speed falls: the fin loses effectiveness
 | Topic | Key principle |
 |-------|--------------|
 | **Crosswind limits** | Check aircraft (POH), operator, and personal limits — all three |
-| **Crosswind component** | Wind speed × sin(angle to runway); or use the POH crosswind chart |
+| **Crosswind component** | Wind speed × sin(angle to runway); or use the POH crosswind chart or clock approximation |
 | **Crab method** | Nose into wind, wings level; align with rudder just before touchdown |
 | **Wing-low method** | Upwind wing down, opposite rudder; upwind wheel first; ball off-centre is correct |
 | **Landing roll** | Progressive into-wind aileron; rudder to prevent weathervaning; technique continues until stopped |
@@ -425,7 +450,7 @@ The weathervaning tendency increases as speed falls: the fin loses effectiveness
 
 Can you:
 
-- **Name two** crosswind limits you must check before a crosswind flight?
+- **Name two** crosswind limits you must check before a crosswind take-off or landing?
 - **Describe** how to calculate the crosswind component for a 20 kt wind at 45° to the runway?
 - **Identify the key difference** between the crab method and the wing-low method during a crosswind approach?
 - **List three** control inputs applied during the landing roll in a significant crosswind?
