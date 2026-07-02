@@ -30,10 +30,14 @@ carb
 (?i)centreline
 kneeboard
 kts
+mitigations?
 (?i)pitot
+POHs?
 subscale
+(?i)unstabilised
 unstalls?
 Waypoint
+(?i)weathervan(e|ing)
 
 # Aircraft types
 PA28
@@ -55,6 +59,9 @@ Zentrum
 
 # Surnames in attributions
 Murrman
+
+# Place names / airports cited in slides
+Gatwick
 
 # Common abbreviations used in slide shorthand
 config
