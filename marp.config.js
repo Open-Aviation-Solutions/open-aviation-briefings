@@ -82,7 +82,7 @@ function imageDirectives(md) {
   })
 }
 
-const PUBLISHED_COMPONENTS = ['aerofoil-dynamics', 'four-forces', 'briefing-overview', 'climb-performance', 'pitch-roll-yaw']
+const PUBLISHED_COMPONENTS = ['aerofoil-dynamics', 'four-forces', 'briefing-overview', 'climb-performance', 'pitch-roll-yaw', 'circuit-diagram']
 const LOCAL_COMPONENTS = {
   'youtube-video': `${BASE}/components/youtube-video.js`,
   'secondary-effect-climb-car': `${BASE}/components/secondary-effect-climb-car.js`,
@@ -104,6 +104,28 @@ body[data-bespoke-view=presenter] svg.bespoke-marp-slide.bespoke-marp-active:has
   pointer-events: auto;
 }
 `
+
+// Bespoke's deck navigation binds a `wheel` listener on the deck parent (an
+// ancestor of every slide) and advances to the next/previous slide on scroll.
+// That swallows two-finger scroll / wheel zoom inside interactive components
+// (e.g. OrbitControls zoom in the 3D scenes). The component's own zoom handler
+// listens deeper (on its canvas), so it fires first; we then stop the event
+// bubbling up to the deck parent so no slide change is triggered.
+//
+// `stopPropagation` (not `stopImmediatePropagation`) is deliberate: it lets any
+// other listeners on the component itself still run, and only blocks ancestors.
+// The listener is attached to the host element, so it works whether or not the
+// custom element has upgraded yet. Derived from ALL_INTERACTIVE_TAGS so, like
+// the CSS above, no per-component maintenance is needed.
+const INTERACTIVE_WHEEL_GUARD = `<script>
+(() => {
+  const sel = ${JSON.stringify(ALL_INTERACTIVE_TAGS.join(', '))};
+  const attach = () => document.querySelectorAll(sel).forEach(
+    el => el.addEventListener('wheel', e => e.stopPropagation()))
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', attach)
+  else attach()
+})()
+</script>`
 
 // A deck opts in to a "DRAFT" watermark with `draft: true` in its frontmatter,
 // to flag an unfinished brief. The faint diagonal text overlays every slide
@@ -186,6 +208,7 @@ export default {
       }
       if (ALL_INTERACTIVE_TAGS.some(tag => markdown.includes(`<${tag}`))) {
         result.css += PRESENTER_INTERACTIVE_CSS
+        scripts.push(INTERACTIVE_WHEEL_GUARD)
       }
 
       // Opt-in DRAFT watermark, detected from the deck's frontmatter (the

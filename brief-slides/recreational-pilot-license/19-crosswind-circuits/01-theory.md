@@ -24,19 +24,13 @@ This theory session covers crosswind limitations from take-off through to the af
 
 # What happens when the wind isn't aligned with the runway?
 
-- Have you ever found yourself trying to walk in a straight line with a strong wind pushing you sideways?
-- Or perhaps swimming or boating across a river towards a point on the other side?
-
----
-
-# What happens when the wind isn't aligned with the runway?
-
-<youtube-video shorts video-id="0Z7LYsIuqsc" class="right"></youtube-video>
+![right medium A person rowing a boat across a flowing river, angling the boat upstream to reach a point on the far bank — an everyday example of correcting for drift.](/brief-assets/recreational-pilot-license/19-crosswind-circuits/rowing-across-river.png)
 
 - Have you ever found yourself trying to walk in a straight line with a strong wind pushing you sideways?
-- Or perhaps swimming or boating across a river towards a point on the other side?
-- Without any correction, an aircraft on final **also drifts sideways across the ground**
-- When you lean into the wind while walking, or swim against the stream while swimming, you are trying to go straight while **accounting for the drift**
+- Or perhaps swimming or rowing across a flowing river towards a point on the other side?
+- What do you have to do, to ensure that you move in a straight line towards your destination?
+
+> What happens if you **don't account for that drift** and just walk, swim or row directly along your intended path?
 
 <!--
 
@@ -50,11 +44,29 @@ Draw the everyday parallel out of the students first: leaning into the wind whil
 
 <youtube-video shorts video-id="0Z7LYsIuqsc" class="right"></youtube-video>
 
-- Have you ever found yourself trying to walk in a straight line with a strong wind pushing you sideways?
-- Or perhaps swimming or boating across a river towards a point on the other side?
-- Without any correction, an aircraft on final **also drifts sideways across the ground**
-- When you lean into the wind while walking, or swim against the stream while swimming, you are trying to go straight while **accounting for the drift**
-- At touchdown, the aircraft contacts the runway while moving sideways — the lateral force on the undercarriage can cause a runway excursion or structural damage
+- Without any correction, an aeroplane on final with a cross-wind **also drifts sideways across the ground**
+- Just like the row-boat, the aeroplane has to point upstream (upwind in this case) to travel the intended straight path.
+- Watch how this aeroplane landing at Gatwick airport in England manages to fly straight down the runway centre-line.
+- What do you notice about the landing itself?
+
+<!--
+
+Notice how the plane *must* orient itself down the centreline when it rolls.
+
+How could we help the aeroplane suffer less stress during the landing?
+
+-->
+
+---
+
+# What happens when the wind isn't aligned with the runway?
+
+<youtube-video shorts video-id="0Z7LYsIuqsc" class="right"></youtube-video>
+
+- Without any correction, an aeroplane on final with a cross-wind **also drifts sideways across the ground**
+- Just like the row-boat, the aeroplane has to point upstream (upwind in this case) to travel the intended straight path.
+- Watch how this aeroplane landing at Gatwick airport in England manages to fly straight down the runway centre-line.
+- What do you notice about the landing itself?
 
 > Crosswind technique exists to ensure the aircraft is **tracking straight down the runway** at the moment of touchdown — every time.
 
@@ -84,8 +96,8 @@ The key message: we already correct for crosswind on downwind and base in every 
 By the end of this session, our aim is to be able to:
 
 - **Identify** the crosswind limitations that apply to our aircraft, operator, and personal standards
-- **Calculate or look up** the crosswind component for a given wind direction and speed
-- **Describe** the crab and wing-low methods for correcting drift on approach and landing
+- **Approximate** the crosswind component for a given wind direction and speed
+- **Describe** the crab method for correcting drift on approach and landing
 - **Explain** the correct crosswind technique for each phase: take-off roll, lift-off, approach, touchdown, and landing roll
 
 ---
@@ -118,6 +130,32 @@ This revision is brief by design. The student knows circuits; today extends them
 
 ---
 
+# Where does drift correction apply into wind?
+
+<circuit-diagram
+  height="600px"
+  runway="27"
+  vertical-exaggeration="3"
+  show-help="false"
+  wind-from="270"
+  wind-speed="30"
+>
+  <circuit-path
+    label="Into-wind circuit"
+    color="#3b82f699"
+    points="0,0,1; 700,0,1; 2000,0,175; 2000,-1000,305; -1500,-1000,305; -1500,0,180; 0,0,1"
+    segment-labels="0:Take-off roll; 1:Upwind; 2:Crosswind — allow for drift; 3:Downwind · 1000 ft; 4:Base — allow for drift; 5:Final"
+  ></circuit-path>
+</circuit-diagram>
+
+<!--
+
+Orbit the scene and point out the wind arrow running straight down runway 27. Walk the student around the circuit: on upwind, downwind and final the aircraft is aligned with the wind, so it tracks straight with no heading offset. On the crosswind and base legs the wind is now 90° across the track — that is exactly where we already crab to hold a square ground track. Today's lesson extends that same instinct to the take-off, approach and landing roll, where the wind is across the runway itself.
+
+-->
+
+---
+
 # What changes in a crosswind circuit?
 
 The pattern is the same — the **corrections are larger and the technique at touchdown changes**:
@@ -134,7 +172,35 @@ The pattern is the same — the **corrections are larger and the technique at to
 
 <!--
 
-Draw this as a quick sketch on the whiteboard if helpful: the runway, the wind arrow, and where corrections are applied. TODO: add new 3D circuit component for use here.
+Draw this as a quick sketch on the whiteboard if helpful: the runway, the wind arrow, and where corrections are applied.
+
+-->
+
+---
+
+# Where does correction apply in a direct crosswind?
+
+<circuit-diagram
+  height="600px"
+  runway="27"
+  vertical-exaggeration="3"
+  show-help="false"
+  wind-from="180"
+  wind-speed="30"
+>
+  <circuit-path
+    label="Direct crosswind circuit"
+    color="#3b82f699"
+    points="0,0,1; 700,0,1; 2000,0,175; 2000,-1000,305; -1500,-1000,305; -1500,0,180; 0,0,1"
+    segment-labels="0:Take-off roll — into-wind aileron; 1:Upwind — crab into wind; 2:Crosswind — headwind, hold heading; 3:Downwind — crab to hold spacing; 4:Base — tailwind, turn early; 5:Final — crab; upwind wheel first"
+  ></circuit-path>
+</circuit-diagram>
+
+<!--
+
+Contrast this with the into-wind circuit two slides back: the wind is now square across runway 27, so every leg needs work. The take-off and landing roll along the runway feel the full crosswind — into-wind aileron and rudder to hold the centreline. Upwind and final need a crab (or wing-low) to hold the extended centreline. The crosswind leg is now into a headwind while the base leg has a tailwind, so the base turn comes up fast and must be anticipated to avoid overshooting final. On downwind the crosswind pushes the aircraft toward the runway, so crab into wind to hold circuit spacing.
+
+This is the same 30 kt wind as the into-wind slide, just rotated 90° — a deliberately strong example so the corrections are obvious. A direct crosswind this strong would, of course, exceed the limits we cover next.
 
 -->
 

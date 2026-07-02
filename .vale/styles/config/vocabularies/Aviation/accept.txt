@@ -60,6 +60,9 @@ Zentrum
 # Surnames in attributions
 Murrman
 
+# Place names / airports cited in slides
+Gatwick
+
 # Common abbreviations used in slide shorthand
 config
 g's
