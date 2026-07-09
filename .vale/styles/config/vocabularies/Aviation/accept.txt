@@ -26,6 +26,7 @@ VY
 foveal
 backpressure
 stabilator
+(?i)tacho
 carb
 (?i)centreline
 kneeboard
