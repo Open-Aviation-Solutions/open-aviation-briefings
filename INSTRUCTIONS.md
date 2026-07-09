@@ -77,7 +77,7 @@ Marp must run before Astro in both `dev` and `build` scripts so the slide HTML e
 Custom engine extending `@marp-team/marp-core` with three additions:
 
 1. **`customElementBlock` plugin** — teaches markdown-it to treat hyphenated custom element tags (`<four-forces>`, etc.) as block-level HTML instead of wrapping them in `<p>`.
-2. **Script injection** — if a slide deck uses any `PUBLISHED_COMPONENTS` tag (`four-forces`, `briefing-overview`, `climb-performance`, `pitch-roll-yaw`), a `<script type="module" src="/open-aviation-components/define.es.js">` is prepended, served locally via the `public/open-aviation-components` symlink. If a `LOCAL_COMPONENTS` tag (`youtube-video`, `secondary-effect-climb-car`, `secondary-effect-elevator`) appears, the matching `/components/<tag>.js` file is injected.
+2. **Script injection** — if a slide deck uses any `PUBLISHED_COMPONENTS` tag (`aerofoil-dynamics`, `four-forces`, `briefing-overview`, `climb-performance`, `pitch-roll-yaw`, `circuit-diagram`, `crosswind-clock`), a `<script type="module" src="/open-aviation-components/define.es.js">` is prepended, served locally via the `public/open-aviation-components` symlink. If a `LOCAL_COMPONENTS` tag (`youtube-video`, `secondary-effect-climb-car`, `secondary-effect-elevator`) appears, the matching `/components/<tag>.js` file is injected.
 
 ### Developing `@open-aviation-solutions/components` locally
 
