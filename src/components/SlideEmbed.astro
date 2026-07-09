@@ -7,15 +7,17 @@ interface Props {
   pdf?: string
 }
 const { src, title, orientation = 'landscape', float, pdf } = Astro.props
+import { pdfDownloadName } from '../lib/pdf-download-name.mjs'
 const base = import.meta.env.BASE_URL.replace(/\/$/, '')
 const resolvedSrc = base + src
 const resolvedPdf = pdf ? base + pdf : undefined
+const downloadName = pdf ? pdfDownloadName(pdf) : undefined
 ---
 
 <div class:list={['slide-embed', `slide-embed--${orientation}`, float && `slide-embed--float-${float}`]}>
   <iframe src={resolvedSrc} title={title}></iframe>
   {resolvedPdf
-    ? <a href={resolvedPdf} target="_blank" rel="noopener noreferrer">Download PDF ↓</a>
+    ? <a href={resolvedPdf} download={downloadName} target="_blank" rel="noopener noreferrer">Download PDF ↓</a>
     : <a href={resolvedSrc} target="_blank" rel="noopener noreferrer">Open slides ↗</a>
   }
 </div>
