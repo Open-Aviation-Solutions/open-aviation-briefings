@@ -50,7 +50,7 @@ The theory is done and the student understands what a crosswind does to the airc
 
 - fly **crosswind take-offs** with correct into-wind aileron and centreline tracking
 - fly **crosswind circuits** with appropriate heading corrections on each leg
-- land using the **wing-low method** (or combination), upwind wheel first, with directional control on the roll
+- land using **crab-and-align** — crab on final, align with rudder in the flare and drop the upwind wing slightly, upwind wheel first, with directional control on the roll
 - review **engine failure after take-off** and **engine failure in the circuit area**
 
 Write the aim on the board — it anchors everything else.
@@ -70,13 +70,13 @@ Write the aim on the board — it anchors everything else.
 
 1. **Crosswind take-off** — full into-wind aileron before roll; reduce as speed builds; crab after liftoff
 2. **Crosswind circuit** — heading corrections on downwind; early/late base turn to compensate
-3. **Crosswind landing** — crab on final (heading into wind, wings level); align with rudder in the flare; nose wheel firmly down; into-wind aileron on roll
+3. **Crosswind landing** — crab on final (heading into wind, wings level); align with rudder in the flare, dropping the upwind wing slightly; upwind wheel first; nose wheel firmly down; into-wind aileron on roll
 4. Repeat circuits — student takes control progressively
 5. **EFATO review** — simulated (from briefing in Lesson 9)
 6. **Engine failure in circuit area** — simulated (from Lesson 9)
 7. Return to park
 
-**Ask** — "In the wing-low method, which wheel touches first?"
+**Ask** — "As we align in the flare, which wheel touches first?"
 
 **Expect** — the upwind (into-wind) main wheel; the nose and other main wheel follow as speed reduces and bank is relaxed.
 
@@ -120,7 +120,7 @@ This lesson's focus: **the go-around decision, and the landing roll**.
 
 **The go-around threshold:**
 
-Before every circuit, set a concrete threshold — not "if it doesn't feel right" but a specific condition: *"If we are still crabbed below 200 ft and I can't establish wing-low, we go around."* Name the condition before the approach, not during it.
+Before every circuit, set a concrete threshold — not "if it doesn't feel right" but a specific condition: *"If we are still crabbed and drifting below 200 ft and I can't hold the centreline, we go around."* Name the condition before the approach, not during it.
 
 **Ask** — "What are the three signals to go around in a crosswind?"
 

@@ -77,7 +77,7 @@ or some other preference. Each in-flight activity just describes the sequence to
 ## Approach and landing
 
 - Crab to track centreline; resist the temptation to align with the runway heading too early
-- In the flare: **apply rudder smoothly to align the nose with the runway**; use aileron to keep wings level — or transition to wing-low if that is the taught method
+- In the flare: **apply rudder smoothly to align the nose with the runway**, and **drop the upwind wing slightly** to hold the centreline; touch down on the upwind wheel first (align earlier → more wing-low; align later → less)
 - At touchdown: aircraft tracking **straight down the runway**; nose wheel firmly on the ground for directional control
 - Landing roll: **rudder and brakes to prevent weathervaning**; **increase into-wind aileron** as speed falls; full aileron by taxi speed
 - If approach is not stabilised, or at threshold in doubt — **go around**
