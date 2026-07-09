@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight'
 import sitemap from '@astrojs/sitemap'
 import fs from 'node:fs'
 import path from 'node:path'
+import { visit } from 'unist-util-visit'
+import { pdfDownloadName } from './src/lib/pdf-download-name.mjs'
 
 // When building on Cloudflare Pages (PR previews), CF_PAGES_URL is set automatically
 // to the preview deployment URL. Use it as-is with no base path so asset paths resolve
@@ -46,9 +48,31 @@ const devPublicUnderBase = {
   },
 }
 
+// Give every in-page link to a local brief-slides PDF a lesson-specific
+// download name, so the SlideEmbed "Download PDF" button and the inline
+// "download the PDF" markdown links all save differentiated filenames rather
+// than colliding as identical "02-pre-flight-briefing-notes.pdf". External
+// links (NZ CAA / CASA / FAA whiteboards) are left untouched — the download
+// attribute is ignored cross-origin anyway.
+function rehypePdfDownloadName() {
+  return (tree) => {
+    visit(tree, 'element', (node) => {
+      if (node.tagName !== 'a') return
+      const href = node.properties?.href
+      if (typeof href !== 'string') return
+      if (/^[a-z]+:/i.test(href)) return // skip absolute/external URLs
+      if (!href.includes('/brief-slides/') || !href.endsWith('.pdf')) return
+      node.properties.download = pdfDownloadName(href)
+    })
+  }
+}
+
 export default defineConfig({
   site: SITE,
   base: BASE,
+  markdown: {
+    rehypePlugins: [rehypePdfDownloadName],
+  },
   // When running inside the dev container (see Makefile/Dockerfile) the server
   // must listen on all interfaces so the forwarded host port can reach it.
   server: process.env.ASTRO_HOST ? { host: true } : {},
