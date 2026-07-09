@@ -513,7 +513,7 @@ Points 2 and 3 happen together in the flare — they are drawn close to the thre
 
 *When* you transition from crabbing to align with the runway and lower the wing  changes as your skill grows:
 
-- **Early on** — align a little **earlier**, higher in the flare. Because you are aligned sooner, **drop the upwind wing** to hold the extended centreline while you settle onto the upwind wheel.
+- **Early on** — align a little **earlier**, higher in the flare. Because you are aligned sooner, **lower the upwind wing** to hold the extended centreline while you settle onto the upwind wheel.
 - **With practice** — align at the **last moment**, just as the wheels touch. There is then almost no time to drift, so you need **little or no wing-low** at all.
 
 The earlier you remove the crab, the more the **wing-low does the drift-correcting**; the later you remove it, the less you need. Both are the *same* method — only the timing changes.
