@@ -34,6 +34,8 @@ For the sequence of each activity, choose whether you use:
 
 or some other preference. Each in-flight activity just describes the sequence to be demonstrated and performed, regardless of the method you use.
 
+---
+
 # Before starting the plane
 
 - Confirm today's AWIS / ATIS: wind direction ______ ° at ______ kt; crosswind component ______ kt
@@ -41,13 +43,19 @@ or some other preference. Each in-flight activity just describes the sequence to
 - Check fuel — C4.3 applies today: student observes or performs refuel as required
 - Confirm go-around threshold agreed in the pre-flight brief
 
+| Record      | Start | End |
+| ----------- | ----- | --- |
+| Tacho       |       |     |
+| Maintenance |       |     |
+| Time        |       |     |
+
 ---
 
-# After departing / established in the climb
+# During taxi
 
-- During upwind climb, point out the **windsock** and note the crosswind direction
+- During taxi, point out the **windsock** and note the crosswind direction
 - Brief the upcoming circuit: "You'll see the aircraft drift toward downwind on the crosswind leg — we'll apply a heading correction to square it up. Same as previous circuits, just more deliberate."
-- Check weather and AWIS for any change since pre-flight
+- Check weather and AWIS for any change since pre-flight if necessary
 
 ---
 
@@ -71,7 +79,7 @@ or some other preference. Each in-flight activity just describes the sequence to
 
 - **Crosswind leg** — turn from upwind; adjust heading to track square across the runway
 - **Downwind** — apply heading offset to track parallel to runway; note wind effect on groundspeed
-- **Base turn** — turn **earlier** if the wind is pushing you toward the runway on base, **later** if it is pushing you away; watch the aim point
+- **Final turn** — turn **earlier** if the wind is pushing you toward the runway on base, **later** if it is pushing you away; watch the aim point
 - **Final** — engine-assisted approach required in crosswind conditions; establish **crab** (heading into wind, wings level) to track the centreline; note the windsock before turning final
 
 ## Approach and landing
@@ -106,8 +114,7 @@ or some other preference. Each in-flight activity just describes the sequence to
 - **Lower nose** — maintain airspeed
 - **Best landing area** — select straight ahead or within 30° (no turn back below circuit height)
 - If passengers: **brace position**, harness security brief (A6.1g — standard 3)
-- At safe height — restore power; climb away; debrief
-
+- At safe height — restore power; climb away; debrief. 
 ---
 
 # Engine failure in the circuit area (simulated) — review
@@ -120,7 +127,8 @@ or some other preference. Each in-flight activity just describes the sequence to
 - **Call position and intention** on CTAF
 - Brief passengers: flight situation, brace position, harness (A6.2g — standard 3)
 - Adjust circuit as needed to reach runway threshold
-- At safe height — restore power; climb away; debrief
+- At safe height — restore power; climb away; debrief. Or if engine out landing safe, land or touch-and-go.
+
 
 ---
 
@@ -141,7 +149,7 @@ Brief the student before the circuit:
 # Final circuit — full-stop landing
 
 - Announce "last circuit" to the student; brief who is handling the landing
-- Check AWIS for any wind change since the session began
+- Check windsock for any wind change since the session began
 - Fly a normal full-stop landing (instructor or student as agreed)
 - After clearing the runway: student taxi back to parking
 - Shutdown and debrief: crosswind component achieved, best circuit, what to consolidate
