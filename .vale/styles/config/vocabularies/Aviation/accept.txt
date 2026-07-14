@@ -28,16 +28,20 @@ backpressure
 stabilator
 (?i)tacho
 carb
+(?i)avgas
 (?i)centreline
 kneeboard
 kts
 mitigations?
+(?i)overbank(ing)?
 (?i)pitot
 POHs?
 subscale
+TAFs?
+(?i)underbank(ing)?
 (?i)unstabilised
 unstalls?
-Waypoint
+(?i)waypoints?
 (?i)weathervan(e|ing)
 
 # Aircraft types
