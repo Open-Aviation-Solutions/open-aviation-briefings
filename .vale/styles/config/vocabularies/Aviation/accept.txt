@@ -41,7 +41,7 @@ TAFs?
 (?i)underbank(ing)?
 (?i)unstabilised
 unstalls?
-Waypoint
+(?i)waypoints?
 (?i)weathervan(e|ing)
 
 # Aircraft types

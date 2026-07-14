@@ -3,6 +3,7 @@ marp: true
 theme: open-aviation
 title: Turning — Theory
 license: CC-BY-SA-4.0
+draft: true
 header: "Turning — Pre-flight theory"
 ---
 
@@ -20,9 +21,10 @@ Building on lessons 1–3: the student has already been introduced to the four f
 
 ---
 
+<youtube-video shorts video-id="nFsHRnb6jfw" class="right"></youtube-video>
+
 # Turning in a car
 
-<youtube-video video-id="nFsHRnb6jfw" class="right medium"></youtube-video>
 
 Have you ever **sped around a corner too quickly** in a car? Or **played "corners"** as a kid?
 
@@ -44,9 +46,9 @@ Good chance to introduce **inertia** - or Newton's law:
 
 ---
 
-# Turning in a car — continued
+<youtube-video shorts video-id="Jy0KaCPdFz0" class="right"></youtube-video>
 
-<youtube-video video-id="Jy0KaCPdFz0" class="right medium"></youtube-video>
+# Turning in a car — continued
 
 Most of us have **never driven a car on a road like this**, but maybe you've experienced something similar **riding a bike on a special BMX track** as a kid.
 
@@ -181,9 +183,9 @@ The "load factor" concept: at 60° bank, you need to produce twice the lift. We 
 
 ---
 
-# What is a "coordinated" turn?
+<youtube-video shorts video-id="95BMG1YYH3w" class="right"></youtube-video>
 
-<youtube-video video-id="95BMG1YYH3w" class="right medium"></youtube-video>
+# What is a "coordinated" turn?
 
 Why do we need to coordinate our use of ailerons and rudder when turning?
 
@@ -319,7 +321,7 @@ Below 30°, the dihedral effect (and wing design) tries to roll the aeroplane le
 
 # More underbanking and overbanking
 
-<youtube-video video-id="qIFXiX_26Ys" width="760px"></youtube-video>
+<youtube-video video-id="qIFXiX_26Ys" width="80%"></youtube-video>
 
 ---
 

@@ -3,6 +3,7 @@ marp: true
 theme: open-aviation
 title: Climbing and Descending — Theory Part 2
 license: CC-BY-SA-4.0
+draft: true
 header: "Climbing and Descending — Theory Part 2: Descending"
 ---
 
@@ -169,20 +170,20 @@ The contrast with the climb level-off (APT) is worth highlighting. In a descent,
 
 # Three types of descent
 
-All of the following are based on an approximate descent rate of 500 ft/min.
+The handbook for your training aeroplane (and your instructor) will give you the power settings and speeds for each type of descent. As an example, the Piper Warrior 151, targeting a descent rate of around 500 ft/min:
 
 | Descent type | Power | Speed | Best used for |
 |-------------|-------|-------|---------------|
-| **Cruise descent** | 2200 RPM | 90 KIAS (?) | Normal descent from cruise; comfortable; easy to level off |
+| **Cruise descent** | 2200 RPM | 90 KIAS | Normal descent from cruise; comfortable; easy to level off |
 | **Best range glide** | Idle | 73 KIAS (best glide) | Maximum distance from altitude with engine failure |
-| **Approach descent** | 1700 RPM, 2-stages flaps | 70 KIAS | Circuit and landing; uses flap |
+| **Approach descent** | 1700 RPM, 2 stages of flap | 70 KIAS | Circuit and landing; uses flap |
 
 - **Cruise descent** — small power reduction, gentle nose-down; airspeed similar to cruise
 - **Glide** — engine at idle; nose attitude set for best glide speed; maximum range
 - **Approach** — power and attitude adjusted together; flap increases drag to steepen the path
 
 <!--
-TODO: Fill in power settings and speeds for the Warrior.
+The table values are Warrior 151 examples — check the equivalent power settings and speeds for your training aeroplane before the lesson.
 Mirror the three-types pattern from Part 1. Students can now see the parallel: three types of climb, three types of descent, each with its own use case.
 -->
 
@@ -192,7 +193,7 @@ Mirror the three-types pattern from Part 1. Students can now see the parallel: t
 
 A **glide** is a descent with power at idle. The aeroplane trades altitude for distance.
 
-- **Best glide speed**: 73 KIAS — gives the maximum distance per foot of altitude lost
+- **Best glide speed** — published in your aeroplane's handbook (e.g. 73 KIAS for the Warrior 151) — gives the maximum distance per foot of altitude lost
 - Too slow: induced drag increases; glide range decreases
 - Too fast: parasite drag increases; glide range also decreases
 - There is **one optimal speed** — not "as slow as possible"
@@ -204,8 +205,7 @@ A **glide** is a descent with power at idle. The aeroplane trades altitude for d
 - **Headwind** — reduces range over the ground; tailwind increases it
 
 <!--
-TODO: Confirm best glide speed for the Warrior (approximately 73 KIAS at max gross weight).
-Glide ratio for the Warrior is approximately 10:1 — for every 1000 ft, approximately 1.7 nm of range.
+Know the best glide speed and approximate glide ratio for your training aeroplane — for the Warrior 151 that's approximately 73 KIAS at max gross weight and a 10:1 glide ratio (for every 1000 ft, approximately 1.7 nm of range).
 This is a critical airspeed to know — it will come up again in the engine failure forced landing lesson.
 -->
 

@@ -8,7 +8,7 @@ pdf: true
 
 <!-- _class: lead -->
 
-# Turning — In-flight Lesson
+# Turning — In-flight Notes
 
 _CASA Recreational Pilot License (Aeroplane) — Lesson 4_
 
@@ -16,15 +16,28 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 ---
 
-# Language notes
+# Language choices
 
-- Say **"roll into a left/right turn"** — not "turn left" (turning is a whole-aircraft manoeuvre)
-- Say **"apply rudder in the direction of the turn"** — not "push the right pedal"
-- Say **"level the wings"** for roll-out — not "straighten up"
-- Say **"apply back pressure"** — not "pull back", and **"ease back pressure"**
-- Say **"ball in the centre"** or **"ball is displaced"** — not "the balance ball"
+> **"roll into a left/right turn"** — not "turn left"; turning is a whole-aircraft manoeuvre.
+
+> **"apply rudder in the direction of the turn"** — not "push the right pedal".
+
+> **"level the wings"** for the roll-out — not "straighten up".
+
+> **"apply back pressure"** / **"ease back pressure"** — not "pull back".
+
+> **"ball in the centre"** or **"ball is displaced"** — not "the balance ball".
 
 <!-- Ask Tammy about the preferred phrasing for "ease" back pressure. -->
+
+# Demonstration-Performance
+
+For the sequence of each activity, choose whether you use:
+
+- Demonstration-Performance: Explain, Demonstrate, Performance and Monitor, Evaluation
+- DDM: Demonstrate, Direct, Monitor
+
+or some other preference. Each in-flight activity just describes the sequence to be demonstrated and performed, regardless of the method you use.
 
 ---
 
@@ -34,6 +47,13 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 - Confirm student has completed I'M SAFE and PAVE (brief inside)
 - Check NOTAMs and TAF for training area
 - We'll also be introducing the HASELL check
+- Review "My aeroplane / Your aeroplane" handover phrases
+
+| Record      | Start | End |
+| ----------- | ----- | --- |
+| Tacho       |       |     |
+| Maintenance |       |     |
+| Time        |       |     |
 
 ---
 
@@ -54,9 +74,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 # In the training area
 
-Set up: established straight and level at 4500 or 6500.
-
-For each exercise: **Demonstrate** → **Direct** → **Monitor**.
+Set up: established straight and level at a suitable altitude for your training area.
 
 ---
 
@@ -64,32 +82,50 @@ For each exercise: **Demonstrate** → **Direct** → **Monitor**.
 
 Use a full 360° to have time to point out all instrument readings, the ball, and what happens if you turn more steeply or flatten out (sink or climb). Ensure the student gets the picture of a 30° turn, where the horizon intercepts the aeroplane.
 
-- **Demonstrate**: clear area, roll to ~20° bank with coordinated aileron and rudder, hold bank with slight aileron, back pressure to maintain altitude; roll out on a heading
-- **Direct**: student enters a left turn to a nominated heading; maintain 15–25° bank; roll out and stop within ±10° of target heading
-- **Monitor**: ball, altitude (±100 ft), bank angle; prompt rudder if ball displaces; note tendency to release back pressure early
+## Sequence
+
+- Clear the area — lookout turn
+- Roll in with coordinated aileron and rudder to ~20° bank
+- Hold the bank with slight aileron; back pressure to maintain altitude
+- Work cycle through the turn: ball centred, altitude within ±100 ft, bank angle steady
+- Roll out on a nominated heading (within ±10°), easing the back pressure as the wings level
+
+<!-- Watch for: ball displacement (prompt rudder); the tendency to release back pressure too early in the turn. -->
 
 ---
 
 # Medium level turn — right
 
-- **Direct**: student enters a right turn to a nominated heading (reverse of previous)
-- **Monitor**: same as left; note if rudder application is stronger or weaker one side
+## Sequence
+
+- Repeat the left-turn sequence to the right, rolling out on a nominated heading
+
+<!-- Watch whether rudder application is stronger or weaker to one side. -->
 
 ---
 
 # Climbing turn
 
-- **Demonstrate**: establish best-rate climb, then roll gently to 10–15° bank with coordinated inputs; maintain climb speed
-- **Direct**: student performs a climbing turn of 90° to a new heading
-- **Monitor**: bank angle (shallow enough?), climb speed maintained, ball centred; watch for over-banking
+## Sequence
+
+- Establish a best-rate climb (lesson 3 sequence)
+- Look out, then roll gently to 10–15° bank with coordinated inputs
+- Maintain climb speed with attitude through the turn
+- Roll out on the new heading (about 90° change); continue the climb or level off
+
+<!-- Watch for over-banking — the outer wing travels faster and generates more lift, so the bank tends to steepen on its own. -->
 
 ---
 
 # Powered descending turn
 
-- **Demonstrate**: establish powered descent, then enter a coordinated turn; maintain descent power and speed
-- **Direct**: student performs a powered descending turn through 90°
-- **Monitor**: ball, altitude loss rate, airspeed; watch for excessive bank increasing descent rate
+## Sequence
+
+- Establish a powered descent (lesson 3 sequence)
+- Look out, then enter a coordinated turn, maintaining descent power and speed
+- Roll out after about 90°; continue the descent or level off
+
+<!-- Watch: ball, altitude loss rate, airspeed — excessive bank increases the descent rate. -->
 
 ---
 
@@ -97,27 +133,36 @@ Use a full 360° to have time to point out all instrument readings, the ball, an
 
 **carb heat — fuel pump**
 
-- **Demonstrate**: power off, establish glide at best glide speed, then enter a coordinated gentle turn
-- **Direct**: student performs a gliding descending turn through 90°
-- **Monitor**: ball, glide speed, bank angle; watch for altitude loss increasing if bank gets too steep
+## Sequence
+
+- Power off, establish the glide at best glide speed
+- Look out, then enter a gentle coordinated turn
+- Roll out after about 90°
+
+<!-- Watch: ball, glide speed, bank angle — altitude loss increases if the bank gets too steep. -->
 
 ---
 
 # Spiral dive — instructor demonstration only
 
-- Clear area thoroughly — demonstrating a HASELL check
-- **Demonstrate**: enter a steep turn and allow it to tighten; narrate the instruments (ASI increasing, altimeter unwinding, needle hard over). Take the time to let it steepen and point out the readings (airspeed in particular, but also bank).
-- **Recover**: throttle back → level wings → ease some back pressure; narrate each step
-- **Debrief immediately**: confirm the student understood what they observed and the recovery sequence
+## Sequence
+
+- Clear the area thoroughly — demonstrating a HASELL check
+- Enter a steep turn and allow it to tighten; narrate the instruments (airspeed increasing, altimeter unwinding, VSI needle hard over)
+- Take the time to let it steepen and point out the readings — airspeed in particular, but also bank
+- Recover, narrating each step:
+  - Throttle back
+  - Level the wings
+  - Gently ease out of the dive
+- Debrief immediately: confirm the student understood what they observed and the recovery sequence
 
 ---
 
 # Return to airport
 
 - Student flies return navigation; radio calls for joining and landing as per lesson 3
+- Note the return heading / waypoints for your home aerodrome before the flight
 - **Refuelling**: student performs under supervision — identify avgas, earth aircraft, check quantity, load fuel, check caps, perform quality check (drain sump)
-
-<!-- TODO: confirm the return heading / waypoints for the home aerodrome. -->
 
 ---
 
@@ -127,4 +172,4 @@ Call these out in flight:
 
 - Lookout turn before every manoeuvre — 180° clearing turn if visibility restricted
 - Work cycle during sustained turns: **Attitude** → **Lookout** → **Attitude** → **Performance** (ALAP)
-- Hand-over / take-over every time control changes
+- "My aeroplane / Your aeroplane" every time control changes

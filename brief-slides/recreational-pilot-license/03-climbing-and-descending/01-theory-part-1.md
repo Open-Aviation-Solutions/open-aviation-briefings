@@ -3,6 +3,7 @@ marp: true
 theme: open-aviation
 title: Climbing and Descending — Theory Part 1
 license: CC-BY-SA-4.0
+draft: true
 header: "Climbing and Descending — Theory Part 1: Climbing"
 ---
 
@@ -133,9 +134,7 @@ In a **climb**, we can **use the excess thrust available to generate lift**
 - The **excess thrust** is now generating extra lift instead of extra speed.
 - A component of **weight now holds the aeroplane back**, in addition to the drag force.
 
-> More excess thrust → steeper or faster climb.
-
-> Less excess thrust → shallower climb.
+> More excess thrust → steeper or faster climb. Less excess thrust → shallower climb.
 
 <!--
 Keep this simple. The key insight: climbing requires excess thrust.
@@ -258,7 +257,7 @@ APT for level-off. The sequence differs from climb entry (PAT) because we need t
 
 # Three types of climb
 
-The handbook for the Piper Warrior 151 (the model of HTK) gives us values for best angle (VX) and best rate (VY), and online resources suggest a cruise climb speed:
+The handbook for your training aeroplane will give you the values for best angle ($V_X$) and best rate ($V_Y$), and possibly a best cruise speed. As an example, the Piper Warrior 151 gives us values online resources suggest a cruise climb speed:
 
 | Climb type | Speed | Best used for |
 |------------|-------|---------------|
@@ -272,6 +271,24 @@ The handbook for the Piper Warrior 151 (the model of HTK) gives us values for be
 
 <!--
 Use the model aeroplane or a whiteboard diagram to show the nose attitude difference between all three.
+-->
+
+---
+
+# Best angle vs best rate — excess thrust vs excess power
+
+<climb-performance vs="43" cruise-kts="148"></climb-performance>
+
+<!--
+Demo script — left chart first, then right:
+
+- Before touching anything, ask: why do best angle and best rate happen at two *different* speeds?
+- Left chart: drag the cursor to where the green gap between thrust available and thrust required is widest — it snaps at VX. Excess *thrust* is what pulls us up most steeply per metre travelled: best **angle**.
+- Right chart: drag to where the gap between power available and power required is widest — it snaps at VY. Excess *power* is height gained per minute: best **rate**.
+- Have the student predict before revealing: is VX slower or faster than VY? (Slower — the thrust surplus peaks earlier than the power surplus, and the charts show why.)
+- Drag slower than VX and watch the excess shrink again — we'll return to this region ("behind the curve") in the stalling lesson.
+
+The model is generic but calibrated (vs=43, cruise-kts=148) so VX and VY land on the Warrior's 63 and 75 KIAS from the previous slide.
 -->
 
 ---

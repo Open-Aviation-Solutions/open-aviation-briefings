@@ -85,8 +85,8 @@ I'M SAFE and PAVE are standing checks before **every** flight — by now the stu
 
 **Draw / Ask the weather and notices** — check both before every flight; they feed directly into **PAVE → enVironment**:
 
-- **TAF (YBTH)** — issued every 3 hours; wind, visibility, cloud base and significant weather. Is the forecast within your personal limits for today?
-- **NOTAMs** — via NAIPS or OzRunways, for YBTH and the training area; look for runway/taxiway closures, airspace restrictions, navigation aids unserviceable.
+- **TAF** — for your nearest forecast aerodrome; issued every 3 hours; wind, visibility, cloud base and significant weather. Is the forecast within your personal limits for today?
+- **NOTAMs** — via NAIPS or OzRunways, for your aerodrome and the training area; look for runway/taxiway closures, airspace restrictions, navigation aids unserviceable.
 
 **Draw** — list the genuine threats you and the student identify for *this* flight:
 
@@ -112,7 +112,7 @@ This lesson's emphasis: every turn starts with a **lookout**, stays **in balance
 
 A spiral dive develops fast and the nose-low, high-speed picture can be surprising the first time you see it — that's exactly why we demonstrate it from a safe height and rehearse the recovery now.
 
-**Ask** — "Run me through the control handover phrases." **Expect** — "You have control" / "I have control", acknowledged on every transfer.
+**Ask** — "Run me through the control handover phrases." **Expect** — "My aeroplane" / "Your aeroplane", acknowledged on every transfer.
 
 ---
 
@@ -123,7 +123,7 @@ A spiral dive develops fast and the nose-low, high-speed picture can be surprisi
 Quick recap as you pack up the whiteboard:
 
 - Clear the area with a **lookout turn** before every manoeuvre
-- "I have control / you have control" — every transfer
+- "My aeroplane / Your aeroplane" — every transfer
 - **Step on the ball** — keep it centred through every turn
 - Spiral dive recovery: **level wings first**, then ease out of the dive
 
