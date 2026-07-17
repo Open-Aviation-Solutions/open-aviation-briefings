@@ -1,0 +1,7 @@
+source: Open Aviation Solutions — Desmos graph (stall speed multiplier = 1/√cos θ)
+source_url: https://www.desmos.com/calculator/fu2pfd1szr
+licence: CC-BY-SA-4.0
+figure_ref: ~
+accessed: 2026-07-17
+author: Open Aviation Solutions
+notes: Exact plot of stall speed multiplier = 1/sqrt(cos(bank angle)) — the square root of the load factor — versus angle of bank, expressed as a multiple of the wings-level (1 g) stall speed. Marked points at 30° (×1.07), 45° (×1.19), 60° (×1.41) and 75° (×1.97); the curve climbs steeply past 60°. Aircraft-independent (dimensionless). Exported as SVG from the linked Desmos graph.

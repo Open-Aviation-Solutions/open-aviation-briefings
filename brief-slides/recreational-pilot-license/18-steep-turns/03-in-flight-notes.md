@@ -104,7 +104,7 @@ Cruise configuration. Start at 45° bank; build to 60° as it firms up.
 - Lookout; note a reference point or heading to roll out on
 - Roll into the bank; **add power progressively** as bank increases to hold speed
 - Increase **back pressure** to hold the nose on the horizon; **balance** with rudder
-- Hold: **pitch** with elevator, **bank** with aileron, **balance** with rudder
+- Hold with **BBB**: **bank** with aileron, **balance** with rudder, **back-pressure** with elevator
 - If the nose drops:
   - **Reduce bank first**, then raise the nose, then re-establish the bank
 - Recover: anticipate ~half the bank angle early, roll out, **reduce power** to cruise, **ease forward** to hold the nose

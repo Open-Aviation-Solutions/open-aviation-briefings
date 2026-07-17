@@ -3,7 +3,6 @@ marp: true
 theme: open-aviation
 title: Steep Turns — Theory Part 1
 license: CC-BY-SA-4.0
-draft: true
 header: "Steep Turns — Theory Part 1: Load Factor and the Aerodynamics of Steep Turns"
 ---
 
@@ -28,27 +27,87 @@ This lesson revises the medium turn from Lesson 4 (Turning). Have the student's 
 
 ---
 
-# Have you ever felt yourself pushed into your seat?
+<youtube-video shorts video-id="nFsHRnb6jfw" class="right"></youtube-video>
 
-- On a rollercoaster looping over the top?
-- In a car cornering hard, or a fairground ride spinning fast?
+# Turning in a car
+
+Back in our lesson 04 turning, we used the analogy of turning in a car. Although you've probably never turned quite like this in a car, imagine:
+
+- What do you **feel** as you go around the corner?
+- In which direction does your body want to continue?
+- Why don't we turn planes like this?
+
+> A body in motion **continues in a straight line** at a constant speed, unless acted on by an external force — **Isaac Newton**'s first law
+
+
 
 <!--
 
-Draw the everyday experience out of the student first. Almost everyone has felt "g" — the sense of being pressed down (or pulled sideways) in a tight, fast turn or a rollercoaster loop.
+Most of us have experience being pressed sideways when turning in a car (playing corners).
 
-That feeling of extra weight is exactly what we are about to study: load factor.
+What stops a plane from being able to turn like this is, effectively, that it doesn't
+have tyres gripping the ground - instead it's slipping through the air.
 
 -->
 
 ---
 
-# Have you ever felt yourself pushed into your seat?
 
-- On a rollercoaster looping over the top?
-- In a car cornering hard, or a fairground ride spinning fast?
+<youtube-video shorts video-id="Jy0KaCPdFz0" class="right"></youtube-video>
 
-That feeling of being "heavier" is **load factor** — and in an aeroplane it changes how the wing behaves.
+# Turning in a car — continued
+
+We then looked at an example of car turning that shares more similarities with turning in an aeroplane.
+
+- **How** do the forces felt in this corner differ from the previous one?
+- In what ways is this turn similar to the turns we do in an aeroplane? How is it different?
+
+<!--
+
+It's similar in that we're banking around the corner, and so a force perpindicular to our
+vehicle is now helping the turn.
+
+It's different in that with the car, that "Lift/Turning" force is being provided by the *ground*. In an aeroplane, it needs to be provided by the lift of the wings.
+
+Interestingly, railroad tracks and car roads do actually do this to some degree, just nowhere near as obviously.
+-->
+
+---
+<youtube-video shorts video-id="w3FmY_GiReo" class="right"></youtube-video>
+
+# Turning in a car — continued
+
+This week, our car analogy is more like this:
+
+That "pressure", or feeling of being "heavier" is the **load factor**. A load factor of 1 is exactly what we feel on a flat road or flying straight and level. A load factor of 2 feels as if gravity has doubled and we're twice as heavy.
+
+- In a car, what effect do you expect the load factor to have on the car?
+- What about in an aeroplane? What effect do you expect the load factor to have on an aeroplane turning like this?
+
+<!--
+
+Just as the ground (and car suspension) has to provide the extra centripetal
+force to turn the car in addition to holding the car level, in an aeroplane it
+is the *wing* that provides this extra centripital force force in addition to
+holding the aeroplane level, for a level turn. To do so, the wing requires a
+*higher angle of attack* for the same speed to stay level (just as it would in
+straight and level flight with extra weight).
+
+This therefore increases the stall speed, just like extra weight would.
+
+-->
+
+---
+<youtube-video shorts video-id="w3FmY_GiReo" class="right"></youtube-video>
+
+# Turning in a car — continued
+
+This week, our car analogy is more like this:
+
+That "pressure", or feeling of being "heavier" is the **load factor**. A load factor of 1 is exactly what we feel on a flat road or flying straight and level. A load factor of 2 feels as if gravity has doubled and we're twice as heavy.
+
+- In a car, what effect do you expect the load factor to have on the car?
+- What about in an aeroplane? What effect do you expect the load factor to have on an aeroplane turning like this?
 
 > The steeper and tighter we turn, the harder the wing has to work — and today we'll find out exactly how much harder.
 
@@ -61,6 +120,8 @@ The key seed to plant: the extra weight you feel is not just a sensation — the
 ---
 
 # Why do we even practise steep turns?
+
+How can steep turns help us? **Imagine flying up a narrow valley under cloud** only to find a dead end requiring you to turn around. That's where knowing how you can get the smallest radius turn is going to be incredibly helpful. So:
 
 - **Traffic and terrain avoidance** — turning hard, deliberately, when you need to
 - **Aircraft handling** — a steep turn is an excellent test of coordination and attitude flying
@@ -124,7 +185,7 @@ These map to CASA lesson-18 underpinning knowledge A5 4(b): the relationship bet
 
 # Recall: what makes an aeroplane turn?
 
-- What actually **turns** the aeroplane — is it the rudder?
+- What actually **turns** the aeroplane? What is the name of the force that causes the turn?
 
 <!--
 
@@ -138,18 +199,20 @@ A common misconception is that the rudder turns the aeroplane. It doesn't — th
 
 # Recall: what makes an aeroplane turn?
 
-- What actually **turns** the aeroplane — is it the rudder?
+- What actually **turns** the aeroplane? What is the name of the force that causes the turn?
 
 When we bank, the **lift force tilts** with the wings. It now has:
 
 - a **vertical component** — holding us up against weight
-- a **horizontal component** — pulling us around the turn
+- a **horizontal component** — pulling us around the turn. It is this centripetal force that turns the aeroplane in an arc.
 
 > It is the **horizontal component of lift** that turns the aeroplane. Rudder only keeps the turn **balanced**.
 
+Next: can you recall the sequence or mnenomic that we use for turning?
+
 <!--
 
-Revision from Lesson 4 (Turning). Use a physical model or the interactive on the next slide.
+Revision from Lesson 4 (Turning). Use a physical model before the interactive on the next slide.
 
 The horizontal component of lift is the centripetal force. The rudder's job is to balance the turn (counter the aileron drag on entry and keep the balance ball centred), not to yaw the aircraft around.
 
@@ -159,14 +222,14 @@ The horizontal component of lift is the centripetal force. The rudder's job is t
 
 # Recall: entering and holding a turn
 
-From Lesson 4, the sequence to **enter** a medium turn:
+From Lesson 4, the sequence to **enter** a medium turn — **Lookout**, then **BBB**:
 
 - **Lookout** — clear the airspace in the direction of turn
-- **Aileron** into the turn; **rudder** with it to stay balanced
-- **Back pressure** to hold the nose up as lift tilts away from vertical
-- Centralise aileron at the desired bank
+- **Bank** — aileron into the turn, with coordinated rudder
+- **Balance** — keep the ball centred
+- **Back-pressure** — hold the nose up as lift tilts away from vertical
 
-To **hold** the turn: **pitch** with elevator, **bank** with aileron, **balance** with rudder.
+Then **hold** the turn with the same **BBB** — **Bank** with aileron, **Balance** with rudder, **Back-pressure** with elevator.
 
 <!--
 
@@ -186,9 +249,9 @@ Emphasise lookout: about 85% of a visual turn should be spent looking out. Stude
 
 ---
 
-# The forces in a level turn
+![right medium A head-on diagram of an aeroplane banked in a level turn. The total lift force is drawn perpendicular to the wings, tilted with the bank. It is split into a vertical component of lift equal to and opposing weight, and a horizontal component of lift pointing into the turn labelled as the turning (centripetal) force. Weight is drawn straight down.](/brief-assets/recreational-pilot-license/18-steep-turns/forces-in-a-level-turn.png)
 
-![right large A head-on diagram of an aeroplane banked in a level turn. The total lift force is drawn perpendicular to the wings, tilted with the bank. It is split into a vertical component of lift equal to and opposing weight, and a horizontal component of lift pointing into the turn labelled as the turning (centripetal) force. Weight is drawn straight down.](/brief-assets/recreational-pilot-license/18-steep-turns/forces-in-a-level-turn.png)
+# The forces in a level turn
 
 In a **level turn**, the vertical component of lift must still balance weight — otherwise we climb or descend.
 
@@ -199,15 +262,14 @@ So as we bank more steeply, the lift has to be **tilted further** — yet its ve
 
 > To keep the vertical component equal to weight at a steeper bank, the **total lift must increase**.
 
+Let's try it out!
+
 <!--
 
 PHAK Ch 5 (Aerodynamics of Flight) — Forces in Turns. This is the canonical head-on force diagram.
 
 This is the heart of the whole lesson. Walk it slowly with the interactive on the next slide. The steeper the bank, the more the total lift vector must grow so that its shrinking vertical component still holds weight.
 
-TODO image — generate and save as forces-in-a-level-turn.png in this lesson's brief-assets dir.
-IMAGE PROMPT (for an image generator):
-A clean, flat-style instructional aviation diagram, flight-instructor-whiteboard look, on a light background, restrained blue-and-grey palette, no photorealism. View: an aeroplane seen head-on (from directly in front), banked to the right at about 45 degrees. Draw the total LIFT force as a bold arrow starting at the aircraft's centre and pointing perpendicular to the wings (so it is tilted 45 degrees from vertical, up and to the left). Show this total lift arrow broken into two components using thin dashed construction lines forming a right angle: a vertical dashed arrow pointing straight up labelled "Vertical component of lift = Weight", and a horizontal dashed arrow pointing left (into the turn) labelled "Horizontal component of lift = turning force". Draw a separate bold arrow pointing straight down from the aircraft labelled "Weight". Keep labels in a simple sans-serif. Landscape orientation, generous margins so it reads at slide size.
 
 -->
 
@@ -215,15 +277,19 @@ A clean, flat-style instructional aviation diagram, flight-instructor-whiteboard
 
 # Watch the lift tilt as we bank
 
-<four-forces height="500px" banking></four-forces>
+<four-forces v_ne="165" v_no="110" v_1="55" cruise-kts="100" height="500px" banking></four-forces>
 
 <!--
 
 Interactive demo (four-forces with banking). Suggested script:
 
 - Start level, head-on view. Note lift (L) balances weight (W).
-- Gradually bank to 45 degrees. Point out the aeroplane starts to sink — the vertical component of lift is now less than weight.
-- To restore level flight, add power to about 82% and raise attitude to about 10 degrees, OR simply bank to 60 degrees and let it settle: as long as the aircraft is not accelerating vertically, the vertical component of lift is balancing weight, and you can read off how much the total lift has grown.
+- Bank to 30 and note that Lift decreases at first (as the aeroplane accelerates downwards) before being restored to match weight as it settles in the descent.
+- Increase the attitude to 5, power to 70 to restore straight and level.
+- Gradually bank to 45 degrees. Point out the aeroplane starts to sink — the vertical component of lift again temporarily reduces before settling into a descent.
+- To restore level flight, add power to 100% and raise attitude to about 10 degrees
+- Gradually bank to 60 degrees and let it settle - harder to maintain level flight.
+
 - Have the student predict, before you reveal it: at 60 degrees of bank, how much bigger is the total lift than weight? (Answer: twice — 2 g. Next waypoint.)
 
 -->
@@ -262,7 +328,13 @@ The surprising-but-important point: for a *level* turn, the load factor is fixed
 
 # Load factor grows quickly with bank
 
-![right large A line graph. Horizontal axis labelled Angle of Bank in degrees from 0 to 90. Vertical axis labelled Load Factor in g from 1 to 6. A curve starts at 1 g at 0 degrees, rises gently to about 1.4 g at 45 degrees and 2 g at 60 degrees, then sweeps upward steeply toward infinity as it approaches 90 degrees. Dashed marker lines at 30, 45, 60 and 75 degrees.](/brief-assets/recreational-pilot-license/18-steep-turns/load-factor-vs-bank-angle.png)
+<style scoped>
+  table { width: auto;}
+</style>
+
+![right medium A line graph. Horizontal axis labelled Angle of Bank in degrees from 0 to 90. Vertical axis labelled Load Factor in g from 1 to 6. A curve starts at 1 g at 0 degrees, rises gently to about 1.4 g at 45 degrees and 2 g at 60 degrees, then sweeps upward steeply toward infinity as it approaches 90 degrees. Dashed marker lines at 30, 45, 60 and 75 degrees.](/brief-assets/recreational-pilot-license/18-steep-turns/load-factor-vs-bank-angle.svg)
+
+Notice how the load factor **accelerates** past 60° — a level turn beyond 60° very quickly demands loads the airframe (and pilot) may not tolerate.
 
 | Bank angle | Load factor |
 |-----------|-------------|
@@ -272,33 +344,32 @@ The surprising-but-important point: for a *level* turn, the load factor is fixed
 | 60° | 2.00 g |
 | 75° | 3.86 g |
 
-Notice how the load factor **accelerates** past 60° — a level turn beyond 60° very quickly demands loads the airframe (and pilot) may not tolerate.
 
 > A **60° level turn = 2 g**: the wings carry **twice** the aircraft's weight.
 
 <!--
 
-PHAK Ch 5 — the load factor vs bank angle chart. Mathematically, load factor = 1 / cos(bank angle).
+PHAK Ch 5 (Aerodynamics of Flight) — load factor in turns. Mathematically, load factor = 1 / cos(bank angle); the graph is our own Desmos plot (linked on the slide).
 
 Emphasise the shape of the curve: it is not linear. Between 0 and 45 degrees it is gentle; past 60 it runs away. This is why 60 degrees is the practical limit for a sustained level steep turn in a training aeroplane.
 
-TODO image — generate and save as load-factor-vs-bank-angle.png in this lesson's brief-assets dir.
-IMAGE PROMPT (for an image generator):
-A clean, flat-style instructional line graph, flight-instructor-whiteboard style, light background, restrained blue-and-grey palette, minimal text, no photorealism. Horizontal axis labelled "Angle of Bank (degrees)" with ticks at 0, 30, 45, 60, 75, 90. Vertical axis labelled "Load Factor (g)" with ticks at 1, 2, 3, 4, 5, 6. Plot a single smooth blue curve of load factor = 1/cos(bank): it passes through 1 g at 0 degrees, about 1.15 g at 30, 1.4 g at 45, 2.0 g at 60, 3.9 g at 75, and rises almost vertically toward infinity approaching 90 degrees (do not let it touch 90). Add faint grey dashed vertical guide lines at 30, 45, 60 and 75 degrees meeting the curve, each with a small dot at the curve and a tiny label ("1.15 g", "1.4 g", "2 g", "3.9 g"). Landscape orientation, generous margins so it reads at slide size.
+The graph was created at [Desmos graph](https://www.desmos.com/calculator/hhrwghazxf)._
 
 -->
 
 ---
 
-# Why load factor raises the stall speed
+# Why does the stall speed increase with the bank angle?
 
-The wing stalls at its **critical angle of attack** — always the same angle. But in a turn:
+Bold Method has a great article [Why does stall speed increase with bank angle](https://www.boldmethod.com/learn-to-fly/aerodynamics/why-aircraft-stall-speed-increases-with-bank-angle-and-aerodynamic-load/) which is worth reading in your own time, but in outline:
 
-- The wing must produce **more lift** (load factor > 1)
-- More lift at a given speed means a **higher angle of attack**
+The wing always stalls at its **critical angle of attack** — always the same angle of attack regardless of speed. But in a level turn:
+
+- The wing must produce **more lift** to provide an equal an opposite force for the increased load factor - effectively an increase in weight.
+- More lift at a given speed needs a **higher angle of attack**
 - So the wing reaches the critical angle at a **higher speed** than in level flight
 
-The stall speed increases with the **square root of the load factor**:
+It turns out that the stall speed increases with the **square root of the load factor**:
 
 $$V_{S_{\text{turn}}} = V_S \times \sqrt{\text{Load factor}}$$
 
@@ -310,24 +381,32 @@ CASA A5 4(b): relationship between angle of attack and stall; higher stall speed
 
 Tie this straight back to Lesson 5 (Stalling): the stall is always about angle of attack, never simply airspeed. The steep turn is the clearest everyday example of stalling at a "normal" speed.
 
+If the student is keen to understand why it is the square-root of the load factor, this can be worked out using the lift formula: consider which parts of the lift formula can change (density is constant, as is surface area, as is the lift co-efficient at the max AoA). If the lift force changes by a factor of n, then re-arranging and solving for V shows that V equals the old V multiplied by the square-root of n.
+
 -->
 
 ---
+
+<style scoped>
+  table { width: auto;}
+</style>
+
+![right medium A line graph. Horizontal axis labelled Angle of Bank in degrees from 0 to 90. Vertical axis labelled Stall speed multiplier, as a multiple of the level stall speed, starting at 1. A curve starts at times 1.0 at 0 degrees, rises gently to about times 1.19 at 45 degrees and times 1.41 at 60 degrees, then climbs steeply as it approaches 90 degrees. Marked points at 30, 45, 60 and 75 degrees.](/brief-assets/recreational-pilot-license/18-steep-turns/stall-speed-multiplier-vs-bank.svg)
 
 # Stall speed in a steep turn
 
 Applying $V_{S_{\text{turn}}} = V_S \times \sqrt{\text{Load factor}}$:
 
-| Bank angle | Load factor | Stall speed multiplier |
-|-----------|-------------|-----------------------|
-| 0° | 1.0 g | × 1.00 |
-| 30° | 1.15 g | × 1.07 |
-| 45° | 1.41 g | × 1.19 |
-| 60° | 2.00 g | × 1.41 |
+| Bank angle | Load factor | Stall speed multiplier | E.g. 50kts |
+|-----------|-------------|-----------------------|-|
+| 0° | 1.0 g | × 1.00 | 50 kts |
+| 30° | 1.15 g | × 1.07 | 54 kts |
+| 45° | 1.41 g | × 1.19 | 60 kts |
+| 60° | 2.00 g | × 1.41 | 71 kts | 
 
-At **60° of bank, the stall speed is 41% higher** than in level flight.
+In a **level turn with 60° of bank, the stall speed is 41% higher** than in level flight.
 
-> If your clean stall speed is 50 kt, at 60° of bank the wing stalls at about **50 × 1.41 = 70 kt**.
+> If your clean stall speed is 50 kt, at 60° of bank the wing stalls at about **50 × 1.41 = 71 kts**.
 
 <!--
 
@@ -335,13 +414,15 @@ This is the same table the student met in Lesson 5 (Stalling) — repeat it deli
 
 Worked example to say aloud: at 60 degrees of bank with a 50 kt clean stall speed, the aircraft stalls at about 70 kt. If you rolled into a hard 60-degree turn at 75 kt you would have only a 5 kt margin — and pulling harder to tighten the turn would close it entirely. This is exactly the base-to-final accident scenario, and why we practise steep turns and their stall high up.
 
+The graph plots stall speed multiplier = 1 / sqrt(cos(bank angle)) — the square root of the load factor. It is our own Desmos plot, created at https://www.desmos.com/calculator/fu2pfd1szr
+
 -->
 
 ---
 
-# The dangers of unbalanced flight
+# The dangers of unbalanced flight close to the stall speed
 
-Steep turns must be **balanced** — keep that ball centred:
+Like any flight close to the stall speed, **steep turns must be balanced** — keep that ball centred:
 
 - In a **skid** (too much rudder into the turn), the **inner wing** slows and can reach the critical angle first — it stalls and drops **into** the turn
 - With the higher stall speed of a steep turn, an unbalanced stall can flick into a **wing drop or spin entry** very quickly
@@ -365,7 +446,7 @@ Higher bank and 'g' can affect more than the wing:
 
 - **Fuel** — prolonged unbalanced flight or steep manoeuvring can uncover a fuel pickup; watch fuel state and selected tank
 - **Pitot / static** — unusual attitudes can briefly disturb the airflow into the pitot, giving a misleading airspeed
-- **Flap** — flap is used in the minimum-radius turn, but **never exceed the flap limiting speed** ($V_{FE}$)
+- **Flap** — flap is used in the minimum-radius turn as it allows the plane to fly slower with a lower stall speed, just be sure **never to exceed the flap limiting speed** ($V_{FE}$) for your aeroplane (Q: the load would increase by the load factor on the flaps as well, so $V_{FE}$ should be *reduced*, I'd think?)
 
 > Know your aircraft's limits before you fly them. Check the **flight manual / POH** for 'g' limits, flap speeds and any manoeuvre restrictions.
 
@@ -383,10 +464,10 @@ This is a reader instruction, not a placeholder — the student should look up t
 
 The airframe has certified **load-factor limits** — the flight envelope:
 
-![right large A simplified V-g (velocity versus load factor) diagram, or flight envelope. Horizontal axis is airspeed; vertical axis is load factor from negative through 0 to positive. A curved line on the left is the stall (accelerated stall) boundary; horizontal lines top and bottom are the positive and negative structural limit load factors; a vertical line on the right is the never-exceed speed. The enclosed region is shaded and labelled Safe operating envelope.](/brief-assets/recreational-pilot-license/18-steep-turns/flight-envelope-vg-diagram.png)
+![right medium A V-g diagram, or flight envelope, showing load factor on the vertical axis against indicated airspeed in mph on the horizontal axis. A curved red line on the left is the accelerated-stall boundary, rising from the origin. Horizontal boundaries mark the positive and negative structural limit load factors. Maximum structural cruise speed and never-exceed speed are marked on the right. The enclosed area is divided into a green normal operating range and a yellow caution range, with orange structural-damage and red structural-failure zones beyond the limits.](/brief-assets/recreational-pilot-license/18-steep-turns/phak-vg-diagram.png)
 
 - **Symmetrical limit** — the maximum 'g' pulling straight (both wings loaded equally)
-- **Rolling limit** — a **lower** limit that applies while **rolling** (ailerons deflected), because one wing is loaded more than the other
+- **Rolling limit** — a **lower** limit that applies while **rolling** (ailerons deflected), because one wing is loaded more than the other. Usually $\frac{2}{3}$ or 66% of the symmetrical limit. For example, a P28A with 3.8g symmetrical limit will have a rolling limit of 2.5g
 - Abrupt or combined pitch-and-roll inputs at speed can exceed these limits
 
 > Smooth, progressive control inputs keep us inside the envelope. Snatching at the controls at speed is how airframes get overstressed.
@@ -397,9 +478,7 @@ CASA A5 4(b): symmetrical and rolling 'g' force limitations. This directly suppo
 
 Keep this at RPL depth: the message is that the rolling 'g' limit is lower than the symmetrical one, and that smooth inputs — especially when fast, as in a spiral-dive recovery — keep us safe.
 
-TODO image — generate and save as flight-envelope-vg-diagram.png in this lesson's brief-assets dir.
-IMAGE PROMPT (for an image generator):
-A clean, flat-style instructional V-g diagram (velocity versus load factor / flight envelope), flight-instructor-whiteboard style, light background, restrained blue-and-grey palette, minimal text, no photorealism. Horizontal axis labelled "Airspeed" increasing to the right (no numbers needed). Vertical axis labelled "Load factor (g)" with 0 at the middle, positive above, negative below; mark "+ limit" as a horizontal line in the upper region and "- limit" as a horizontal line in the lower region (the negative line closer to the zero axis than the positive one). On the left, draw a curved boundary rising from the origin area that represents the accelerated-stall limit, curving up to meet the positive limit line and down to meet the negative limit line. On the right, draw a vertical line labelled "V_NE (never exceed)". Lightly shade the enclosed area and label it "Safe operating envelope". Landscape orientation, generous margins so it reads at slide size.
+Source: FAA PHAK Fig 5-55. Note the axis is indicated airspeed in mph and the limit values (Va, Vne, +/- limits) are for the PHAK's sample aircraft — point students at their own POH for the actual numbers.
 
 -->
 
