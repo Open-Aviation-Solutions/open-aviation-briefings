@@ -82,7 +82,7 @@ function imageDirectives(md) {
   })
 }
 
-const PUBLISHED_COMPONENTS = ['aerofoil-dynamics', 'four-forces', 'briefing-overview', 'climb-performance', 'pitch-roll-yaw', 'circuit-diagram', 'crosswind-clock']
+const PUBLISHED_COMPONENTS = ['aerofoil-dynamics', 'four-forces', 'briefing-overview', 'climb-performance', 'pitch-roll-yaw', 'circuit-diagram', 'crosswind-clock', 'max-rate-min-radius']
 const LOCAL_COMPONENTS = {
   'youtube-video': `${BASE}/components/youtube-video.js`,
   'secondary-effect-climb-car': `${BASE}/components/secondary-effect-climb-car.js`,

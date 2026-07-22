@@ -21,8 +21,12 @@ VX
 VY
 
 # Aviation / navigation terms
+(?i)airframes?
 (?i)airmanship
+callouts?
 (?i)flapless
+(?i)overspeed
+(?i)sideslip(ping|ped|s)?
 foveal
 backpressure
 stabilator

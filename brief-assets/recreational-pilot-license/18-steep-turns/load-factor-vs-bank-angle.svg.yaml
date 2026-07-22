@@ -1,0 +1,7 @@
+source: Open Aviation Solutions — Desmos graph (load factor = 1/cos θ)
+source_url: https://www.desmos.com/calculator/hhrwghazxf
+licence: CC-BY-SA-4.0
+figure_ref: ~
+accessed: 2026-07-17
+author: Open Aviation Solutions
+notes: Exact plot of load factor = 1/cos(bank angle) — load factor (g) versus angle of bank, with marked points at 30° (1.15 g), 45° (1.41 g), 60° (2 g) and 75° (3.86 g); the curve runs away past 60°. Exported as SVG from the linked Desmos graph.

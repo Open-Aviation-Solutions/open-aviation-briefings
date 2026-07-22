@@ -1,0 +1,7 @@
+source: FAA Pilot's Handbook of Aeronautical Knowledge (PHAK)
+source_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak
+licence: public-domain
+figure_ref: PHAK Fig 5-55
+accessed: 2026-07-17
+author: ~
+notes: "Typical Vg diagram (flight envelope) from PHAK Chapter 5 (Aerodynamics of Flight). Load factor versus indicated airspeed (mph). Shows the accelerated-stall / maximum-lift boundary, positive and negative structural limit load factors (~+4.5 / -1.8 g for this normal-category example), maneuvering speed, never-exceed speed, and the normal-operating / caution / structural-damage regions. Cropped from page 5-38 at 300 dpi (figure box only, caption removed)."
