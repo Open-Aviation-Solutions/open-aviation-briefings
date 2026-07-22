@@ -3,7 +3,6 @@ marp: true
 theme: open-aviation
 title: Steep Turns — Theory Part 2
 license: CC-BY-SA-4.0
-draft: true
 header: "Steep Turns — Theory Part 2: Flying Steep Turns, Spiral Dive and Sideslipping"
 ---
 
@@ -96,7 +95,7 @@ The strikethrough on the final objective is deliberate: this is the student's fi
 
 # The steep level turn
 
-A steep turn is one at **45° of bank or more**. Flying it well is the medium turn — plus more of everything:
+A steep turn is one at **45° of bank or more**. Flying it well is similar to the medium turn — with some additions:
 
 | Phase | What changes from a medium turn |
 |-------|-------------------------------|
@@ -149,22 +148,44 @@ This slide is the natural bridge into the spiral dive: an over-banked, nose-low 
 
 # Maximum-rate and minimum-radius turns
 
-![right large A plan (top-down) diagram comparing two turn circles for an aeroplane. A larger, faster circle labelled Maximum-rate turn: full power, high bank, flown at the buffet. A smaller, tighter circle labelled Minimum-radius turn: reduced power with take-off flap, slowest safe speed, flown at the buffet. Both are flown just at the onset of the stall buffet.](/brief-assets/recreational-pilot-license/18-steep-turns/max-rate-vs-min-radius.png)
-
 Both turns are flown **right at the stall buffet** — the tightest the wing can turn for the power set:
 
-- **Maximum-rate turn** — **full power**, highest bank the power allows, at the buffet: the **fastest change of heading** the aeroplane can achieve
-- **Minimum-radius turn** — **lower power with take-off flap**, slowest safe speed, at the buffet: the **smallest circle** it can fly
+- **Maximum-rate turn** — highest bank the power allows, at the buffet: the **fastest change of heading** the aeroplane can achieve
+- **Minimum-radius turn** — slowest safe speed, at the buffet: the **smallest circle** it can fly
 
 Mostly a coordination exercise and a demonstration of the aeroplane's limits — and useful for **extreme traffic avoidance**.
 
+> CASA calls the "maximum rate turn" the turn done at full throttle, banking to the buffet point. So steep turning at full power. But is that really the turn that produces the maximum rate (degrees per second, or time for a full circle)?
+
 <!--
 
-FIM background (Maximum Rate and Minimum Radius Turns): the aircraft is flown at the threshold of the stall — feel the judder, then relax back pressure just enough to stop it. Full power gives the maximum rate; a reduced power setting with take-off flap gives the minimum radius (do not overspeed the flap). Recovery is as from a steep level turn.
+FIM background (Maximum Rate and Minimum Radius Turns): the aircraft is flown at the threshold of the stall — feel the judder, then relax back pressure just enough to stop it. Full power gives the maximum rate (?) I don't think this is true, but it's called the maximum rate turn; a reduced power setting with take-off flap gives the minimum radius (do not overspeed the flap). Recovery is as from a steep level turn.
 
-TODO image — generate and save as max-rate-vs-min-radius.png in this lesson's brief-assets dir.
-IMAGE PROMPT (for an image generator):
-A clean, flat-style instructional plan-view (top-down) aviation diagram, flight-instructor-whiteboard style, light background, restrained blue-and-grey palette, minimal text, no photorealism. Show two circular flight paths for a small aeroplane, drawn as curved arrows with a small top-down aircraft silhouette on each. A larger circle labelled "Maximum-rate turn — full power, at the buffet" and, inside or beside it, a distinctly smaller/tighter circle labelled "Minimum-radius turn — reduced power + take-off flap, at the buffet". Add a small note near both: "Flown right at the stall buffet". Landscape orientation, generous margins so it reads at slide size.
+-->
+---
+
+# But is it really maximum-rate vs minimum-radius?
+
+<max-rate-min-radius
+  height="540px"
+  vs="50"
+  vs-flap="44"
+  structural-limit="3.8"
+  show-help="false"
+></max-rate-min-radius>
+
+<!--
+
+Pin the initial 70kt 45 degree.
+Ask: How can we decrease our radius? (Note: assume that 60 degrees is our limit for level flight)
+- maybe slowing down? Do so until buffet
+- maybe banking? Do so until buffet - then increase speed to continue to 60 deg.
+Ask: How can we increase our rate of turn?
+- maybe increasing our speed? - no, on it's own it doesn't help
+- maybe banking? Yes - do so until buffet - then increase speed to continue to 60 deg.
+If we're limited by a maximum angle (either because of the limiting load factor, or because we can't sustain level flight), then the maximum-rate *and* minimum radius will always be found at the same place: the buffet point just above the stall.
+Even adding flaps so we can slow down for a smaller radius still increases our rate yet again. So it is really one technique: slowest speed above the stall for a given angle/load.
+
 
 -->
 
@@ -222,6 +243,22 @@ Plant the distinction now, cover it fully on the next slide: a spiral dive is fa
 
 ---
 
+# Why applying backpressure makes a spiral dive worse
+
+<four-forces v_ne="165" v_no="110" v_1="55" cruise-kts="100" height="500px" banking></four-forces>
+
+<!--
+
+First show a 30 degree angle of bank, and how adding backpressure predominently increases lift.
+
+Next show a 60 degree angle of bank, and how adding backpressure now predominently increases the centripital force.
+
+By pulling back in a steep turn, we are *increasing* the centripital force, tightening the spiral. We need to straighten up before pulling back to avoid this.
+
+-->
+
+---
+
 # Spiral dive versus spin — don't confuse them
 
 | | **Spiral dive** | **Spin** |
@@ -246,8 +283,6 @@ The single discriminator the student can read instantly: airspeed. Spiral = fast
 
 # Recovering from a spiral dive
 
-![right medium A diagram of a descending spiral flight path (a corkscrew descending toward the ground), with three labelled recovery callouts along it: 1 Close the throttle; 2 Roll the wings level; 3 Ease out of the dive smoothly. An airspeed arrow shows speed increasing down the spiral.](/brief-assets/recreational-pilot-license/18-steep-turns/spiral-dive-recovery.png)
-
 The recovery, **in order**:
 
 1. **Power — close the throttle** (idle) to stop the speed building
@@ -259,13 +294,12 @@ The recovery, **in order**:
 
 <!--
 
+Use the 3D physical model for demonstrating the spiral dive.
+
 CASA A6.6 (e,f,g): identify the nose-low unusual attitude; recover by adjusting pitch, bank and power; apply controlled corrective action within limits. The "within limits" is why the pull is smooth, not snatched — recall the rolling-'g' limit from Part 1.
 
 Memory order: Power, Bank, Pitch — throttle closed, wings level, then ease out. This is the standard nose-low unusual-attitude recovery.
 
-TODO image — generate and save as spiral-dive-recovery.png in this lesson's brief-assets dir.
-IMAGE PROMPT (for an image generator):
-A clean, flat-style instructional aviation diagram, flight-instructor-whiteboard style, light background, restrained blue-and-grey palette, minimal text, no photorealism. Show a small aeroplane on a descending corkscrew (spiral) flight path drawn as a helix narrowing toward the ground line at the bottom. Along the spiral, place three numbered callout labels with leader lines: "1. Close the throttle", "2. Roll the wings level", "3. Ease out of the dive smoothly". Add a downward arrow beside the spiral labelled "Airspeed increasing". Draw a simple ground line at the bottom. Portrait or landscape orientation acceptable; generous margins so it reads at slide size.
 
 -->
 
@@ -281,8 +315,6 @@ A clean, flat-style instructional aviation diagram, flight-instructor-whiteboard
 
 # What is a sideslip — and why use it?
 
-![right medium A rear-view diagram of an aeroplane in a straight sideslip: banked toward the left with the left (lower) wing down, opposite (right) rudder applied, the nose pointing away from the direction of travel so the heading is offset from the ground track. A ground track arrow shows the aeroplane still travelling straight ahead along a line feature while pointing to one side.](/brief-assets/recreational-pilot-license/18-steep-turns/straight-sideslip.png)
-
 A **sideslip** is a deliberately **unbalanced** manoeuvre: the aeroplane is **banked one way** with **opposite rudder** holding the nose from turning.
 
 Its uses:
@@ -291,15 +323,13 @@ Its uses:
 - **Lose height** on an approach if you are high, especially with a **flap failure** or in an aircraft **without flap**
 - **Correct for drift** into wind on landing (an alternative crosswind technique)
 
+> Where have we already used a side-slip in our lessons so far?
+
 <!--
 
 CASA A5.4: sideslip aeroplane (where the flight manual permits). FIM background (Sideslipping): a sideslip is a banked attitude with the natural tendency to yaw reduced or prevented by rudder; practical applications are the sideslip into wind and the slipping turn.
 
 Note the link back to Lesson 19 (Crosswind Circuits): the wing-low crosswind technique is a sideslip held into the flare.
-
-TODO image — generate and save as straight-sideslip.png in this lesson's brief-assets dir.
-IMAGE PROMPT (for an image generator):
-A clean, flat-style instructional aviation diagram, flight-instructor-whiteboard style, light background, restrained blue-and-grey palette, minimal text, no photorealism. Show a small aeroplane from behind (tail toward viewer) in a straight sideslip: banked so the left wing is low, with a curved arrow at the rudder showing right (opposite) rudder applied. The fuselage/nose points to the left of the direction of travel. Draw a straight dashed line on the ground below labelled "Ground track (along line feature)" running straight away from the viewer, and show the aeroplane's heading arrow offset to one side of that track. Add small labels: "Bank with aileron", "Opposite rudder", "Nose offset from track". Landscape orientation, generous margins so it reads at slide size.
 
 -->
 
@@ -379,7 +409,7 @@ Question-list recall element — the filled summary table on the next slide is t
 | Topic | Key point |
 |-------|-----------|
 | **Steep turns** | 45–60° bank; add power and back pressure; if the nose drops, **reduce bank first** |
-| **Max-rate / min-radius** | Both flown at the buffet — full power for max rate, reduced power + flap for min radius |
+| **Max-rate / min-radius** | Both flown at the buffet — for a given limiting angle/load, they're both at the buffet point (just above stall). Flap will help. |
 | **Spiral dive** | Un-stalled, **speed increasing**; recover **power–wings level–ease out**, in that order |
 | **Sideslip** | Bank one way, **opposite rudder**, speed with elevator; only where the POH permits, and not low |
 | **Underpinning it all** | Load factor rises with bank; **stall speed is 41% higher at 60°**; keep it balanced |

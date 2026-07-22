@@ -76,21 +76,24 @@ The climb, descent and local-area-airspace elements are assessment items on this
 
 ---
 
-# Pre-manoeuvre lookout
+# Pre-manoeuvre HASELL check
 
-Before **every** manoeuvre below:
+The same **HASELL** check from Lesson 5 (Stalling):
 
-- **Lookout** — a clearing turn of at least 180°, preferably 360°; in a high-wing type, lift the wing before rolling in
-- **Height** — enough to complete and recover by 3000 ft AGL
-- **Location** — clear of controlled/restricted airspace, aerodromes and built-up areas
-- **Engine** — Ts & Ps in the green; carb heat as required for the type
-- **Security** — harnesses tight, no loose articles
+- **H — Height** — enough to complete and recover by 3000 ft AGL
+- **A — Airframe** — correct configuration for the manoeuvre (take-off flap for the minimum-radius turn); no abnormal indications
+- **S — Security** — harnesses tight, loose articles stowed
+- **E — Engine** — Ts & Ps in the green; carb heat as required for the type
+- **L — Location** — clear of controlled/restricted airspace, aerodromes and built-up areas
+- **L — Lookout** — a clearing turn of at least 180°, preferably 360°; in a high-wing type, lift the wing before rolling in
 
 > Visibility is poor once banked steeply. Clear the airspace *before* you roll in, every time.
 
 <!--
 
 A5.3(a): pre-manoeuvre checks for steep turning. HF/NTS: use of checklists and SOPs to prevent errors [NTS2 4(h)].
+
+This is the full HASELL check the student already learned in Lesson 5 — same letters, same order. Airframe matters here because the minimum-radius turn is flown with take-off flap. Lookout stays the emphasised item: visibility falls away fast once banked steeply.
 
 -->
 

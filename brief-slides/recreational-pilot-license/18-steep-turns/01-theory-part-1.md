@@ -208,7 +208,7 @@ When we bank, the **lift force tilts** with the wings. It now has:
 
 > It is the **horizontal component of lift** that turns the aeroplane. Rudder only keeps the turn **balanced**.
 
-Next: can you recall the sequence or mnenomic that we use for turning?
+Next: can you recall the sequence or mnemonic that we use for turning?
 
 <!--
 
@@ -303,7 +303,7 @@ Interactive demo (four-forces with banking). Suggested script:
 $$\text{Load factor} = \frac{\text{Lift}}{\text{Weight}}$$
 
 - In **straight and level** flight, lift = weight, so load factor = **1 g**
-- In a **level turn**, lift must exceed weight, so load factor is **greater than 1 g**
+- In a **level turn** (or a turn where we're not accelerating vertically), lift must exceed weight, so load factor is **greater than 1 g**
 - Load factor is what we feel as **apparent weight** — the push into the seat
 
 > Load factor depends **only on the bank angle** for a level turn — not on the aircraft's weight or speed.
