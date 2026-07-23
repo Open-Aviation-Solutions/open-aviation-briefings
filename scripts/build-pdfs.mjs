@@ -1,6 +1,7 @@
 import { execSync } from 'child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, statSync } from 'fs'
 import { join, dirname } from 'path'
+import { pathToFileURL } from 'url'
 
 const BROWSER_SEARCH_PATHS = [
   '/snap/bin/chromium',
@@ -40,7 +41,21 @@ function wantsPdf(file) {
   return match !== null && /^pdf:\s*true\s*$/m.test(match[1])
 }
 
-const env = { ...process.env, PUPPETEER_EXECUTABLE_PATH: browserPath }
+// Marp exports PDFs by loading each deck's HTML over file://. The theme's
+// root-absolute asset URLs (/fonts/*.woff2, /themes/*brand.svg) can't resolve
+// in that context, so the fonts silently fall back to Chromium's defaults and
+// the brand logos drop out — even though the on-screen slideshow, served over
+// HTTP at the site base path, renders them correctly. Point SITE_BASE at the
+// public/ directory as a file:// root so marp.config prefixes those paths to
+// real files (public/fonts and public/themes are symlinks into the repo /
+// node_modules), which --allow-local-files then lets Chromium read. CF_PAGES_URL
+// is cleared so marp.config uses SITE_BASE rather than its empty-base branch.
+const env = {
+  ...process.env,
+  PUPPETEER_EXECUTABLE_PATH: browserPath,
+  SITE_BASE: pathToFileURL(join(process.cwd(), 'public')).href,
+}
+delete env.CF_PAGES_URL
 const files = findFiles('brief-slides', /\.md$/).filter(wantsPdf)
 
 for (const file of files) {
