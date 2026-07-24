@@ -25,8 +25,11 @@ VY
 (?i)airmanship
 callouts?
 (?i)flapless
+(?i)foggles
 (?i)overspeed
+(?i)pre-flight
 (?i)sideslip(ping|ped|s)?
+(?i)somatogravic
 foveal
 backpressure
 stabilator
@@ -52,11 +55,14 @@ unstalls?
 PA28
 
 # Organisation abbreviations
+ATSB
 DLR
 Wikimedia
 
 # External resources / brand names cited in slides
 (?i)youtube
+(?i)boldmethod
+(?i)avfacts
 SKYbrary
 Veritasium
 
@@ -68,8 +74,10 @@ Zentrum
 
 # Surnames in attributions
 Murrman
+Mawilson
 
 # Place names / airports cited in slides
+Bankstown
 Gatwick
 
 # Common abbreviations used in slide shorthand
