@@ -4,7 +4,6 @@ theme: open-aviation-portrait
 title: Basic Instrument Flight — In-flight Notes
 license: CC-BY-SA-4.0
 pdf: true
-draft: true
 ---
 
 <!-- _class: lead -->

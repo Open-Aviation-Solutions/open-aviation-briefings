@@ -298,6 +298,12 @@ factual, not alarming — the point is a practical habit (trust the instruments)
 
 > The safest response to deteriorating weather is the one made **before** you're in it: turn back, or land, while you still have the choice.
 
+The ATSB's Avoidable Accidents number 4 specifically looks at [Accidents involving pilots in IMC](https://www.atsb.gov.au/sites/default/files/media/4115273/ar-2011-050_no4.pdf),
+which identifies in the introduction that:
+
+> the chances of a VFR into IMC encounter increased as the flight progressed, with
+> the maximum chance occurring during the final 20 per cent of the flight distance.
+
 <!--
 
 Statistic and case reference: ATSB "VFR into IMC" topic page
@@ -427,20 +433,12 @@ the FIR/CPL level — mention this only if a keen student asks.
 
 ---
 
-# Watch a recovery
+# Further reading
 
-**Watch (pick one):**
-- [Nose High and Low Unusual Attitude Recoveries in the Bonanza](https://www.youtube.com/watch?v=1SG5dwSH1zs) — FlyWire
-- [Nose high unusual attitude recovery](https://www.youtube.com/watch?v=IprhR5P1t98) — Monty CFI (short)
-
-**Further reading:**
-- [How to Recover from Unusual Attitudes](https://pilotinstitute.com/unusual-attitudes-maneuver/) — Pilot Institute
+The Pilot Institute has a good article on [How to Recover from Unusual Attitudes](https://pilotinstitute.com/unusual-attitudes-maneuver/) which goes over much of recognising and recovering from unusual attitudes.
 
 <!--
 
-TODO (instructor): pick one video above and embed it with `<youtube-video>` once chosen.
-The Bonanza is a different type to a trainer, but the attitude-indicator technique and
-recovery sequence are identical — point that out if using it.
 
 -->
 
