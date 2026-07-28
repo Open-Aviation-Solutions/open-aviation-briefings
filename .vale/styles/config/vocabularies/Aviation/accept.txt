@@ -65,6 +65,7 @@ Wikimedia
 (?i)avfacts
 SKYbrary
 Veritasium
+Checkride
 
 # Foreign words appearing in attributions
 Deutsches
@@ -75,6 +76,7 @@ Zentrum
 # Surnames in attributions
 Murrman
 Mawilson
+Unicomb
 
 # Place names / airports cited in slides
 Bankstown
