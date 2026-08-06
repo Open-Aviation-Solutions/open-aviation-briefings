@@ -464,11 +464,9 @@ The Pilot Institute has a good article on [How to Recover from Unusual Attitudes
 Question-list recall element — the filled summary table on the next slide is the answer
 key.
 
-TODO: consider a lesson-specific creative recap in place of, or alongside, this table —
-e.g. call out a random instrument reading ("ASI increasing, altimeter decreasing, VSI
-showing a descent") and have the student name the unusual attitude and its recovery on
-the spot; or describe a short scenario and have the student identify which illusion is
-at play.
+If you're short of time, or the student is answering these confidently, skip the summary
+table and go straight to the video and the unusual-attitude panel that follow — that is
+the part of this lesson that saves lives, and it's worth the remaining minutes.
 
 -->
 
@@ -482,6 +480,60 @@ at play.
 | Illusions | The leans, graveyard spiral, somatogravic — all caused by the inner ear once vision is gone. Trust the instruments |
 | Avoiding & escaping IMC | Plan and set minimums to avoid it; if it happens anyway: control, turn back, tell someone |
 | Unusual attitudes | Airspeed tells you which type; recover power, then wings level, then pitch |
+
+---
+
+# 178 seconds
+
+<youtube-video video-id="xTzVpRLrQB8" start="3" width="70%"></youtube-video>
+
+> That's the average time a VFR pilot who flew into cloud stayed in control.
+
+<!--
+
+CASA's "'178 seconds to live' — updated". The number comes from an often-quoted 1954
+University of Illinois study in which non-instrument-rated pilots put into simulated
+cloud lost control in an average of 178 seconds. Treat it as the scale of the problem,
+not a precise figure — the point is that it's minutes, not tens of minutes.
+
+Let it run. Don't fill the silence afterwards — go straight into the panel on the next
+slide, which is the answer to "so what do I actually do?".
+
+-->
+
+---
+
+# Read the panel. Call the recovery.
+
+<unusual-attitudes
+  height="520px"
+  show-help="false"
+></unusual-attitudes>
+
+<!--
+
+The drill, run it several times:
+
+1. Ask the student to look away, then press **Set unusual attitude** — the panel covers
+   itself for the countdown and uncovers on a developed attitude.
+2. Student says out loud, in this order: nose high or low, wings which way, speed doing
+   what.
+3. Then the recovery, in order, before touching anything — power, wings level, pitch.
+4. **Reveal** shows what it actually was, with height lost and peak speed.
+5. **Show recovery** plays the correct recovery back for comparison.
+
+**Hold** freezes the panel if you want to talk through the scan — use it as a teaching
+pause, not to make the exercise easier; the time pressure is doing real work.
+
+Let one run go all the way to the ground at least once. Watching 3,000 ft disappear in
+under a minute makes the point about hesitation better than any warning does. Add
+`severity="severe"` for a keen student, or pin `scenario="nose-high"` / `"nose-low"` to
+drill one case.
+
+Whatever wording the student settles on for their recovery call, use it as the callout
+during the hood exercise in the air today.
+
+-->
 
 ---
 
