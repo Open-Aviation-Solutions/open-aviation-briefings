@@ -145,7 +145,7 @@ Power **affects stall speed and recovery**:
 
 Flap affects both lift and stall characteristics:
 
-- **Flap extended** — increases lift at low speed, **lowers stall speed** (improves slow-speed performance)
+- **Flap extended** — increases both the wing area ($S$) and its camber (raising $C_{L}$), so it **lowers stall speed** (improves slow-speed performance)
 - **Flap extended** — also increases drag;
 - **Flap extended** — changes the nose attitude at which the stall occurs since the chord - the line from leading edge to trailing edge - now has a higher angle of attack for the same attitude, so that the stall happens at a lower nose attitude with flap than without flap
 - **Flap retracted** — higher stall speed; higher nose attitude needed to stall
@@ -159,19 +159,23 @@ Flap affects both lift and stall characteristics:
 
 # Other Factors Affecting Stall Speed
 
-The stall always occurs at the **same critical angle of attack**, but the **airspeed at which this happens varies** with several factors:
+The angle of attack at the stall never changes — the **airspeed** at which we reach it does. With $C_{L}$ already at its maximum, more lift has to be bought with **speed**:
 
 | Factor | Effect on stall speed |
 |--------|----------------------|
-| **Weight** | Heavier aircraft stall at higher speed (more lift needed → higher angle of attack at a given speed) |
-| **Load factor ('g')** | Increased 'g' (steep turns, pull-ups) raises stall speed — at 60° angle of bank level turn, stall speed × 1.41 - more about this on the following slides |
-| **Centre of Gravity** | A forward CoG means the elevator needs a greater downward force to balance which means the lift force needs to balance more than just the weight. A rearwards CoG makes recover from the stall more difficult |
-| **Dynamic loading** | Turbulence or abrupt pitch inputs increase effective 'g' and can stall the wing unexpectedly |
-| **Ice or wing damage** | Disrupts airflow, raises stall speed; can cause stall at much higher speed than placard |
+| **Weight** | Heavier aircraft need more lift, so stall at a **higher speed** |
+| **Load factor ('g')** | Steep turns and pull-ups raise stall speed — at 60° bank, × 1.41 (next slides) |
+| **Centre of Gravity** | **Forward** — the tailplane holds more download, so the wing lifts more than the weight: stall speed rises. **Aft** — weaker nose-down couple, so **recovery is harder** |
+| **Dynamic loading** | Turbulence or abrupt pitch inputs raise effective 'g' — an unexpected stall |
+| **Ice or wing damage** | Disrupts the airflow and lowers maximum $C_{L}$ — can stall well above the placard |
 
 <!--
 
 Note that 4 of 5 factors here are effectively a greater weight needing to be balanced by lift.
+
+This table is the lift formula rearranged. With $C_{L}$ pinned at its maximum, $V_{S} = \sqrt{2W / (\rho\,S\,C_{L_{max}})}$: more weight (or more 'g', which is the same thing to the wing) raises the stall speed; more area or flap lowers it; ice lowers $C_{L_{max}}$ and so raises it. No need to write the square root on the board unless the student asks — the useful takeaway is which way each factor pushes, and why.
+
+The Centre of Gravity row picks up the side note from Part 1 about the centre of pressure sitting close to the centre of gravity, and moving rearward as the wing stalls.
 
 -->
 
