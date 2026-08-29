@@ -233,7 +233,7 @@ If there's time, it may be worth thinking through together the factors that affe
 
 - We're not going to get **scared off** by looking at the lift equation in any detail yet.
 - But it is worth thinking through **what factors directly affect the lift** of a wing (or a hand).
-- This will give us an **intuition** into the lift equation when we do (later) look at the Lift Equation.
+- This will give us an **intuition** for the lift equation, which we'll write down in **Lesson 5 (Stalling)** — by then these factors will already be familiar.
 
 So... **what factors change the strength of the lift force** experienced by your hand?
 
@@ -244,6 +244,8 @@ If there's time, it may be worth thinking through together the factors that affe
 - the density of the fluid ($\rho$) — imagine your hand in water instead
 - the speed of the airflow ($V^2$)
 - the surface area of the wing ($S$) — imagine a board attached to your hand
+
+Deliberately **do not** write $L = C_L \times \tfrac{1}{2} \rho V^2 \times S$ on the board here. The aim in this lesson is that the student derives the four factors for themselves from the hand out the window, so that the equation later reads as a summary of something they already understand rather than as something to memorise. The formula itself is introduced in Lesson 5 (Stalling), where $C_{L}$ and the critical angle of attack are needed anyway.
 -->
 
 ---
