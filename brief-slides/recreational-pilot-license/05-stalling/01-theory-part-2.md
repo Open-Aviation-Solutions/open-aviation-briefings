@@ -145,7 +145,7 @@ Power **affects stall speed and recovery**:
 
 Flap affects both lift and stall characteristics:
 
-- **Flap extended** — increases both the wing area ($S$) and its camber (raising $C_{L}$), so it **lowers stall speed** (improves slow-speed performance)
+- **Flap extended** — increases the wing's camber, raising $C_{L}$ at a given angle of attack, so it **lowers stall speed** (improves slow-speed performance)
 - **Flap extended** — also increases drag;
 - **Flap extended** — changes the nose attitude at which the stall occurs since the chord - the line from leading edge to trailing edge - now has a higher angle of attack for the same attitude, so that the stall happens at a lower nose attitude with flap than without flap
 - **Flap retracted** — higher stall speed; higher nose attitude needed to stall

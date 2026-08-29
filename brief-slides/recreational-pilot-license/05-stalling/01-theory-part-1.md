@@ -206,10 +206,10 @@ $$L = C_{L} \times \tfrac{1}{2} \rho V^{2} \times S$$
 
 | Term | | What changes it in flight |
 |------|--|---------------------------|
-| $C_{L}$ | **Lift coefficient** — set by the **angle of attack** | The control column |
+| $C_{L}$ | **Lift coefficient** — set by the wing's shape and its **angle of attack** | The control column, and flap |
 | $\rho$ | **Air density** | Height, temperature, humidity |
 | $V^{2}$ | **Airspeed, squared** | Power and attitude |
-| $S$ | **Wing area** | Flap |
+| $S$ | **Wing area** | Nothing — it's fixed |
 
 > Lift must balance weight. So as $V$ falls, something has to grow — and the only one you can grow quickly is $C_{L}$, by increasing the **angle of attack**.
 
@@ -218,6 +218,8 @@ $$L = C_{L} \times \tfrac{1}{2} \rho V^{2} \times S$$
 There is no need to drill the algebra here — the point is that the formula holds no surprises. It is the same four factors the student reasoned out for themselves with a hand out the car window in Lesson 2, now with names attached.
 
 Work the level-flight argument through on the board, because it is the whole lesson in one line: lift has to equal weight, so flying slower forces a higher angle of attack. Keep slowing, and eventually the angle of attack needed to hold you up is more than the wing can give — that is the stall.
+
+**Where flap fits, if it comes up.** $S$ is a fixed reference area — it is a property of the aeroplane, not something the pilot changes, so treat it as a constant. Lowering flap increases the wing's **camber**, which raises $C_{L}$ at any given angle of attack; that is why flap lowers the stall speed. Some types (Fowler and semi-Fowler flaps) do also slide the flap rearward and add a little real area, but $S$ in the formula stays the fixed reference value, so even that shows up as a change in $C_{L}$. Everything flap does, it does through $C_{L}$.
 
 The punchline to land: **only $C_{L}$ has a ceiling.** Density, speed and area will keep giving you more lift for more of them, but $C_{L}$ stops climbing at the critical angle and then falls away. That is why we define the stall by angle of attack and not by a speed.
 
