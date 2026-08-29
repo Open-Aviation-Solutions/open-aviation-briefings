@@ -217,7 +217,7 @@ sees where the other control instrument sits relative to this six-pack photo.
 
 <!--
 
-Kirrilly's point from the debrief: say "the Attitude Indicator is the primary instrument"
+Debrief point: say "the Attitude Indicator is the primary instrument"
 explicitly and repeatedly — in the brief, on the panel before take-off, and in the air.
 It was implicit in the previous version of this brief; make it explicit here.
 
@@ -267,7 +267,7 @@ Today is a first exposure, not a test — but it helps to know what "good" looks
 
 <!--
 
-Kirrilly suggested bringing the tolerances in if the student is comfortable — pitch it as
+From the debrief: bring the tolerances in if the student is comfortable — pitch them as
 "what good looks like", not as a test, and skip the table entirely if the student is
 already loaded up.
 
@@ -362,8 +362,8 @@ Later today, at a safe height, I will cover the AI and DI and you will fly on wh
 
 <!--
 
-Tammy's and Kirrilly's point, said in these words: *this is why we test everything on the
-ground — so we know the vacuum has suction and the AI has not toppled.* Say it as the
+A debrief point, worth saying in close to these words: *this is why we test everything on
+the ground — so we know the vacuum has suction and the AI has not toppled.* Say it as the
 reason for the check, immediately after teaching the failure, so the check stops being a
 ritual.
 
@@ -500,11 +500,11 @@ CASA HF/NTS: threat and error management [NTS2 4(b)], situational awareness [NTS
 Ties to the PAVE / I'M SAFE checks the student already runs each flight — weather
 planning and external pressure are exactly what those checks are for.
 
-The "Plan B" framing came from Kirrilly, via Tammy's single-pilot resource management
-tools. It is written generically here because the exact wording of Tammy's model was not
-to hand — check it with her and match the school's phrasing so the student hears the same
-language from every instructor. The mechanism that matters either way is the **trigger**:
-a decision made in advance about what you will see that means it is time to turn around.
+The "Plan B" framing comes from the school's single-pilot resource management tools, and
+is written generically here because the exact wording of that model was not to hand —
+confirm it and match the school's phrasing, so the student hears the same language from
+every instructor. The mechanism that matters either way is the **trigger**: a decision
+made in advance about what you will see that means it is time to turn around.
 
 -->
 

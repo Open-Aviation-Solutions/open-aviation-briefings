@@ -140,7 +140,7 @@ CASA IFF.1: determine and monitor the serviceability of flight instruments and
 instrument power sources; A1.2 (taxi checks). This is exactly the workbook's "instrument
 checks & serviceability" topic — assessed here in the aircraft rather than re-taught.
 
-Debrief action (Tammy, via Kirrilly): tie the ground checks explicitly to the failures
+Debrief action: tie the ground checks explicitly to the failures
 taught in the theory brief — *this is why we test everything on the ground.* The check
 list is already familiar; the reasoning behind it is what is new today, and it is what
 makes the check stick.
@@ -408,12 +408,13 @@ contrast reinforces just how much the instrument scan was doing the work.
 
 Two or three minutes at the end of the debrief, no more — the point is that the student leaves knowing what is coming, and what to do before then.
 
-**Next: circuit emergencies.**
+**Next: Lesson 27 — Consolidation.**
 
-- **What it is** — engine failure after take-off, and the other things that can go wrong inside the circuit, where there is very little height and very little time
-- **The link from today** — today was about what you do when you cannot see; that lesson is about what you do when the aeroplane stops cooperating. Both are the same habit: a procedure decided **in advance**, so the decision is not being made under load
-- **Plan B again** — on every take-off, you already have one: the actions and the landing area decided *before* you roll. Today we named the trigger for turning back from weather; next lesson we name the one for an engine failure
-- **Before then** — [workbook / reading / video to send], and re-read the engine failure after take-off section of the POH and the school's circuit procedures
+- **What it is** — a consolidation flight rather than a new skill: basic instrument flight and the inadvertent-IMC actions again, forced landing from a simulated complete engine failure, precautionary search and landing, a short field landing, and one genuinely new item — **abnormal situations: unreliable airspeed indication**
+- **The link from today** — today you lost the gyros: suction fails, the AI and DI go together, and you fall back on the Turn Coordinator, the pitot-static instruments and the compass. Next lesson is the *other* half of that: what happens when a **pitot-static** instrument lies to you instead, and the ASI is the one you can no longer believe
+- **What it means for today's work** — everything today gets flown again, this time to tolerance and alongside the emergencies. The scan is not finished with; it is about to be something you use while also flying a forced landing
+- **Also assessed** — fuel planning, refuelling and fuel system management, simulated engine failure on take-off, local area airspace, and the climb/straight and level/descent/turn set
+- **Before then** — [workbook / reading / video to send], plus the POH sections on the pitot-static system and on engine failure after take-off
 
 <!--
 
@@ -422,9 +423,15 @@ to drop, because it comes at the point where everyone is tired and the aircraft 
 putting away — so give it a fixed home here at the end of the notes, and say it while the
 paperwork is being finished rather than as a separate event.
 
-Note the ordering: in the CASA sample syllabus, Circuit Emergencies is lesson 9, well
-before Basic Instrument Flight. Confirm what is genuinely next for *this* student and
-substitute it if this sequence has been reordered — the shape of the look-ahead (what it
-is, how it links to today, what to do before then) is the part worth keeping.
+Ordering comes from the RPL(A) sample syllabus, where lesson 26 is followed by lesson 27,
+Consolidation. Do not take it from the flight instructor rating package — the Grade 3
+aeroplane syllabus runs Basic Instrument Flight (TE3-51…55) straight into forced landings
+and EFATO, which is where "circuit emergencies next" comes from and is a different
+sequence.
+
+The unreliable-airspeed link is the one worth making: today's failure was gyroscopic, next
+lesson's is pitot-static, and between them the student has seen both halves of the panel
+fail. If this student's programme has been reordered, keep the shape of the look-ahead
+(what it is, how it links to today, what to do before then) and substitute the content.
 
 -->
