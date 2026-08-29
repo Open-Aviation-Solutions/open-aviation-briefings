@@ -22,9 +22,11 @@ and serviceability, instrument lag, and compass turning/acceleration errors. Con
 done at the start — this deck builds on it rather than re-teaching it from scratch.
 
 This live session covers the topics that need real discussion and judgement: reading the
-panel as a system (control and performance instruments, scan technique), the sensory
-illusions that can mislead a pilot without outside visual reference, avoiding and escaping
-inadvertent IMC, and recognising and recovering from an unusual attitude.
+panel as a system (control and performance instruments, the AI as the primary instrument,
+the T-scan that confirms it), what drives each instrument and what a suction failure looks
+like, the sensory illusions that can mislead a pilot without outside visual reference,
+avoiding and escaping inadvertent IMC, and recognising and recovering from an unusual
+attitude.
 
 This lesson also revises and assesses a long list of foundational skills (communication,
 pre-flight actions, start/stop, taxiing, pre-take-off, radio and transponder operation,
@@ -81,7 +83,8 @@ visual reference. Lead in: so how does a pilot fly accurately without it?
 
 We already have instruments that show an artificial horizon, airspeed, height and heading. Today we'll be learning:
 
-- How to read them **as a system**, not one at a time
+- How to read them **as a system**, not one at a time — and which one is **primary**
+- What **powers** each instrument, and what it looks like when that power fails
 - Why your **senses can lie to you** once the horizon is gone
 - What to do if you ever find yourself **in cloud unexpectedly**
 - How to recognise and recover from an **unusual attitude**
@@ -94,8 +97,9 @@ We already have instruments that show an artificial horizon, airspeed, height an
 
 <briefing-overview plane-position="0" controls-start>
   <briefing-topic label="Learning&#10;Objectives" time="1"></briefing-topic>
-  <briefing-topic label="Flying by the&#10;Instruments" time="8"></briefing-topic>
-  <briefing-topic label="Trust Your&#10;Instruments" time="6"></briefing-topic>
+  <briefing-topic label="Flying by the&#10;Instruments" time="9"></briefing-topic>
+  <briefing-topic label="Power Sources&#10;&amp; Failures" time="6"></briefing-topic>
+  <briefing-topic label="Trust Your&#10;Instruments" time="5"></briefing-topic>
   <briefing-topic label="Avoiding &amp;&#10;Escaping IMC" time="8"></briefing-topic>
   <briefing-topic label="Unusual&#10;Attitudes" time="8"></briefing-topic>
   <briefing-topic label="Recap" time="3"></briefing-topic>
@@ -103,8 +107,12 @@ We already have instruments that show an artificial horizon, airspeed, height an
 
 <!--
 
-About 34 minutes, leaving headroom in the 0.8 hr theory window — the pre-lesson workbook
-has already carried some of the load.
+About 40 minutes, inside the 0.8 hr (48 min) theory window — the pre-lesson workbook has
+already carried some of the load, so this is fuller than it looks.
+
+If you are running short, the compressible parts are the tolerances slide (it can be a
+single spoken sentence) and the illusions detail (the workbook video already covered it).
+Do not compress the power-sources-and-failures waypoint or the unusual-attitude panel.
 
 -->
 
@@ -114,7 +122,8 @@ has already carried some of the load.
 
 By the end of this session, our aim is to be able to:
 
-- **Describe** the control-and-performance method of reading the panel, and **explain** why a continuous scan matters
+- **Describe** the control-and-performance method of reading the panel, and **explain** why the Attitude Indicator is confirmed by a continuous scan rather than trusted alone
+- **Identify** which power source drives each instrument, and **describe** what a suction failure looks like and how the scan changes
 - **Describe** at least three sensory illusions that can mislead a pilot without outside visual reference
 - **Explain** the dangers of inadvertent flight into cloud, and **outline** the actions to take if it happens
 - **Describe** the instrument indications and recovery for a nose-high and a nose-low unusual attitude
@@ -127,6 +136,11 @@ IFF.2 (perform manoeuvres using full instrument panel), IFF.3 (recover from upse
 situations/unusual attitudes) — all at performance standard 3 (introductory) this lesson,
 underpinning knowledge IFF 4(a-c). This is first exposure,
 not an assessed competency yet.
+
+Note that IFF 4(c) is explicitly "instrument failure and warning systems fitted to the
+aeroplane", and IFF.1(c) is "monitor flight instrument and instrument power sources and
+react to any warnings, unserviceability or erroneous indications" — the power-sources and
+failures waypoint below is that underpinning knowledge, not an optional extra.
 
 -->
 
@@ -193,28 +207,177 @@ sees where the other control instrument sits relative to this six-pack photo.
 ---
 <youtube-video video-id="0PXFXHIBwDY" start="266" class="medium right"></youtube-video>
 
-# Scan technique — don't stare, don't chase
+# The Attitude Indicator is your primary instrument
 
-We'll use a simple hub-and-spoke scan technique:
+- It is the **only** instrument that shows **pitch and bank directly**, and it responds **immediately** — it answers "what is the aeroplane doing *right now*?"
+- Every other instrument answers a slightly different question, a moment later: what *resulted* from that attitude
+- So: **set the attitude on the AI, hold it, and fly the aeroplane from it**
 
-- Keep your eyes **moving** — fixating on any one instrument is a fixation *away* from all the others
-- A simple scan: **Attitude Indicator in the centre** (the hub), glance out to each performance instrument (the spokes) and back
-- Make a **small** correction, then **wait** for the aircraft to settle before judging the result — chasing an instrument that's still lagging (remember your workbook) only makes the oscillation worse
-- CASA calls this **scan technique appropriate to the fitted instruments and phase of flight** [IFF 4(a)]
-
+> But we never trust it alone. A gyro instrument can fail slowly and quietly, and still look entirely plausible — which is the next waypoint.
 
 <!--
 
-Demo script: on the ground, point to each instrument in your aircraft's actual panel
-layout in scan order and have the student repeat the sequence back before flying.
+Kirrilly's point from the debrief: say "the Attitude Indicator is the primary instrument"
+explicitly and repeatedly — in the brief, on the panel before take-off, and in the air.
+It was implicit in the previous version of this brief; make it explicit here.
 
 -->
 
 ---
 
-# Waypoint 2 — Trust Your Instruments
+# The T-scan — how we confirm what the AI tells us
+
+Across the top: **ASI · AI · Altimeter**. Down the stem: the **DI**. Eyes return to the AI between every glance — and you say the cross-check out loud:
+
+| The AI says… | So check… | Does it agree? |
+|---|---|---|
+| Banking left | **Turn Coordinator** left, **DI** decreasing | If nothing else moves, suspect the AI |
+| Wings level | **Turn Coordinator** centred, **DI** steady | If the DI creeps, you *are* turning |
+| Nose on the horizon | **Altimeter** steady, **VSI** on zero | The altimeter is the honest answer |
+
+- Keep your eyes **moving** — fixating on one instrument is a fixation *away* from all the others
+- Make a **small** correction, then **wait** for it to settle — chasing a lagging instrument (your workbook) only worsens the oscillation
+
+<!--
+
+CASA underpinning knowledge IFF 4(a): scan technique appropriate to the fitted
+instruments and phase of flight.
+
+Demo script: on the ground, in the aircraft, point to each instrument in the actual panel
+in T-scan order and have the student point and name the sequence back to you before
+flying. Point at the real instruments, not the photo — that was a specific debrief
+action: name and point at each instrument at the panel, not just on the whiteboard.
+
+-->
+
+---
+
+# How accurate is accurate enough?
+
+Today is a first exposure, not a test — but it helps to know what "good" looks like. From the **Part 61 MOS, Schedule 8, Table 1** (the private-level tolerances, which apply to the RPL):
+
+| Flight path or manoeuvre | Tolerance |
+|---|---|
+| Turn onto a **nominated heading** | **±10°** |
+| Angle of bank in a turn | ±5° |
+| Straight and level — altitude / IAS | ±150 ft / ±10 kt |
+| Level off from a climb or descent | ±150 ft |
+
+> The one instrument manoeuvre CASA assesses at RPL level is **a rate 1 turn onto a nominated heading** [IFF.2(c)]. So every turn today has a **heading** attached to it — never just "turn left".
+
+<!--
+
+Kirrilly suggested bringing the tolerances in if the student is comfortable — pitch it as
+"what good looks like", not as a test, and skip the table entirely if the student is
+already loaded up.
+
+Worth knowing yourself: IFF.2(b) — the straight and level, climb and descent criteria —
+is prefaced "except for RPL", so at RPL those are practised but not assessed against
+tolerances. IFF.2(c), the rate 1 turn onto a nominated heading, is *not* excepted. That
+is exactly why the heading discipline below matters.
+
+The same table has a "limited panel instrument flying" row (heading ±15°, IAS ±10 kt,
+height ±200 ft) — that belongs to the Night VFR rating, not the RPL. Don't quote it to
+the student as though it applies today.
+
+-->
+
+---
+
+# Waypoint 2 — Power Sources and Failures
 
 <briefing-overview plane-position="1" controls></briefing-overview>
+
+<!-- Click Direct-To to arrive at Power Sources and Failures. -->
+
+---
+
+# What actually drives each instrument?
+
+Three independent systems, deliberately — and that tells you what fails **together**:
+
+| Power source | Instruments | What a failure costs you |
+|---|---|---|
+| **Engine suction (vacuum)** | Attitude Indicator, Direction Indicator | Both gyros wind down — together |
+| **Electrical** | Turn Coordinator | Bank reference — check ammeter and breakers |
+| **Pitot-static** | ASI, Altimeter, VSI | Blockage or icing, not power loss |
+| **None — magnetic** | Magnetic compass | Nothing — always there, slow but honest |
+
+> The Turn Coordinator is electric **on purpose**: so that when suction fails, you still have a bank reference that the failure cannot touch.
+
+<!--
+
+Ask the student to answer this from the workbook first (questions 3, 4 and 5) and from
+the POH page they found in question 6 — this is confirmation, not new teaching.
+
+Check your own aircraft before the lesson and correct the table out loud if it differs:
+some types have an electric AI and a vacuum Turn Coordinator, some have a low-vacuum
+warning light, and many older training aircraft have only a suction gauge.
+
+-->
+
+---
+
+# What a suction failure actually looks like
+
+It is **insidious** — the gyros wind down over minutes:
+
+- The AI's horizon **droops or rolls slowly**, looking plausible the whole way down
+- The DI **drifts**, faster and faster, and stops agreeing with the compass
+- Most training aircraft have **no warning flag** — your clues are the **suction gauge** and instruments that **disagree with each other**
+
+| For… | Instead of… | Fall back on… |
+|---|---|---|
+| **Bank** | the AI | the **Turn Coordinator** (electric) |
+| **Pitch** | the AI | the **ASI, Altimeter and VSI** |
+| **Heading** | the DI | the **magnetic compass** — with ONUS/SAND |
+
+> This is why we cross-check: if the AI disagrees with the Turn Coordinator, the DI *and* the altimeter — believe the three, not the one.
+
+<!--
+
+CASA underpinning knowledge IFF 4(c): instrument failure and warning systems fitted to
+the aeroplane.
+
+This was the biggest gap identified in the debrief — the failure case was in the workbook
+but never surfaced in the live brief. Teach it here, then fly the short covered-panel
+demonstration in the air so the words have something attached to them.
+
+-->
+
+---
+
+# So this is why we check it on the ground
+
+Every ground check exists because of a failure:
+
+- **Suction gauge in the green** → the pump really is driving the gyros
+- **AI erect and steady, no more than about 5° deflection in a taxi turn** → the AI has not toppled, and is not about to
+- **DI set against the compass** → the DI is tracking, and you now have a datum to notice drift *against* later in the flight
+- **Circuit breakers in, ammeter charging** → the electric instruments have a supply
+
+> A gyro failing on the ground is a nuisance. The same gyro failing in cloud is an emergency. The check takes thirty seconds — do it deliberately, every time.
+
+Later today, at a safe height, I will cover the AI and DI and you will fly on what is left.
+
+<!--
+
+Tammy's and Kirrilly's point, said in these words: *this is why we test everything on the
+ground — so we know the vacuum has suction and the AI has not toppled.* Say it as the
+reason for the check, immediately after teaching the failure, so the check stops being a
+ritual.
+
+This is failure **recognition and awareness**, which IFF requires. It is not limited-panel
+flying as an assessed competency — that belongs to the Night VFR rating. Keep the airborne
+demonstration short and instructor-led.
+
+-->
+
+---
+
+# Waypoint 3 — Trust Your Instruments
+
+<briefing-overview plane-position="2" controls></briefing-overview>
 
 <!-- Click Direct-To to arrive at Trust Your Instruments. -->
 
@@ -282,9 +445,9 @@ factual, not alarming — the point is a practical habit (trust the instruments)
 
 ---
 
-# Waypoint 3 — Avoiding and Escaping IMC
+# Waypoint 4 — Avoiding and Escaping IMC
 
-<briefing-overview plane-position="2" controls></briefing-overview>
+<briefing-overview plane-position="3" controls></briefing-overview>
 
 <!-- Click Direct-To to arrive at Avoiding and Escaping IMC. -->
 
@@ -327,6 +490,8 @@ dramatising — the safety point is the decision points, not the outcome.
 - Identify **escape routes and alternates** during planning, not in the moment
 - Recognise **external pressure** to press on ("get-there-itis") as a threat in itself
 
+**Always fly with a Plan B** — decided on the ground, named out loud, and with a **trigger** attached to it: *"If I cannot stay 1,000 ft clear of cloud by [landmark], I turn back to [aerodrome]."* A Plan B you have not named is not a plan; it is a hope.
+
 > A non-fatal but telling case: a pilot flying Bankstown to Orange in January 2025 entered cloud shortly after take-off — ATSB found insufficient pre-flight weather consideration and self-imposed pressure to proceed both contributed. [ATSB AO-2025-003](https://www.atsb.gov.au/investigations/ao-2025-003)
 
 <!--
@@ -334,6 +499,12 @@ dramatising — the safety point is the decision points, not the outcome.
 CASA HF/NTS: threat and error management [NTS2 4(b)], situational awareness [NTS2 4(c)].
 Ties to the PAVE / I'M SAFE checks the student already runs each flight — weather
 planning and external pressure are exactly what those checks are for.
+
+The "Plan B" framing came from Kirrilly, via Tammy's single-pilot resource management
+tools. It is written generically here because the exact wording of Tammy's model was not
+to hand — check it with her and match the school's phrasing so the student hears the same
+language from every instructor. The mechanism that matters either way is the **trigger**:
+a decision made in advance about what you will see that means it is time to turn around.
 
 -->
 
@@ -360,9 +531,9 @@ and to the rate-one turn technique practised in the air exercise (IFF.2c).
 
 ---
 
-# Waypoint 4 — Unusual Attitudes
+# Waypoint 5 — Unusual Attitudes
 
-<briefing-overview plane-position="3" controls></briefing-overview>
+<briefing-overview plane-position="4" controls></briefing-overview>
 
 <!-- Click Direct-To to arrive at Unusual Attitudes. -->
 
@@ -421,13 +592,19 @@ spiral dive in Lesson 18 — deliberately repeat it here.
 
 - Today we fly with the **full instrument panel** available — every instrument working, cross-referenced continuously
 - The Attitude Indicator gives the fastest, most direct picture of the unusual attitude — but always **confirm** with the ASI, altimeter and VSI, since the AI can topple past its limits (typically 60° pitch / 90° roll on this class of aircraft)
+- A toppled AI looks like an attitude, not like a failure — the same cross-check habit from Waypoint 2 is what catches it
 - Ignore the sensations — they will likely disagree with what the instruments show. **Believe the instruments.**
 
 <!--
 
-CASA IFF.2: perform manoeuvres using full instrument panel. Limited/partial-panel
-technique (flying with the AI or DI covered) is beyond RPL scope and introduced later at
-the FIR/CPL level — mention this only if a keen student asks.
+CASA IFF.2: perform manoeuvres using full instrument panel — so the full panel is the
+standard for everything assessed today.
+
+That is not in tension with the covered-panel demonstration briefed in Waypoint 2:
+recognising a failed instrument and knowing what to fall back on is IFF 4(c) underpinning
+knowledge and IFF.1(c). Flying limited panel *to a standard* is a Night VFR rating
+competency, with its own tolerances — do not present the demonstration as though the
+student is being assessed on it.
 
 -->
 
@@ -444,9 +621,9 @@ The Pilot Institute has a good article on [How to Recover from Unusual Attitudes
 
 ---
 
-# Waypoint 5 — Recap
+# Waypoint 6 — Recap
 
-<briefing-overview plane-position="4" controls></briefing-overview>
+<briefing-overview plane-position="5" controls></briefing-overview>
 
 <!-- Click Direct-To to arrive at the recap. -->
 
@@ -455,6 +632,8 @@ The Pilot Institute has a good article on [How to Recover from Unusual Attitudes
 # What do you remember?
 
 - **Name** the two groups instruments are sorted into for the control-and-performance method, and give an example of each
+- **Name** your primary instrument, and **describe** how you would confirm what it is telling you
+- **Name** the two instruments you lose if the suction pump fails, and **state** what you would use instead
 - **Describe** two sensory illusions that can mislead a pilot in cloud
 - **List** the actions to take if you find yourself in cloud unexpectedly, in order
 - **State** the recovery sequence for a nose-low unusual attitude, in order
@@ -476,9 +655,10 @@ the part of this lesson that saves lives, and it's worth the remaining minutes.
 
 | Topic | Key point |
 |---|---|
-| Control & performance | Control instruments (AI, power) show what you've set; performance instruments show the result — scan continuously, don't chase |
-| Illusions | The leans, graveyard spiral, somatogravic — all caused by the inner ear once vision is gone. Trust the instruments |
-| Avoiding & escaping IMC | Plan and set minimums to avoid it; if it happens anyway: control, turn back, tell someone |
+| Reading the panel | The **AI is primary** — pitch and bank, immediately. Confirm it on the T-scan; control instruments show what you set, performance instruments the result |
+| Power & failures | Suction drives the AI and DI, so they fail **together** — slowly and plausibly. Fall back on the Turn Coordinator, the ASI/altimeter/VSI, and the compass |
+| Illusions | The leans, graveyard spiral, somatogravic — all from the inner ear once vision is gone. Trust the instruments |
+| Avoiding & escaping IMC | Plan, set minimums, name a Plan B with a trigger; if it happens anyway: control, turn back, tell someone |
 | Unusual attitudes | Airspeed tells you which type; recover power, then wings level, then pitch |
 
 ---
@@ -541,7 +721,8 @@ during the hood exercise in the air today.
 
 Can you:
 
-- **Describe** the control-and-performance method, and **explain** why a continuous scan matters?
+- **Describe** the control-and-performance method, and **explain** why we confirm the AI rather than trust it alone?
+- **Identify** which power source drives each instrument, and **describe** what a suction failure looks like?
 - **Describe** at least three sensory illusions that can mislead a pilot?
 - **Explain** the dangers of inadvertent IMC entry, and **outline** the actions to take?
 - **Describe** the instrument indications and recovery for a nose-high and a nose-low unusual attitude?
@@ -551,7 +732,7 @@ Can you:
 
 # Arrival
 
-<briefing-overview plane-position="5" controls></briefing-overview>
+<briefing-overview plane-position="6" controls></briefing-overview>
 
 ---
 
