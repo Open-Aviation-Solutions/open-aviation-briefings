@@ -86,7 +86,8 @@ exercises → return. Fill in your local details:
    continue or divert
 5. **Simulated engine start/shutdown malfunctions** — on the ground, as time permits
    (assessed this lesson)
-6. Return to the aerodrome and land
+6. **Simulated engine fire in flight** — as time/height permit (assessed this lesson)
+7. Return to the aerodrome and land
 
 **Ask** — "Who's flying each part?"
 
@@ -105,8 +106,9 @@ through and have the student say it back before you leave the room.
 
 1. **Aviate** — trim for the **glide**, at best glide speed
 2. **Field** — pick the best field within reach, applying the workbook criteria
-3. **Checks** — a quick initial look for an obvious, fixable cause
-4. **Communicate** — the **MAYDAY** call, made early
+3. **Checks** — a quick initial look for an obvious, fixable cause (carburettor heat,
+   fuel, mixture)
+4. **Communicate** — the **MAYDAY** call, made early; squawk 7700 too if fitted
 5. **Prepare** — passenger brief, detailed trouble check, shutdown checks as height and
    workload allow
 

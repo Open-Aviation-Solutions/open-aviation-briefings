@@ -138,15 +138,18 @@ here on.
 
 <climb-performance></climb-performance>
 
-Recall from Lesson 3: minimum power required occurs around $V_X$; below that speed, *more*
-power is needed to stay level — this is why a fixed **best glide speed** (not "as slow as
-possible") gives the greatest gliding distance when the power is gone entirely.
+Recall from Lesson 3: $V_X$ is the speed of maximum excess *thrust* — the minimum-drag
+point. With the power gone entirely, that same minimum-drag point gives the greatest
+gliding distance, which is why **best glide speed** is published close to $V_X$ — not
+"as slow as possible".
 
 <!--
 
 PHAK Ch 11 (Aircraft Performance) / AFH Ch 4 (Energy Management). For the Warrior 151 the
-published best glide speed is approximately 73 KIAS at max gross weight, giving roughly a
-10:1 glide ratio — check the published figure for your training aircraft type.
+published best glide speed is approximately 73 KIAS at max gross weight (close to the 63
+KIAS $V_X$ from Lesson 3), giving roughly a 10:1 glide ratio — check the published figure
+for your training aircraft type. Don't call this "minimum power required" — that's a
+different, slower speed (best endurance), not the best-glide/minimum-drag point.
 
 -->
 
@@ -158,8 +161,10 @@ The moment the engine fails, there's a fixed sequence — flown from memory, in 
 
 1. **Aviate** — trim for the **glide**, at best glide speed
 2. **Field** — pick the best field within reach, using your workbook criteria
-3. **Checks** — a quick initial look for an obvious, fixable cause (fuel, mixture)
-4. **Communicate** — the **MAYDAY** call, made early
+3. **Checks** — a quick initial look for an obvious, fixable cause (carburettor heat,
+   fuel, mixture)
+4. **Communicate** — the **MAYDAY** call, made early; squawk **7700** too if the aircraft
+   is transponder-equipped
 5. **Prepare** — brief the passengers; complete a detailed trouble check and shutdown as
    height and workload allow
 
@@ -172,7 +177,9 @@ CASA A6.3(f-m): identify complete power failure, control the aeroplane, perform 
 actions, formulate and describe a recovery plan including selecting the landing area,
 establish the optimal glide, land if the engine cannot be restarted, advise ATS, re-brief
 passengers, land ensuring the safest outcome. NTS1.4 (task prioritisation) and NTS1.5
-(Aviate, Navigate, Communicate) underpin this whole sequence.
+(Aviate, Navigate, Communicate) underpin this whole sequence. C3.3(a,e): operate the
+transponder during abnormal/emergency operations and recall the emergency code (7700) —
+introduced here (level 2), not yet polished.
 
 -->
 

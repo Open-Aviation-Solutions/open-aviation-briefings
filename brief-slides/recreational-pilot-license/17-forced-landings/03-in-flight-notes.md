@@ -98,8 +98,10 @@ exercises.
   without warning — "Simulated engine failure"
 - **Aviate** — trim for the glide at best glide speed, wings level, balance ball centred
 - **Field** — select and point out the chosen field, narrating the criteria out loud
-- **Checks** — a quick initial look for an obvious, fixable cause
-- **Communicate** — simulate the MAYDAY call (do not transmit unless genuinely required)
+- **Checks** — a quick initial look for an obvious, fixable cause (carburettor heat, fuel,
+  mixture)
+- **Communicate** — simulate the MAYDAY call (do not transmit unless genuinely required);
+  point out the transponder emergency code (7700) without necessarily selecting it
 - **Prepare** — narrate the passenger brief and detailed trouble check as height allows
 - Fly the descent profile to the field, correcting for high/low as needed
 - Go around no lower than the briefed minimum height — apply full power, established
@@ -154,6 +156,32 @@ controls, establish comms, formulate a recovery plan that accounts for the possi
 full failure, and manoeuvre to a selected landing area or aerodrome using the remaining
 power. This is deliberately framed as a *judgement call*, not a fixed procedure — a partial
 failure rarely has one right answer.
+
+-->
+
+---
+
+# Simulated engine fire in flight
+
+## Sequence
+- Brief this as fully simulated — "Simulated engine fire in flight", no actual actions on
+  the mixture/fuel/master controls
+- Student talks through the actions in order: mixture — idle cut-off; fuel selector —
+  OFF; cabin heat/vents — OFF (avoids drawing smoke into the cabin); increase airspeed or
+  sideslip away from any smoke
+- With the engine now deliberately stopped, this **becomes a forced landing** — the
+  student flies the same immediate/vital actions sequence practised above: field,
+  MAYDAY/7700, passenger brief, shutdown
+- Debrief: what's different about this scenario, compared to the earlier practice failures?
+
+<!--
+
+CASA A6.5(a): correctly identify the situation and maintain safe control of the aeroplane
+at all times; manage the abnormal/emergency situation in accordance with relevant
+procedures. This exercise deliberately reuses the field-selection and immediate-actions
+sequence rather than teaching a separate one — the fire-specific actions (mixture idle
+cut-off, fuel off, heat/vents off) are what's new, everything after that is the same
+forced-landing sequence already flown twice today.
 
 -->
 

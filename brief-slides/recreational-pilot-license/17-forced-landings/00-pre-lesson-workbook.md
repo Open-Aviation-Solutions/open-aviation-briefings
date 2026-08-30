@@ -95,6 +95,8 @@ If you only remember one radio call from your entire training, make it this one.
 
 3. What should you do if you can't raise anyone on the current frequency? ________________________________
 
+4. If your aircraft has a transponder, what emergency code would you select to alert ATC even before you make contact? ________________________________
+
 ---
 
 # 5. Detailed trouble checks & engine management
