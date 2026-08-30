@@ -44,6 +44,8 @@ Complete engine failure is rare in a well-maintained training aeroplane — but 
 
 3. Why might a *partial* power loss be more dangerous to manage well than a complete one — what decision does it force you to make? ________________________________
 
+4. Thinking back to Lesson 9 (Circuit Emergencies): an engine failure straight after take-off is handled very differently from one in cruise. What's the key difference in your situation that drives that — and how does it change what you have time to do? ________________________________
+
 ---
 
 # 2. Reading the wind from the air

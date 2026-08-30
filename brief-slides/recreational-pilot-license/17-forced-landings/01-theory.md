@@ -155,6 +155,31 @@ different, slower speed (best endurance), not the best-glide/minimum-drag point.
 
 ---
 
+# Recall — engine failure after take-off (Lesson 9)
+
+From Lesson 9 (Circuit Emergencies): an engine failure straight after take-off gives you
+seconds, not minutes, and rarely enough height to turn back — the default is a landing
+**ahead**, within a limited arc, flown from memory, with no time for field selection,
+checks, or a MAYDAY call.
+
+Today is different: an engine failure **in cruise** gives you height, and height buys
+time — enough to select and reassess a field, run the checks, make the MAYDAY call, and
+brief your passengers, all before you commit to landing.
+
+> Same failure, same aeroplane — but the height you start with changes everything about
+> how you respond.
+
+<!--
+
+Bridges from Lesson 9 (Circuit Emergencies) without re-teaching it — the point is the
+contrast, not the EFATO procedure itself. If Lesson 9 hasn't been flown yet, ask the
+student what they'd expect to be different about height and time before revealing the
+bullets above.
+
+-->
+
+---
+
 # The immediate/vital actions
 
 The moment the engine fails, there's a fixed sequence — flown from memory, in order:
