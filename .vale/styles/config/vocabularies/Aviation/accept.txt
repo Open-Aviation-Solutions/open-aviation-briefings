@@ -81,6 +81,7 @@ Unicomb
 # Place names / airports cited in slides
 Bankstown
 Gatwick
+Yass
 
 # Common abbreviations used in slide shorthand
 config
