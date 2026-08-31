@@ -277,7 +277,7 @@ Use the model aeroplane or a whiteboard diagram to show the nose attitude differ
 
 # Best angle vs best rate — excess thrust vs excess power
 
-<climb-performance vs="43" cruise-kts="148"></climb-performance>
+<climb-performance vs="46" cruise-kts="102" vztp="3.0"></climb-performance>
 
 <!--
 Demo script — left chart first, then right:
@@ -288,7 +288,9 @@ Demo script — left chart first, then right:
 - Have the student predict before revealing: is VX slower or faster than VY? (Slower — the thrust surplus peaks earlier than the power surplus, and the charts show why.)
 - Drag slower than VX and watch the excess shrink again — we'll return to this region ("behind the curve") in the stalling lesson.
 
-The model is generic but calibrated (vs=43, cruise-kts=148) so VX and VY land on the Warrior's 63 and 75 KIAS from the previous slide.
+The model is generic but calibrated (vs=46, cruise-kts=102, vztp=3.0) so VX and VY land on the Warrior's 63 and 75 KIAS from the previous slide.
+
+- Worth naming the third marker while it's on screen: Vmd, the minimum-drag speed, at the bottom of the drag (TR) curve — 74 kt here, against the Warrior's published best glide of 73 KIAS. Point out where it sits: just *below* VY, and well *above* VX. That ordering is a propeller thing (thrust available falls off with speed, so the thrust surplus peaks well before minimum drag); in a jet, VX and Vmd would coincide. We come back to it in Lesson 17 (Forced Landings), where with the power gone Vmd *is* the best glide speed.
 -->
 
 ---
