@@ -25,6 +25,8 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 > **"MAYDAY early"** — say it before you need convincing you should have.
 
+> **"small turn, straight, reassess"** — the 50c pattern, called the same way every time.
+
 <!--
 
 CASA HF/NTS: effective communication under normal and non-normal circumstances
@@ -102,15 +104,18 @@ exercises.
   mixture)
 - **Communicate** — simulate the MAYDAY call (do not transmit unless genuinely required);
   point out the transponder emergency code (7700) without necessarily selecting it
-- **Prepare** — narrate the passenger brief and detailed trouble check as height allows
-- Fly the descent profile to the field, correcting for high/low as needed
+- **Prepare** — narrate the passenger brief, the detailed trouble check (CFMOST) and the
+  **BUSH FMMM** shutdown as height allows
+- Fly the descent profile to the field using the **50c technique** — small turn, straight,
+  reassess — correcting for high/low as needed
 - Go around no lower than the briefed minimum height — apply full power, established
   climb, retract to clean configuration as appropriate
 
 <!--
 
 CASA A6.3(a,f-m). Narrate every step out loud — this demonstration is the model the student
-repeats next.
+repeats next. The 50c technique, CFMOST and BUSH FMMM were all covered in the theory brief;
+use the same words here so the student hears one vocabulary, not three.
 
 -->
 

@@ -53,6 +53,30 @@ the aeroplane itself, not the ground.
 
 ---
 
+# It isn't hypothetical
+
+<youtube-video video-id="PTrLxkVOShg" class="right large"></youtube-video>
+
+A student pilot, solo, loses the engine — cockpit view and the ATC audio alongside it.
+
+- Watch what they do **first**
+- Listen for **when** the call is made, and what's in it
+- Watch where they're **looking** all the way down
+
+<!--
+
+VASAviation — "Student Pilot Loses Engine | Cockpit View + ATC". This one ends well, which
+is why it's usable here: the point is to replace an imagined scenario with a real one
+before we start on the sequence.
+
+Play it, then come back to the two questions above and let the student revise their own
+answers. Keep it moving — the detailed walk-through of the same footage comes at the recap,
+with the sound off.
+
+-->
+
+---
+
 # What would you do?
 
 - Imagine the engine just went quiet, right now, in cruise. What's the very first thing you'd do?
@@ -61,8 +85,8 @@ the aeroplane itself, not the ground.
 A complete engine failure away from the aerodrome is rare — but it's one of the most
 important sequences in your entire training, because there's no second attempt.
 
-> The aim today: make the sequence so familiar that, if it ever happens for real, no time
-> is wasted deciding what to do.
+> The aim today: begin making the sequence familiar so that after more practise, if it ever
+> happens for real, no time is wasted deciding what to do.
 
 ---
 
@@ -119,7 +143,7 @@ heights and positions, so the actions become second nature.
 Quick recall before we go on:
 
 - Name one common cause of a **partial** power loss, and one of a **complete** failure
-- What's the very first step in reading a MAYDAY call?
+- What's the very first step in making a MAYDAY call?
 - List two things you're weighing up when choosing a field
 
 <!--
@@ -136,20 +160,40 @@ here on.
 
 # Recall — best glide speed (Lesson 3)
 
-<climb-performance></climb-performance>
+<climb-performance height="330px" vs="46" cruise-kts="102" vztp="3.0"></climb-performance>
 
-Recall from Lesson 3: $V_X$ is the speed of maximum excess *thrust* — the minimum-drag
-point. With the power gone entirely, that same minimum-drag point gives the greatest
-gliding distance, which is why **best glide speed** is published close to $V_X$ — not
-"as slow as possible".
+Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag
+curve, marked $V_{MD}$ above. In a propeller aeroplane that sits **just below $V_Y$**, well
+*above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb
+speed.
 
 <!--
 
-PHAK Ch 11 (Aircraft Performance) / AFH Ch 4 (Energy Management). For the Warrior 151 the
-published best glide speed is approximately 73 KIAS at max gross weight (close to the 63
-KIAS $V_X$ from Lesson 3), giving roughly a 10:1 glide ratio — check the published figure
-for your training aircraft type. Don't call this "minimum power required" — that's a
-different, slower speed (best endurance), not the best-glide/minimum-drag point.
+Drag the cursor to the slate $V_{MD}$ marker and note where $V_X$ and $V_Y$ sit relative to
+it — the same charts, and the same calibration, as Lesson 3. The chart reads 63 kt $V_X$,
+74 kt $V_{MD}$ and 75 kt $V_Y$ for the Warrior, against its published best glide of 73 KIAS.
+
+PHAK Ch 11 (Aircraft Performance) is the reference, and it is explicit that the jet and the
+propeller cases differ. On angle of climb: in a jet, maximum excess thrust occurs where
+thrust required is at a minimum (approximately L/D max), but in a propeller aeroplane
+maximum excess thrust occurs at an airspeed *below* L/D max, frequently just above the
+stall — so $V_X$ is not the minimum-drag speed in our aircraft. On rate of climb: maximum
+rate for a typical propeller aeroplane occurs at an airspeed and AOA combination *closer
+to* L/D max — so $V_Y$ is the one that sits near best glide.
+
+Best glide distance is the L/D max condition (PHAK Ch 11 makes the same point for maximum
+range). L/D max occurs at a particular angle of attack, unaffected by weight or altitude —
+but the *airspeed* to fly it at does change with weight, which is why the published figure
+is quoted at max gross. Slower than that is minimum *power* required — best endurance, or
+minimum sink — a different, slower speed again.
+
+Warrior 151: best glide approximately 73 KIAS at max gross, against 75 KIAS $V_Y$ and 63
+KIAS $V_X$ from Lesson 3, giving roughly a 10:1 glide ratio. Check the published figures for
+your training aircraft type.
+
+AFH Ch 4 (Energy Management) does *not* cover best glide speed — the AFH's forced-landing
+material is Ch 18 (Emergency Procedures), which is the better companion reference for the
+rest of this deck.
 
 -->
 
@@ -242,36 +286,50 @@ area you'll actually fly today.
 
 # Planning the descent to your field
 
-![right large A side-on profile diagram of an aircraft descending in a spiral toward a chosen field, with three labelled altitude bands: an upper band around 2500 feet AGL labelled Engine fails — immediate actions and field selection, a middle band around 1500 feet AGL labelled Continue assessing — MAYDAY call, detailed trouble checks, passenger brief, and a lower band around 1000 feet AGL labelled Arrive on a base-leg-equivalent position for a glide approach to the field. A small compass rose shows wind direction with an arrow, and the chosen field is drawn as a rectangle with the into-wind landing direction marked.](/brief-assets/recreational-pilot-license/17-forced-landings/forced-landing-descent-profile.png)
+<circuit-diagram
+  height="440px"
+  runway="18"
+  runway-length="700"
+  runway-width="70"
+  path-width="50"
+  vertical-exaggeration="1"
+  corner-radius="80"
+  show-help="false"
+>
+  <circuit-path
+    label="Forced landing pattern"
+    color="#3b82f699"
+    points="-1000,1000,756; 400,1000,616; 900,866,564; 1266,500,512; 1400,0,460; 1266,-500,409; 900,-866,357; 400,-1000,305; -100,-866,232; -466,-500,158; -600,0,85; 0,0,0"
+    segment-labels="0:Engine fails ~2500 ft · glide · field · checks · MAYDAY; 2:Small turn, straight, reassess — the 50c pattern; 4:Field stays in sight throughout; 7:~1000 ft abeam — base-leg equivalent; 9:Base — flap as required; 10:Final"
+  ></circuit-path>
+</circuit-diagram>
 
-The aim is to arrive at roughly **1,000 ft AGL** in a position equivalent to a base leg for
-your chosen field — from where a comfortable glide approach can be flown.
-
-- If height above the field is generous, fly a wider pattern around it first
-- Keep the field in sight throughout — don't let planning distract from flying the glide
+Arrive around **1,000 ft AGL** abeam the field. Get there with the **50c technique**: small
+turn, straight, reassess — a curve built from flat sides, like the edge of a 50c piece.
 
 <!--
 
-TODO image — generate and save as forced-landing-descent-profile.png in this lesson's
-brief-assets dir.
-IMAGE PROMPT (for an image generator):
-A clean, flat-style instructional aviation diagram in a side-on (profile) view, on a light
-background, showing an aeroplane silhouette descending in a gentle spiral path toward a
-rectangular field on the ground. Three horizontal altitude bands are marked with dashed
-lines and labels: "~2500 ft AGL — Engine fails: immediate actions, field selection begins",
-"~1500 ft AGL — Continue assessing: MAYDAY call, detailed trouble checks, passenger brief",
-"~1000 ft AGL — Base-leg-equivalent position for the glide approach". The chosen field is
-drawn as a simple rectangle with a small wind-sock icon and an arrow showing wind direction
-aligned with the field's long axis. Restrained blue-and-grey palette; simple labelled lines
-and dashed altitude bands; minimal text, all text verbatim as given above; no photorealism;
-landscape orientation with generous margins so it reads at slide size.
+The field here is drawn as a runway because that's what the component gives us — treat it
+as the chosen paddock, and say so.
+
+Orbit the scene, then use the legend's play button to fly the track: the student sees the
+field stay in the same place in the windscreen the whole way down, which is the point of the
+pattern.
+
+Why the 50c technique rather than one continuous descending turn: each straight segment is a
+moment with the wings level to look at the field, check the wind, and confirm you're still
+on profile — then a small turn to reposition. A single sustained turn hides all of that, and
+in a glide it's much easier to let the speed decay in a continuous turn than in short ones.
+
+The geometry drawn is self-consistent at roughly 10:1 down to the 1,000 ft point (matching
+the Warrior's glide ratio), then steeper on base and final where flap is going in. Talk
+about it in those terms, not as fixed numbers to memorise — the heights and distances depend
+entirely on the aircraft, the wind and where the field is.
 
 FIM Ch 15 background (structure only, not reproduced): the descent profile continually
 reassesses the field choice; the 1,000 ft position is roughly equivalent to a base leg.
 
 -->
-
----
 
 # Adjusting if you're too high or too low
 
@@ -280,11 +338,11 @@ correct in either direction:
 
 | If you're... | Consider |
 |---|---|
-| **Too high** | A wider pattern, an S-turn, or (if the type allows) a sideslip to lose height without gaining speed |
-| **Too low** | Turn in early, shorten the base leg, and use less flap — keep as much control over the final approach as possible |
+| **Too high** | Widen the pattern, add another 50c turn or two, or (if the type allows) sideslip to lose height without gaining speed |
+| **Too low** | Straighten up between turns for longer, turn in early, shorten the base leg, and use less flap — keep as much control over the final approach as possible |
 
-> Make small, early corrections. Waiting until short final to fix a big height error leaves
-> no margin.
+> Make small, early corrections. The 50c pattern is what gives you the chance to make them:
+> every straight segment is a look at the field and a decision.
 
 <!--
 
@@ -328,7 +386,10 @@ Everything else from your workbook happens **around** the flying, not instead of
 | Trim for best glide, head for the field | **MAYDAY call** — made early, while there's still time to be heard |
 | Keep reassessing the field | **Detailed trouble check** — a systematic look for a fixable cause |
 | Fly the corrections (high/low) | **Passenger brief** — brace position, what to expect |
-| Commit to the approach | **Shutdown checks** — fuel, ignition, master switch, as briefed |
+| Commit to the approach | **Shutdown checks** — **BUSH FMMM**, as in your workbook |
+
+**BUSH FMMM** — Brakes · Undercarriage · Switches (Fuel, Mixture, Magnetos, Master —
+master last if you still need flap) · Hatches and harnesses
 
 > **Aviate first, always.** None of the items on the right should ever come at the expense
 > of flying the aeroplane and reaching the field.
@@ -339,6 +400,12 @@ CASA A6.3(k,l,y): advise ATS of situation and intentions; re-brief passengers ab
 flight situation, brace position and harness security; shut down and secure the engine and
 aeroplane when a safe landing position is established. C5.1/C5.2: manage and assist
 passengers.
+
+BUSH FMMM was introduced in the workbook — this is recall, not new teaching. Ask the student
+to expand it before revealing the line, and ask *why* the master comes last (electric flap,
+and radio until you no longer need it). Check the expansion against your aircraft's own
+checklist: a fixed-gear type has nothing to do for U beyond confirming it, and the order of
+the switches follows the flight manual where it differs.
 
 -->
 
@@ -374,7 +441,29 @@ passengers.
 | Over/undershoot | Recognise early — small corrections beat late ones; be ready to change fields |
 | Everything else | MAYDAY, trouble checks, passenger brief and shutdown happen around the flying, not instead of it |
 
-<!-- TODO: consider a lesson-specific creative recap activity here — e.g. a "call it out" drill where the instructor narrates a scenario (height, position, wind) and the student talks through their choices — rather than only the table/recall form above. -->
+---
+
+# Call it out
+
+<youtube-video video-id="PTrLxkVOShg" class="right large"></youtube-video>
+
+The same footage from the start of the brief — this time with the **sound off**.
+
+- Call out each step of the sequence as you'd be doing it
+- Where would the MAYDAY call go? The trouble check? The passenger brief?
+- What can you see them deciding, that you couldn't hear the first time?
+
+<!--
+
+Mute it. Without the ATC audio the student has to supply the sequence themselves, which is
+exactly the recall we want — and watching the same footage twice, first for the situation
+and now for the actions, is the point.
+
+Pause where useful and ask "what would you be doing right now?". Don't turn it into a
+critique of the pilot in the video: the aim is to rehearse our own sequence against real
+footage, not to score theirs.
+
+-->
 
 ---
 

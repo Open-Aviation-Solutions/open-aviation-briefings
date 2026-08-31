@@ -23,7 +23,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 # My whiteboard and running order
 
-Before the lesson, read the sections that follow, then come back here: note *your* running order and approximate timings, and sketch the whiteboard you'll draw — the descent profile, the field-selection criteria, and the immediate/vital actions sequence. For inspiration, see the NZ CAA Flight Instructor Guide whiteboards for [Forced landing without power — pattern](https://www.aviation.govt.nz/assets/licensing-and-certification/flight-instructor-guide/whiteboards/fig-whiteboard-am-flwop-p.pdf) and [Forced landing without power — considerations](https://www.aviation.govt.nz/assets/licensing-and-certification/flight-instructor-guide/whiteboards/fig-whiteboard-am-flwop-c.pdf).
+Before the lesson, read the sections that follow, then come back here: note *your* running order and approximate timings, and sketch the whiteboard you'll draw — the 50c descent pattern, the field-selection criteria, and the immediate/vital actions sequence. For inspiration, see the NZ CAA Flight Instructor Guide whiteboards for [Forced landing without power — pattern](https://www.aviation.govt.nz/assets/licensing-and-certification/flight-instructor-guide/whiteboards/fig-whiteboard-am-flwop-p.pdf) and [Forced landing without power — considerations](https://www.aviation.govt.nz/assets/licensing-and-certification/flight-instructor-guide/whiteboards/fig-whiteboard-am-flwop-c.pdf).
 
 <div class="sketch-area"></div>
 
@@ -57,7 +57,8 @@ purpose — for this lesson it **is** the main threat mitigation.
 - practise the **immediate/vital actions** following a simulated engine failure, from
   memory
 - choose and **continually reassess** a suitable field
-- fly a **glide approach** to the chosen field, correcting for high and low
+- fly a **glide approach** to the chosen field using the **50c technique**, correcting for
+  high and low
 - recognise and manage an **over- or undershoot**
 
 Write the aim on the board — everything else hangs off *recognise, choose, fly*.
@@ -109,8 +110,8 @@ through and have the student say it back before you leave the room.
 3. **Checks** — a quick initial look for an obvious, fixable cause (carburettor heat,
    fuel, mixture)
 4. **Communicate** — the **MAYDAY** call, made early; squawk 7700 too if fitted
-5. **Prepare** — passenger brief, detailed trouble check, shutdown checks as height and
-   workload allow
+5. **Prepare** — passenger brief, detailed trouble check (CFMOST), **BUSH FMMM** shutdown
+   checks as height and workload allow
 
 **Ask** — "What comes first — looking for a field, or trimming for the glide?"
 
@@ -166,7 +167,8 @@ height for go-around).
 Quick recap as you pack up the whiteboard:
 
 - **Aviate, Navigate, Communicate** — trim for the glide before anything else
-- Keep **reassessing** your chosen field all the way down
+- Keep **reassessing** your chosen field all the way down — that's what the straight
+  segments of the 50c pattern are for
 - **MAYDAY early** — while there's still time to be heard
 - A sudden, quiet engine is **normal** for this exercise — that's why we rehearsed it
 
