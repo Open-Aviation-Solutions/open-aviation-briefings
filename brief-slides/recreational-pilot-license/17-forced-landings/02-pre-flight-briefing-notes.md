@@ -43,8 +43,7 @@ The theory session is done and the student knows today involves practising a sim
 | Threats and how we'll manage them | 2–3 min |
 | Questions, then fly | 1–2 min |
 
-The order above puts the immediate/vital actions rehearsal right after the walk-through, on
-purpose — for this lesson it **is** the main threat mitigation.
+The order above puts the immediate/vital actions rehearsal right after the walk-through, on purpose — for this lesson it **is** the main threat mitigation.
 
 ---
 
@@ -54,11 +53,9 @@ purpose — for this lesson it **is** the main threat mitigation.
 
 **Expect** — in the student's own words:
 
-- practise the **immediate/vital actions** following a simulated engine failure, from
-  memory
+- practise the **immediate/vital actions** following a simulated engine failure, from memory
 - choose and **continually reassess** a suitable field
-- fly a **glide approach** to the chosen field using the **50c technique** — small turns all
-  the way onto final — correcting for high and low
+- fly a **glide approach** to the chosen field using the **50c technique** — small turns all the way onto final — correcting for high and low
 - recognise and manage an **over- or undershoot**
 
 Write the aim on the board — everything else hangs off *recognise, choose, fly*.
@@ -67,68 +64,50 @@ Write the aim on the board — everything else hangs off *recognise, choose, fly
 
 # Today's flight — whiteboard walk-through
 
-**Draw** — the flight as a path across the board: taxi → take-off → climb → training area →
-exercises → return. Fill in your local details:
+**Draw** — the flight as a path across the board: taxi → take-off → climb → training area → exercises → return. Fill in your local details:
 
 - Runway: ______ &nbsp;&nbsp; Circuit direction: ______
 - Training area: ______ &nbsp;&nbsp; Approved practice-forced-landing fields: ______
 - Safe height — recovery **complete by** ______ ft AGL (per your operator's minimum)
-- Who taxis / handles the first simulated failure: ______ (you demonstrate the first one,
-  then hand over)
+- Who taxis / handles the first simulated failure: ______ (you demonstrate the first one, then hand over)
 
 **Draw** — the exercise sequence as a ladder:
 
-1. **Simulated complete engine failure** — from cruise, in the training area or over an
-   approved practice field
-2. Immediate/vital actions → field selection → descent profile → approach → (go-around at a
-   safe height, per your operator's minimum)
+1. **Simulated complete engine failure** — from cruise, in the training area or over an approved practice field
+2. Immediate/vital actions → field selection → descent profile → approach → (go-around at a safe height, per your operator's minimum)
 3. Repeat from varying heights and positions
-4. **Simulated partial engine failure** — rough running, reduced power; decide whether to
-   continue or divert
-5. **Simulated engine start/shutdown malfunctions** — on the ground, as time permits
-   (assessed this lesson)
+4. **Simulated partial engine failure** — rough running, reduced power; decide whether to continue or divert
+5. **Simulated engine start/shutdown malfunctions** — on the ground, as time permits (assessed this lesson)
 6. **Simulated engine fire in flight** — as time/height permit (assessed this lesson)
 7. Return to the aerodrome and land
 
 **Ask** — "Who's flying each part?"
 
-**Expect** — the student flies the sequence; you fly and narrate the first one, then hand
-over. Confirm the minimum height for solo/dual practice per your operator's procedures —
-this is **never** flown to an actual touchdown outside an approved area or aerodrome.
+**Expect** — the student flies the sequence; you fly and narrate the first one, then hand over. Confirm the minimum height for solo/dual practice per your operator's procedures — this is **never** flown to an actual touchdown outside an approved area or aerodrome.
 
 ---
 
 # Immediate/vital actions — rehearse it now
 
-The sequence has to be **automatic** in the air, so build it on the ground first. Walk it
-through and have the student say it back before you leave the room.
+The sequence has to be **automatic** in the air, so build it on the ground first. Walk it through and have the student say it back before you leave the room.
 
 **Draw** — the sequence as steps on the board:
 
 1. **Aviate** — trim for the **glide**, at best glide speed
-2. **Checks** — the quick, fixable causes: carburettor heat on, fuel (selector, pump,
-   change tanks), mixture rich
-3. **Field** — pick the best field within reach, applying the workbook criteria
-   (**WOSSSSET**)
+2. **Checks** — the quick, fixable causes: carburettor heat on, fuel (selector, pump, change tanks), mixture rich
+3. **Field** — pick the best field within reach, applying the workbook criteria (**WOSSSSET**)
 4. **Communicate** — the **MAYDAY** call, made early; squawk 7700 too if fitted
-5. **Prepare** — passenger brief, detailed trouble check (**CFMOST**), **BUSH FMMM**
-   shutdown checks as height and workload allow
+5. **Prepare** — passenger brief, detailed trouble check (**CFMOST**), **BUSH FMMM** shutdown checks as height and workload allow
 
 **Ask** — "What comes first — looking for a field, or trimming for the glide?"
 
-**Expect** — **trim for the glide first.** A field is no use if the aeroplane isn't
-established at best glide speed. **Aviate, Navigate, Communicate** — in that order, every
-time.
+**Expect** — **trim for the glide first.** A field is no use if the aeroplane isn't established at best glide speed. **Aviate, Navigate, Communicate** — in that order, every time.
 
 **Ask** — "And which check is which?"
 
 **Expect** — the three-item reflex (carburettor heat, fuel, mixture) in the first seconds, because it's the one thing that might give the engine back; **CFMOST**, the systematic version, later in the glide once the field is settled and there's height to spare.
 
-**Normalise the surprise** — tell them plainly what a simulated failure feels like: the
-engine goes to idle without warning, it's quieter than expected, and the sudden silence can
-be startling even though you know it's coming. **That's normal.** Knowing it's coming stops
-the instinct to freeze. Add: *if at any point you're uncomfortable, say so — we'll pause,
-talk, and try again.*
+**Normalise the surprise** — tell them plainly what a simulated failure feels like: the engine goes to idle without warning, it's quieter than expected, and the sudden silence can be startling even though you know it's coming. **That's normal.** Knowing it's coming stops the instinct to freeze. Add: *if at any point you're uncomfortable, say so — we'll pause, talk, and try again.*
 
 ---
 
@@ -150,8 +129,7 @@ Check **CFMOST** and **BUSH FMMM** against the aircraft you're flying today: a t
 
 # Threats and how we'll manage them
 
-I'M SAFE and PAVE are standing checks before **every** flight — by now the student runs
-them, rather than being taught them.
+I'M SAFE and PAVE are standing checks before **every** flight — by now the student runs them, rather than being taught them.
 
 **Ask** — "Run me through your I'M SAFE — any flags today?"
 
@@ -159,9 +137,7 @@ them, rather than being taught them.
 
 **Ask** — "Apply PAVE to today's flight — what stands out?"
 
-**Expect** — Pilot, Aircraft, enVironment, External. Listen for the **enVironment**
-angle — suitable fields, cloud base, and other traffic all bound where and how we practise
-today.
+**Expect** — Pilot, Aircraft, enVironment, External. Listen for the **enVironment** angle — suitable fields, cloud base, and other traffic all bound where and how we practise today.
 
 **Draw** — the genuine threats you and the student identify for *this* flight:
 
@@ -173,11 +149,7 @@ today.
 
 - **Transfer** · **Eliminate** · **Accept** · **Mitigate**
 
-Likely ones to surface: **misjudging the field** (mitigate — keep reassessing, be ready to
-change); **low-level distraction** from checks/radio/passengers (mitigate — aviate first,
-always); **startle on the first simulated failure** (mitigate — we rehearsed it and you know
-it's coming); **carrying the exercise too low** (eliminate — agree and stick to the minimum
-height for go-around).
+Likely ones to surface: **misjudging the field** (mitigate — keep reassessing, be ready to change); **low-level distraction** from checks/radio/passengers (mitigate — aviate first, always); **startle on the first simulated failure** (mitigate — we rehearsed it and you know it's coming); **carrying the exercise too low** (eliminate — agree and stick to the minimum height for go-around).
 
 ---
 
@@ -188,8 +160,7 @@ height for go-around).
 Quick recap as you pack up the whiteboard:
 
 - **Aviate, Navigate, Communicate** — trim for the glide before anything else
-- Keep **reassessing** your chosen field all the way down — that's what the straight
-  segments of the 50c pattern are for
+- Keep **reassessing** your chosen field all the way down — that's what the straight segments of the 50c pattern are for
 - **MAYDAY early** — while there's still time to be heard
 - A sudden, quiet engine is **normal** for this exercise — that's why we rehearsed it
 
