@@ -16,16 +16,9 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 <!--
 
-This lesson trains the response to an engine failure away from the aerodrome: recognising
-it, flying the immediate/vital actions, choosing and reaching a field, and completing the
-approach — plus the radio call, passenger brief and shutdown that fit around that core
-sequence.
+This lesson trains the response to an engine failure away from the aerodrome: recognising it, flying the immediate/vital actions, choosing and reaching a field, and completing the approach — plus the radio call, passenger brief and shutdown that fit around that core sequence.
 
-Confirm the pre-lesson workbook is done before starting — it covers the background/factual
-material (causes of failure, reading wind from the air, field-selection criteria, the
-MAYDAY call, detailed trouble checks, passenger briefing and shutdown). This session builds
-on that rather than re-teaching it from scratch, and spends the live time on the sequence,
-the flying, and the judgement calls.
+Confirm the pre-lesson workbook is done before starting — it covers the background/factual material (causes of failure, reading wind from the air, field-selection criteria, the MAYDAY call, detailed trouble checks, passenger briefing and shutdown). This session builds on that rather than re-teaching it from scratch, and spends the live time on the sequence, the flying, and the judgement calls.
 
 -->
 
@@ -44,9 +37,7 @@ the flying, and the judgement calls.
 
 <!--
 
-Let the answers be rough — the point is to surface the instinct (many say "look for
-somewhere to land" first) before revealing that the very first action is actually about
-the aeroplane itself, not the ground.
+Let the answers be rough — the point is to surface the instinct (many say "look for somewhere to land" first) before revealing that the very first action is actually about the aeroplane itself, not the ground.
 
 -->
 
@@ -64,13 +55,9 @@ A student pilot, solo, loses the engine — cockpit view and the ATC audio along
 
 <!--
 
-VASAviation — "Student Pilot Loses Engine | Cockpit View + ATC". This one ends well, which
-is why it's usable here: the point is to replace an imagined scenario with a real one
-before we start on the sequence.
+VASAviation — "Student Pilot Loses Engine | Cockpit View + ATC". This one ends well, which is why it's usable here: the point is to replace an imagined scenario with a real one before we start on the sequence.
 
-Play it, then come back to the two questions above and let the student revise their own
-answers. Keep it moving — the detailed walk-through of the same footage comes at the recap,
-with the sound off.
+Play it, then come back to the two questions above and let the student revise their own answers. Keep it moving — the detailed walk-through of the same footage comes at the recap, with the sound off.
 
 -->
 
@@ -81,11 +68,9 @@ with the sound off.
 - Imagine the engine just went quiet, right now, in cruise. What's the very first thing you'd do?
 - How long do you think you'd have before you needed to land somewhere?
 
-A complete engine failure away from the aerodrome is rare — but it's one of the most
-important sequences in your entire training, because there's no second attempt.
+A complete engine failure away from the aerodrome is rare — but it's one of the most important sequences in your entire training, because there's no second attempt.
 
-> The aim today: begin making the sequence familiar so that after more practise, if it ever
-> happens for real, no time is wasted deciding what to do.
+> The aim today: begin making the sequence familiar so that after more practise, if it ever happens for real, no time is wasted deciding what to do.
 
 ---
 
@@ -101,11 +86,7 @@ important sequences in your entire training, because there's no second attempt.
 
 <!--
 
-About 24 minutes total, leaving headroom in the 0.8 hr theory window for questions and the
-recap. Most of the factual/reference material (causes, wind reading, field-selection
-criteria, MAYDAY, detailed trouble checks, passenger brief, shutdown) is already covered in
-the pre-lesson workbook — this session focuses on the sequence, the flying, and the
-judgement calls that tie it together.
+About 24 minutes total, leaving headroom in the 0.8 hr theory window for questions and the recap. Most of the factual/reference material (causes, wind reading, field-selection criteria, MAYDAY, detailed trouble checks, passenger brief, shutdown) is already covered in the pre-lesson workbook — this session focuses on the sequence, the flying, and the judgement calls that tie it together.
 
 -->
 
@@ -116,16 +97,12 @@ judgement calls that tie it together.
 By the end of this session, our aim is to be able to:
 
 - **Recall the immediate/vital actions** following an engine failure, in the correct order
-- **Apply the field-selection criteria** from your workbook to choose — and keep
-  reassessing — a suitable landing area
-- **Describe how to plan and fly** a glide approach to a chosen field, including
-  correcting if you're too high or too low
+- **Apply the field-selection criteria** from your workbook to choose — and keep reassessing — a suitable landing area
+- **Describe how to plan and fly** a glide approach to a chosen field, including correcting if you're too high or too low
 - **Recognise and manage** an over- or undershoot before it becomes unrecoverable
-- **Outline where** the MAYDAY call, detailed trouble checks, passenger brief and
-  shutdown checks fit into the overall sequence
+- **Outline where** the MAYDAY call, detailed trouble checks, passenger brief and shutdown checks fit into the overall sequence
 
-And then later in our actual flight: we'll fly this whole sequence for real, from varying
-heights and positions, so the actions become second nature.
+And then later in our actual flight: we'll fly this whole sequence for real, from varying heights and positions, so the actions become second nature.
 
 ---
 
@@ -147,11 +124,7 @@ Quick recall before we go on:
 
 <!--
 
-Confirm the workbook was actually completed and clear up anything that didn't land before
-moving on. If it wasn't done, take a few extra minutes here to cover the workbook content
-verbally rather than skip it — the causes-of-failure, wind-reading, field-selection,
-MAYDAY, trouble-check and passenger-brief/shutdown material there is assumed known from
-here on.
+Confirm the workbook was actually completed and clear up anything that didn't land before moving on. If it wasn't done, take a few extra minutes here to cover the workbook content verbally rather than skip it — the causes-of-failure, wind-reading, field-selection, MAYDAY, trouble-check and passenger-brief/shutdown material there is assumed known from here on.
 
 -->
 
@@ -161,38 +134,19 @@ here on.
 
 <climb-performance height="330px" vs="46" cruise-kts="102" vztp="3.0"></climb-performance>
 
-Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag
-curve, marked $V_{MD}$ above. In a propeller aeroplane that sits **just below $V_Y$**, well
-*above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb
-speed.
+Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above. In a propeller aeroplane that sits **just below $V_Y$**, well *above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb speed.
 
 <!--
 
-Drag the cursor to the slate $V_{MD}$ marker and note where $V_X$ and $V_Y$ sit relative to
-it — the same charts, and the same calibration, as Lesson 3. The chart reads 63 kt $V_X$,
-74 kt $V_{MD}$ and 75 kt $V_Y$ for the Warrior, against its published best glide of 73 KIAS.
+Drag the cursor to the slate $V_{MD}$ marker and note where $V_X$ and $V_Y$ sit relative to it — the same charts, and the same calibration, as Lesson 3. The chart reads 63 kt $V_X$, 74 kt $V_{MD}$ and 75 kt $V_Y$ for the Warrior, against its published best glide of 73 KIAS.
 
-PHAK Ch 11 (Aircraft Performance) is the reference, and it is explicit that the jet and the
-propeller cases differ. On angle of climb: in a jet, maximum excess thrust occurs where
-thrust required is at a minimum (approximately L/D max), but in a propeller aeroplane
-maximum excess thrust occurs at an airspeed *below* L/D max, frequently just above the
-stall — so $V_X$ is not the minimum-drag speed in our aircraft. On rate of climb: maximum
-rate for a typical propeller aeroplane occurs at an airspeed and AOA combination *closer
-to* L/D max — so $V_Y$ is the one that sits near best glide.
+PHAK Ch 11 (Aircraft Performance) is the reference, and it is explicit that the jet and the propeller cases differ. On angle of climb: in a jet, maximum excess thrust occurs where thrust required is at a minimum (approximately L/D max), but in a propeller aeroplane maximum excess thrust occurs at an airspeed *below* L/D max, frequently just above the stall — so $V_X$ is not the minimum-drag speed in our aircraft. On rate of climb: maximum rate for a typical propeller aeroplane occurs at an airspeed and AOA combination *closer to* L/D max — so $V_Y$ is the one that sits near best glide.
 
-Best glide distance is the L/D max condition (PHAK Ch 11 makes the same point for maximum
-range). L/D max occurs at a particular angle of attack, unaffected by weight or altitude —
-but the *airspeed* to fly it at does change with weight, which is why the published figure
-is quoted at max gross. Slower than that is minimum *power* required — best endurance, or
-minimum sink — a different, slower speed again.
+Best glide distance is the L/D max condition (PHAK Ch 11 makes the same point for maximum range). L/D max occurs at a particular angle of attack, unaffected by weight or altitude — but the *airspeed* to fly it at does change with weight, which is why the published figure is quoted at max gross. Slower than that is minimum *power* required — best endurance, or minimum sink — a different, slower speed again.
 
-Warrior 151: best glide approximately 73 KIAS at max gross, against 75 KIAS $V_Y$ and 63
-KIAS $V_X$ from Lesson 3, giving roughly a 10:1 glide ratio. Check the published figures for
-your training aircraft type.
+Warrior 151: best glide approximately 73 KIAS at max gross, against 75 KIAS $V_Y$ and 63 KIAS $V_X$ from Lesson 3, giving roughly a 10:1 glide ratio. Check the published figures for your training aircraft type.
 
-AFH Ch 4 (Energy Management) does *not* cover best glide speed — the AFH's forced-landing
-material is Ch 18 (Emergency Procedures), which is the better companion reference for the
-rest of this deck.
+AFH Ch 4 (Energy Management) does *not* cover best glide speed — the AFH's forced-landing material is Ch 18 (Emergency Procedures), which is the better companion reference for the rest of this deck.
 
 -->
 
@@ -200,24 +154,15 @@ rest of this deck.
 
 # Recall — engine failure after take-off (Lesson 9)
 
-From Lesson 9 (Circuit Emergencies): an engine failure straight after take-off gives you
-seconds, not minutes, and rarely enough height to turn back — the default is a landing
-**ahead**, within a limited arc, flown from memory, with no time for field selection,
-checks, or a MAYDAY call.
+From Lesson 9 (Circuit Emergencies): an engine failure straight after take-off gives you seconds, not minutes, and rarely enough height to turn back — the default is a landing **ahead**, within a limited arc, flown from memory, with no time for field selection, checks, or a MAYDAY call.
 
-Today is different: an engine failure **in cruise** gives you height, and height buys
-time — enough to select and reassess a field, run the checks, make the MAYDAY call, and
-brief your passengers, all before you commit to landing.
+Today is different: an engine failure **in cruise** gives you height, and height buys time — enough to select and reassess a field, run the checks, make the MAYDAY call, and brief your passengers, all before you commit to landing.
 
-> Same failure, same aeroplane — but the height you start with changes everything about
-> how you respond.
+> Same failure, same aeroplane — but the height you start with changes everything about how you respond.
 
 <!--
 
-Bridges from Lesson 9 (Circuit Emergencies) without re-teaching it — the point is the
-contrast, not the EFATO procedure itself. If Lesson 9 hasn't been flown yet, ask the
-student what they'd expect to be different about height and time before revealing the
-bullets above.
+Bridges from Lesson 9 (Circuit Emergencies) without re-teaching it — the point is the contrast, not the EFATO procedure itself. If Lesson 9 hasn't been flown yet, ask the student what they'd expect to be different about height and time before revealing the bullets above.
 
 -->
 
@@ -228,37 +173,20 @@ bullets above.
 The moment the engine fails, there's a fixed sequence — flown from memory, in order:
 
 1. **Aviate** — trim for the **glide**, at best glide speed
-2. **Checks** — the quick, fixable causes first: **carburettor heat** on, **fuel**
-   (selector, pump, change tanks), **mixture** rich
+2. **Checks** — the quick, fixable causes first: **carburettor heat** on, **fuel** (selector, pump, change tanks), **mixture** rich
 3. **Field** — pick the best field within reach, using your workbook criteria
-4. **Communicate** — the **MAYDAY** call, made early; squawk **7700** too if the aircraft
-   is transponder-equipped
-5. **Prepare** — brief the passengers; work the detailed trouble check (**CFMOST**) and the
-   **BUSH FMMM** shutdown as height and workload allow
+4. **Communicate** — the **MAYDAY** call, made early; squawk **7700** too if the aircraft is transponder-equipped
+5. **Prepare** — brief the passengers; work the detailed trouble check (**CFMOST**) and the **BUSH FMMM** shutdown as height and workload allow
 
-> **Aviate, Navigate, Communicate.** The aeroplane and the field come before the radio,
-> every time.
+> **Aviate, Navigate, Communicate.** The aeroplane and the field come before the radio, every time.
 
 <!--
 
-CASA A6.3(f-m): identify complete power failure, control the aeroplane, perform immediate
-actions, formulate and describe a recovery plan including selecting the landing area,
-establish the optimal glide, land if the engine cannot be restarted, advise ATS, re-brief
-passengers, land ensuring the safest outcome. NTS1.4 (task prioritisation) and NTS1.5
-(Aviate, Navigate, Communicate) underpin this whole sequence. C3.3(a,e): operate the
-transponder during abnormal/emergency operations and recall the emergency code (7700) —
-introduced here (level 2), not yet polished.
+CASA A6.3(f-m): identify complete power failure, control the aeroplane, perform immediate actions, formulate and describe a recovery plan including selecting the landing area, establish the optimal glide, land if the engine cannot be restarted, advise ATS, re-brief passengers, land ensuring the safest outcome. NTS1.4 (task prioritisation) and NTS1.5 (Aviate, Navigate, Communicate) underpin this whole sequence. C3.3(a,e): operate the transponder during abnormal/emergency operations and recall the emergency code (7700) — introduced here (level 2), not yet polished.
 
-Why the quick check comes *before* field selection: carburettor heat, fuel and mixture are
-the causes that are both most likely and most reversible, and they take about three seconds
-with the hands already near the throttle quadrant. That is the one chance of getting the
-engine back before anything else matters. It is a reflex, not a search — if it does not work,
-move on to the field immediately and do not go hunting.
+Why the quick check comes *before* field selection: carburettor heat, fuel and mixture are the causes that are both most likely and most reversible, and they take about three seconds with the hands already near the throttle quadrant. That is the one chance of getting the engine back before anything else matters. It is a reflex, not a search — if it does not work, move on to the field immediately and do not go hunting.
 
-Two different checks, deliberately at two different points in the sequence: the three-item
-reflex here, and **CFMOST** — the systematic trouble check from the workbook — at step 5,
-once the glide and the field are settled and there is height and attention to spare. Ask the
-student to name both and say where each belongs; confusing them is the common error.
+Two different checks, deliberately at two different points in the sequence: the three-item reflex here, and **CFMOST** — the systematic trouble check from the workbook — at step 5, once the glide and the field are settled and there is height and attention to spare. Ask the student to name both and say where each belongs; confusing them is the common error.
 
 -->
 
@@ -270,8 +198,7 @@ student to name both and say where each belongs; confusing them is the common er
 
 > **Carburettor heat · Fuel · Mixture** — the causes most likely to hand the engine back
 
-**Later, in the glide** — once the field is settled and there's height to spare, the
-detailed trouble check from your workbook:
+**Later, in the glide** — once the field is settled and there's height to spare, the detailed trouble check from your workbook:
 
 | CFMOST | | | |
 |---|---|---|---|
@@ -281,19 +208,11 @@ detailed trouble check from your workbook:
 
 <!--
 
-The distinction is the point of this slide, not the letters. The reflex is a grab at the
-three things that most often stop an engine and can be undone from the seat; it is not a
-search, and if it doesn't work you go straight to the field. CFMOST is the unhurried version
-— you only earn the right to run it once the aeroplane is trimmed, the field is chosen and
-you know you can reach it.
+The distinction is the point of this slide, not the letters. The reflex is a grab at the three things that most often stop an engine and can be undone from the seat; it is not a search, and if it doesn't work you go straight to the field. CFMOST is the unhurried version — you only earn the right to run it once the aeroplane is trimmed, the field is chosen and you know you can reach it.
 
-Ask which CFMOST items could plausibly restart the engine and which only tell you what went
-wrong — that was question 2 of the workbook, so this is checking their answer. Oil
-temperatures and pressures diagnose rather than fix; Throttle is as much about confirming the
-linkage as about setting power.
+Ask which CFMOST items could plausibly restart the engine and which only tell you what went wrong — that was question 2 of the workbook, so this is checking their answer. Oil temperatures and pressures diagnose rather than fix; Throttle is as much about confirming the linkage as about setting power.
 
-Check the letters against your aircraft: a type without a carburettor has no C, which is
-worth saying if the student watched a DA40 fly the sequence in the workbook video.
+Check the letters against your aircraft: a type without a carburettor has no C, which is worth saying if the student watched a DA40 fly the sequence in the workbook video.
 
 -->
 
@@ -309,21 +228,16 @@ worth saying if the student watched a DA40 fly the sequence in the workbook vide
 
 # Choosing your field — apply it
 
-From your workbook, you already have the criteria: wind, size, surface, slope, obstacles,
-proximity to help.
+From your workbook, you already have the criteria: wind, size, surface, slope, obstacles, proximity to help.
 
-- Picture today's training area. If the engine failed right now, where would you look
-  first, and why?
+- Picture today's training area. If the engine failed right now, where would you look first, and why?
 - Which of your criteria would you compromise on first if no field ticks every box?
 
-> Keep reassessing all the way down — the best field at 3000 ft AGL might not still be the
-> best choice at 1000 ft AGL.
+> Keep reassessing all the way down — the best field at 3000 ft AGL might not still be the best choice at 1000 ft AGL.
 
 <!--
 
-This is a live discussion, not new teaching — the goal is to see the student actually apply
-the workbook criteria to a real, local scenario rather than recite them. Use the training
-area you'll actually fly today.
+This is a live discussion, not new teaching — the goal is to see the student actually apply the workbook criteria to a real, local scenario rather than recite them. Use the training area you'll actually fly today.
 
 -->
 
@@ -331,8 +245,7 @@ area you'll actually fly today.
 
 # The same list, as a mnemonic — WOSSSSET
 
-Your workbook asked you to reason the list out yourself, on purpose. Here it is as the memory
-aid, so there's something short to run in the air:
+Your workbook asked you to reason the list out yourself, on purpose. Here it is as the memory aid, so there's something short to run in the air:
 
 | WOSSSSET | | | |
 |---|---|---|---|
@@ -341,27 +254,15 @@ aid, so there's something short to run in the air:
 | **S** | Size and Shape | **E** | Elevation |
 | **S** | Slope and Surface | **T** | Terrain |
 
-> Use it to **reject** fields quickly, not to score them. You're looking for the first
-> reason to rule a paddock out, then moving to the next one.
+> Use it to **reject** fields quickly, not to score them. You're looking for the first reason to rule a paddock out, then moving to the next one.
 
 <!--
 
-The mnemonic comes *after* the student's own reasoning, not before it — the list they built
-in the workbook is the one they'll actually remember, and this just gives it a handle.
-Compare the two out loud: what did they have that WOSSSSET doesn't, and vice versa?
+The mnemonic comes *after* the student's own reasoning, not before it — the list they built in the workbook is the one they'll actually remember, and this just gives it a handle. Compare the two out loud: what did they have that WOSSSSET doesn't, and vice versa?
 
-The Sun half of that S is about where it will be on final — landing into a low sun costs you
-the one thing you have left, which is the ability to see the surface. Civilisation is
-proximity to help: a road, a farmhouse, a town. It is the *last* of the S's for a reason —
-never trade a good surface for a shorter walk.
+The Sun half of that S is about where it will be on final — landing into a low sun costs you the one thing you have left, which is the ability to see the surface. Civilisation is proximity to help: a road, a farmhouse, a town. It is the *last* of the S's for a reason — never trade a good surface for a shorter walk.
 
-The framing matters more than the letters: in a real failure there isn't time to grade every
-option, so it's a rejection filter. Wind and Size rule out most of the map in the first few
-seconds; Slope, Surface and the Shoots are what you refine as you get lower and can see more.
-Elevation matters because the whole pattern is flown to heights above *ground* while you're
-reading an altimeter set to heights above the sea — a field on a 1,500 ft plateau is 1,500 ft
-closer than the altimeter suggests. Terrain is the country around and on the way in: rising
-ground on final, a valley you cannot glide out of.
+The framing matters more than the letters: in a real failure there isn't time to grade every option, so it's a rejection filter. Wind and Size rule out most of the map in the first few seconds; Slope, Surface and the Shoots are what you refine as you get lower and can see more. Elevation matters because the whole pattern is flown to heights above *ground* while you're reading an altimeter set to heights above the sea — a field on a 1,500 ft plateau is 1,500 ft closer than the altimeter suggests. Terrain is the country around and on the way in: rising ground on final, a valley you cannot glide out of.
 
 -->
 
@@ -395,44 +296,23 @@ ground on final, a valley you cannot glide out of.
   ></circuit-path>
 </circuit-diagram>
 
-Aim to pass **abeam your aiming point around 1,500 ft AGL**, turning base near **1,000 ft**.
-Get there with the **50c technique** — small turn, straight, reassess — all the way onto
-final: a curve built from flat sides, like the edge of a 50c piece.
+Aim to pass **abeam your aiming point around 1,500 ft AGL**, turning base near **1,000 ft**. Get there with the **50c technique** — small turn, straight, reassess — all the way onto final: a curve built from flat sides, like the edge of a 50c piece.
 
 <!--
 
-The field here is drawn as a runway because that's what the component gives us — treat it
-as the chosen paddock, and say so.
+The field here is drawn as a runway because that's what the component gives us — treat it as the chosen paddock, and say so.
 
-Orbit the scene, then use the legend's play button to fly the track: the student sees the
-field stay in the same place in the windscreen the whole way down, which is the point of the
-pattern.
+Orbit the scene, then use the legend's play button to fly the track: the student sees the field stay in the same place in the windscreen the whole way down, which is the point of the pattern.
 
-Note there is no big turn onto final — the same small turns continue right down to the
-runway centreline. That is deliberate: a large, low, final turn in a glide is where speed
-gets lost, and rolling out on final should be the least eventful part of the pattern.
+Note there is no big turn onto final — the same small turns continue right down to the runway centreline. That is deliberate: a large, low, final turn in a glide is where speed gets lost, and rolling out on final should be the least eventful part of the pattern.
 
-Why the 50c technique rather than one continuous descending turn: each straight segment is a
-moment with the wings level to look at the field, check the wind, and confirm you're still
-on profile — then a small turn to reposition. A single sustained turn hides all of that, and
-in a glide it's much easier to let the speed decay in a continuous turn than in short ones.
+Why the 50c technique rather than one continuous descending turn: each straight segment is a moment with the wings level to look at the field, check the wind, and confirm you're still on profile — then a small turn to reposition. A single sustained turn hides all of that, and in a glide it's much easier to let the speed decay in a continuous turn than in short ones.
 
-The geometry drawn is self-consistent: about 10:1 clean in the upper part of the pattern
-(matching the Warrior's glide ratio), steepening to roughly 6:1 over the last 1,600 m as the
-turns tighten and flap goes in. That is what makes the height gates fall where they do —
-around 2,500 ft at the failure, 1,500 ft abeam the aiming point, 1,000 ft turning base. Talk
-about it in those terms, not as fixed numbers to memorise: the heights and distances depend
-entirely on the aircraft, the wind and where the field is.
+The geometry drawn is self-consistent: about 10:1 clean in the upper part of the pattern (matching the Warrior's glide ratio), steepening to roughly 6:1 over the last 1,600 m as the turns tighten and flap goes in. That is what makes the height gates fall where they do — around 2,500 ft at the failure, 1,500 ft abeam the aiming point, 1,000 ft turning base. Talk about it in those terms, not as fixed numbers to memorise: the heights and distances depend entirely on the aircraft, the wind and where the field is.
 
-The abeam figure is 1,500 ft rather than 1,000 ft for a reason worth saying out loud — at
-1,000 ft abeam there is only just enough height to reach the field at best glide with
-nothing left over, so any error, any headwind, and any flap puts you short. The pattern is
-deliberately flown with height in hand, and the shape of it — how long each straight is held
-before turning in — is how the surplus gets spent.
+The abeam figure is 1,500 ft rather than 1,000 ft for a reason worth saying out loud — at 1,000 ft abeam there is only just enough height to reach the field at best glide with nothing left over, so any error, any headwind, and any flap puts you short. The pattern is deliberately flown with height in hand, and the shape of it — how long each straight is held before turning in — is how the surplus gets spent.
 
-FIM Ch 15 background (structure only, not reproduced): the descent profile continually
-reassesses the field choice; the abeam position is roughly equivalent to a downwind leg, and
-the 1,000 ft position to a base leg.
+FIM Ch 15 background (structure only, not reproduced): the descent profile continually reassesses the field choice; the abeam position is roughly equivalent to a downwind leg, and the 1,000 ft position to a base leg.
 
 -->
 
@@ -440,30 +320,20 @@ the 1,000 ft position to a base leg.
 
 # Adjusting if you're too high or too low
 
-Once established toward the field, you'll rarely be exactly on profile — plan how you'll
-correct in either direction:
+Once established toward the field, you'll rarely be exactly on profile — plan how you'll correct in either direction:
 
 | If you're... | Consider |
 |---|---|
 | **Too high** | **Hold each straight for longer** before the next turn — a wider pattern is a longer track — then flap earlier, or (if the type allows) sideslip to lose height without gaining speed |
 | **Too low** | **Turn in early** and cut the corner — shorter straights, a tighter pattern — and hold the flap back; keep the aeroplane clean until the field is assured |
 
-> Make small, early corrections. The 50c pattern is what gives you the chance to make them:
-> every straight segment is a look at the field and a decision.
+> Make small, early corrections. The 50c pattern is what gives you the chance to make them: every straight segment is a look at the field and a decision.
 
 <!--
 
-The principle underneath both rows, and worth drawing on the whiteboard rather than just
-saying: in a pattern like this the *straights* are what buy distance and the *turns* are what
-cut it. Holding a straight for longer before turning in swings you wider and adds track, so
-you arrive lower. Turning in early cuts the corner off and gets you there with height to
-spare. Students reliably get this backwards and add turns when they are high, which is
-exactly the wrong way round — a turn brings the field closer, not further away.
+The principle underneath both rows, and worth drawing on the whiteboard rather than just saying: in a pattern like this the *straights* are what buy distance and the *turns* are what cut it. Holding a straight for longer before turning in swings you wider and adds track, so you arrive lower. Turning in early cuts the corner off and gets you there with height to spare. Students reliably get this backwards and add turns when they are high, which is exactly the wrong way round — a turn brings the field closer, not further away.
 
-FIM Ch 15 background: adjust by turning slightly away from the field if too high, or turning
-in early if too low; a longer or shorter base leg achieves the same. Restrict flap initially
-to preserve control over the approach angle and rate of descent — use full flap only once
-landing in the field is assured (aircraft-type permitting).
+FIM Ch 15 background: adjust by turning slightly away from the field if too high, or turning in early if too low; a longer or shorter base leg achieves the same. Restrict flap initially to preserve control over the approach angle and rate of descent — use full flap only once landing in the field is assured (aircraft-type permitting).
 
 -->
 
@@ -473,19 +343,14 @@ landing in the field is assured (aircraft-type permitting).
 
 Recognising an over- or undershoot **early** is what makes it manageable.
 
-- **Undershooting** — you're low and short of the field; correction options shrink fast
-  the closer you get. Extend the glide if you can (clean configuration, no flap yet), and
-  be ready to choose a shorter or different field if it's truly not making it
-- **Overshooting** — you have more height/distance than needed; use flap progressively,
-  widen the pattern, or sideslip (type-permitting) to lose the excess
+- **Undershooting** — you're low and short of the field; correction options shrink fast the closer you get. Extend the glide if you can (clean configuration, no flap yet), and be ready to choose a shorter or different field if it's truly not making it
+- **Overshooting** — you have more height/distance than needed; use flap progressively, widen the pattern, or sideslip (type-permitting) to lose the excess
 
-> The decision to change your chosen field is always available until you're committed —
-> use it rather than force an approach that isn't working.
+> The decision to change your chosen field is always available until you're committed — use it rather than force an approach that isn't working.
 
 <!--
 
-Check your aircraft's flight manual for whether sideslipping with flap extended is
-approved before including it in the live demonstration.
+Check your aircraft's flight manual for whether sideslipping with flap extended is approved before including it in the live demonstration.
 
 -->
 
@@ -502,29 +367,17 @@ Everything else from your workbook happens **around** the flying, not instead of
 | Fly the corrections (high/low) | **Passenger brief** — brace position, what to expect |
 | Commit to the approach | **Shutdown checks** — **BUSH FMMM**, as in your workbook |
 
-**BUSH FMMM** — Brakes · Undercarriage · Switches (Fuel, Mixture, Magnetos, Master —
-master last if you still need flap) · Hatches and harnesses
+**BUSH FMMM** — Brakes · Undercarriage · Switches (Fuel, Mixture, Magnetos, Master — master last if you still need flap) · Hatches and harnesses
 
-> **Aviate first, always.** None of the items on the right should ever come at the expense
-> of flying the aeroplane and reaching the field.
+> **Aviate first, always.** None of the items on the right should ever come at the expense of flying the aeroplane and reaching the field.
 
 <!--
 
-CASA A6.3(k,l,y): advise ATS of situation and intentions; re-brief passengers about the
-flight situation, brace position and harness security; shut down and secure the engine and
-aeroplane when a safe landing position is established. C5.1/C5.2: manage and assist
-passengers.
+CASA A6.3(k,l,y): advise ATS of situation and intentions; re-brief passengers about the flight situation, brace position and harness security; shut down and secure the engine and aeroplane when a safe landing position is established. C5.1/C5.2: manage and assist passengers.
 
-CFMOST and BUSH FMMM were both introduced in the workbook, and CFMOST was expanded earlier in
-this deck — so this is recall, not new teaching. Ask the student to expand BUSH FMMM before
-revealing the line, and ask *why* the master comes last (electric flap, and radio until you no
-longer need it). Check the expansion against your aircraft's own checklist: a fixed-gear type
-has nothing to do for U beyond confirming it, and the order of the switches follows the flight
-manual where it differs.
+CFMOST and BUSH FMMM were both introduced in the workbook, and CFMOST was expanded earlier in this deck — so this is recall, not new teaching. Ask the student to expand BUSH FMMM before revealing the line, and ask *why* the master comes last (electric flap, and radio until you no longer need it). Check the expansion against your aircraft's own checklist: a fixed-gear type has nothing to do for U beyond confirming it, and the order of the switches follows the flight manual where it differs.
 
-Draw the distinction with the immediate actions again if it hasn't landed: the three-item
-reflex (carburettor heat, fuel, mixture) happens in the first seconds; CFMOST is the
-unhurried version done here, in the glide, only if height and workload allow.
+Draw the distinction with the immediate actions again if it hasn't landed: the three-item reflex (carburettor heat, fuel, mixture) happens in the first seconds; CFMOST is the unhurried version done here, in the glide, only if height and workload allow.
 
 -->
 
@@ -574,13 +427,9 @@ The same footage from the start of the brief — this time with the **sound off*
 
 <!--
 
-Mute it. Without the ATC audio the student has to supply the sequence themselves, which is
-exactly the recall we want — and watching the same footage twice, first for the situation
-and now for the actions, is the point.
+Mute it. Without the ATC audio the student has to supply the sequence themselves, which is exactly the recall we want — and watching the same footage twice, first for the situation and now for the actions, is the point.
 
-Pause where useful and ask "what would you be doing right now?". Don't turn it into a
-critique of the pilot in the video: the aim is to rehearse our own sequence against real
-footage, not to score theirs.
+Pause where useful and ask "what would you be doing right now?". Don't turn it into a critique of the pilot in the video: the aim is to rehearse our own sequence against real footage, not to score theirs.
 
 -->
 

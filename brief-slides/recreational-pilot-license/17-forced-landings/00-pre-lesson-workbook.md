@@ -21,9 +21,7 @@ All text in this workbook is licensed under [Creative Commons BY-SA 4.0](https:/
 
 <!--
 
-The videos and articles below were checked when this workbook was last used, but
-re-verify them (and the timestamps) before printing this for students — see the
-YouTube oEmbed check and preferred-channel guidance in reference/style-guide.md.
+The videos and articles below were checked when this workbook was last used, but re-verify them (and the timestamps) before printing this for students — see the YouTube oEmbed check and preferred-channel guidance in reference/style-guide.md.
 
 -->
 
