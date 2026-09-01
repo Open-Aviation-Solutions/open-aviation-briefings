@@ -3,7 +3,6 @@ marp: true
 theme: open-aviation
 title: Forced Landings — Theory
 license: CC-BY-SA-4.0
-draft: true
 header: Forced Landings — Theory
 ---
 
@@ -276,7 +275,7 @@ detailed trouble check from your workbook:
 
 | CFMOST | | | |
 |---|---|---|---|
-| **C** | Carby heat | **O** | Oil temperatures and pressures |
+| **C** | Carburettor heat | **O** | Oil temperatures and pressures |
 | **F** | Fuel — selector, pump, contents | **S** | Switches — magnetos |
 | **M** | Mixture | **T** | Throttle |
 
@@ -338,7 +337,7 @@ aid, so there's something short to run in the air:
 | WOSSSSET | | | |
 |---|---|---|---|
 | **W** | Wind | **S** | Shoots — clear undershoot and overshoot |
-| **O** | Obstacles | **S** | Sivilisation — how close is help? |
+| **O** | Obstacles | **S** | Sun and Civilisation |
 | **S** | Size and Shape | **E** | Elevation |
 | **S** | Slope and Surface | **T** | Terrain |
 
@@ -351,10 +350,10 @@ The mnemonic comes *after* the student's own reasoning, not before it — the li
 in the workbook is the one they'll actually remember, and this just gives it a handle.
 Compare the two out loud: what did they have that WOSSSSET doesn't, and vice versa?
 
-Sivilisation is spelt with an S on purpose, so the letter fits — worth pointing out, or the
-student writes it down as a C and the mnemonic stops working. It means proximity to help:
-a road, a farmhouse, a town. It is the *last* of the S's for a reason — never trade a good
-surface for a shorter walk.
+The Sun half of that S is about where it will be on final — landing into a low sun costs you
+the one thing you have left, which is the ability to see the surface. Civilisation is
+proximity to help: a road, a farmhouse, a town. It is the *last* of the S's for a reason —
+never trade a good surface for a shorter walk.
 
 The framing matters more than the letters: in a real failure there isn't time to grade every
 option, so it's a rejection filter. Wind and Size rule out most of the map in the first few
@@ -428,7 +427,8 @@ entirely on the aircraft, the wind and where the field is.
 The abeam figure is 1,500 ft rather than 1,000 ft for a reason worth saying out loud — at
 1,000 ft abeam there is only just enough height to reach the field at best glide with
 nothing left over, so any error, any headwind, and any flap puts you short. The pattern is
-deliberately flown with height in hand, and the 50c turns are how the surplus gets spent.
+deliberately flown with height in hand, and the shape of it — how long each straight is held
+before turning in — is how the surplus gets spent.
 
 FIM Ch 15 background (structure only, not reproduced): the descent profile continually
 reassesses the field choice; the abeam position is roughly equivalent to a downwind leg, and
@@ -445,18 +445,25 @@ correct in either direction:
 
 | If you're... | Consider |
 |---|---|
-| **Too high** | Widen the pattern, add another 50c turn or two, or (if the type allows) sideslip to lose height without gaining speed |
-| **Too low** | Straighten up between turns for longer, turn in early, shorten the base leg, and use less flap — keep as much control over the final approach as possible |
+| **Too high** | **Hold each straight for longer** before the next turn — a wider pattern is a longer track — then flap earlier, or (if the type allows) sideslip to lose height without gaining speed |
+| **Too low** | **Turn in early** and cut the corner — shorter straights, a tighter pattern — and hold the flap back; keep the aeroplane clean until the field is assured |
 
 > Make small, early corrections. The 50c pattern is what gives you the chance to make them:
 > every straight segment is a look at the field and a decision.
 
 <!--
 
-FIM Ch 15 background: adjust by turning slightly away from the field if too high, or
-turning in early if too low; a longer or shorter base leg achieves the same. Restrict flap
-initially to preserve control over the approach angle and rate of descent — use full flap
-only once landing in the field is assured (aircraft-type permitting).
+The principle underneath both rows, and worth drawing on the whiteboard rather than just
+saying: in a pattern like this the *straights* are what buy distance and the *turns* are what
+cut it. Holding a straight for longer before turning in swings you wider and adds track, so
+you arrive lower. Turning in early cuts the corner off and gets you there with height to
+spare. Students reliably get this backwards and add turns when they are high, which is
+exactly the wrong way round — a turn brings the field closer, not further away.
+
+FIM Ch 15 background: adjust by turning slightly away from the field if too high, or turning
+in early if too low; a longer or shorter base leg achieves the same. Restrict flap initially
+to preserve control over the approach angle and rate of descent — use full flap only once
+landing in the field is assured (aircraft-type permitting).
 
 -->
 

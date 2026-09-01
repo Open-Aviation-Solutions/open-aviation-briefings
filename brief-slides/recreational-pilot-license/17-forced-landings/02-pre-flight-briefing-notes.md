@@ -4,7 +4,6 @@ theme: open-aviation-portrait
 title: Forced Landings — Pre-flight Briefing Notes
 license: CC-BY-SA-4.0
 pdf: true
-draft: true
 ---
 
 <!-- _class: lead -->
@@ -117,11 +116,11 @@ All three were covered in the theory brief, so **ask for them** rather than writ
 
 | | |
 |---|---|
-| **WOSSSSET** | Wind · Obstacles · Size and Shape · Slope and Surface · Shoots (clear undershoot and overshoot) · Sivilisation (how close is help?) · Elevation · Terrain |
-| **CFMOST** | Carby heat · Fuel · Mixture · Oil temperatures and pressures · Switches (magnetos) · Throttle |
+| **WOSSSSET** | Wind · Obstacles · Size and Shape · Slope and Surface · Shoots (clear undershoot and overshoot) · Sun and Civilisation · Elevation · Terrain |
+| **CFMOST** | Carburettor heat · Fuel · Mixture · Oil temperatures and pressures · Switches (magnetos) · Throttle |
 | **BUSH FMMM** | Brakes · Undercarriage · Switches (Fuel, Mixture, Magnetos, Master — master last if you still need flap) · Hatches and harnesses |
 
-**Sivilisation** is spelt with an S so the letter fits — say so, or the student writes it down as a C and the mnemonic stops working.
+The **Sun** half of that S is about where the sun will be on final; **Civilisation** is how close help is once you are down. It is the last of the S's for a reason — never trade a good surface for a shorter walk.
 
 Check **CFMOST** and **BUSH FMMM** against the aircraft you're flying today: a type without a carburettor has no C, a fixed-gear type has nothing to do for U beyond confirming it, and the order of the switches follows the flight manual where it differs.
 
