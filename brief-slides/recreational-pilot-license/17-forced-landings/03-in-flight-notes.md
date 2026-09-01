@@ -99,23 +99,30 @@ exercises.
 - From cruise, in the training area or over an approved practice field: throttle to idle
   without warning — "Simulated engine failure"
 - **Aviate** — trim for the glide at best glide speed, wings level, balance ball centred
-- **Field** — select and point out the chosen field, narrating the criteria out loud
-- **Checks** — a quick initial look for an obvious, fixable cause (carburettor heat, fuel,
-  mixture)
+- **Checks** — the quick, fixable causes: carburettor heat on, fuel, mixture
+- **Field** — select and point out the chosen field, narrating the **WOSSSSET** criteria out
+  loud
 - **Communicate** — simulate the MAYDAY call (do not transmit unless genuinely required);
   point out the transponder emergency code (7700) without necessarily selecting it
-- **Prepare** — narrate the passenger brief, the detailed trouble check (CFMOST) and the
+- **Prepare** — narrate the passenger brief, the detailed trouble check (**CFMOST**) and the
   **BUSH FMMM** shutdown as height allows
 - Fly the descent profile to the field using the **50c technique** — small turn, straight,
-  reassess — correcting for high/low as needed
+  reassess, all the way onto final — correcting for high/low as needed
 - Go around no lower than the briefed minimum height — apply full power, established
   climb, retract to clean configuration as appropriate
 
 <!--
 
 CASA A6.3(a,f-m). Narrate every step out loud — this demonstration is the model the student
-repeats next. The 50c technique, CFMOST and BUSH FMMM were all covered in the theory brief;
-use the same words here so the student hears one vocabulary, not three.
+repeats next. WOSSSSET, the 50c technique, CFMOST and BUSH FMMM were all covered in the
+theory brief; use the same words here so the student hears one vocabulary, not four.
+
+Note the order: the three-item reflex (carburettor heat, fuel, mixture) comes *before* field
+selection — it takes seconds and it's the only chance of getting the engine back. CFMOST is
+the unhurried version, later in the glide. Narrate the difference as you fly it.
+
+Roll out on final from the same small turns, not one large low turn — the student copies
+what you demonstrate here more than what the slide said.
 
 -->
 

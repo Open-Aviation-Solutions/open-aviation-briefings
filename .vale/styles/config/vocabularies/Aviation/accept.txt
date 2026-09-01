@@ -94,3 +94,8 @@ composable
 (?i)frontmatter
 Marp
 Starlight
+
+# Deliberate mnemonic spellings and Australian colloquialisms
+# (WOSSSSET spells Civilisation with an S so the letter fits the mnemonic)
+Carby
+Sivilisation

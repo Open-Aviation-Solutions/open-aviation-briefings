@@ -57,8 +57,8 @@ purpose — for this lesson it **is** the main threat mitigation.
 - practise the **immediate/vital actions** following a simulated engine failure, from
   memory
 - choose and **continually reassess** a suitable field
-- fly a **glide approach** to the chosen field using the **50c technique**, correcting for
-  high and low
+- fly a **glide approach** to the chosen field using the **50c technique** — small turns all
+  the way onto final — correcting for high and low
 - recognise and manage an **over- or undershoot**
 
 Write the aim on the board — everything else hangs off *recognise, choose, fly*.
@@ -106,12 +106,13 @@ through and have the student say it back before you leave the room.
 **Draw** — the sequence as steps on the board:
 
 1. **Aviate** — trim for the **glide**, at best glide speed
-2. **Field** — pick the best field within reach, applying the workbook criteria
-3. **Checks** — a quick initial look for an obvious, fixable cause (carburettor heat,
-   fuel, mixture)
+2. **Checks** — the quick, fixable causes: carburettor heat on, fuel (selector, pump,
+   change tanks), mixture rich
+3. **Field** — pick the best field within reach, applying the workbook criteria
+   (**WOSSSSET**)
 4. **Communicate** — the **MAYDAY** call, made early; squawk 7700 too if fitted
-5. **Prepare** — passenger brief, detailed trouble check (CFMOST), **BUSH FMMM** shutdown
-   checks as height and workload allow
+5. **Prepare** — passenger brief, detailed trouble check (**CFMOST**), **BUSH FMMM**
+   shutdown checks as height and workload allow
 
 **Ask** — "What comes first — looking for a field, or trimming for the glide?"
 
@@ -119,11 +120,31 @@ through and have the student say it back before you leave the room.
 established at best glide speed. **Aviate, Navigate, Communicate** — in that order, every
 time.
 
+**Ask** — "And which check is which?"
+
+**Expect** — the three-item reflex (carburettor heat, fuel, mixture) in the first seconds, because it's the one thing that might give the engine back; **CFMOST**, the systematic version, later in the glide once the field is settled and there's height to spare.
+
 **Normalise the surprise** — tell them plainly what a simulated failure feels like: the
 engine goes to idle without warning, it's quieter than expected, and the sudden silence can
 be startling even though you know it's coming. **That's normal.** Knowing it's coming stops
 the instinct to freeze. Add: *if at any point you're uncomfortable, say so — we'll pause,
 talk, and try again.*
+
+---
+
+# The three mnemonics
+
+All three were covered in the theory brief, so **ask for them** rather than writing them up cold — this page is here so you have the expansions to hand while the student talks.
+
+| | |
+|---|---|
+| **WOSSSSET** | Wind · Obstacles · Size and Shape · Slope and Surface · Shoots (clear undershoot and overshoot) · Sivilisation (how close is help?) · Elevation · Terrain |
+| **CFMOST** | Carby heat · Fuel · Mixture · Oil temperatures and pressures · Switches (magnetos) · Throttle |
+| **BUSH FMMM** | Brakes · Undercarriage · Switches (Fuel, Mixture, Magnetos, Master — master last if you still need flap) · Hatches and harnesses |
+
+**Sivilisation** is spelt with an S so the letter fits — say so, or the student writes it down as a C and the mnemonic stops working.
+
+Check **CFMOST** and **BUSH FMMM** against the aircraft you're flying today: a type without a carburettor has no C, a fixed-gear type has nothing to do for U beyond confirming it, and the order of the switches follows the flight manual where it differs.
 
 ---
 

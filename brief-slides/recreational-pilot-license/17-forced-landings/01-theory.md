@@ -94,15 +94,15 @@ important sequences in your entire training, because there's no second attempt.
 
 <briefing-overview plane-position="0" controls-start>
   <briefing-topic label="Learning&#10;Objectives" time="1"></briefing-topic>
-  <briefing-topic label="Immediate&#10;Actions" time="6"></briefing-topic>
-  <briefing-topic label="Choosing&#10;a Field" time="4"></briefing-topic>
+  <briefing-topic label="Immediate&#10;Actions" time="7"></briefing-topic>
+  <briefing-topic label="Choosing&#10;a Field" time="5"></briefing-topic>
   <briefing-topic label="Flying the&#10;Approach" time="8"></briefing-topic>
   <briefing-topic label="Recap" time="3"></briefing-topic>
 </briefing-overview>
 
 <!--
 
-About 22 minutes total, leaving headroom in the 0.8 hr theory window for questions and the
+About 24 minutes total, leaving headroom in the 0.8 hr theory window for questions and the
 recap. Most of the factual/reference material (causes, wind reading, field-selection
 criteria, MAYDAY, detailed trouble checks, passenger brief, shutdown) is already covered in
 the pre-lesson workbook — this session focuses on the sequence, the flying, and the
@@ -229,13 +229,13 @@ bullets above.
 The moment the engine fails, there's a fixed sequence — flown from memory, in order:
 
 1. **Aviate** — trim for the **glide**, at best glide speed
-2. **Field** — pick the best field within reach, using your workbook criteria
-3. **Checks** — a quick initial look for an obvious, fixable cause (carburettor heat,
-   fuel, mixture)
+2. **Checks** — the quick, fixable causes first: **carburettor heat** on, **fuel**
+   (selector, pump, change tanks), **mixture** rich
+3. **Field** — pick the best field within reach, using your workbook criteria
 4. **Communicate** — the **MAYDAY** call, made early; squawk **7700** too if the aircraft
    is transponder-equipped
-5. **Prepare** — brief the passengers; complete a detailed trouble check and shutdown as
-   height and workload allow
+5. **Prepare** — brief the passengers; work the detailed trouble check (**CFMOST**) and the
+   **BUSH FMMM** shutdown as height and workload allow
 
 > **Aviate, Navigate, Communicate.** The aeroplane and the field come before the radio,
 > every time.
@@ -250,7 +250,61 @@ passengers, land ensuring the safest outcome. NTS1.4 (task prioritisation) and N
 transponder during abnormal/emergency operations and recall the emergency code (7700) —
 introduced here (level 2), not yet polished.
 
+Why the quick check comes *before* field selection: carburettor heat, fuel and mixture are
+the causes that are both most likely and most reversible, and they take about three seconds
+with the hands already near the throttle quadrant. That is the one chance of getting the
+engine back before anything else matters. It is a reflex, not a search — if it does not work,
+move on to the field immediately and do not go hunting.
+
+Two different checks, deliberately at two different points in the sequence: the three-item
+reflex here, and **CFMOST** — the systematic trouble check from the workbook — at step 5,
+once the glide and the field are settled and there is height and attention to spare. Ask the
+student to name both and say where each belongs; confusing them is the common error.
+
 -->
+
+---
+
+# Two checks, not one
+
+**Straight after the failure** — a reflex, three items, a few seconds:
+
+> **Carburettor heat · Fuel · Mixture** — the causes most likely to hand the engine back
+
+**Later, in the glide** — once the field is settled and there's height to spare, the
+detailed trouble check from your workbook:
+
+| CFMOST | | | |
+|---|---|---|---|
+| **C** | Carby heat | **O** | Oil temperatures and pressures |
+| **F** | Fuel — selector, pump, contents | **S** | Switches — magnetos |
+| **M** | Mixture | **T** | Throttle |
+
+<!--
+
+The distinction is the point of this slide, not the letters. The reflex is a grab at the
+three things that most often stop an engine and can be undone from the seat; it is not a
+search, and if it doesn't work you go straight to the field. CFMOST is the unhurried version
+— you only earn the right to run it once the aeroplane is trimmed, the field is chosen and
+you know you can reach it.
+
+Ask which CFMOST items could plausibly restart the engine and which only tell you what went
+wrong — that was question 2 of the workbook, so this is checking their answer. Oil
+temperatures and pressures diagnose rather than fix; Throttle is as much about confirming the
+linkage as about setting power.
+
+Check the letters against your aircraft: a type without a carburettor has no C, which is
+worth saying if the student watched a DA40 fly the sequence in the workbook video.
+
+-->
+
+---
+
+# Waypoint 2 — Choosing a Field
+
+<briefing-overview plane-position="1" controls></briefing-overview>
+
+<!-- Click Direct-To to advance to Choosing a Field. -->
 
 ---
 
@@ -276,9 +330,47 @@ area you'll actually fly today.
 
 ---
 
-# Waypoint 2 — Flying the Approach
+# The same list, as a mnemonic — WOSSSSET
 
-<briefing-overview plane-position="1" controls></briefing-overview>
+Your workbook asked you to reason the list out yourself, on purpose. Here it is as the memory
+aid, so there's something short to run in the air:
+
+| WOSSSSET | | | |
+|---|---|---|---|
+| **W** | Wind | **S** | Shoots — clear undershoot and overshoot |
+| **O** | Obstacles | **S** | Sivilisation — how close is help? |
+| **S** | Size and Shape | **E** | Elevation |
+| **S** | Slope and Surface | **T** | Terrain |
+
+> Use it to **reject** fields quickly, not to score them. You're looking for the first
+> reason to rule a paddock out, then moving to the next one.
+
+<!--
+
+The mnemonic comes *after* the student's own reasoning, not before it — the list they built
+in the workbook is the one they'll actually remember, and this just gives it a handle.
+Compare the two out loud: what did they have that WOSSSSET doesn't, and vice versa?
+
+Sivilisation is spelt with an S on purpose, so the letter fits — worth pointing out, or the
+student writes it down as a C and the mnemonic stops working. It means proximity to help:
+a road, a farmhouse, a town. It is the *last* of the S's for a reason — never trade a good
+surface for a shorter walk.
+
+The framing matters more than the letters: in a real failure there isn't time to grade every
+option, so it's a rejection filter. Wind and Size rule out most of the map in the first few
+seconds; Slope, Surface and the Shoots are what you refine as you get lower and can see more.
+Elevation matters because the whole pattern is flown to heights above *ground* while you're
+reading an altimeter set to heights above the sea — a field on a 1,500 ft plateau is 1,500 ft
+closer than the altimeter suggests. Terrain is the country around and on the way in: rising
+ground on final, a valley you cannot glide out of.
+
+-->
+
+---
+
+# Waypoint 3 — Flying the Approach
+
+<briefing-overview plane-position="2" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Flying the Approach. -->
 
@@ -299,13 +391,14 @@ area you'll actually fly today.
   <circuit-path
     label="Forced landing pattern"
     color="#3b82f699"
-    points="-1000,1000,756; 400,1000,616; 900,866,564; 1266,500,512; 1400,0,460; 1266,-500,409; 900,-866,357; 400,-1000,305; -100,-866,232; -466,-500,158; -600,0,85; 0,0,0"
-    segment-labels="0:Engine fails ~2500 ft · glide · field · checks · MAYDAY; 2:Small turn, straight, reassess — the 50c pattern; 4:Field stays in sight throughout; 7:~1000 ft abeam — base-leg equivalent; 9:Base — flap as required; 10:Final"
+    points="-55,1188,777; 725,738,687; 1125,45,607; 1125,-655,537; 800,-1218,472; 280,-1518,412; -270,-1518,357; -703,-1268,307; -928,-878,258; -928,-478,192; -753,-175,133; -450,0,75; 0,0,0"
+    segment-labels="0:Engine fails ~2500 ft · glide · quick checks · field · MAYDAY; 2:Small turn, straight, reassess — the 50c pattern; 5:~1500 ft abeam the aiming point · field stays in sight; 7:~1000 ft — base · flap only if you need to lose height; 11:Final — flap when there's no doubt of making the field"
   ></circuit-path>
 </circuit-diagram>
 
-Arrive around **1,000 ft AGL** abeam the field. Get there with the **50c technique**: small
-turn, straight, reassess — a curve built from flat sides, like the edge of a 50c piece.
+Aim to pass **abeam your aiming point around 1,500 ft AGL**, turning base near **1,000 ft**.
+Get there with the **50c technique** — small turn, straight, reassess — all the way onto
+final: a curve built from flat sides, like the edge of a 50c piece.
 
 <!--
 
@@ -316,20 +409,34 @@ Orbit the scene, then use the legend's play button to fly the track: the student
 field stay in the same place in the windscreen the whole way down, which is the point of the
 pattern.
 
+Note there is no big turn onto final — the same small turns continue right down to the
+runway centreline. That is deliberate: a large, low, final turn in a glide is where speed
+gets lost, and rolling out on final should be the least eventful part of the pattern.
+
 Why the 50c technique rather than one continuous descending turn: each straight segment is a
 moment with the wings level to look at the field, check the wind, and confirm you're still
 on profile — then a small turn to reposition. A single sustained turn hides all of that, and
 in a glide it's much easier to let the speed decay in a continuous turn than in short ones.
 
-The geometry drawn is self-consistent at roughly 10:1 down to the 1,000 ft point (matching
-the Warrior's glide ratio), then steeper on base and final where flap is going in. Talk
-about it in those terms, not as fixed numbers to memorise — the heights and distances depend
+The geometry drawn is self-consistent: about 10:1 clean in the upper part of the pattern
+(matching the Warrior's glide ratio), steepening to roughly 6:1 over the last 1,600 m as the
+turns tighten and flap goes in. That is what makes the height gates fall where they do —
+around 2,500 ft at the failure, 1,500 ft abeam the aiming point, 1,000 ft turning base. Talk
+about it in those terms, not as fixed numbers to memorise: the heights and distances depend
 entirely on the aircraft, the wind and where the field is.
 
+The abeam figure is 1,500 ft rather than 1,000 ft for a reason worth saying out loud — at
+1,000 ft abeam there is only just enough height to reach the field at best glide with
+nothing left over, so any error, any headwind, and any flap puts you short. The pattern is
+deliberately flown with height in hand, and the 50c turns are how the surplus gets spent.
+
 FIM Ch 15 background (structure only, not reproduced): the descent profile continually
-reassesses the field choice; the 1,000 ft position is roughly equivalent to a base leg.
+reassesses the field choice; the abeam position is roughly equivalent to a downwind leg, and
+the 1,000 ft position to a base leg.
 
 -->
+
+---
 
 # Adjusting if you're too high or too low
 
@@ -384,7 +491,7 @@ Everything else from your workbook happens **around** the flying, not instead of
 | While flying the approach... | Also happening (as height/workload allow) |
 |---|---|
 | Trim for best glide, head for the field | **MAYDAY call** — made early, while there's still time to be heard |
-| Keep reassessing the field | **Detailed trouble check** — a systematic look for a fixable cause |
+| Keep reassessing the field | **Detailed trouble check** — **CFMOST**, if height allows |
 | Fly the corrections (high/low) | **Passenger brief** — brace position, what to expect |
 | Commit to the approach | **Shutdown checks** — **BUSH FMMM**, as in your workbook |
 
@@ -401,19 +508,24 @@ flight situation, brace position and harness security; shut down and secure the 
 aeroplane when a safe landing position is established. C5.1/C5.2: manage and assist
 passengers.
 
-BUSH FMMM was introduced in the workbook — this is recall, not new teaching. Ask the student
-to expand it before revealing the line, and ask *why* the master comes last (electric flap,
-and radio until you no longer need it). Check the expansion against your aircraft's own
-checklist: a fixed-gear type has nothing to do for U beyond confirming it, and the order of
-the switches follows the flight manual where it differs.
+CFMOST and BUSH FMMM were both introduced in the workbook, and CFMOST was expanded earlier in
+this deck — so this is recall, not new teaching. Ask the student to expand BUSH FMMM before
+revealing the line, and ask *why* the master comes last (electric flap, and radio until you no
+longer need it). Check the expansion against your aircraft's own checklist: a fixed-gear type
+has nothing to do for U beyond confirming it, and the order of the switches follows the flight
+manual where it differs.
+
+Draw the distinction with the immediate actions again if it hasn't landed: the three-item
+reflex (carburettor heat, fuel, mixture) happens in the first seconds; CFMOST is the
+unhurried version done here, in the glide, only if height and workload allow.
 
 -->
 
 ---
 
-# Waypoint 3 — Recap
+# Waypoint 4 — Recap
 
-<briefing-overview plane-position="2" controls></briefing-overview>
+<briefing-overview plane-position="3" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to the recap. -->
 
@@ -435,9 +547,9 @@ the switches follows the flight manual where it differs.
 
 | Topic | Key point |
 |-------|-----------|
-| Immediate/vital actions | Aviate (trim for glide), Field, Checks, Communicate, Prepare — in order, from memory |
-| Choosing a field | Apply your workbook criteria, and keep reassessing all the way down |
-| Flying the approach | Aim to arrive around 1,000 ft AGL on a base-leg-equivalent position for the field |
+| Immediate/vital actions | Aviate (trim for glide), Checks, Field, Communicate, Prepare — in order, from memory |
+| Choosing a field | WOSSSSET — use it to rule fields out fast, and keep reassessing all the way down |
+| Flying the approach | 50c turns all the way to final — abeam around 1,500 ft, base around 1,000 ft |
 | Over/undershoot | Recognise early — small corrections beat late ones; be ready to change fields |
 | Everything else | MAYDAY, trouble checks, passenger brief and shutdown happen around the flying, not instead of it |
 
@@ -481,7 +593,7 @@ Can you:
 
 # Arrival
 
-<briefing-overview plane-position="3" controls></briefing-overview>
+<briefing-overview plane-position="4" controls></briefing-overview>
 
 ---
 
