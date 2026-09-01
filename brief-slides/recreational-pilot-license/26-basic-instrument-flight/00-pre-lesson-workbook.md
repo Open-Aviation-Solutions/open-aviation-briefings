@@ -49,7 +49,9 @@ Most flight instruments don't work on their own — they need either engine suct
 
 5. If the vacuum system failed in flight, which two instruments would you expect to slowly become unreliable? ________________________________
 
-6. Check the Pilot's Operating Handbook for your training aircraft, find and read the information on instrument power. In which section and page number is it found? ____________________________
+6. If those two became unreliable, which instrument would you use instead to tell you your **angle of bank**? And which for your **heading**? ________________________________
+
+7. Check the Pilot's Operating Handbook for your training aircraft, find and read the information on instrument power. In which section and page number is it found? ____________________________
 
 ---
 
@@ -70,6 +72,8 @@ A quick, deliberate check before you ever line up for take-off makes sure the in
 3. If your aircraft has a vacuum gauge, what are you checking it for? ________________________________
 
 4. What should you do if an instrument doesn't behave the way you expect during these checks? ________________________________
+
+5. For each of the three checks above, write down the *failure* it is designed to catch — in other words, why do we bother? ___________________________________________________________
 
 
 ---
@@ -141,6 +145,6 @@ The live theory brief covers several ways your senses can mislead you once you l
 
 - Bring your completed answers (printed, or your notebook) to the pre-flight brief
 - We'll check through them together and answer anything that didn't make sense
-- From there, the live theory brief builds on this: how we group and scan the instruments, the illusions that can fool you, avoiding and escaping unexpected cloud, and recognising and recovering from an unusual attitude
+- From there, the live theory brief builds on this: how we group and scan the instruments (and why the Attitude Indicator is the one we call *primary*), what a power-source failure actually looks like in flight, the illusions that can fool you, avoiding and escaping unexpected cloud, and recognising and recovering from an unusual attitude
 
 > None of this is about memorising trivia — it's about trusting the instruments over your senses, every time. That trust is what today's lesson is really about.

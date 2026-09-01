@@ -77,7 +77,7 @@ Marp must run before Astro in both `dev` and `build` scripts so the slide HTML e
 Custom engine extending `@marp-team/marp-core` with three additions:
 
 1. **`customElementBlock` plugin** — teaches markdown-it to treat hyphenated custom element tags (`<four-forces>`, etc.) as block-level HTML instead of wrapping them in `<p>`.
-2. **Script injection** — if a slide deck uses any `PUBLISHED_COMPONENTS` tag (`aerofoil-dynamics`, `four-forces`, `briefing-overview`, `climb-performance`, `pitch-roll-yaw`, `circuit-diagram`, `crosswind-clock`, `max-rate-min-radius`), a `<script type="module" src="/open-aviation-components/define.es.js">` is prepended, served locally via the `public/open-aviation-components` symlink. If a `LOCAL_COMPONENTS` tag (`youtube-video`, `secondary-effect-climb-car`, `secondary-effect-elevator`) appears, the matching `/components/<tag>.js` file is injected.
+2. **Script injection** — if a slide deck uses any `PUBLISHED_COMPONENTS` tag (`aerofoil-dynamics`, `four-forces`, `briefing-overview`, `climb-performance`, `pitch-roll-yaw`, `circuit-diagram`, `crosswind-clock`, `max-rate-min-radius`, `unusual-attitudes`), a `<script type="module" src="/open-aviation-components/define.es.js">` is prepended, served locally via the `public/open-aviation-components` symlink. If a `LOCAL_COMPONENTS` tag (`youtube-video`, `secondary-effect-climb-car`, `secondary-effect-elevator`) appears, the matching `/components/<tag>.js` file is injected.
 
 ### Developing `@open-aviation-solutions/components` locally
 
@@ -114,6 +114,35 @@ import SlideEmbed from '../../../../components/SlideEmbed.astro'
 Import depth: `index.mdx` is four levels below `src/`, so the relative import is `../../../../components/SlideEmbed.astro`.
 
 The Starlight sidebar is auto-generated from the `src/content/docs/` directory tree. Lessons sort correctly because their directory names are prefixed with numbers (`01-`, `02-`, …).
+
+## Lesson conventions
+
+### The daily inspection belongs in the lesson plan, not the margin
+
+Every lesson's in-flight notes assume the aircraft's daily inspection is done **before the
+student arrives, unhurried**. Where the aircraft cannot be accessed until the operator
+opens — routinely the case for a first-slot booking — the inspection is budgeted as a
+visible block at the start of the lesson and walked with the student, rather than absorbed
+into the gap before they arrive. An inspection done *with* the student is time spent
+teaching pre-flight actions and inspection (CASA C2.2), not time lost.
+
+Absorbing it into the margin is what produces a rushed inspection. Say this explicitly in
+a lesson's instructor-preparation notes wherever the lesson depends on a particular system
+being serviceable — Lesson 26 (Basic Instrument Flight) is the clearest case, since the
+whole lesson rests on the gyros and the suction system.
+
+Spell out "daily inspection" rather than abbreviating it: in these lessons **DI** means the
+Direction Indicator, and the two appear on the same pages.
+
+### Lesson ordering and the look-ahead to the next lesson
+
+A lesson's notes close by introducing the next one. Take that ordering from the **RPL(A)
+sample syllabus** in `casa-sample-syllabus/`, not from the flight instructor rating
+package in the same directory — the two sequence the same material differently, and the
+FIR order is the easier one to reach for by mistake. For example, Basic Instrument Flight
+is RPL(A) lesson 26 and is followed by lesson 27, Consolidation; in the Grade 3 aeroplane
+instructor syllabus the equivalent block (TE3-51…55) is followed by forced landings and
+EFATO.
 
 ## Discoverability and social cards
 

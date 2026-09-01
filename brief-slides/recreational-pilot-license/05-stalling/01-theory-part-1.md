@@ -153,6 +153,24 @@ This downward deflection of air by the wing has an **equal and opposite force** 
 
 - The lift is split into the vertical component of lift and the horizontal component of lift when banking.
 
+**Worth a side note here: where those two arrows act.** Follow the grey lines through the lift and weight arrows. Weight acts at the **centre of gravity**; lift acts at the **centre of pressure** — the point through which all the pressure differences over the wing add up. The two are not in the same place, so lift and weight form a **couple**, and a second couple between thrust and drag opposes it.
+
+**Which way each couple acts depends on the aeroplane** — be careful not to teach the model's arrangement as a universal rule:
+
+- The **biplane in this model** has its centre of pressure a little **forward** of the centre of gravity, so its lift/weight couple is **nose-up**, opposed by a nose-down thrust/drag couple (the thrust line sits above the drag line of the wing cell and its rigging).
+- **Most conventional trainers are the other way round**, and this is the arrangement the textbooks draw: the centre of pressure sits **behind** the centre of gravity, giving a **nose-down** lift/weight couple, balanced by a **download on the tailplane** and by a nose-up thrust/drag couple. It is deliberate — lose the engine and the nose drops rather than rises, so the aeroplane keeps flying speed by itself.
+
+The arrows show *where* the forces act, not a pitching simulation — the model has no moment dynamics behind it.
+
+**What matters for stalling is the same either way.** As the airflow separates, the suction peak near the leading edge collapses, so the centre of pressure **moves rearward**. Wherever it started, it ends up further behind the centre of gravity, so the lift/weight moment shifts **nose-down**. The nose drops on its own, the angle of attack reduces, and the wing starts flying again — the self-recovery tendency most training aircraft are designed to have.
+
+Two consequences to draw out (they return in Part 2's table of factors affecting stall speed):
+
+- A **forward** centre of gravity gives a longer arm to that nose-down moment, so the nose drops more decisively — the stall is more pronounced but recovery is easier. It also means the tailplane must hold more download, so the wing carries more than just the weight and the stall speed rises.
+- An **aft** centre of gravity leaves the centre of pressure much less room to move behind, so the nose-down tendency is weak. The stall is gentler in feel but **recovery is harder** — one of the reasons the loading limits matter.
+
+If it helps, sketch it rather than relying on the model: a fulcrum at the CoG, the lift arrow near it, then slide the lift arrow well behind it as the wing stalls.
+
 -->
 
 ---
@@ -177,14 +195,46 @@ Use a physical aeroplane model to show, or have the student show, what happens a
 As the elevator changes, the angle of attack of the wing, the main lifting surface is changed.
 
 -->
+
 ---
 
-# Review - Angle of Attack 
+# How *much* lift? Putting names to the factors
+
+With a hand out the car window in Lesson 2, you worked out the four things that change the **size** of the lift force. The formula just gives them names:
+
+$$L = C_{L} \times \tfrac{1}{2} \rho V^{2} \times S$$
+
+| Term | | What changes it in flight |
+|------|--|---------------------------|
+| $C_{L}$ | **Lift coefficient** — set by the wing's shape and its **angle of attack** | The control column, and flap |
+| $\rho$ | **Air density** | Height, temperature, humidity |
+| $V^{2}$ | **Airspeed, squared** | Power and attitude |
+| $S$ | **Wing area** | Nothing — it's fixed |
+
+> Lift must balance weight. So as $V$ falls, something has to grow — and the only one you can grow quickly is $C_{L}$, by increasing the **angle of attack**.
+
+<!--
+
+There is no need to drill the algebra here — the point is that the formula holds no surprises. It is the same four factors the student reasoned out for themselves with a hand out the car window in Lesson 2, now with names attached.
+
+Work the level-flight argument through on the board, because it is the whole lesson in one line: lift has to equal weight, so flying slower forces a higher angle of attack. Keep slowing, and eventually the angle of attack needed to hold you up is more than the wing can give — that is the stall.
+
+**Where flap fits, if it comes up.** $S$ is a fixed reference area — it is a property of the aeroplane, not something the pilot changes, so treat it as a constant. Lowering flap increases the wing's **camber**, which raises $C_{L}$ at any given angle of attack; that is why flap lowers the stall speed. Some types (Fowler and semi-Fowler flaps) do also slide the flap rearward and add a little real area, but $S$ in the formula stays the fixed reference value, so even that shows up as a change in $C_{L}$. Everything flap does, it does through $C_{L}$.
+
+The punchline to land: **only $C_{L}$ has a ceiling.** Density, speed and area will keep giving you more lift for more of them, but $C_{L}$ stops climbing at the critical angle and then falls away. That is why we define the stall by angle of attack and not by a speed.
+
+Everything in the "factors affecting stall speed" table in Part 2 is this same equation rearranged. If a student wants it explicitly, the stall speed falls out as $V_{S} = \sqrt{2W / (\rho\,S\,C_{L_{max}})}$ — heavier or thinner air raises it; more wing area, or flap, lowers it. Offer that only if they ask for it.
+
+-->
+
+---
+
+# Angle of Attack and the Lift Coefficient
 
 ![right drop-shadow](/brief-assets/recreational-pilot-license/05-stalling/lift-coeff-vs-aoa.svg)
-The graph shows the **Lift Coefficient** $C_{L}$ on the vertical axis, which is effectively how big the lift force will be, versus the **Angle of Attack** on the horizontal axis:
-- Note that the lift force increases at a constant rate until the angle of attack approaches the critical angle of 16 
-- After the critical angle, it **falls rapidly**
+The graph shows the **Lift Coefficient** $C_{L}$ from our formula on the vertical axis — for a given wing, it is set by the **Angle of Attack** on the horizontal axis:
+- $C_{L}$ increases at a constant rate until the angle of attack approaches the critical angle of 16 
+- After the critical angle, it **falls rapidly** — and with nothing else in the formula changing, so does the lift
 
 <!--
 
@@ -270,12 +320,14 @@ As AoA increases beyond the critical angle:
 
 1. Airflow can no longer follow the curvature of the upper wing surface
 2. The boundary layer **separates** from the wing, creating turbulent eddies
-3. The **low pressure region** that was producing lift near the leading edge of the wing collapses, causing the **centre of lift to move rearwards** 
+3. The **low pressure region** that was producing lift near the leading edge of the wing collapses, causing the **centre of pressure to move rearwards** — behind the **centre of gravity**
 4. Drag **increases sharply** at the point of stall
 
-The result: rapid loss of lift, combined with a pitch-down tendency as the centre of lift (what's left of it) moves rearwards.
+The result: rapid loss of lift, combined with a pitch-down tendency — with the centre of pressure now behind the centre of gravity, what lift remains pitches the nose **down**.
 
 <!--
+
+Refer back to the four forces side note: lift acts at the centre of pressure, weight at the centre of gravity, and in normal flight the two sit close together — which side of the other varies with the type. As the wing stalls the centre of pressure moves aft, so wherever it started it ends up well behind the centre of gravity and the lift/weight moment becomes strongly nose-down.
 
 The pitch-down tendency is a useful natural self-recovery tendency in most light aircraft — the nose drops, AoA reduces, airflow reattaches, and lift returns. The danger is when we instinctively pull back to "stop the nose dropping."
 
