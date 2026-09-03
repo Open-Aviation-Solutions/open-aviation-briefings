@@ -45,7 +45,7 @@ Let the answers be rough — the point is to surface the instinct (many say "loo
 
 # It isn't hypothetical
 
-<youtube-video video-id="PTrLxkVOShg" class="right large"></youtube-video>
+<youtube-video video-id="x3NTfiW17QA" start="127" class="right large"></youtube-video>
 
 A student pilot, solo, loses the engine — cockpit view and the ATC audio alongside it.
 
@@ -55,7 +55,7 @@ A student pilot, solo, loses the engine — cockpit view and the ATC audio along
 
 <!--
 
-VASAviation — "Student Pilot Loses Engine | Cockpit View + ATC". This one ends well, which is why it's usable here: the point is to replace an imagined scenario with a real one before we start on the sequence.
+Brian Parsley — "Student Pilot Loses Engine", the pilot's own account of the flight, cued to the engine failure at 2:07. This one ends well, which is why it's usable here: the point is to replace an imagined scenario with a real one before we start on the sequence.
 
 Play it, then come back to the two questions above and let the student revise their own answers. Keep it moving — the detailed walk-through of the same footage comes at the recap, with the sound off.
 
@@ -102,7 +102,7 @@ By the end of this session, our aim is to be able to:
 - **Recognise and manage** an over- or undershoot before it becomes unrecoverable
 - **Outline where** the MAYDAY call, detailed trouble checks, passenger brief and shutdown checks fit into the overall sequence
 
-And then later in our actual flight: we'll fly this whole sequence for real, from varying heights and positions, so the actions become second nature.
+And then later in our actual flight: we'll fly this whole sequence down to our legal limit of 500ft, from varying heights and positions, so the actions become second nature over time.
 
 ---
 
@@ -137,6 +137,28 @@ Confirm the workbook was actually completed and clear up anything that didn't la
 Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above. In a propeller aeroplane that sits **just below $V_Y$**, well *above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb speed.
 
 <!--
+
+Two questions to ask *before* dragging the cursor — the slide text gives both away, so keep it covered.
+
+**"$V_{MD}$ sits almost on top of $V_Y$, but nowhere near $V_X$ — and both are climb speeds. Why?"**
+
+- Climb *angle* is excess **thrust** — in a prop the surplus peaks well before minimum drag, so $V_X$ sits far below it
+- Climb *rate* is excess **power** — that surplus peaks near L/D max, so $V_Y$ lands beside $V_{MD}$
+- Today's payoff — no thrust, so glide angle is drag alone, and $V_{MD}$ *is* best glide. The Lesson 3 callback lands here
+
+**"Flying slower would keep you up longer — and it would. So why 73, not slower?"** The one that costs a field.
+
+- The glide is being asked for *reach*, not time aloft
+- Any other speed, faster **or slower**, steepens the glide — you arrive lower
+- Slower does cut the sink rate, down to minimum *power* required (~0.76 $V_{MD}$) — that is the restart/wait speed, not the get-there speed
+- Head off the drag half of the instinct — below $V_{MD}$ drag goes back **up**, induced rising faster than parasite falls
+- The bucket is flat, though — a few knots either side costs little. Slow is the worse side to err — drag up, glide steeper, stall closer
+
+If asked why the published 73 KIAS is not the chart's 74 kt:
+
+- The mechanism they are reaching for is real — adding parasite drag (windmilling prop, flap, gear) lowers $V_{MD}$ *and* flattens L/D max
+- But it does not account for a knot — the chart is a generic model with no dead-engine term, and 73 KIAS is rounded, max-gross and *indicated*
+- The consequence is the part that matters, question or no question — **flap or gear out early costs reach**, which is why they stay up until the field is assured
 
 Drag the cursor to the slate $V_{MD}$ marker and note where $V_X$ and $V_Y$ sit relative to it — the same charts, and the same calibration, as Lesson 3. The chart reads 63 kt $V_X$, 74 kt $V_{MD}$ and 75 kt $V_Y$ for the Warrior, against its published best glide of 73 KIAS.
 
@@ -294,15 +316,39 @@ The framing matters more than the letters: in a real failure there isn't time to
     points="-55,1188,777; 725,738,687; 1125,45,607; 1125,-655,537; 800,-1218,472; 280,-1518,412; -270,-1518,357; -703,-1268,307; -928,-878,258; -928,-478,192; -753,-175,133; -450,0,75; 0,0,0"
     segment-labels="0:Engine fails ~2500 ft · glide · quick checks · field · MAYDAY; 2:Small turn, straight, reassess — the 50c pattern; 5:~1500 ft abeam the aiming point · field stays in sight; 7:~1000 ft — base · flap only if you need to lose height; 11:Final — flap when there's no doubt of making the field"
   ></circuit-path>
+  <circuit-path
+    label="Too high — widen the pattern"
+    color="#f59e0b99"
+    points="-55,1188,896; 799,874,805; 1321,147,715; 1321,-679,633; 937,-1343,556; 324,-1697,485; -325,-1697,420; -836,-1402,361; -1102,-942,291; -1102,-470,213; -817,-147,141; -450,0,75; 0,0,0"
+    segment-labels="0:Same failure point — about 2,950 ft, some 400 ft high; 2:Each straight held longer — the pattern widens to spend the height; 7:Flap earlier, once the field is assured; 11:Same final, same aiming point"
+  ></circuit-path>
+  <circuit-path
+    label="Too low — tighten and cut in"
+    color="#ef444499"
+    points="-55,1188,638; 651,602,546; 929,-57,475; 929,-631,417; 663,-1093,364; 236,-1339,315; -215,-1339,269; -570,-1134,228; -754,-814,192; -754,-486,159; -689,-203,127; -450,0,75; 0,0,0"
+    segment-labels="0:Same failure point — about 2,100 ft, some 450 ft low; 2:Turn in early and cut the corner — shorter straights, tighter pattern; 7:Stay clean — no flap until the field is certain; 11:Same final, same aiming point"
+  ></circuit-path>
 </circuit-diagram>
 
 Aim to pass **abeam your aiming point around 1,500 ft AGL**, turning base near **1,000 ft**. Get there with the **50c technique** — small turn, straight, reassess — all the way onto final: a curve built from flat sides, like the edge of a 50c piece.
+
+> Throughout, the field sits **well below the horizon and stays there** — you always hold more glide than you need, and the pattern is how you spend the surplus.
 
 <!--
 
 The field here is drawn as a runway because that's what the component gives us — treat it as the chosen paddock, and say so.
 
 Orbit the scene, then use the legend's play button to fly the track: the student sees the field stay in the same place in the windscreen the whole way down, which is the point of the pattern.
+
+Three tracks, each toggled from the legend — teach the blue on-profile pattern alone first, then bring the others in one at a time.
+
+- Same failure, same place — amber about 400 ft **high** (~2,950 ft), red about 450 ft **low** (~2,100 ft)
+- All three finish on the *same* final, 246 ft at 450 m — the correction is made with track distance, not with the aiming point
+- Amber spends the surplus by holding each straight longer — a wider circle, same 50c shape — and takes flap earlier
+- Red buys distance by turning in early and cutting the corner, and stays clean as long as it can
+- Same 10:1 glide on every path, steepening to 6:1 as the turns tighten — only the *track flown* differs, which is the student's one lever
+- Furthest apart at the top, converging toward final — corrections are cheap early, expensive late
+- Red is the one that runs out of options — already tight, so a stronger wind than expected means a **nearer field**, not a tighter turn
 
 Note there is no big turn onto final — the same small turns continue right down to the runway centreline. That is deliberate: a large, low, final turn in a glide is where speed gets lost, and rolling out on final should be the least eventful part of the pattern.
 
@@ -311,6 +357,23 @@ Why the 50c technique rather than one continuous descending turn: each straight 
 The geometry drawn is self-consistent: about 10:1 clean in the upper part of the pattern (matching the Warrior's glide ratio), steepening to roughly 6:1 over the last 1,600 m as the turns tighten and flap goes in. That is what makes the height gates fall where they do — around 2,500 ft at the failure, 1,500 ft abeam the aiming point, 1,000 ft turning base. Talk about it in those terms, not as fixed numbers to memorise: the heights and distances depend entirely on the aircraft, the wind and where the field is.
 
 The abeam figure is 1,500 ft rather than 1,000 ft for a reason worth saying out loud — at 1,000 ft abeam there is only just enough height to reach the field at best glide with nothing left over, so any error, any headwind, and any flap puts you short. The pattern is deliberately flown with height in hand, and the shape of it — how long each straight is held before turning in — is how the surplus gets spent.
+
+Say the "stays below the horizon" line as a principle, not a gate to hit — it is what makes the pattern make sense.
+
+- At 10:1 the field is *just* reachable at about **6 degrees** below the horizon — that is the edge of the glide, and the whole approach is flown far steeper than it
+- Angles the drawn pattern holds to the aiming point — reference, not for the student to memorise:
+
+| Where | Below the horizon | Glide needed, against 10:1 |
+|---|---|---|
+| Engine fails, ~2,500 ft | about 33 degrees | 1.5 to 1 — huge surplus |
+| Abeam, ~1,500 ft | about 15 degrees | 3.7 to 1 |
+| Base, ~1,000 ft | about 12 degrees | 4.7 to 1 |
+| Final, ~250 ft | about 9 degrees | 6 to 1 |
+
+- From abeam on, the angle barely moves — 15 degrees easing to 9. That is a **sight picture**, and worth naming as one: something to see continuously, where the height gates are only three moments
+- The upper pattern is the opposite — 33 degrees collapsing to 18 — and that is the surplus being spent deliberately, which is what the circling is for
+- The margin shrinks on purpose and never closes — many times the glide needed at the failure, about two-thirds spare on final
+- Being *close* to the limit is what "on profile" means. No margin at all means the field was too far away to start with
 
 FIM Ch 15 background (structure only, not reproduced): the descent profile continually reassesses the field choice; the abeam position is roughly equivalent to a downwind leg, and the 1,000 ft position to a base leg.
 
@@ -417,7 +480,7 @@ Draw the distinction with the immediate actions again if it hasn't landed: the t
 
 # Call it out
 
-<youtube-video video-id="PTrLxkVOShg" class="right large"></youtube-video>
+<youtube-video video-id="x3NTfiW17QA" start="127" class="right large"></youtube-video>
 
 The same footage from the start of the brief — this time with the **sound off**.
 
