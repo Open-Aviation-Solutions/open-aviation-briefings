@@ -134,7 +134,7 @@ Confirm the workbook was actually completed and clear up anything that didn't la
 
 <total-drag-curve class="right large" height="540px" vs="43" cruise-kts="103"></total-drag-curve>
 
-Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above, where parasite and induced drag are equal. Recall from Lesson 3 that sits **just below $V_Y$**, well *above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb speed.
+Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above, where parasite and induced drag are equal. Recall from Lesson 3 that sits **just below $V_Y$**, so best glide is *not* "as slow as possible".
 
 <!--
 
@@ -508,17 +508,18 @@ Draw the distinction with the immediate actions again if it hasn't landed: the t
 
 <youtube-video video-id="x3NTfiW17QA" start="127" class="right large"></youtube-video>
 
-The same footage from the start of the brief — this time with the **sound off**.
+Rather than re-watching, **walk it through**: a book on the floor is your threshold, a physical model aeroplane in your hand is the aircraft, and you fly the whole sequence yourself — failure, glide, checks, field, MAYDAY, the 50c pattern, all the way to touchdown.
 
-- Call out each step of the sequence as you'd be doing it
-- Where would the MAYDAY call go? The trouble check? The passenger brief?
-- What can you see them deciding, that you couldn't hear the first time?
+- Pause at each point and **call out what needs to happen right now**
+- Start with one simple run at a generous height, then vary it
 
 <!--
 
-Mute it. Without the ATC audio the student has to supply the sequence themselves, which is exactly the recall we want — and watching the same footage twice, first for the situation and now for the actions, is the point.
+The video stays on the page as a reminder of the real footage, not as today's exercise — the point now is producing the sequence with your own hands, not watching someone else's.
 
-Pause where useful and ask "what would you be doing right now?". Don't turn it into a critique of the pilot in the video: the aim is to rehearse our own sequence against real footage, not to score theirs.
+Run it literally: a book (or similar) on the floor is the field/threshold, a physical model aeroplane is the aircraft. Walk the model through the whole sequence from "failure height" — trim for the glide, run the checks, pick the field, make the MAYDAY call, brief the passengers, fly the 50c pattern down to the book, land — pausing the model at each stage and asking what the student would be doing at that exact point. Same device as the muted video, just driven by the student's own hands instead of someone else's footage.
+
+Start simple: one generous-height run so the sequence itself comes out clean before adding variation. Then do a few more from different simulated heights — higher (more time: a wider 50c pattern, more straights, more reassessment) and lower (less time: a tighter pattern, earlier decisions, less margin for indecision). The sequence doesn't change with height, only how much pattern there is room to fly — the same point the descent-profile diagram made earlier, now felt with their own hands rather than watched on a diagram.
 
 -->
 
