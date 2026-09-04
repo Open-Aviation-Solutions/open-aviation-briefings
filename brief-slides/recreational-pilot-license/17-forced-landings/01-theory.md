@@ -132,7 +132,7 @@ Confirm the workbook was actually completed and clear up anything that didn't la
 
 # Recall — best glide speed (Lesson 3)
 
-<total-drag-curve class="right large" height="330px" vs="43" cruise-kts="103"></total-drag-curve>
+<total-drag-curve class="right large" height="540px" vs="43" cruise-kts="103"></total-drag-curve>
 
 Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above, where parasite and induced drag are equal. Recall from Lesson 3 that sits **just below $V_Y$**, well *above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb speed.
 
@@ -393,6 +393,34 @@ Once established toward the field, you'll rarely be exactly on profile — plan 
 The principle underneath both rows, and worth drawing on the whiteboard rather than just saying: in a pattern like this the *straights* are what buy distance and the *turns* are what cut it. Holding a straight for longer before turning in swings you wider and adds track, so you arrive lower. Turning in early cuts the corner off and gets you there with height to spare. Students reliably get this backwards and add turns when they are high, which is exactly the wrong way round — a turn brings the field closer, not further away.
 
 FIM Ch 15 background: adjust by turning slightly away from the field if too high, or turning in early if too low; a longer or shorter base leg achieves the same. Restrict flap initially to preserve control over the approach angle and rate of descent — use full flap only once landing in the field is assured (aircraft-type permitting).
+
+-->
+
+---
+
+# Feel the angle — a floor exercise
+
+Put something on the floor as your "aiming point" — a book works well. Point your arm straight at it from up close, then take **five steps back** and point at it again — same spot, much shallower angle.
+
+> That change *is* the sight picture. In the air you're reading the same angle to your aiming point — holding it steady, not letting it drift, is what "on profile" means.
+
+| The aiming point in your windscreen... | You are... |
+|---|---|
+| **Rises** — climbs up toward the horizon | **Low** — you don't have the height for that angle |
+| **Sinks** — drops further under the nose | **High** — you have height in hand |
+| **Holds still** against a fixed reference point | **On profile** |
+
+<!--
+
+Charlie's exercise (instructor feedback on this brief): "on profile" was a term the deck used without ever teaching the student how to *recognise* it. Most people have never consciously judged an angle like this, so "hold the aiming point at the right angle" is an empty instruction until they've felt what an angle actually is — and this fixes that cheaply, with no aeroplane required.
+
+Run it literally, in the classroom: place a book (or similar) in the middle of the room, stand right beside it and point an outstretched arm straight at it, then step back five paces and point again. The arm drops to a noticeably shallower angle — same object, same height, more distance. That's the whole exercise; the insight is in *noticing* the change, not measuring it precisely.
+
+Connect it straight back to the angle table two slides earlier (15 degrees abeam, 12 at base, 9 at final) — those numbers only mean something once a student has a felt sense of what 10-15 degrees pointed at the ground actually looks like. Worth asking them to point at that angle now, from where they're sitting, before moving on.
+
+The windscreen table is the in-flight payoff, and worth deriving out loud if a student asks why it works: fly at a genuinely constant angle to a fixed point and the point neither rises nor sinks in your view — height and distance are shrinking together at the same rate, so the angle between them never changes. Carry more height than that angle needs and you're descending too shallow for where you are, so the point sinks away below the nose as you close the distance faster than the height. Carry less and you're too steep for where you are, so the point rises clear of the nose as your height falls away faster than the distance. It's the same principle a PAPI encodes with lights instead of eyeball estimation.
+
+This is exactly what the 50c technique's straight segments are *for* — each one is wings-level time to check whether the aiming point has drifted in the screen and make a small correction before it becomes a large one. It's also the direct answer to "why 50c and not one continuous turn": you cannot read this angle reliably while banked and turning.
 
 -->
 
