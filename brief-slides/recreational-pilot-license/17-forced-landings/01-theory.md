@@ -402,13 +402,13 @@ FIM Ch 15 background: adjust by turning slightly away from the field if too high
 
 Put something on the floor as your "aiming point" — a book works well. Point your arm straight at it from up close, then take **five steps back** and point at it again — same spot, much shallower angle.
 
-> That change *is* the sight picture. In the air you're reading the same angle to your aiming point — holding it steady, not letting it drift, is what "on profile" means.
+> That change *is* the sight picture. In the air you're reading the same angle to your aiming point — out the side for almost all of the 50c pattern, ahead of you only once you're lined up on final — and holding it steady is what "on profile" means.
 
-| The aiming point in your windscreen... | You are... |
+| Against a fixed reference (strut, door frame, cowling)... | You are... |
 |---|---|
-| **Rises** — climbs up toward the horizon | **Low** — you don't have the height for that angle |
-| **Sinks** — drops further under the nose | **High** — you have height in hand |
-| **Holds still** against a fixed reference point | **On profile** |
+| **Aiming point rises** — climbs higher in your view | **Low** — you don't have the height for that angle |
+| **Aiming point sinks** — drops lower in your view | **High** — you have height in hand |
+| **Holds still** | **On profile** |
 
 <!--
 
@@ -418,9 +418,11 @@ Run it literally, in the classroom: place a book (or similar) in the middle of t
 
 Connect it straight back to the angle table two slides earlier (15 degrees abeam, 12 at base, 9 at final) — those numbers only mean something once a student has a felt sense of what 10-15 degrees pointed at the ground actually looks like. Worth asking them to point at that angle now, from where they're sitting, before moving on.
 
-The windscreen table is the in-flight payoff, and worth deriving out loud if a student asks why it works: fly at a genuinely constant angle to a fixed point and the point neither rises nor sinks in your view — height and distance are shrinking together at the same rate, so the angle between them never changes. Carry more height than that angle needs and you're descending too shallow for where you are, so the point sinks away below the nose as you close the distance faster than the height. Carry less and you're too steep for where you are, so the point rises clear of the nose as your height falls away faster than the distance. It's the same principle a PAPI encodes with lights instead of eyeball estimation.
+Be clear the aiming point sits **out to the side**, not ahead, for almost all of the 50c pattern — flying a series of straights around the field, it's abeam or behind the wing for most of the descent, the same as looking at a field from a downwind or base leg. It's only on the final straight, lined up and tracking toward it, that it moves out in front into the windscreen. For the earlier straights, pick a fixed reference out the side — a strut, the door frame, a rivet line — and read the same rise/sink/still against that, just turned 90 degrees from the exercise.
 
-This is exactly what the 50c technique's straight segments are *for* — each one is wings-level time to check whether the aiming point has drifted in the screen and make a small correction before it becomes a large one. It's also the direct answer to "why 50c and not one continuous turn": you cannot read this angle reliably while banked and turning.
+The table is the in-flight payoff, and worth deriving out loud if a student asks why it works: fly at a genuinely constant angle to a fixed point and the point neither rises nor sinks against your reference — height and distance are shrinking together at the same rate, so the angle between them never changes. Carry more height than that angle needs and you're descending too shallow for where you are, so the point sinks away as you close the distance faster than the height. Carry less and you're too steep for where you are, so the point rises clear of your reference as your height falls away faster than the distance. It's the same principle a PAPI encodes with lights instead of eyeball estimation.
+
+This is exactly what the 50c technique's straight segments are *for* — each one is wings-level time to check whether the aiming point has drifted against your reference and make a small correction before it becomes a large one. It's also the direct answer to "why 50c and not one continuous turn": you cannot read this angle reliably while banked and turning.
 
 -->
 
