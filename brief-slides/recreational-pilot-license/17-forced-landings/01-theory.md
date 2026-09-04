@@ -132,9 +132,9 @@ Confirm the workbook was actually completed and clear up anything that didn't la
 
 # Recall — best glide speed (Lesson 3)
 
-<climb-performance height="330px" vs="46" cruise-kts="102" vztp="3.0"></climb-performance>
+<total-drag-curve height="330px" vs="43" cruise-kts="103"></total-drag-curve>
 
-Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above. In a propeller aeroplane that sits **just below $V_Y$**, well *above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb speed.
+Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above, where parasite and induced drag are equal. Recall from Lesson 3 that sits **just below $V_Y$**, well *above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb speed.
 
 <!--
 
@@ -151,18 +151,14 @@ Two questions to ask *before* dragging the cursor — the slide text gives both 
 - The glide is being asked for *reach*, not time aloft
 - Any other speed, faster **or slower**, steepens the glide — you arrive lower
 - Slower does cut the sink rate, down to minimum *power* required (~0.76 $V_{MD}$) — that is the restart/wait speed, not the get-there speed
-- Head off the drag half of the instinct — below $V_{MD}$ drag goes back **up**, induced rising faster than parasite falls
+- Head off the drag half of the instinct — drag the cursor below $V_{MD}$ and watch the purple induced-drag curve overtake the still-falling blue parasite curve, driving total drag back **up**
 - The bucket is flat, though — a few knots either side costs little. Slow is the worse side to err — drag up, glide steeper, stall closer
 
-If asked why the published 73 KIAS is not the chart's 74 kt:
+If asked why added drag (windmilling prop, flap, gear) changes the picture: it lifts the blue parasite curve, which shifts the crossing point — and therefore $V_{MD}$ — down and left, and flattens the bottom of the total-drag curve (lower L/D max). The consequence is the part that matters, question or no question — **flap or gear out early costs reach**, which is why they stay up until the field is assured.
 
-- The mechanism they are reaching for is real — adding parasite drag (windmilling prop, flap, gear) lowers $V_{MD}$ *and* flattens L/D max
-- But it does not account for a knot — the chart is a generic model with no dead-engine term, and 73 KIAS is rounded, max-gross and *indicated*
-- The consequence is the part that matters, question or no question — **flap or gear out early costs reach**, which is why they stay up until the field is assured
+Drag the cursor to the green $V_{MD}$ marker and watch the parasite and induced drag dots meet, and the sum readout confirm it — the same stall-speed calibration as Lesson 3 ($V_S = 43$ kt), so the chart reads $V_{MD}$ at exactly 73 kt, the Warrior's published best glide speed.
 
-Drag the cursor to the slate $V_{MD}$ marker and note where $V_X$ and $V_Y$ sit relative to it — the same charts, and the same calibration, as Lesson 3. The chart reads 63 kt $V_X$, 74 kt $V_{MD}$ and 75 kt $V_Y$ for the Warrior, against its published best glide of 73 KIAS.
-
-PHAK Ch 11 (Aircraft Performance) is the reference, and it is explicit that the jet and the propeller cases differ. On angle of climb: in a jet, maximum excess thrust occurs where thrust required is at a minimum (approximately L/D max), but in a propeller aeroplane maximum excess thrust occurs at an airspeed *below* L/D max, frequently just above the stall — so $V_X$ is not the minimum-drag speed in our aircraft. On rate of climb: maximum rate for a typical propeller aeroplane occurs at an airspeed and AOA combination *closer to* L/D max — so $V_Y$ is the one that sits near best glide.
+PHAK Ch 5 (Aerodynamics) is the reference for the parasite/induced/total drag curve itself. PHAK Ch 11 (Aircraft Performance) is the reference for the Vx/Vy recall, and it is explicit that the jet and the propeller cases differ. On angle of climb: in a jet, maximum excess thrust occurs where thrust required is at a minimum (approximately L/D max), but in a propeller aeroplane maximum excess thrust occurs at an airspeed *below* L/D max, frequently just above the stall — so $V_X$ is not the minimum-drag speed in our aircraft. On rate of climb: maximum rate for a typical propeller aeroplane occurs at an airspeed and AOA combination *closer to* L/D max — so $V_Y$ is the one that sits near best glide.
 
 Best glide distance is the L/D max condition (PHAK Ch 11 makes the same point for maximum range). L/D max occurs at a particular angle of attack, unaffected by weight or altitude — but the *airspeed* to fly it at does change with weight, which is why the published figure is quoted at max gross. Slower than that is minimum *power* required — best endurance, or minimum sink — a different, slower speed again.
 
