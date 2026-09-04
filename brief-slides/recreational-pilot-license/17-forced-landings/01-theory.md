@@ -132,9 +132,9 @@ Confirm the workbook was actually completed and clear up anything that didn't la
 
 # Recall — best glide speed (Lesson 3)
 
-<climb-performance height="330px" vs="46" cruise-kts="102" vztp="3.0"></climb-performance>
+<total-drag-curve class="right large" height="540px" vs="43" cruise-kts="103"></total-drag-curve>
 
-Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above. In a propeller aeroplane that sits **just below $V_Y$**, well *above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb speed.
+Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above, where parasite and induced drag are equal. Recall from Lesson 3 that sits **just below $V_Y$**, so best glide is *not* "as slow as possible".
 
 <!--
 
@@ -151,18 +151,14 @@ Two questions to ask *before* dragging the cursor — the slide text gives both 
 - The glide is being asked for *reach*, not time aloft
 - Any other speed, faster **or slower**, steepens the glide — you arrive lower
 - Slower does cut the sink rate, down to minimum *power* required (~0.76 $V_{MD}$) — that is the restart/wait speed, not the get-there speed
-- Head off the drag half of the instinct — below $V_{MD}$ drag goes back **up**, induced rising faster than parasite falls
+- Head off the drag half of the instinct — drag the cursor below $V_{MD}$ and watch the purple induced-drag curve overtake the still-falling blue parasite curve, driving total drag back **up**
 - The bucket is flat, though — a few knots either side costs little. Slow is the worse side to err — drag up, glide steeper, stall closer
 
-If asked why the published 73 KIAS is not the chart's 74 kt:
+If asked why added drag (windmilling prop, flap, gear) changes the picture: it lifts the blue parasite curve, which shifts the crossing point — and therefore $V_{MD}$ — down and left, and flattens the bottom of the total-drag curve (lower L/D max). The consequence is the part that matters, question or no question — **flap or gear out early costs reach**, which is why they stay up until the field is assured.
 
-- The mechanism they are reaching for is real — adding parasite drag (windmilling prop, flap, gear) lowers $V_{MD}$ *and* flattens L/D max
-- But it does not account for a knot — the chart is a generic model with no dead-engine term, and 73 KIAS is rounded, max-gross and *indicated*
-- The consequence is the part that matters, question or no question — **flap or gear out early costs reach**, which is why they stay up until the field is assured
+Drag the cursor to the green $V_{MD}$ marker and watch the parasite and induced drag dots meet, and the sum readout confirm it — the same stall-speed calibration as Lesson 3 ($V_S = 43$ kt), so the chart reads $V_{MD}$ at exactly 73 kt, the Warrior's published best glide speed.
 
-Drag the cursor to the slate $V_{MD}$ marker and note where $V_X$ and $V_Y$ sit relative to it — the same charts, and the same calibration, as Lesson 3. The chart reads 63 kt $V_X$, 74 kt $V_{MD}$ and 75 kt $V_Y$ for the Warrior, against its published best glide of 73 KIAS.
-
-PHAK Ch 11 (Aircraft Performance) is the reference, and it is explicit that the jet and the propeller cases differ. On angle of climb: in a jet, maximum excess thrust occurs where thrust required is at a minimum (approximately L/D max), but in a propeller aeroplane maximum excess thrust occurs at an airspeed *below* L/D max, frequently just above the stall — so $V_X$ is not the minimum-drag speed in our aircraft. On rate of climb: maximum rate for a typical propeller aeroplane occurs at an airspeed and AOA combination *closer to* L/D max — so $V_Y$ is the one that sits near best glide.
+PHAK Ch 5 (Aerodynamics) is the reference for the parasite/induced/total drag curve itself. PHAK Ch 11 (Aircraft Performance) is the reference for the Vx/Vy recall, and it is explicit that the jet and the propeller cases differ. On angle of climb: in a jet, maximum excess thrust occurs where thrust required is at a minimum (approximately L/D max), but in a propeller aeroplane maximum excess thrust occurs at an airspeed *below* L/D max, frequently just above the stall — so $V_X$ is not the minimum-drag speed in our aircraft. On rate of climb: maximum rate for a typical propeller aeroplane occurs at an airspeed and AOA combination *closer to* L/D max — so $V_Y$ is the one that sits near best glide.
 
 Best glide distance is the L/D max condition (PHAK Ch 11 makes the same point for maximum range). L/D max occurs at a particular angle of attack, unaffected by weight or altitude — but the *airspeed* to fly it at does change with weight, which is why the published figure is quoted at max gross. Slower than that is minimum *power* required — best endurance, or minimum sink — a different, slower speed again.
 
@@ -402,6 +398,36 @@ FIM Ch 15 background: adjust by turning slightly away from the field if too high
 
 ---
 
+# Feel the angle — a floor exercise
+
+Put something on the floor as your "aiming point" — a book works well. Point your arm straight at it from up close, then take **five steps back** and point at it again — same spot, much shallower angle.
+
+> That change *is* the sight picture. In the air you're reading the same angle to your aiming point — out the side for almost all of the 50c pattern, ahead of you only once you're lined up on final — and holding it steady is what "on profile" means.
+
+| Against a fixed reference (strut, door frame, cowling)... | You are... |
+|---|---|
+| **Aiming point rises** — climbs higher in your view | **Low** — you don't have the height for that angle |
+| **Aiming point sinks** — drops lower in your view | **High** — you have height in hand |
+| **Holds still** | **On profile** |
+
+<!--
+
+Charlie's exercise (instructor feedback on this brief): "on profile" was a term the deck used without ever teaching the student how to *recognise* it. Most people have never consciously judged an angle like this, so "hold the aiming point at the right angle" is an empty instruction until they've felt what an angle actually is — and this fixes that cheaply, with no aeroplane required.
+
+Run it literally, in the classroom: place a book (or similar) in the middle of the room, stand right beside it and point an outstretched arm straight at it, then step back five paces and point again. The arm drops to a noticeably shallower angle — same object, same height, more distance. That's the whole exercise; the insight is in *noticing* the change, not measuring it precisely.
+
+Connect it straight back to the angle table two slides earlier (15 degrees abeam, 12 at base, 9 at final) — those numbers only mean something once a student has a felt sense of what 10-15 degrees pointed at the ground actually looks like. Worth asking them to point at that angle now, from where they're sitting, before moving on.
+
+Be clear the aiming point sits **out to the side**, not ahead, for almost all of the 50c pattern — flying a series of straights around the field, it's abeam or behind the wing for most of the descent, the same as looking at a field from a downwind or base leg. It's only on the final straight, lined up and tracking toward it, that it moves out in front into the windscreen. For the earlier straights, pick a fixed reference out the side — a strut, the door frame, a rivet line — and read the same rise/sink/still against that, just turned 90 degrees from the exercise.
+
+The table is the in-flight payoff, and worth deriving out loud if a student asks why it works: fly at a genuinely constant angle to a fixed point and the point neither rises nor sinks against your reference — height and distance are shrinking together at the same rate, so the angle between them never changes. Carry more height than that angle needs and you're descending too shallow for where you are, so the point sinks away as you close the distance faster than the height. Carry less and you're too steep for where you are, so the point rises clear of your reference as your height falls away faster than the distance. It's the same principle a PAPI encodes with lights instead of eyeball estimation.
+
+This is exactly what the 50c technique's straight segments are *for* — each one is wings-level time to check whether the aiming point has drifted against your reference and make a small correction before it becomes a large one. It's also the direct answer to "why 50c and not one continuous turn": you cannot read this angle reliably while banked and turning.
+
+-->
+
+---
+
 # Final approach judgement — over and undershoot
 
 Recognising an over- or undershoot **early** is what makes it manageable.
@@ -482,17 +508,18 @@ Draw the distinction with the immediate actions again if it hasn't landed: the t
 
 <youtube-video video-id="x3NTfiW17QA" start="127" class="right large"></youtube-video>
 
-The same footage from the start of the brief — this time with the **sound off**.
+Rather than re-watching, **let's walk it through**: a book on the floor is our threshold, a physical model aeroplane in hand is the aircraft, and we fly the whole sequence ourselves — failure, glide, checks, field, MAYDAY, the 50c pattern, all the way to touchdown.
 
-- Call out each step of the sequence as you'd be doing it
-- Where would the MAYDAY call go? The trouble check? The passenger brief?
-- What can you see them deciding, that you couldn't hear the first time?
+- Pause at each point and **call out what needs to happen right now**
+- Start with one simple run at a generous height, then vary it
 
 <!--
 
-Mute it. Without the ATC audio the student has to supply the sequence themselves, which is exactly the recall we want — and watching the same footage twice, first for the situation and now for the actions, is the point.
+The video stays on the page as a reminder of the real footage, not as today's exercise — the point now is producing the sequence with your own hands, not watching someone else's.
 
-Pause where useful and ask "what would you be doing right now?". Don't turn it into a critique of the pilot in the video: the aim is to rehearse our own sequence against real footage, not to score theirs.
+Run it literally: a book (or similar) on the floor is the field/threshold, a physical model aeroplane is the aircraft. Walk the model through the whole sequence from "failure height" — trim for the glide, run the checks, pick the field, make the MAYDAY call, brief the passengers, fly the 50c pattern down to the book, land — pausing the model at each stage and asking what the student would be doing at that exact point. Same device as the muted video, just driven by the student's own hands instead of someone else's footage.
+
+Start simple: one generous-height run so the sequence itself comes out clean before adding variation. Then do a few more from different simulated heights — higher (more time: a wider 50c pattern, more straights, more reassessment) and lower (less time: a tighter pattern, earlier decisions, less margin for indecision). The sequence doesn't change with height, only how much pattern there is room to fly — the same point the descent-profile diagram made earlier, now felt with their own hands rather than watched on a diagram.
 
 -->
 
