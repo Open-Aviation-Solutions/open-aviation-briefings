@@ -508,7 +508,7 @@ Draw the distinction with the immediate actions again if it hasn't landed: the t
 
 <youtube-video video-id="x3NTfiW17QA" start="127" class="right large"></youtube-video>
 
-Rather than re-watching, **walk it through**: a book on the floor is your threshold, a physical model aeroplane in your hand is the aircraft, and you fly the whole sequence yourself — failure, glide, checks, field, MAYDAY, the 50c pattern, all the way to touchdown.
+Rather than re-watching, **let's walk it through**: a book on the floor is our threshold, a physical model aeroplane in hand is the aircraft, and we fly the whole sequence ourselves — failure, glide, checks, field, MAYDAY, the 50c pattern, all the way to touchdown.
 
 - Pause at each point and **call out what needs to happen right now**
 - Start with one simple run at a generous height, then vary it
