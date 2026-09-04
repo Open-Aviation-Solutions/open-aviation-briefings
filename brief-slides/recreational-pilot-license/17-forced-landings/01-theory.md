@@ -132,7 +132,7 @@ Confirm the workbook was actually completed and clear up anything that didn't la
 
 # Recall — best glide speed (Lesson 3)
 
-<total-drag-curve height="330px" vs="43" cruise-kts="103"></total-drag-curve>
+<total-drag-curve class="right large" height="330px" vs="43" cruise-kts="103"></total-drag-curve>
 
 Greatest gliding **distance** comes from the best lift/drag ratio — the bottom of the drag curve, marked $V_{MD}$ above, where parasite and induced drag are equal. Recall from Lesson 3 that sits **just below $V_Y$**, well *above* $V_X$ — so best glide is neither "as slow as possible" nor the best-angle climb speed.
 
