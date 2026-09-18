@@ -151,6 +151,34 @@ Leave a blank line above and below the tag so it's parsed as a block rather than
 wrapped in a paragraph. (markdown-it doesn't treat `video`/`audio` as block-level
 by default; the `customElementBlock` plugin in `marp.config.js` adds them.)
 
+## Write each paragraph on a single line
+
+The presentation framework renders **every source newline as a hard line break**. A paragraph
+wrapped across several source lines therefore breaks at those points on the slide, regardless
+of how wide the rendered column is — usually mid-sentence, well short of the right margin.
+This bites hardest in the portrait theme, whose column is much narrower than a typical
+80–100 character source wrap.
+
+So write each paragraph, list item, quoted line and presenter note as one long source line,
+and let it wrap to the column:
+
+```markdown
+<!-- wrong: breaks after "every" on the slide -->
+**Aviate, Navigate, Communicate** — in that order, every
+time.
+
+<!-- right -->
+**Aviate, Navigate, Communicate** — in that order, every time.
+```
+
+Blank lines still separate blocks as usual, and tables, HTML elements and custom-component
+tags are unaffected — only wrapping *within* a paragraph matters. To check a deck, count the
+line breaks in its build output; a well-formed deck has none:
+
+```bash
+grep -o '<br */\?>' public/brief-slides/<course>/<lesson>/<deck>.html | wc -l
+```
+
 ## Presenter notes
 
 HTML comments within a slide become presenter notes, visible in `npm run marp:serve`:
