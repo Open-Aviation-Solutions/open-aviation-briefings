@@ -248,10 +248,10 @@ hazards.
   show-help="false"
 >
   <circuit-path
-    label="1 · First pass — 200 ft"
+    label="1 · Join and first pass — 200 ft"
     color="#3b82f6cc"
-    points="0,50,61; 700,50,61; 2000,50,152; 2000,-1000,152; -1500,-1000,152; -1500,50,90; 0,50,61"
-    segment-labels="0:Low pass ~200 ft — offset right, check surface and drift; 1:Climb away to ~500 ft; 3:Circuit — keep the field in sight; 4:Base, descending; 5:Position for the next pass"
+    points="250,1800,213; 250,0,152; 2000,-1000,152; -1500,-1000,152; -1500,50,90; 0,50,61; 700,50,90"
+    segment-labels="0:Long mid-field crossing — descend 700 ft to 500 ft, dead side; 1:Join downwind, 500 ft — keep the field in sight; 3:Base, descending; 4:Low pass ~200 ft — offset right, check surface and drift; 5:Climb away to ~500 ft"
   ></circuit-path>
   <circuit-path
     label="2 · Second pass — 50-100 ft"
@@ -272,8 +272,9 @@ Before you fly any of this, you've already selected the field against your Lesso
 Toggle each pass above in the legend, or fly it with its play button, to confirm your
 choice from the air:
 
-1. **First pass — 200 ft**, slightly to the right of the intended landing path — check
-   the surface, note drift, and look for obstacles in the overshoot area
+1. **Join** on a long mid-field crossing, descending from 700 ft to 500 ft on the dead
+   side, then **first pass — 200 ft** slightly to the right of the intended landing path
+   — check the surface, note drift, and look for obstacles in the overshoot area
 2. **Second pass — 50–100 ft**, again to the right, for a closer re-check
 3. Repeat if you're not satisfied — then either fly the **short-field landing**, or go
    around and choose another field
