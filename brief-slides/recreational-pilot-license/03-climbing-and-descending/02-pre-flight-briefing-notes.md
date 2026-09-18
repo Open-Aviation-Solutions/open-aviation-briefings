@@ -96,7 +96,7 @@ I'M SAFE and PAVE are standing checks before **every** flight — by now the stu
 
 **Draw / Ask the weather** — pull up today's **Terminal Area Forecast (TAF)** for your nearest forecast aerodrome and read it together:
 
-- The Bureau of Meteorology publishes TAFs ([BOM Aerodrome Forecasts](https://www.bom.gov.au/aviation/forecasts/taf/)), but pilots access them through the official [AirServices NAIPS](https://www.airservicesaustralia.com/naips/Account/Logon) site.
+- The Bureau of Meteorology publishes TAFs ([BOM Aerodrome Forecasts](https://www.bom.gov.au/aviation/forecasts/taf/)), but pilots access them through the official [Airservices NAIPS](https://www.airservicesaustralia.com/naips/Account/Logon) site.
 - The BOM has a good [PDF explanation of all the terms](https://www.bom.gov.au/aviation/data/education/awp-taf.pdf).
 - Start familiarising with the codes and terms used — is the forecast within your personal limits for today?
 
