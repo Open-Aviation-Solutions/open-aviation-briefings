@@ -251,14 +251,14 @@ hazards.
   <circuit-path
     label="1 · Join and first pass — 200 ft"
     color="#3b82f6cc"
-    points="250,1800,213; 250,0,152; 250,-1000,152; -3000,-1000,152; -3000,100,152; -200,100,61; 500,100,61; 2000,100,152; 2000,-1000,152; 250,-1000,152"
-    segment-labels="0:Long mid-field crossing — descend 700 ft to 500 ft, dead side; 1:Turn left, join downwind at the midpoint, 500 ft; 2:Extend downwind — room on final to reach inspection height before the threshold; 3:Base, level at 500 ft; 4:Final — descend to reach ~200 ft before the threshold; 5:Low pass ~200 ft — offset right; count seconds threshold to threshold for length, check surface and drift; 6:Climb away after the far threshold, straight ahead to ~500 ft; 7:Turn, established downwind; 8:Downwind — back to the midpoint for the next pass"
+    points="250,1800,213; 250,0,152; 250,-1000,152; -3000,-1000,152; -3000,100,152; -800,100,61; 500,100,61; 900,100,61; 2500,100,152; 2500,-1000,152; 250,-1000,152"
+    segment-labels="0:Long mid-field crossing — descend 700 ft to 500 ft, dead side; 1:Turn left, join downwind at the midpoint, 500 ft; 2:Extend downwind — room on final to reach inspection height before the threshold; 3:Base, level at 500 ft; 4:Final — descend to reach ~200 ft well before the threshold; 5:Low pass ~200 ft — offset right; count seconds threshold to threshold for length, check surface and drift; 6:Continue level past the far threshold; 7:Climb away, straight ahead to ~500 ft; 8:Turn, established downwind; 9:Downwind — back to the midpoint for the next pass"
   ></circuit-path>
   <circuit-path
     label="2 · Second pass — 50-100 ft"
     color="#f59e0bcc"
-    points="250,-1000,152; -3000,-1000,152; -3000,100,152; -200,100,23; 500,100,23; 2000,100,152; 2000,-1000,152; 250,-1000,152"
-    segment-labels="0:Extend downwind — room on final to reach inspection height before the threshold; 1:Base, level at 500 ft; 2:Final — descend to reach ~50-100 ft before the threshold; 3:Second (dummy) pass ~50-100 ft — offset right; re-check surface, obstacles, overshoot; 4:Climb away after the far threshold, straight ahead to ~500 ft; 5:Turn, established downwind; 6:Downwind — decide: land, or go around again"
+    points="250,-1000,152; -3000,-1000,152; -3000,100,152; -800,100,23; 500,100,23; 900,100,23; 2500,100,152; 2500,-1000,152; 250,-1000,152"
+    segment-labels="0:Extend downwind — room on final to reach inspection height before the threshold; 1:Base, level at 500 ft; 2:Final — descend to reach ~50-100 ft well before the threshold; 3:Second (dummy) pass ~50-100 ft — offset right; re-check surface, obstacles, overshoot; 4:Continue level past the far threshold; 5:Climb away, straight ahead to ~500 ft; 6:Turn, established downwind; 7:Downwind — decide: land, or go around again"
   ></circuit-path>
   <circuit-path
     label="3 · Short-field approach and landing"
