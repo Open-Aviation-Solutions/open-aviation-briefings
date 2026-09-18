@@ -250,20 +250,20 @@ hazards.
   <circuit-path
     label="1 · Join and first pass — 200 ft"
     color="#3b82f6cc"
-    points="250,1800,213; 250,0,152; 2000,-1000,152; -1500,-1000,152; -1500,50,90; 0,50,61; 700,50,90"
-    segment-labels="0:Long mid-field crossing — descend 700 ft to 500 ft, dead side; 1:Join downwind, 500 ft — keep the field in sight; 3:Base, descending; 4:Low pass ~200 ft — offset right, check surface and drift; 5:Climb away to ~500 ft"
+    points="250,1800,213; 250,0,152; 250,-1000,152; -1500,-1000,152; -1500,100,90; 0,100,61; 700,100,90; 2000,-1000,152; 250,-1000,152"
+    segment-labels="0:Long mid-field crossing — descend 700 ft to 500 ft, dead side; 1:Turn left, join downwind at the midpoint, 500 ft; 2:Continue downwind to the base turn; 3:Base, descending; 4:Low pass ~200 ft — offset right, check surface and drift; 5:Climb away to ~500 ft; 6:Crosswind, then established downwind; 7:Downwind — back to the midpoint for the next pass"
   ></circuit-path>
   <circuit-path
     label="2 · Second pass — 50-100 ft"
     color="#f59e0bcc"
-    points="0,50,23; 700,50,23; 2000,50,152; 2000,-1000,152; -1500,-1000,152; -1500,50,90; 0,50,23"
-    segment-labels="0:Dummy approach ~50-100 ft — re-check surface, obstacles, overshoot; 1:Climb away; 3:Circuit; 4:Base, descending; 5:Decide — land, or go around again"
+    points="250,-1000,152; -1500,-1000,152; -1500,100,45; 0,100,23; 700,100,90; 2000,-1000,152; 250,-1000,152"
+    segment-labels="0:Continue downwind to the base turn; 1:Base, descending; 2:Second (dummy) pass ~50-100 ft — re-check surface, obstacles, overshoot; 3:Climb away; 4:Crosswind, then established downwind; 5:Downwind — decide: land, or go around again"
   ></circuit-path>
   <circuit-path
     label="3 · Short-field approach and landing"
     color="#22c55ecc"
-    points="-1500,-1000,152; -1500,50,90; -600,20,30; -200,5,8; 0,0,1; 200,0,1; 400,0,1"
-    segment-labels="0:Base, descending; 1:Final — short-field profile, full flap; 3:Threshold at minimum recommended speed; 4:Touchdown; 5:Maximum braking — short ground roll"
+    points="250,-1000,152; -1500,-1000,152; -1500,50,90; -600,20,30; -200,5,8; 0,0,1; 200,0,1; 400,0,1"
+    segment-labels="0:Continue downwind to the base turn; 1:Base, descending; 2:Final — short-field profile, full flap; 4:Threshold at minimum recommended speed; 5:Touchdown; 6:Maximum braking — short ground roll"
   ></circuit-path>
 </circuit-diagram>
 
