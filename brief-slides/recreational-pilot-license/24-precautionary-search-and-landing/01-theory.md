@@ -245,6 +245,8 @@ hazards.
   runway-length="500"
   vertical-exaggeration="4"
   show-help="false"
+  wind-from="150"
+  wind-speed="15"
 >
   <circuit-path
     label="1 · Join and first pass — 200 ft"
