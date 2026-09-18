@@ -111,7 +111,7 @@ By the end of this session, our aim is to be able to:
 - **Describe** the vital-actions sequence, including the PAN call and passenger brief
 - **Revise** the short-field landing technique from Lesson 22
 
-And then later in our actual flight: we'll fly the search, inspection and landing
+And then later in our actual flight: we'll fly the search, inspection and approach
 sequence for real, from varying positions and simulated conditions.
 
 ---
@@ -128,7 +128,7 @@ sequence for real, from varying positions and simulated conditions.
 
 Quick recall before we go on:
 
-- Name one circumstance (other than engine failure) that might force a precautionary
+- Name a few circumstances that might force a precautionary
   landing
 - Turning from downwind to into-wind, low over the ground — how does the aeroplane
   *appear* to behave?
@@ -154,16 +154,17 @@ power and time to fly a proper search rather than glide to a fixed point.
 
 Once you've decided, the sequence runs in order:
 
-1. **Decide** — early, while still in full control
+1. **Decide** — early, while still in full control, shift to being a "landing pilot"
 2. **Configure** — for a precautionary/poor-visibility cruise
-3. **Search** — fly the inspection pattern, keeping the field in sight
-4. **Select** — choose and inspect the field against your criteria
+3. **Select** — search the area and choose a field against your WOSSSSET criteria
+4. **Inspect** — fly the inspection pattern to confirm it, keeping the field in sight
 5. **Communicate** — the **PAN** call
 6. **Prepare** — brief the passengers
 7. **Land** — the short-field technique, then secure the aircraft
 
-- Picture today's training area and route. What's your trigger — the one sign that
-  would make you decide *now*, not "wait and see"?
+- Imagine you're on a genuine cross-country along today's planned route, not just
+  training close to the aerodrome. What's your trigger — the one sign that would make
+  you decide *now*, not "wait and see"?
 
 <!--
 
@@ -212,7 +213,8 @@ the flight.
 
 # Low-flying hazards
 
-Flying low and slow to search and inspect brings its own risks:
+Flying low and slow to search and inspect brings its own risks — recap your Lesson 17
+**WOSSSSET** field-selection criteria, then add the hazards it doesn't cover:
 
 - **Wires, poles and towers** — often invisible until close; scan the horizon, not just
   the ground
@@ -220,7 +222,8 @@ Flying low and slow to search and inspect brings its own risks:
   and buildings
 - **Livestock and people** — avoid frightening animals or overflying people at low
   height
-- **The turning illusion** from your workbook — trust the balance ball, not the picture
+- **Changing groundspeed in the turn** from your workbook — a genuine effect of wind
+  drift, not a fault with the aeroplane; fly the attitude, not the picture
 
 > Low flying earns its own dedicated lookout — the margin for a surprise is smaller down
 > here.
@@ -237,39 +240,48 @@ hazards.
 
 # Planning the search — the inspection pattern
 
-![right large A side-on and plan diagram of an aircraft flying an inspection pattern over a chosen field: a low pass at about 100 feet to the right of the intended landing path checking the surface and drift, a climb back to about 500 feet, a circuit keeping the field in sight, and a dummy approach again to the right of the landing path for a second check, before deciding to land or go around.](/brief-assets/recreational-pilot-license/24-precautionary-search-and-landing/inspection-pattern-profile.png)
+<circuit-diagram
+  height="550px"
+  runway="09"
+  runway-length="500"
+  vertical-exaggeration="4"
+  show-help="false"
+>
+  <circuit-path
+    label="1 · First pass — 200 ft"
+    color="#3b82f6cc"
+    points="0,50,61; 700,50,61; 2000,50,152; 2000,-1000,152; -1500,-1000,152; -1500,50,90; 0,50,61"
+    segment-labels="0:Low pass ~200 ft — offset right, check surface and drift; 1:Climb away to ~500 ft; 3:Circuit — keep the field in sight; 4:Base, descending; 5:Position for the next pass"
+  ></circuit-path>
+  <circuit-path
+    label="2 · Second pass — 50-100 ft"
+    color="#f59e0bcc"
+    points="0,50,23; 700,50,23; 2000,50,152; 2000,-1000,152; -1500,-1000,152; -1500,50,90; 0,50,23"
+    segment-labels="0:Dummy approach ~50-100 ft — re-check surface, obstacles, overshoot; 1:Climb away; 3:Circuit; 4:Base, descending; 5:Decide — land, or go around again"
+  ></circuit-path>
+  <circuit-path
+    label="3 · Short-field approach and landing"
+    color="#22c55ecc"
+    points="-1500,-1000,152; -1500,50,90; -600,20,30; -200,5,8; 0,0,1; 200,0,1; 400,0,1"
+    segment-labels="0:Base, descending; 1:Final — short-field profile, full flap; 3:Threshold at minimum recommended speed; 4:Touchdown; 5:Maximum braking — short ground roll"
+  ></circuit-path>
+</circuit-diagram>
 
-Beyond the Lesson 17 criteria (wind, size, surface, slope, obstacles, proximity to
-help), also assess the **approach and overshoot paths** — you need to fly *in*, and if
-it's not right, fly back *out*:
+Before you fly any of this, you've already selected the field against your Lesson 17
+**WOSSSSET** criteria — including **Shoots**, the clear approach and overshoot paths.
+Toggle each pass above in the legend, or fly it with its play button, to confirm your
+choice from the air:
 
-1. Fly a **low pass at about 100 ft**, slightly to the right of the intended landing
-   path — check the surface, note drift, and look for obstacles in the overshoot area
-2. **Climb back to about 500 ft**, keeping the field in sight
-3. Fly a **circuit**, then a **dummy approach**, again to the right, for a second check
-4. Repeat if you're not satisfied — then either fly the **short-field landing**, or go
+1. **First pass — 200 ft**, slightly to the right of the intended landing path — check
+   the surface, note drift, and look for obstacles in the overshoot area
+2. **Second pass — 50–100 ft**, again to the right, for a closer re-check
+3. Repeat if you're not satisfied — then either fly the **short-field landing**, or go
    around and choose another field
 
 > Unlike a forced landing, you have power and time — keep the field in sight and use
 > both to inspect properly before you commit.
 
 <!--
-
-TODO image — generate and save as inspection-pattern-profile.png in this lesson's
-brief-assets dir.
-IMAGE PROMPT (for an image generator):
-A clean, flat-style instructional aviation diagram combining a plan (top-down) view with
-a small side-on profile inset, on a light background. Plan view: a rectangular field
-with an arrow showing the into-wind landing direction; a coloured flight path shows the
-aeroplane flying a low pass at approximately 100 feet slightly to the right of the
-intended landing path (labelled "1. Low pass ~100 ft — check surface, drift,
-obstacles"), climbing away and turning through a circuit back around to a second pass
-over the same offset line, labelled "2. Climb to ~500 ft, circuit" and "3. Dummy
-approach ~100 ft — re-check". Small aeroplane silhouettes mark the position at each
-labelled step. A small compass rose shows wind direction. Restrained blue-and-grey
-palette; simple labelled lines and arrows; minimal text, all text verbatim as given
-above; no photorealism; landscape orientation with generous margins so it reads at slide
-size.
 
 FIM Ch 15 background (structure only, not reproduced): descend to about 500 ft, simulate
 poor weather, choose a strip, fly over slightly to the right of the intended landing
@@ -279,6 +291,10 @@ again to the right for a re-check, repeat, then short-field landing or go-around
 A6.4(i): select landing area, carry out an inspection and assess its suitability —
 unobstructed approach and overshoot paths, landing area length adequate for landing,
 surface suitable for aeroplane type and clear of hazards.
+
+The pass heights above (200 ft, then 50–100 ft) and the ground track are illustrative —
+sanity-check the geometry against this widget's rendered output, and against your own
+aircraft and training area, before using this live.
 
 -->
 
@@ -329,27 +345,34 @@ land and secure aircraft and manage passengers.
 
 ---
 
-# Summary
+# Recap activity — walk the whole sequence
 
-| Topic | Key point |
-|-------|-----------|
-| Deciding early | |
-| Configuring for the search | |
-| The inspection pattern | |
-| Communicate, prepare, land | |
+**Run this as a talk-through** — the 3D model on a desk as the field, or the student
+walking the pattern themselves while narrating:
 
----
+- **Decide** — hand over a scenario card (weather, fuel, or position trigger); the
+  student calls out their sign to decide *now*
+- **Configure** — slow to a safe search speed, some flap
+- **Select** — apply the WOSSSSET criteria to choose a field
+- **Inspect** — fly (or walk) the inspection pattern — low pass, climb, circuit, dummy
+  approach — including **measuring the field's length** as they go
+- **Communicate** — make the PAN call
+- **Prepare** — brief the passengers
+- **Land** — short-field technique, then secure the aircraft
 
-# Summary
+> Every step should get a spoken answer. If the student skips one, that's the one to
+> dig into.
 
-| Topic | Key point |
-|-------|-----------|
-| Deciding early | Decide while still in full control — don't wait for conditions to force your hand |
-| Configuring for the search | Slow, safe cruise with some flap — enough margin to manoeuvre and look |
-| The inspection pattern | Apply your Lesson 17 criteria, plus unobstructed approach/overshoot and adequate length; a low pass and a dummy approach before committing |
-| Communicate, prepare, land | PAN call made early; passenger brief as height allows; short-field technique from Lesson 22, then secure the aircraft |
+<!--
 
-<!-- TODO: consider a lesson-specific creative recap activity here — e.g. give the student a scenario card (weather, fuel, position) and have them talk through the decision and the sequence out loud, rather than only the table/recall form above. -->
+Replaces the two static summary-table slides with a hands-on recap that exercises the
+whole sequence, not just recall: the decision to conduct a precautionary search and
+landing, configuring the aeroplane, applying the field-selection criteria, flying the
+inspection pattern (including measuring the field length), the PAN call, the passenger
+brief, the short-field landing, and securing the aircraft. Use a desk-scale 3D model if
+you have one, or have the student walk the pattern as "the aeroplane" while narrating.
+
+-->
 
 ---
 

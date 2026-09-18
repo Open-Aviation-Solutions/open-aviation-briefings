@@ -98,10 +98,8 @@ allow it; otherwise assess it on departure from the home aerodrome instead.
   weather" (or "Simulated low fuel") — "Simulated precautionary landing"
 - **Decide** — narrate the decision out loud, tied to the simulated trigger
 - **Configure** — slow, safe cruise, some flap, appropriate height
-- **Search** — fly toward the chosen area, narrating the criteria out loud
-- **Select** — choose the field; point out approach/overshoot paths, length, surface
-- **Inspect** — low pass at ~100 ft to the right of the landing path, climb to ~500 ft,
-  circuit, dummy approach to the right, re-check
+- **Select** — search the area and choose the field, narrating the WOSSSSET criteria out loud — approach/overshoot paths, length, surface
+- **Inspect** — first pass at ~200 ft to the right of the landing path, climb to ~500 ft, circuit, second (dummy) pass at ~50–100 ft to the right, re-check
 - **Communicate** — simulate the PAN call (do not transmit unless genuinely required)
 - **Prepare** — narrate the passenger brief as height allows
 - Fly the short-field landing, or go around no lower than the briefed minimum height
@@ -121,8 +119,8 @@ the landing — insist on both the low pass and the dummy approach before commit
 ## Sequence
 - Repeat from varying positions relative to the training area/approved fields, and with
   both simulated triggers (weather, low fuel)
-- Student flies the full vital-actions sequence from memory: decide, configure, search,
-  select, communicate, prepare, land
+- Student flies the full vital-actions sequence from memory: decide, configure, select,
+  inspect, communicate, prepare, land
 - Prompt only if a step is missed or out of order — let the sequence run uninterrupted
   otherwise
 - Debrief briefly after each repetition: what worked, what would you do differently?

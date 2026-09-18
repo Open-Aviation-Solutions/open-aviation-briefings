@@ -23,7 +23,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 # My whiteboard and running order
 
-Before the lesson, read the sections that follow, then come back here: note *your* running order and approximate timings, and sketch the whiteboard you'll draw — the inspection pattern, the field-selection criteria, and the vital-actions sequence. `TODO: (instructor) check the NZ CAA Flight Instructor Guide whiteboards page (https://www.aviation.govt.nz/licensing-and-certification/pilots/flight-training/flight-instructor-guide/flight-instructor-guide-downloads/) for a precautionary-landing whiteboard to link here for inspiration — the automated lookup didn't return one.`
+Before the lesson, read the sections that follow, then come back here: note *your* running order and approximate timings, and sketch the whiteboard you'll draw — the inspection pattern, the field-selection criteria, and the vital-actions sequence. For inspiration, see the NZ CAA Flight Instructor Guide's own [Precautionary Landing whiteboard](https://www.aviation.govt.nz/assets/licensing-and-certification/flight-instructor-guide/whiteboards/fig-whiteboard-am-pl.pdf).
 
 <div class="sketch-area"></div>
 
@@ -51,10 +51,8 @@ The theory session is done and the student knows today involves practising a sim
 
 **Expect** — in the student's own words:
 
-- practise **deciding early**, configuring the aeroplane, and flying the **inspection
-  pattern** over a simulated precautionary-landing field
-- select and inspect a suitable field, applying the criteria from Lesson 17 plus today's
-  additions
+- practise **deciding early**, configuring the aeroplane, and flying the **inspection pattern** over a simulated precautionary-landing field
+- select and inspect a suitable field, applying the criteria from Lesson 17 plus today's additions
 - make the **PAN** call and brief the passengers
 - fly a **short-field landing**, revising Lesson 22
 
@@ -64,40 +62,31 @@ Write the aim on the board — everything else hangs off *decide, search, select
 
 # Today's flight — whiteboard walk-through
 
-**Draw** — the flight as a path across the board: taxi → take-off → climb → training area
-→ exercises → return. Fill in your local details:
+**Draw** — the flight as a path across the board: taxi → take-off → climb → training area → exercises → return. Fill in your local details:
 
 - Runway: ______ &nbsp;&nbsp; Circuit direction: ______
 - Training area: ______ &nbsp;&nbsp; Approved practice fields: ______
 - Safe height — recovery **complete by** ______ ft AGL (per your operator's minimum)
-- Who taxis / handles the first simulated scenario: ______ (you demonstrate the first
-  one, then hand over)
+- Who handles the first simulated scenario: ______ (you demonstrate the first one, then hand over)
 
 **Draw** — the exercise sequence as a ladder:
 
-1. **Simulated deteriorating conditions** (weather or low fuel) declared in the training
-   area
-2. Decide → configure → search → select and inspect the field (low pass, climb, circuit,
-   dummy approach)
-3. **Short-field landing** at the approved practice field, or go-around (per your
-   operator's minimum height)
+1. **Simulated deteriorating conditions** (weather or low fuel) declared in the training area
+2. Decide → configure → select → inspect the field (low pass, climb, circuit, dummy approach)
+3. **Short-field landing** at the approved practice field, or go-around (per your operator's minimum height)
 4. Repeat from varying positions
 5. Revise **short-field take-off** on departure from the practice field (if used)
 6. Return to the aerodrome and land
 
 **Ask** — "Who's flying each part?"
 
-**Expect** — the student flies the sequence; you fly and narrate the first one, then hand
-over. Confirm the minimum height for solo/dual practice per your operator's procedures —
-this is **never** flown to an actual touchdown outside an approved area or aerodrome
-unless a genuine short-field landing there is part of your operator's procedures.
+**Expect** — the student flies the sequence; you fly and narrate the first one, then hand over. Confirm the minimum height for solo/dual practice per your operator's procedures — this is **never** flown to an actual touchdown outside an approved area or aerodrome unless a genuine short-field landing there is part of your operator's procedures.
 
 ---
 
 # Threats and how we'll manage them
 
-I'M SAFE and PAVE are standing checks before **every** flight — by now the student runs
-them, rather than being taught them.
+I'M SAFE and PAVE are standing checks before **every** flight — by now the student runs them, rather than being taught them.
 
 **Ask** — "Run me through your I'M SAFE — any flags today?"
 
@@ -105,9 +94,7 @@ them, rather than being taught them.
 
 **Ask** — "Apply PAVE to today's flight — what stands out?"
 
-**Expect** — Pilot, Aircraft, enVironment, External. Listen for the **enVironment**
-angle — suitable fields, cloud base, wind, and other traffic all bound where and how we
-practise today.
+**Expect** — Pilot, Aircraft, enVironment, External. Listen for the **enVironment** angle — suitable fields, cloud base, wind, and other traffic all bound where and how we practise today.
 
 **Draw** — the genuine threats you and the student identify for *this* flight:
 
@@ -119,34 +106,23 @@ practise today.
 
 - **Transfer** · **Eliminate** · **Accept** · **Mitigate**
 
-Likely ones to surface: **low-flying hazards** (mitigate — dedicated lookout, avoid
-livestock/people); **misjudging the field** (mitigate — the inspection pattern exists to
-catch this); **carrying the exercise too low** (eliminate — agree and stick to the
-minimum height for go-around).
+Likely ones to surface: **low-flying hazards** (mitigate — dedicated lookout, avoid livestock/people); **misjudging the field** (mitigate — the inspection pattern exists to catch this); **carrying the exercise too low** (eliminate — agree and stick to the minimum height for go-around).
 
 ---
 
 # Airmanship emphasis — deciding early
 
-The judgement call in this lesson is *when* to decide, not *how* to react to something
-unmistakable — that's what makes it different from Lesson 17.
+The judgement call in this lesson is *when* to decide, not *how* to react to something unmistakable — that's what makes it different from Lesson 17.
 
-**Ask** — "What's the one sign, today, that would make you decide *now* rather than
-wait and see?"
+**Ask** — "What's the one sign, today, that would make you decide *now* rather than wait and see?"
 
-**Expect** — a concrete answer tied to today's actual weather, fuel, or route — not a
-generic one.
+**Expect** — a concrete answer tied to today's actual weather, fuel, or route — not a generic one.
 
-**Normalise the surprise** — tell the student plainly: the simulated scenario will be
-declared without warning, and the instinct will be to want "just a bit more time" to be
-sure. **That's normal — and it's exactly the instinct this lesson trains you to
-override.** Add: *if at any point you're uncomfortable, say so — we'll pause, talk, and
-try again.*
+**Normalise the surprise** — tell the student plainly: the simulated scenario will be declared without warning, and the instinct will be to want "just a bit more time" to be sure. **That's normal — and it's exactly the instinct this lesson trains you to override.** Add: *if at any point you're uncomfortable, say so — we'll pause, talk, and try again.*
 
 **Ask** — "Talk me through the inspection pattern from memory."
 
-**Expect** — low pass ~100 ft to the right of the landing path, climb to ~500 ft,
-circuit, dummy approach, decide.
+**Expect** — first pass ~200 ft to the right of the landing path, climb to ~500 ft, circuit, second (dummy) pass ~50–100 ft, decide.
 
 ---
 
@@ -161,4 +137,4 @@ Quick recap as you pack up the whiteboard:
 - **PAN early**, upgrade to MAYDAY if things get worse
 - Keep the field **in sight** throughout
 
-Confirm who handles the taxi, and go flying.
+Go flying.

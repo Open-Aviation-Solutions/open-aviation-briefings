@@ -34,7 +34,7 @@ Most precautionary landings have nothing to do with the engine — the aeroplane
 
 **Read (pick one — real ATSB occurrence briefs):**
 - [Weather-related precautionary landing — Cessna 182, near Port Augusta, SA, 25 May 2026](https://www.atsb.gov.au/occurrence-briefs/ab-2026-031) — a recent, real example: visibility deteriorating and light fading, the pilot landed on a road nearby with no injury or damage.
-- [Precautionary landing — Piper PA-28, near Yass, NSW, 11 September 2018](https://www.atsb.gov.au/publications/occurrence-briefs/2018/aviation/ab-2018-112) — the same aircraft family as our own training type.
+- [Precautionary landing — Piper PA-28, near Yass, NSW, 11 September 2018](https://www.atsb.gov.au/publications/occurrence-briefs/2018/aviation/ab-2018-112) — a different trigger: an engine-indication fault made the pilot suspect a power loss, so they diverted early and landed safely at a nearby aerodrome. An engineering inspection afterwards found no defect at all.
 
 **Answer:**
 
@@ -48,10 +48,10 @@ Most precautionary landings have nothing to do with the engine — the aeroplane
 
 # 2. Turning illusions when flying low
 
-Flying low over the ground — as you will be during the search and inspection — the picture outside can trick you. Turning from downwind to into-wind, or the other way round, changes how fast the ground seems to slide past, and that changing picture can fool you into thinking the aeroplane is out of balance when it isn't.
+Flying low over the ground — as you will be during the search and inspection — wind drift can trick you. Turning from a downwind heading onto an into-wind heading (or the other way round), your groundspeed genuinely changes — fastest downwind, slowest into wind. Low over the ground, that changing picture below can fool you into misjudging your bank angle, tempting you to roll out early or steepen the turn when nothing is actually wrong.
 
 **Read:**
-- FAA [Airplane Flying Handbook, Chapter 7 (Ground Reference Maneuvers)](https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/08_afh_ch7.pdf) — covers the illusions created by drift during low-level flying, including the turning illusion described above.
+- FAA [Airplane Flying Handbook, Chapter 7 (Ground Reference Maneuvers)](https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/08_afh_ch7.pdf) — explains why groundspeed changes with your heading relative to the wind, and why the bank angle needed to hold a constant turn radius over the ground changes with it: steeper downwind, shallower into wind.
 
 **Answer:**
 
@@ -59,7 +59,7 @@ Flying low over the ground — as you will be during the search and inspection �
 
 2. Turning the other way — into-wind onto downwind — how does it *appear* to behave? ________________________________
 
-3. If you feel like the aeroplane is out of balance during one of these turns, what instrument should you check before touching the rudder? ________________________________
+3. Why is it a mistake to change your bank angle to match what the ground picture is telling you, rather than your attitude reference? ________________________________
 
 ---
 
@@ -67,15 +67,16 @@ Flying low over the ground — as you will be during the search and inspection �
 
 Once you suspect a precautionary landing might be needed, knowing exactly how much flying time you have left becomes critical. A fuel log tracks what you've used against what you planned; **best endurance** configuration stretches your remaining fuel into the most time in the air — buying you time to find and inspect a field properly.
 
-**Read (pick one or both):**
-- [AOPA — In-Flight Fuel Management](https://www.aopa.org/training-and-safety/online-learning/safety-spotlights/fuel-management/in-flight-fuel-management) — covers recalculating range and endurance in flight and adjusting for the unexpected.
-- [AskACFI — Estimating Endurance](https://www.askacfi.com/28166/estimating-endurance.htm) — an instructor Q&A on estimating fuel burn and endurance from your aircraft's own performance charts, rather than a single rule-of-thumb figure.
+**Read (the AOPA article, plus at least one ATSB report below):**
+- [AOPA — In-Flight Fuel Management](https://www.aopa.org/training-and-safety/online-learning/safety-spotlights/fuel-management/in-flight-fuel-management) — covers recalculating range and endurance in flight and adjusting for the unexpected. The case-study video at the end of the article is hard to watch and listen to but incredibly valuable to learn from - in particular, to get over our pride and call an emergency when you're low on fuel rather than waiting. Sadly, the pilot could have landed at a restricted airfield if they'd declared an emergency.
+- [ATSB investigation AO-2026-076 — fuel starvation, Piper PA-32R-301, Bacchus Marsh, VIC, 1 May 2026](https://www.atsb.gov.au/investigations/ao-2026-076) — a planned fuel-tank change was missed; when the engine began running rough the pilot switched tanks but didn't complete the emergency checklist, shut the engine down, and made a safe forced landing nearby with no injuries.
+- ATSB [Avoidable Accidents No. 5 — Starved and Exhausted: Fuel Management Aviation Accidents](https://www.atsb.gov.au/publications/avoidable-accidents/2013/aviation/avoidable-accidents-no-5-starved-and-exhausted-fuel) — the difference between fuel *starvation* (fuel on board, but not reaching the engine) and fuel *exhaustion* (no usable fuel left), and the procedures that prevent both.
 
 **Answer:**
 
 1. What's the difference between flying for **best range** and flying for **best endurance**? ________________________________
 
-2. If you have 30 minutes of fuel remaining and your current consumption is 30 L/hr, how many litres do you have left? ________________________________
+2. Your last fuel check showed 60 minutes of usable fuel remaining, and you need to divert 30° off track to avoid a cloud build-up — 5 minutes off track, then 5 minutes back onto track. How many minutes of fuel will you have once you're back on track? ________________________________
 
 3. Why might you choose best-endurance configuration over best-range configuration once you've decided a precautionary landing is likely? ________________________________
 
@@ -83,7 +84,7 @@ Once you suspect a precautionary landing might be needed, knowing exactly how mu
 
 # 4. Pre-flight documents — MEL, NOTAM, RAIM, ERSA, AIP
 
-Before every flight you check a handful of documents that tell you what's serviceable, what's changed, and what rules apply along your route. Knowing what each one covers means you actually use them, rather than just ticking a box.
+Before every flight you check a handful of documents that tell you what's serviceable, what's changed, and what rules apply along your route. Knowing what each one covers means you actually use them, rather than just ticking a box: the **Minimum Equipment List (MEL)** lists what can legally be unserviceable and still fly; a **NOTAM** (Notice to Airmen) flags something that's changed since the charts were printed; **RAIM** (Receiver Autonomous Integrity Monitoring) is a prediction of whether your GNSS (satellite/GPS) receiver will be able to confirm its own accuracy along your route.
 
 **Read:**
 - [Flight Safety Australia — NOTAMs: decoding the details](https://www.flightsafetyaustralia.com/2026/04/notams-decoding-the-details/) — CASA's own safety magazine on how to actually read a NOTAM, not just skim past it.
@@ -94,7 +95,7 @@ The MEL, GNSS RAIM prediction, ERSA and AIP are specific to your aircraft and yo
 
 1. What does the MEL tell you, and when would you need to check it? ________________________________
 
-2. What is a NOTAM, and why might one affect today's flight even if the aircraft and weather are fine? ________________________________
+2. What is a NOTAM? Even if the aircraft and weather are fine, list three examples of the kind of NOTAM that could still affect today's flight: ________________________________
 
 3. If you plan to rely on GNSS (GPS) navigation, what should you check before you fly, and why? ________________________________
 
@@ -107,7 +108,8 @@ The MEL, GNSS RAIM prediction, ERSA and AIP are specific to your aircraft and yo
 You already know the MAYDAY call from Lesson 17 — for a real emergency. A precautionary landing usually isn't that: the aeroplane is still flying normally, but you need help or you want ATC and other traffic aware of your situation. That's what the PAN call is for.
 
 **Read:**
-- [Pilot Teacher — What is a Pan-Pan Emergency? A Pilot Explains](https://pilotteacher.com/what-is-a-pan-pan-emergency-a-pilot-explains/) — explains the PAN call format and how it differs from a MAYDAY distress call.
+- [Airservices Australia — In-flight emergencies](https://www.airservicesaustralia.com/about-us/our-services/how-air-traffic-control-works/in-flight-emergencies/) — explains the difference between a PAN call and a MAYDAY call. Then look up the same distinction, and the actual PAN message structure, in your AIP GEN 3.4.
+- [YouTube — a real PAN emergency call, handled well](https://www.youtube.com/watch?v=LGb1NaIH2mg)
 
 **Answer:**
 

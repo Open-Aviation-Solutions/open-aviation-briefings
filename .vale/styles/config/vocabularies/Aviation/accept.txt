@@ -66,6 +66,7 @@ Wikimedia
 SKYbrary
 Veritasium
 Checkride
+Airservices
 
 # Foreign words appearing in attributions
 Deutsches
