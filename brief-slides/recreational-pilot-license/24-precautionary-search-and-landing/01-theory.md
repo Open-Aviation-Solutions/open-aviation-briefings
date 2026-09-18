@@ -250,14 +250,14 @@ hazards.
   <circuit-path
     label="1 · Join and first pass — 200 ft"
     color="#3b82f6cc"
-    points="250,1800,213; 250,0,152; 250,-1000,152; -1500,-1000,152; -1500,100,90; 0,100,61; 700,100,90; 2000,-1000,152; 250,-1000,152"
-    segment-labels="0:Long mid-field crossing — descend 700 ft to 500 ft, dead side; 1:Turn left, join downwind at the midpoint, 500 ft; 2:Continue downwind to the base turn; 3:Base, descending; 4:Low pass ~200 ft — offset right, check surface and drift; 5:Climb away to ~500 ft; 6:Crosswind, then established downwind; 7:Downwind — back to the midpoint for the next pass"
+    points="250,1800,213; 250,0,152; 250,-1000,152; -1500,-1000,152; -1500,100,90; 0,100,61; 2000,100,152; 2000,-1000,152; 250,-1000,152"
+    segment-labels="0:Long mid-field crossing — descend 700 ft to 500 ft, dead side; 1:Turn left, join downwind at the midpoint, 500 ft; 2:Continue downwind to the base turn; 3:Base, descending; 4:Low pass ~200 ft — offset right, check surface and drift; 5:Climb away, straight ahead to ~500 ft; 6:Turn, established downwind; 7:Downwind — back to the midpoint for the next pass"
   ></circuit-path>
   <circuit-path
     label="2 · Second pass — 50-100 ft"
     color="#f59e0bcc"
-    points="250,-1000,152; -1500,-1000,152; -1500,100,45; 0,100,23; 700,100,90; 2000,-1000,152; 250,-1000,152"
-    segment-labels="0:Continue downwind to the base turn; 1:Base, descending; 2:Second (dummy) pass ~50-100 ft — re-check surface, obstacles, overshoot; 3:Climb away; 4:Crosswind, then established downwind; 5:Downwind — decide: land, or go around again"
+    points="250,-1000,152; -1500,-1000,152; -1500,100,45; 0,100,23; 2000,100,152; 2000,-1000,152; 250,-1000,152"
+    segment-labels="0:Continue downwind to the base turn; 1:Base, descending; 2:Second (dummy) pass ~50-100 ft — re-check surface, obstacles, overshoot; 3:Climb away, straight ahead to ~500 ft; 4:Turn, established downwind; 5:Downwind — decide: land, or go around again"
   ></circuit-path>
   <circuit-path
     label="3 · Short-field approach and landing"
