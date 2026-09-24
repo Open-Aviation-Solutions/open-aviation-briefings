@@ -45,6 +45,7 @@ mitigations?
 POHs?
 subscale
 TAFs?
+FREDA
 (?i)underbank(ing)?
 (?i)unstabilised
 unstalls?
@@ -57,6 +58,7 @@ PA28
 # Organisation abbreviations
 ATSB
 DLR
+Geoscience
 Wikimedia
 
 # External resources / brand names cited in slides
