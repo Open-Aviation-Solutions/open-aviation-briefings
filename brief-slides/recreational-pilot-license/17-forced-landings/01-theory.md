@@ -16,7 +16,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 <!--
 
-This lesson trains the response to an engine failure away from the aerodrome: recognising it, flying the immediate/vital actions, choosing and reaching a field, and completing the approach — plus the radio call, passenger brief and shutdown that fit around that core sequence.
+This lesson trains the response to an engine failure away from the aerodrome: recognising it, flying the immediate/vital actions, choosing and reaching a field, and completing the approach — plus the radio call, passenger brief and shutdown that fit around that core sequence, and an introduction to the engine fire in flight, which ends in the same forced landing.
 
 Confirm the pre-lesson workbook is done before starting — it covers the background/factual material (causes of failure, reading wind from the air, field-selection criteria, the MAYDAY call, detailed trouble checks, passenger briefing and shutdown). This session builds on that rather than re-teaching it from scratch, and spends the live time on the sequence, the flying, and the judgement calls.
 
@@ -80,13 +80,13 @@ A complete engine failure away from the aerodrome is rare — but it's one of th
   <briefing-topic label="Learning&#10;Objectives" time="1"></briefing-topic>
   <briefing-topic label="Immediate&#10;Actions" time="7"></briefing-topic>
   <briefing-topic label="Choosing&#10;a Field" time="5"></briefing-topic>
-  <briefing-topic label="Flying the&#10;Approach" time="8"></briefing-topic>
+  <briefing-topic label="Flying the&#10;Approach" time="10"></briefing-topic>
   <briefing-topic label="Recap" time="3"></briefing-topic>
 </briefing-overview>
 
 <!--
 
-About 24 minutes total, leaving headroom in the 0.8 hr theory window for questions and the recap. Most of the factual/reference material (causes, wind reading, field-selection criteria, MAYDAY, detailed trouble checks, passenger brief, shutdown) is already covered in the pre-lesson workbook — this session focuses on the sequence, the flying, and the judgement calls that tie it together.
+About 26 minutes total, leaving headroom in the 0.8 hr theory window for questions and the recap. Most of the factual/reference material (causes, wind reading, field-selection criteria, MAYDAY, detailed trouble checks, passenger brief, shutdown) is already covered in the pre-lesson workbook — this session focuses on the sequence, the flying, and the judgement calls that tie it together.
 
 -->
 
@@ -100,7 +100,8 @@ By the end of this session, our aim is to be able to:
 - **Apply the field-selection criteria** from your workbook to choose — and keep reassessing — a suitable landing area
 - **Describe how to plan and fly** a glide approach to a chosen field, including correcting if you're too high or too low
 - **Recognise and manage** an over- or undershoot before it becomes unrecoverable
-- **Outline where** the MAYDAY call, detailed trouble checks, passenger brief and shutdown checks fit into the overall sequence
+- **Outline where** the MAYDAY call, trouble checks, passenger brief and shutdown fit in
+- **Describe the actions** for an engine fire in flight
 
 And then later in our actual flight: we'll fly this whole sequence down to our legal limit of 500ft, from varying heights and positions, so the actions become second nature over time.
 
@@ -452,12 +453,11 @@ Check your aircraft's flight manual for whether sideslipping with flap extended 
 
 # Bringing it together
 
-Everything else from your workbook happens **around** the flying, not instead of it:
-
-| While flying the approach... | Also happening (as height/workload allow) |
+| While flying the aeroplane... | Also happening (as height/workload allow) |
 |---|---|
-| Trim for best glide, head for the field | **MAYDAY call** — made early, while there's still time to be heard |
-| Keep reassessing the field | **Detailed trouble check** — **CFMOST**, if height allows |
+| Throttle closed, trim for glide | **Quick checks** — carburettor heat, fuel, mixture |
+| Navigate to the field | **MAYDAY call** — made early, while there's still time to be heard |
+| Keep reassessing the field | **Detailed trouble check** — **CFMOST**, incl. partial power |
 | Fly the corrections (high/low) | **Passenger brief** — brace position, what to expect |
 | Commit to the approach | **Shutdown checks** — **BUSH FMMM**, as in your workbook |
 
@@ -471,7 +471,38 @@ CASA A6.3(k,l,y): advise ATS of situation and intentions; re-brief passengers ab
 
 CFMOST and BUSH FMMM were both introduced in the workbook, and CFMOST was expanded earlier in this deck — so this is recall, not new teaching. Ask the student to expand BUSH FMMM before revealing the line, and ask *why* the master comes last (electric flap, and radio until you no longer need it). Check the expansion against your aircraft's own checklist: a fixed-gear type has nothing to do for U beyond confirming it, and the order of the switches follows the flight manual where it differs.
 
-Draw the distinction with the immediate actions again if it hasn't landed: the three-item reflex (carburettor heat, fuel, mixture) happens in the first seconds; CFMOST is the unhurried version done here, in the glide, only if height and workload allow.
+Read the rows top to bottom: they follow the same Aviate, Navigate, Communicate, Troubleshoot order, with each item on the right paired to the flying that's going on while it happens — quick checks as the glide is set up, the MAYDAY while turning toward the field, CFMOST while reassessing it, then the passenger brief and shutdown on the approach.
+
+Draw the distinction with the immediate actions again if it hasn't landed: the three-item reflex (carburettor heat, fuel, mixture) happens in the first seconds; CFMOST is the unhurried version done later in the glide, only if height and workload allow.
+
+-->
+
+---
+
+# Engine fire in flight
+
+Rare — but the first actions are different, and after them it's a sequence you already know:
+
+1. **Fuel off** — mixture to idle cut-off, fuel selector off, throttle closed — cut off what's feeding the fire
+2. **Cabin heat and cabin air** off — anything drawing air through the firewall; fresh-air vents from outside the engine bay can help clear smoke
+3. **Sideslip** away from the smoke and flames if you need to
+4. **No restart** — it's now a forced landing: **Aviate, Navigate, Communicate**, straight to the field
+
+> Your aircraft's own checklist has the exact items and order — learn that one.
+
+<!--
+
+CASA A6.5(a-c): identify the situation and maintain control; manage it in accordance with the relevant emergency procedures. The syllabus introduces the in-flight fire in this lesson at level 3 (trained, not yet consistently competent) — it is not assessed here. It is the first lesson with A6.5 at all; the fire on start-up or shutdown (A1.1(c)) came in Lesson 9 and *is* assessed this lesson.
+
+Most engine fires are fuel or oil leaking onto a hot surface, so the first step is to starve the fire of fuel. The CASA Flight Instructor Manual's "Fire in the air" also says a sideslip "may be useful in directing smoke and flames away from the cabin area and may even put the fire out"; and "a forced landing will almost invariably follow as it is most inadvisable to attempt to re-start the engine".
+
+Why cabin heat *and* cabin air: cabin heat is outside air warmed in a shroud around the exhaust muffler — inside the engine compartment — and ducted through the firewall, so in an engine fire it is a direct path for smoke, fumes and carbon monoxide into the cabin. The same goes for any fresh-air control fed through the firewall. Vents that take air from elsewhere (the wing-root overhead vents in a Cessna, for example) don't share that path, which is why the C172 checklist reads "Cabin Heat & Air — OFF (except overhead vents)".
+
+Where the references differ — ignition and master switch: the CASA Flight Instructor Manual says turn the ignition off; the FAA Airplane Flying Handbook (ch 18) says leave it ON, unless the flight manual directs otherwise, so the engine burns the fuel left in the lines between the selector and the engine, which can starve the fire. Some checklists also turn the master off, but unless the fire is electrical that loses the radio and transponder for the MAYDAY. The slide leaves both out on purpose: the aircraft's flight manual decides, and it is the checklist the student should learn.
+
+That last point is what makes this slide cheap to teach: there is no Troubleshoot step, because nobody should be trying to get that engine back. Ask the student which of the four steps drops out, and why.
+
+Check the aircraft's flight manual and walk the student through its checklist instead of the generic one where they differ — for example the ignition and master switch, or an airspeed to fly while the fire is burning.
 
 -->
 
@@ -494,6 +525,7 @@ Draw the distinction with the immediate actions again if it hasn't landed: the t
 | Flying the approach | |
 | Over/undershoot | |
 | Everything else (MAYDAY, checks, brief, shutdown) | |
+| Engine fire in flight | |
 
 ---
 
@@ -506,6 +538,7 @@ Draw the distinction with the immediate actions again if it hasn't landed: the t
 | Flying the approach | 50c turns all the way to final — abeam around 1,500 ft, base around 1,000 ft |
 | Over/undershoot | Recognise early — small corrections beat late ones; be ready to change fields |
 | Everything else | MAYDAY, trouble checks, passenger brief and shutdown happen around the flying, not instead of it |
+| Engine fire in flight | Fuel off, cabin heat and air off; no restart — straight to the forced landing |
 
 ---
 
@@ -539,6 +572,7 @@ Can you:
 - **Describe** how to plan and fly the approach, and correct if high or low?
 - **Recognise** an over- or undershoot, and know your options?
 - **Outline** where the MAYDAY call, trouble checks, passenger brief and shutdown fit in?
+- **Describe** the actions for an engine fire in flight?
 
 ---
 

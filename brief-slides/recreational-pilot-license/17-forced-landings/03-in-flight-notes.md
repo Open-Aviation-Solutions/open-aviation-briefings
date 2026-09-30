@@ -136,14 +136,14 @@ CASA A6.3(n-x): identify partial power failure, perform recall actions, adjust f
 # Simulated engine fire in flight
 
 ## Sequence
-- Brief this as fully simulated — "Simulated engine fire in flight", no actual actions on the mixture/fuel/master controls
-- Student talks through the actions in order: mixture — idle cut-off; fuel selector — OFF; cabin heat/vents — OFF (avoids drawing smoke into the cabin); increase airspeed or sideslip away from any smoke
-- With the engine now deliberately stopped, this **becomes a forced landing** — the student flies the same immediate/vital actions sequence practised above: field, MAYDAY/7700, passenger brief, shutdown
+- Brief this as fully simulated — "Simulated engine fire in flight". Throttle to idle as for the earlier failures; the student **touches and calls** the fire actions but does not move the fuel, ignition or mixture controls
+- Student calls the actions in order: mixture — idle cut-off; fuel selector — OFF; throttle — closed; cabin heat and cabin air — OFF (fresh-air vents from outside the engine bay can stay open); sideslip away from the smoke if needed (a gentle sideslip can be flown for real). Use your aircraft's checklist items and order where they differ — including what it says about the ignition and master switch
+- **No restart attempt** — it goes straight to the forced landing, flown with the same sequence as above: **Aviate, Navigate, Communicate** — field, MAYDAY/7700, passenger brief, shutdown. There's no Troubleshoot step this time
 - Debrief: what's different about this scenario, compared to the earlier practice failures?
 
 <!--
 
-CASA A6.5(a): correctly identify the situation and maintain safe control of the aeroplane at all times; manage the abnormal/emergency situation in accordance with relevant procedures. This exercise deliberately reuses the field-selection and immediate-actions sequence rather than teaching a separate one — the fire-specific actions (mixture idle cut-off, fuel off, heat/vents off) are what's new, everything after that is the same forced-landing sequence already flown twice today.
+CASA A6.5(a-c): correctly identify the situation and maintain safe control of the aeroplane at all times; manage the abnormal/emergency situation in accordance with relevant procedures. Introduced this lesson at level 3 — not assessed. The fire-specific actions (from the theory brief's "Engine fire in flight" slide, following the CASA Flight Instructor Manual) are what's new; everything after them is the forced-landing sequence already flown today, minus the trouble checks, since the engine is not to be restarted. The debrief answer to look for: no Troubleshoot step.
 
 -->
 
