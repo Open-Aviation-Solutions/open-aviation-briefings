@@ -68,7 +68,7 @@ Write the aim on the board — everything else hangs off *decide, search, select
 - Safe height — recovery **complete by** ______ ft AGL (per your operator's minimum)
 - Who handles the first simulated scenario: ______ (you demonstrate the first one, then hand over)
 
-**Draw** — the exercise sequence as a ladder:
+**Draw** — the exercises as a numbered list, top to bottom:
 
 1. **Simulated deteriorating conditions** (weather or low fuel) declared in the training area
 2. Decide → configure → select → inspect the field (low pass, climb, circuit, dummy approach)

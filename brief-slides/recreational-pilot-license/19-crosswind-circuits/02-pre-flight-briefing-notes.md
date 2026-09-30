@@ -66,7 +66,7 @@ Write the aim on the board — it anchors everything else.
 - CTAF / frequencies: ______
 - Who handles the first take-off: ______ (you demonstrate first, student follows)
 
-**Draw** — the exercise sequence as a ladder:
+**Draw** — the exercises as a numbered list, top to bottom:
 
 1. **Crosswind take-off** — full into-wind aileron before roll; reduce as speed builds; crab after liftoff
 2. **Crosswind circuit** — heading corrections on downwind; early/late base turn to compensate
