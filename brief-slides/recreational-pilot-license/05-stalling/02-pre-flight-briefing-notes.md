@@ -71,7 +71,7 @@ Write the aim on the board — everything else hangs off *recognise, then recove
 - Safe height — recover **complete by** ______ ft AGL (≥ 3000 ft AGL)
 - Who taxis / handles the first stall: ______ (you demonstrate the first stall, then hand over)
 
-**Draw** — the exercise sequence as a ladder, a **HASELL** rung before every stall:
+**Draw** — the exercises as a numbered list, with a **HASELL** check before every stall:
 
 1. **Slow flight** — clean, then approach config (flap), feeling the controls go mushy
 2. **HASELL → stall, recovery *without* power** — recognise, ease forward, minimal height loss

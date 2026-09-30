@@ -64,7 +64,7 @@ The long briefing (theory) is done and the student is keen to fly — keep this 
 - CTAF / frequencies: ______
 - Who taxis / handles throttle: ______
 
-**Draw** — the exercise sequence (a simple ladder or list works well). On the way to the training area:
+**Draw** — the exercises as a numbered list. On the way to the training area:
 
 1. **Normal (cruise) climb** — entry and level off
 
