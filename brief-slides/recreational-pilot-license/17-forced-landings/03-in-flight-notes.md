@@ -20,7 +20,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 > **"trim for the glide"** — reinforces the action, not just the resulting state.
 
-> **"aviate, navigate, communicate"** — the standing priority order, repeated every exercise.
+> **"aviate, navigate, communicate, troubleshoot"** — the standing priority order, repeated every exercise.
 
 > **"MAYDAY early"** — say it before you need convincing you should have.
 
@@ -80,11 +80,11 @@ Climbing is assessed (A3.1: cruise climb, best rate climb — level **2**). Desc
 
 ## Sequence
 - From cruise, in the training area or over an approved practice field: throttle to idle without warning — "Simulated engine failure"
-- **Aviate** — trim for the glide at best glide speed, wings level, balance ball centred
-- **Checks** — the quick, fixable causes: carburettor heat on, fuel, mixture
-- **Field** — select and point out the chosen field, narrating the **WOSSSSET** criteria out loud
+- **Aviate** — throttle closed — confirm it's fully closed as part of the drill, as you would have to in a real failure — trim for the glide at best glide speed, wings level, balance ball centred; then the quick, fixable causes: carburettor heat on, fuel, mixture
+- **Navigate** — select and point out the chosen field, narrating the **WOSSSSET** criteria out loud
 - **Communicate** — simulate the MAYDAY call (do not transmit unless genuinely required); point out the transponder emergency code (7700) without necessarily selecting it
-- **Prepare** — narrate the passenger brief, the detailed trouble check (**CFMOST**) and the **BUSH FMMM** shutdown as height allows
+- **Troubleshoot** — narrate the detailed trouble check (**CFMOST**) as height allows, finishing with the partial power check — say it rather than do it ("open the throttle… no response… close it again"), since the engine here would of course respond
+- Then narrate the passenger brief and the **BUSH FMMM** shutdown
 - Fly the descent profile to the field using the **50c technique** — small turn, straight, reassess, all the way onto final — correcting for high/low as needed
 - Go around no lower than the briefed minimum height — apply full power, established climb, retract to clean configuration as appropriate
 
@@ -104,7 +104,7 @@ Roll out on final from the same small turns, not one large low turn — the stud
 
 ## Sequence
 - Repeat from varying heights and positions relative to the training area/approved fields
-- Student flies the full immediate/vital actions sequence from memory: **Aviate, Navigate, Communicate**
+- Student flies the full immediate/vital actions sequence from memory: **Aviate, Navigate, Communicate, Troubleshoot**
 - Prompt only if a step is missed or out of order — let the sequence run uninterrupted otherwise
 - Debrief briefly after each repetition: what worked, what would you do differently?
 

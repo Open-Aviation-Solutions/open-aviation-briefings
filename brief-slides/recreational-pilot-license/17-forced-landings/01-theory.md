@@ -96,7 +96,7 @@ About 24 minutes total, leaving headroom in the 0.8 hr theory window for questio
 
 By the end of this session, our aim is to be able to:
 
-- **Recall the immediate/vital actions** following an engine failure, in the correct order
+- **Recall the immediate/vital actions** following an engine failure — Aviate, Navigate, Communicate, Troubleshoot — in the correct order
 - **Apply the field-selection criteria** from your workbook to choose — and keep reassessing — a suitable landing area
 - **Describe how to plan and fly** a glide approach to a chosen field, including correcting if you're too high or too low
 - **Recognise and manage** an over- or undershoot before it becomes unrecoverable
@@ -186,25 +186,30 @@ Bridges from Lesson 9 (Circuit Emergencies) without re-teaching it — the point
 
 ---
 
-# The immediate/vital actions
+# Aviate, Navigate, Communicate, Troubleshoot
 
-The moment the engine fails, there's a fixed sequence — flown from memory, in order:
+The moment the engine fails, the immediate/vital actions follow a fixed sequence — flown from memory, in order:
 
-1. **Aviate** — trim for the **glide**, at best glide speed
-2. **Checks** — the quick, fixable causes first: **carburettor heat** on, **fuel** (selector, pump, change tanks), **mixture** rich
-3. **Field** — pick the best field within reach, using your workbook criteria
-4. **Communicate** — the **MAYDAY** call, made early; squawk **7700** too if the aircraft is transponder-equipped
-5. **Prepare** — brief the passengers; work the detailed trouble check (**CFMOST**) and the **BUSH FMMM** shutdown as height and workload allow
+1. **Aviate** — **throttle closed**, trim for the **glide** at best glide speed; then the quick, fixable causes: **carburettor heat** on, **fuel** (selector, pump, change tanks), **mixture** rich
+2. **Navigate** — pick the best field within reach, using your workbook criteria
+3. **Communicate** — the **MAYDAY** call, made early; squawk **7700** too if the aircraft is transponder-equipped
+4. **Troubleshoot** — the detailed trouble check (**CFMOST**), as height and workload allow
 
-> **Aviate, Navigate, Communicate.** The aeroplane and the field come before the radio, every time.
+Then, before touchdown: brief the passengers and complete the **BUSH FMMM** shutdown.
+
+> The aeroplane and the field come before the radio, and the radio before the hunt for a cause.
 
 <!--
 
 CASA A6.3(f-m): identify complete power failure, control the aeroplane, perform immediate actions, formulate and describe a recovery plan including selecting the landing area, establish the optimal glide, land if the engine cannot be restarted, advise ATS, re-brief passengers, land ensuring the safest outcome. NTS1.4 (task prioritisation) and NTS1.5 (Aviate, Navigate, Communicate) underpin this whole sequence. C3.3(a,e): operate the transponder during abnormal/emergency operations and recall the emergency code (7700) — introduced here (level 2), not yet polished.
 
-Why the quick check comes *before* field selection: carburettor heat, fuel and mixture are the causes that are both most likely and most reversible, and they take about three seconds with the hands already near the throttle quadrant. That is the one chance of getting the engine back before anything else matters. It is a reflex, not a search — if it does not work, move on to the field immediately and do not go hunting.
+Why the throttle is closed first: a failing engine left at cruise throttle can catch, surge and fail again — a sudden burst of power partway down the approach upsets the glide and the plan, and invites reliance on an engine that cannot be trusted. Closing it commits to a known state (a glide) and doubles as the first action for an engine fire. The CASA Flight Instructor Manual lists it first among the immediate actions; the NZ CAA Flight Instructor Guide gives the reason directly — "to stop any engine surges affecting the glide". Whether the engine has come back is then tested on purpose, by the partial power check at the T of CFMOST, rather than left to hearing it at idle. Check the aircraft's flight manual: some types' restart checklists specify a partly or fully open throttle, and the manual wins for that type.
 
-Two different checks, deliberately at two different points in the sequence: the three-item reflex here, and **CFMOST** — the systematic trouble check from the workbook — at step 5, once the glide and the field are settled and there is height and attention to spare. Ask the student to name both and say where each belongs; confusing them is the common error.
+Why the quick check sits under *Aviate*, before field selection: carburettor heat, fuel and mixture are the causes that are both most likely and most reversible, and they take about three seconds with the hands already near the throttle quadrant. That is the one chance of getting the engine back before anything else matters. It is a reflex, not a search — if it does not work, move on to the field immediately and do not go hunting. The CASA Flight Instructor Manual (Aeroplane) counts it the same way: its immediate actions are to close the throttle, convert speed to height, check for fire, trim for the glide "and conduct initial trouble checks".
+
+Two different checks, deliberately at two different points in the sequence: the three-item reflex under Aviate, and **CFMOST** — the systematic trouble check from the workbook — under Troubleshoot, once the glide and the field are settled, the MAYDAY is out, and there is height and attention to spare. Ask the student to name both and say where each belongs; confusing them is the common error.
+
+Why Communicate comes before Troubleshoot: this is the order in the CASA Flight Instructor Manual (Fig 15-1: immediate actions → field selection → MAYDAY → detailed trouble checks → passenger brief → shutdown check), and it matches the Aviation Theory Centre texts. The MAYDAY goes out while the aircraft is still high enough to be heard and gets help moving early; the detailed check can then use whatever height is left. Students who have trained elsewhere may have learned it the other way round — the NZ CAA Flight Instructor Guide puts trouble checks (FMIP) before the MAYDAY (calling early only "if reception is a consideration"), and the US "ABCDE" aid (Airspeed, Best field, Checklist, Declare, Execute) also runs the restart checklist before declaring. All of them do the quick reflex before the radio; they differ only on where the *detailed* check goes. Acknowledge the difference if it comes up rather than calling the other order wrong — and fly the CASA order here.
 
 -->
 
@@ -222,13 +227,13 @@ Two different checks, deliberately at two different points in the sequence: the 
 |---|---|---|---|
 | **C** | Carburettor heat | **O** | Oil temperatures and pressures |
 | **F** | Fuel — selector, pump, contents | **S** | Switches — magnetos |
-| **M** | Mixture | **T** | Throttle |
+| **M** | Mixture | **T** | Throttle — partial power check |
 
 <!--
 
 The distinction is the point of this slide, not the letters. The reflex is a grab at the three things that most often stop an engine and can be undone from the seat; it is not a search, and if it doesn't work you go straight to the field. CFMOST is the unhurried version — you only earn the right to run it once the aeroplane is trimmed, the field is chosen and you know you can reach it.
 
-Ask which CFMOST items could plausibly restart the engine and which only tell you what went wrong — that was question 2 of the workbook, so this is checking their answer. Oil temperatures and pressures diagnose rather than fix; Throttle is as much about confirming the linkage as about setting power.
+Ask which CFMOST items could plausibly restart the engine and which only tell you what went wrong — that was question 2 of the workbook, so this is checking their answer. Oil temperatures and pressures diagnose rather than fix; Throttle is the partial power check: open it (full, or about a third, per your operator) to see whether any power is available — if none, close it again so the engine can't burst back into life at an awkward moment; if some, decide whether to use it or to continue the forced landing without relying on it.
 
 Check the letters against your aircraft: a type without a carburettor has no C, which is worth saying if the student watched a DA40 fly the sequence in the workbook video.
 
@@ -496,7 +501,7 @@ Draw the distinction with the immediate actions again if it hasn't landed: the t
 
 | Topic | Key point |
 |-------|-----------|
-| Immediate/vital actions | Aviate (trim for glide), Checks, Field, Communicate, Prepare — in order, from memory |
+| Immediate/vital actions | Aviate (throttle closed, glide, quick checks), Navigate (field), Communicate (MAYDAY), Troubleshoot (CFMOST) — in order, from memory |
 | Choosing a field | WOSSSSET — use it to rule fields out fast, and keep reassessing all the way down |
 | Flying the approach | 50c turns all the way to final — abeam around 1,500 ft, base around 1,000 ft |
 | Over/undershoot | Recognise early — small corrections beat late ones; be ready to change fields |
@@ -517,7 +522,7 @@ Rather than re-watching, **let's walk it through**: a book on the floor is our t
 
 The video stays on the page as a reminder of the real footage, not as today's exercise — the point now is producing the sequence with your own hands, not watching someone else's.
 
-Run it literally: a book (or similar) on the floor is the field/threshold, a physical model aeroplane is the aircraft. Walk the model through the whole sequence from "failure height" — trim for the glide, run the checks, pick the field, make the MAYDAY call, brief the passengers, fly the 50c pattern down to the book, land — pausing the model at each stage and asking what the student would be doing at that exact point. Same device as the muted video, just driven by the student's own hands instead of someone else's footage.
+Run it literally: a book (or similar) on the floor is the field/threshold, a physical model aeroplane is the aircraft. Walk the model through the whole sequence from "failure height" — trim for the glide, run the quick checks, pick the field, make the MAYDAY call, run CFMOST, brief the passengers, fly the 50c pattern down to the book, land — pausing the model at each stage and asking what the student would be doing at that exact point. Same device as the muted video, just driven by the student's own hands instead of someone else's footage.
 
 Start simple: one generous-height run so the sequence itself comes out clean before adding variation. Then do a few more from different simulated heights — higher (more time: a wider 50c pattern, more straights, more reassessment) and lower (less time: a tighter pattern, earlier decisions, less margin for indecision). The sequence doesn't change with height, only how much pattern there is room to fly — the same point the descent-profile diagram made earlier, now felt with their own hands rather than watched on a diagram.
 

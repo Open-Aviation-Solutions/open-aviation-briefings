@@ -92,15 +92,16 @@ The sequence has to be **automatic** in the air, so build it on the ground first
 
 **Draw** — the sequence as steps on the board:
 
-1. **Aviate** — trim for the **glide**, at best glide speed
-2. **Checks** — the quick, fixable causes: carburettor heat on, fuel (selector, pump, change tanks), mixture rich
-3. **Field** — pick the best field within reach, applying the workbook criteria (**WOSSSSET**)
-4. **Communicate** — the **MAYDAY** call, made early; squawk 7700 too if fitted
-5. **Prepare** — passenger brief, detailed trouble check (**CFMOST**), **BUSH FMMM** shutdown checks as height and workload allow
+1. **Aviate** — **throttle closed**, trim for the **glide** at best glide speed; then the quick, fixable causes: carburettor heat on, fuel (selector, pump, change tanks), mixture rich
+2. **Navigate** — pick the best field within reach, applying the workbook criteria (**WOSSSSET**)
+3. **Communicate** — the **MAYDAY** call, made early; squawk 7700 too if fitted
+4. **Troubleshoot** — detailed trouble check (**CFMOST**) as height and workload allow
+
+Then, before touchdown: passenger brief and **BUSH FMMM** shutdown checks.
 
 **Ask** — "What comes first — looking for a field, or trimming for the glide?"
 
-**Expect** — **trim for the glide first.** A field is no use if the aeroplane isn't established at best glide speed. **Aviate, Navigate, Communicate** — in that order, every time.
+**Expect** — **trim for the glide first.** A field is no use if the aeroplane isn't established at best glide speed. **Aviate, Navigate, Communicate, Troubleshoot** — in that order, every time.
 
 **Ask** — "And which check is which?"
 
@@ -117,7 +118,7 @@ All three were covered in the theory brief, so **ask for them** rather than writ
 | | |
 |---|---|
 | **WOSSSSET** | Wind · Obstacles · Size and Shape · Slope and Surface · Shoots (clear undershoot and overshoot) · Sun and Civilisation · Elevation · Terrain |
-| **CFMOST** | Carburettor heat · Fuel · Mixture · Oil temperatures and pressures · Switches (magnetos) · Throttle |
+| **CFMOST** | Carburettor heat · Fuel · Mixture · Oil temperatures and pressures · Switches (magnetos) · Throttle (partial power check) |
 | **BUSH FMMM** | Brakes · Undercarriage · Switches (Fuel, Mixture, Magnetos, Master — master last if you still need flap) · Hatches and harnesses |
 
 The **Sun** half of that S is about where the sun will be on final; **Civilisation** is how close help is once you are down. It is the last of the S's for a reason — never trade a good surface for a shorter walk.
@@ -158,7 +159,7 @@ Likely ones to surface: **misjudging the field** (mitigate — keep reassessing,
 
 Quick recap as you pack up the whiteboard:
 
-- **Aviate, Navigate, Communicate** — trim for the glide before anything else
+- **Aviate, Navigate, Communicate, Troubleshoot** — trim for the glide before anything else
 - Keep **reassessing** your chosen field all the way down — that's what the straight segments of the 50c pattern are for
 - **MAYDAY early** — while there's still time to be heard
 - A sudden, quiet engine is **normal** for this exercise — that's why we rehearsed it
