@@ -19,9 +19,7 @@ All text in this workbook is licensed under [Creative Commons BY-SA 4.0](https:/
 
 <!--
 
-Each topic below lists a verified video or two and article options rather than
-a single pick — check these again before printing this for students, as
-although they were checked when last used, they may have changed since.
+Each topic below lists a verified video or two and article options rather than a single pick — check these again before printing this for students, as although they were checked when last used, they may have changed since.
 
 -->
 
@@ -81,24 +79,25 @@ Once you suspect a precautionary landing might be needed, knowing exactly how mu
 
 ---
 
-# 4. Pre-flight documents — MEL, NOTAM, RAIM, ERSA, AIP
+# 4. Pre-flight documents — maintenance release, MEL, NOTAM, ERSA, AIP
 
-Before every flight you check a handful of documents that tell you what's serviceable, what's changed, and what rules apply along your route. Knowing what each one covers means you actually use them, rather than just ticking a box: the **Minimum Equipment List (MEL)** lists what can legally be unserviceable and still fly; a **NOTAM** (Notice to Airmen) flags something that's changed since the charts were printed; **RAIM** (Receiver Autonomous Integrity Monitoring) is a prediction of whether your GNSS (satellite/GPS) receiver will be able to confirm its own accuracy along your route.
+Before every flight you check a handful of documents that tell you what's serviceable, what's changed, and what rules apply along your route. Knowing what each one covers means you actually use them, rather than just ticking a box: the **maintenance release** records the aircraft's defects and when maintenance is due; the **Minimum Equipment List (MEL)**, where the aircraft has one, lists what can legally be unserviceable and still fly; a **NOTAM** (Notice to Airmen) flags something that's changed since the charts were printed; the **ERSA** and **AIP** hold aerodrome details and the rules for operating in Australian airspace.
 
 **Read:**
 - [Flight Safety Australia — NOTAMs: decoding the details](https://www.flightsafetyaustralia.com/2026/04/notams-decoding-the-details/) — CASA's own safety magazine on how to actually read a NOTAM, not just skim past it.
 
-The MEL, GNSS RAIM prediction, ERSA and AIP are specific to your aircraft and your operator — check your operator's MEL and your CASA ERSA/AIP references directly, and ask your instructor to show you where each lives before your next flight if you haven't used them yet.
+The **ERSA** (En Route Supplement Australia) and **AIP** (Aeronautical Information Publication) are Airservices Australia publications that apply to everyone. The ERSA gives aerodrome-specific details like runways, frequencies and local procedures, and the AIP holds the rules and procedures for operating in Australian airspace. Both are free at airservicesaustralia.com. Before every flight you check the aircraft's **maintenance release** for defects and serviceability. If the aircraft also has an **MEL**, which is specific to that aircraft and operator, it tells you whether an item recorded as unserviceable still allows the flight to go ahead. Many training aircraft don't have an MEL. Ask your instructor to show you where your aircraft's documents live.
 
 **Answer:**
 
-1. What does the MEL tell you, and when would you need to check it? ________________________________
+1. What do you check on the maintenance release before every flight, and when would you also need the MEL? ________________________________
 
 2. What is a NOTAM? Even if the aircraft and weather are fine, list three examples of the kind of NOTAM that could still affect today's flight: ________________________________
 
-3. If you plan to rely on GNSS (GPS) navigation, what should you check before you fly, and why? ________________________________
+3. Find one item in the ERSA and one in the AIP that you'd use when planning a flight from your home aerodrome. Name each one and where you found it:
 
-4. Name one thing you'd look up in the ERSA, and one thing you'd look up in the AIP: ________________________________
+   - **ERSA:** item ________________ section ________________ page ______
+   - **AIP:** item ________________ section ________________ page ______
 
 ---
 
@@ -117,6 +116,33 @@ You already know the MAYDAY call from Lesson 17 — for a real emergency. A prec
 2. What's the key difference between a situation that warrants a **PAN** call and one that warrants a **MAYDAY** call? ________________________________
 
 3. Could a PAN situation turn into a MAYDAY situation during the same flight? What would you do if it did? ________________________________
+
+---
+
+# 6. Landing distance from your POH
+
+A precautionary landing is only safe if the field is long enough for the aeroplane on the day. Your aircraft's **Pilot's Operating Handbook (POH)** or flight manual gives landing distances, but they change with weight, **pressure altitude**, **temperature** and the **surface** — so the number you remember from a cool day at sea level may be well short of what a hot day at a high field needs. In the lesson you'll time a field's length from the air; this is how you'll know what length you actually need.
+
+**Read:**
+- The **performance** section of the POH or flight manual for the aeroplane you'll fly in the lesson — the landing distance chart or table, and the notes and conditions printed alongside it.
+
+**Answer** — use **today's temperature** and the **area QNH**, and the elevation of the strip or area you'd use for a precautionary landing (for example the practice field; the ERSA lists aerodrome elevations):
+
+1. What are the elevation, temperature and QNH you're using? Work out the **pressure altitude** (elevation plus 30 ft for every hPa that QNH is below 1013) and the **density altitude**: ________________________________
+
+2. From the POH, what **landing distance** do you need for those conditions at your planned landing weight? Give both the **ground roll** and the distance to land over a **50 ft obstacle**: ________________________________
+
+3. What corrections does the POH give for the wind, slope and surface, and what margin would you add on top? ________________________________
+
+4. How does your answer compare with the rule of thumb that most small aeroplanes want **at least 400 m**? How would a hotter day, or a higher field, change it — and what would you do if the field you've chosen is shorter than the distance you need? ________________________________
+
+<!--
+
+Landing distance is type-specific, so there is no answer key here: check the student's answer at the pre-flight brief against the POH for the aeroplane they'll fly. Look for the right pressure altitude (a QNH below 1013 raises it, a QNH above 1013 lowers it), density altitude that rises on a hot day, and the correct chart conditions (flap setting, speed, surface, weight). Pressure altitude and the density altitude rule of thumb (about 120 ft per °C above ISA, where ISA is 15°C at sea level falling about 2°C per 1000 ft) are for a quick feel only — the POH chart handles temperature directly.
+
+CASA underpinning knowledge: contents of the aircraft flight manual and pilot's operating handbook [A3 4(m), A4 4(g), A6 4(l)]; A6.4(f), landing area length adequate for landing. This is the figure the theory brief's timing slide tells the student to compare their timed field length against.
+
+-->
 
 ---
 
