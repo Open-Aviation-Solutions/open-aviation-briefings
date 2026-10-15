@@ -96,3 +96,4 @@ composable
 (?i)frontmatter
 Marp
 Starlight
+hPa

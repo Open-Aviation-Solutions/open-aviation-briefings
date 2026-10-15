@@ -36,7 +36,7 @@ The theory session is done and the student knows today involves practising a sim
 
 | Component | ~ time |
 |-----------|--------|
-| The aim of the flight | 1–2 min |
+| The aim of the flight (and landing distance check) | 2–3 min |
 | Today's flight — whiteboard walk-through | 3–4 min |
 | Threats and how we'll manage them | 3 min |
 | Airmanship emphasis — deciding early | 3–4 min |
@@ -54,8 +54,13 @@ The theory session is done and the student knows today involves practising a sim
 - select and inspect a suitable field, applying the criteria from Lesson 17 plus today's additions
 - make the **PAN** call and brief the passengers
 - fly a **short-field landing**, revising Lesson 22
+- complete the **pre-flight actions and documents** properly — maintenance release, MEL, NOTAMs, GNSS RAIM, ERSA and AIP are assessed today
 
 Write the aim on the board — everything else hangs off *decide, search, select, land*.
+
+**Ask** — "Talk me through your workbook answer for landing distance — what do you need today, and how does it compare with 400 m?"
+
+**Expect** — the right pressure and density altitude for today's temperature and QNH, the ground roll and distance over 50 ft from the aircraft's own POH, corrections applied, and a margin. Check the figures against the POH for today's aircraft, then ask how the field you'll use today compares. Also check their ERSA and AIP workbook answers, and that the maintenance release, MEL (if applicable), NOTAMs and GNSS RAIM are ready to be checked before the flight.
 
 ---
 
@@ -66,12 +71,13 @@ Write the aim on the board — everything else hangs off *decide, search, select
 - Runway: ______ &nbsp;&nbsp; Circuit direction: ______
 - Training area: ______ &nbsp;&nbsp; Approved practice fields: ______
 - Safe height — recovery **complete by** ______ ft AGL (per your operator's minimum)
+- Precautionary cruise configuration for your aircraft — RPM: ______ &nbsp;&nbsp; KIAS: ______ &nbsp;&nbsp; Flaps: ______ &nbsp;&nbsp; Gear: ______ (if retractable)
 - Who handles the first simulated scenario: ______ (you demonstrate the first one, then hand over)
 
 **Draw** — the exercises as a numbered list, top to bottom:
 
 1. **Simulated deteriorating conditions** (weather or low fuel) declared in the training area
-2. Decide → configure → select → inspect the field (low pass, climb, circuit, dummy approach)
+2. Decide → configure → select → PAN and passenger brief → inspect the field (500 ft pass, low pass, climb back to 1000 ft circuit height each time, dummy approach)
 3. **Short-field landing** at the approved practice field, or go-around (per your operator's minimum height)
 4. Repeat from varying positions
 5. Revise **short-field take-off** on departure from the practice field (if used)
@@ -121,7 +127,7 @@ The judgement call in this lesson is *when* to decide, not *how* to react to som
 
 **Ask** — "Talk me through the inspection pattern from memory."
 
-**Expect** — first pass ~200 ft to the right of the landing path, climb to ~500 ft, circuit, second (dummy) pass ~50–100 ft, decide.
+**Expect** — PAN call and passenger brief, join on the normal crosswind and time the field on downwind, a wider 500 ft pass to time it again, then a first low pass ~200 ft to the right of the landing path (full power two-thirds of the way along the runway), climb back to 1000 ft circuit height, circuit, second (dummy) pass ~50–100 ft, decide.
 
 ---
 
@@ -132,7 +138,7 @@ The judgement call in this lesson is *when* to decide, not *how* to react to som
 Quick recap as you pack up the whiteboard:
 
 - **Decide early** — while you're still in full control
-- Inspect properly — **low pass, climb, circuit, dummy approach** — before you commit
+- **PAN call and passenger brief first**, then inspect properly — **time the field, 500 ft pass, low pass, dummy approach**, climbing back to circuit height each time — before you commit
 - **PAN early**, upgrade to MAYDAY if things get worse
 - Keep the field **in sight** throughout
 
