@@ -17,11 +17,15 @@ The method used here:
 
 ## Inspection sequence
 
-Order of events: PAN call to ATC and passenger brief, then the crosswind join (1000 ft, trimmed for 80 kt) and timed downwind, a wider 500 ft pass (second timing, WOSSSSET re-assessed), the 200 ft pass, and the 50–100 ft pass. Both low passes apply full power two-thirds of the way along the runway as a safety margin; the timed 500 ft pass does not, as it would spoil the timing. The vital-actions list, recap and in-flight notes all put Communicate and Prepare *before* Inspect for this reason; keep them in that order. Every pass climbs back to the 1000 ft circuit height afterwards, and base descends from there to the inspection height. The diagram's pass offsets (500 ft pass 300 m, low passes 100 m) are illustrative.
+Order of events: PAN call to ATC and passenger brief, then the crosswind join (1000 ft, trimmed for 80 kt) and timed downwind, a wider 500 ft pass (second timing, WOSSSSET re-assessed), the 200 ft pass, and the 50–100 ft pass. Both low passes apply full power two-thirds of the way along the runway as a safety margin; the timed 500 ft pass does not, as it would spoil the timing. The vital-actions list, recap and in-flight notes all put Communicate and Prepare *before* Inspect for this reason; keep them in that order. After the timed 500 ft pass the aeroplane stays configured and every later circuit is flown at 500 ft (the CASA practice standard), so the low passes climb back only to 500 ft. In a real event the height depends on the situation — terrain might argue for 1000 ft, a low cloud base for staying at or below 500 ft. The diagram's pass offsets (500 ft pass 300 m, low passes 100 m) are illustrative.
 
 ## Workbook: landing distance
 
 Workbook topic 6 has the student work out the landing distance for today's temperature and area QNH from their own aircraft's POH. There is deliberately no answer key, because it is type-specific — the instructor checks it against the POH at the pre-flight brief (the aim section has the prompt). It feeds the 400 m / POH comparison on the theory deck's "Timing the field" slide.
+
+## Workbook: the student's own checklist
+
+Workbook topic 7 has the student draft their own checklist for the vital-actions sequence, including the precautionary cruise configuration numbers from their POH. It came from feedback that a checklist helps a student through procedural lessons, and it is deliberately self-made rather than supplied: the student writes it, the instructor checks it at the pre-flight brief and fills gaps on the whiteboard, and the student keeps it for the flight. There is no model checklist. The whiteboard walk-through's cruise configuration line should agree with it.
 
 ## Theory deck layout
 

@@ -13,7 +13,7 @@ pdf: true
 
 _CASA Recreational Pilot License (Aeroplane) — CASA Sample Syllabus Lesson 24, Pre-lesson Workbook_
 
-Complete this before your lesson — on your own, at your own pace. For each topic: watch a video, read an article, then answer the questions in the space provided. Print this out, or write your answers in a notebook. It should take about 30–45 minutes in total, and we'll check it together at the start of your pre-flight brief.
+Complete this before your lesson — on your own, at your own pace. For each topic: watch a video, read an article, then answer the questions in the space provided. Print this out, or write your answers in a notebook. It should take about 45–60 minutes in total, and we'll check it together at the start of your pre-flight brief.
 
 All text in this workbook is licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
 
@@ -27,7 +27,7 @@ Each topic below lists a verified video or two and article options rather than a
 
 # 1. Why precautionary landings happen
 
-Most precautionary landings have nothing to do with the engine — the aeroplane is running perfectly. They happen because of *planning*: weather closing in, fuel running lower than expected, or becoming unsure of your position as daylight fades. Recognising the situation early, while you're still in full control, is what makes the difference between a precautionary landing and an emergency.
+Most precautionary landings have nothing to do with an engine failure — the aeroplane is still running. They happen because of *planning*: weather closing in, fuel running lower than expected, or becoming unsure of your position as daylight fades. They can also be for anything else you're not happy with, such as an oil pressure that's fluctuating or a passenger who is unwell. Recognising the situation early, while you're still in full control, is what makes the difference between a precautionary landing and an emergency.
 
 **Read (pick one — real ATSB occurrence briefs):**
 - [Weather-related precautionary landing — Cessna 182, near Port Augusta, SA, 25 May 2026](https://www.atsb.gov.au/occurrence-briefs/ab-2026-031) — a recent, real example: visibility deteriorating and light fading, the pilot landed on a road nearby with no injury or damage.
@@ -146,9 +146,35 @@ CASA underpinning knowledge: contents of the aircraft flight manual and pilot's 
 
 ---
 
+# 7. Your precautionary search and landing checklist
+
+The precautionary search and landing is a sequence you'll fly from memory, in order, while you're busy. A checklist you make yourself — in your own words, for your own aeroplane — is far easier to learn than one you're handed, and it's what you'll refine with your instructor at the pre-flight brief and then use as the plan for the flight.
+
+The sequence is **Decide → Configure → Select → Communicate → Prepare → Inspect → Land**. The details are covered in the lesson, so for now build a first draft from what you already know: your Lesson 17 forced landing checklist and field-selection criteria, your POH, and your answers from the PAN call and landing distance topics above.
+
+**Do:**
+
+Draw up a one-page checklist, with a heading for each of the seven steps, and under each one the few actions and words you'd want in front of you. Aim for short prompts rather than sentences. At a minimum include:
+
+- **Configure** — the precautionary cruise configuration for your aeroplane from the POH: the RPM or power, the speed (try 80 kt, a speed that gives you time to look), and the flap setting, plus gear if retractable. Write down the actual numbers: RPM ______ &nbsp; KIAS ______ &nbsp; Flaps ______
+- **Select** — the field-selection criteria you'd narrate (from Lesson 17)
+- **Communicate** — your PAN call, in order
+- **Prepare** — what you'd tell your passengers
+- **Inspect** and **Land** — what you think you'll need to check, and the key numbers for a short-field landing in your aeroplane
+
+Leave gaps where you aren't sure — those are the things to ask about in the lesson.
+
+<!--
+
+There is no answer key, because the point is for the student to build their own and own it. At the pre-flight brief, look at the draft with the student and check it against the POH: the configuration numbers in particular (RPM, speed and flap should give a slow, safe cruise with good visibility and a margin above the stall), then the order of the sequence, the PAN call structure and the passenger brief. Note where they've left gaps, and fill them in on the whiteboard as you go through the lesson plan. The student can then take the refined checklist with them (for example on a kneeboard) to use during the flight. The student's own wording is more important than matching a model checklist — leave it unless it's unsafe or out of order.
+
+-->
+
+---
+
 # Bring this to your lesson
 
-- Bring your completed answers (printed, or your notebook) to the pre-flight brief
+- Bring your completed answers, and your draft checklist (printed, or your notebook), to the pre-flight brief
 - We'll check through them together and answer anything that didn't make sense
 - From there, the live theory brief builds on this: configuring the aeroplane for the search, choosing and inspecting a field, the vital-actions sequence, and revising the short-field landing from Lesson 22
 
