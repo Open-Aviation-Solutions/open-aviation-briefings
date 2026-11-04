@@ -3,7 +3,7 @@ marp: true
 theme: open-aviation
 title: Circuit Emergencies — Theory
 license: CC-BY-SA-4.0
-draft: true
+draft: false
 header: Circuit Emergencies — Theory
 ---
 
@@ -34,11 +34,26 @@ Confirm the pre-lesson workbook is done before starting — it covers the backgr
 # What would you do?
 
 - You've just lifted off. You're climbing through 300 ft, the end of the runway is passing beneath you — and the engine goes quiet. What's the very first thing you'd do?
-- And where would you land?
+- And where would you look to land?
 
 <!--
 
 Let the answers be rough — the point is to surface the instincts before teaching anything. Two are common and both are worth hearing out loud: "look for somewhere to land" (the first action is actually about the aeroplane — the nose has to come down), and "turn back to the runway" (the workbook's topic 3 — come back to it in the EFATO waypoint rather than arguing it now).
+
+-->
+
+---
+
+# What would you do?
+
+- You've just lifted off. You're climbing through 300 ft, the end of the runway is passing beneath you — and the engine goes quiet. What's the very first thing you'd do?
+- And where would you look to land?
+
+<youtube-video video-id="UUpTNTXHihQ" class="right large"></youtube-video>
+
+<!--
+
+Optional: play the clip and ask how quickly the pilot gets the nose down, and what they'd do in the same seconds. Compare it with the answers just given.
 
 -->
 
@@ -197,32 +212,30 @@ Check your aircraft's flight manual for its rejected take-off / engine failure d
 
 ---
 
+# Start your safety brief
+
+At the holding point, before every take-off, say out loud what you'll do if something goes wrong:
+
+> *"If an engine failure or malfunction occurs during the take-off roll, I'll close the throttle and stop."*
+
+- That's the first part of your **pre-take-off safety brief**
+- Say it **before** you roll — the decision is already made when you need it
+
+<!--
+
+This is the first appearance of the safety brief: just the roll, which the student has now seen in full. Have them say the sentence out loud, in their own words, before moving on. The rest of the brief (after take-off with runway remaining, and without runway remaining) is built on it in the next waypoint, once those cases have been taught.
+
+If you want the rejection point in the brief too, the "where is the last point to stop" decision from the previous slide fits here.
+
+-->
+
+---
+
 # Waypoint 2 — Engine Failure After Take-off
 
 <briefing-overview plane-position="1" controls></briefing-overview>
 
 <!-- Click Direct-To to advance to Engine Failure After Take-off. -->
-
----
-
-# Plan it before you roll — the safety brief
-
-Before every take-off, at the holding point, brief yourself (and any passenger) on what you'll do. For example:
-
-> *"If an engine failure or malfunction occurs during the take-off roll, I'll close the throttle and stop. If it occurs after take-off with runway remaining, I'll land on the runway ahead. If it occurs without runway remaining, I'll lower the nose, glide at* ______ *kt and land within about 30° of the nose. I will not turn back below* ______ *ft."*
-
-- Make it **specific to today** — the runway, the wind, and what lies beyond the end of it
-- Look at the ground beyond the runway end **before** you need it
-
-<!--
-
-CASA A2.1(i, j): correctly identify critical airspeeds, configurations, and emergency and abnormal procedures; work out a plan of action, in advance, to ensure the safest outcome in the event of abnormal operations. NTS2 4(d): developing and implementing plans of action to mitigate threats. The ATSB's first strategy in the workbook reading is exactly this: pre-flight decision-making and planning for emergencies at the particular aerodrome.
-
-The wording above is a common Australian form, not a CASA script — the student should make it their own, but it must cover the roll, runway remaining, no runway remaining, and the turn-back height. Fill in the blanks with your training aircraft's best glide speed and your operator's minimum turn-back height (if it has one). Some operators add the speed at which the take-off is rejected, or a partial-power plan — see the partial power slide.
-
-From today the student says this brief, out loud, before every take-off. It's also the first thing a pre-solo check looks for — the FIM expects a student to be proficient at the pre take-off safety brief before first solo.
-
--->
 
 ---
 
@@ -247,6 +260,23 @@ Demo script for the four-forces component — have the student predict before ea
 3. Lower the attitude to a glide attitude (about 3–5 degrees nose down — TODO: confirm the attitude that holds best glide speed in the component) and watch the speed recover and settle.
 
 The lesson in step 2 is the one to name: the attitude the aeroplane was perfectly happy in a second ago is now the dangerous one. Nothing else in the sequence matters if the nose stays up.
+
+-->
+
+---
+
+# Build your safety brief — runway remaining
+
+> *"If an engine failure or malfunction occurs during the take-off roll, I'll close the throttle and stop.*
+>
+> ***If it occurs after take-off with runway remaining, I'll lower the nose, close the throttle and land on the runway ahead with flaps as required.***"
+
+- Nose down **first** — that's why it comes first in the brief
+- The runway is still ahead of you, so there's **no decision to make** — just fly it down
+
+<!--
+
+The second part of the brief. It's the simplest airborne case: there's runway left to land on, so the landing area is already chosen. Have the student say parts 1 and 2 together, out loud. The no-runway case comes after the actions slide.
 
 -->
 
@@ -315,6 +345,23 @@ The runway is drawn 800 m long with the climb-out from the threshold; check the 
 
 ---
 
+# Build your safety brief — no runway remaining
+
+> *"If an engine failure or malfunction occurs during the take-off roll, I'll close the throttle and stop. If it occurs after take-off with runway remaining, I'll lower the nose, close the throttle and land on the runway ahead with flaps as required.*
+>
+> ***If it occurs without runway remaining, I'll lower the nose, glide at*** ______ ***kt and land within about 30° of the nose.***"
+
+- Fill in the **best glide speed** for your aeroplane
+- Look at the ground beyond the end of the runway **before** you need it
+
+<!--
+
+The third part of the brief, built on the actions and the circuit diagram just covered. Have the student say all three parts out loud, with the glide speed for the training aircraft. One part is still missing — the height below which they won't turn back — and it comes straight after the next slide.
+
+-->
+
+---
+
 # Why not turn back?
 
 Your workbook asked you to reason this out first. The short version:
@@ -333,6 +380,27 @@ From your workbook: [Reality Check: The Runway Behind You](https://www.youtube.c
 FIM Ch 11 background: the instructor should emphasise the need to resist turning steeply near the ground to return to the aerodrome, and keep reinforcing it through the student's training. The ATSB booklet's own figures show "turning back toward the departure aerodrome" was the most common response to a partial power loss (160 of 242 occurrences) and accounted for four of the fatal accidents.
 
 Some operators publish a minimum height above which a turn back may be considered for a particular type, aerodrome and wind, and practise it at a safe height first; some don't allow it at all in training. Check your operator's procedures, and put the figure in the safety brief. Either way, the decision is made at the holding point, not at 400 ft.
+
+-->
+
+---
+
+# Plan it before you roll — the safety brief
+
+Now put the whole brief together, with the turn-back height added. Before every take-off, at the holding point, brief yourself (and any passenger) on what you'll do. For example:
+
+> *"If an engine failure or malfunction occurs during the take-off roll, I'll close the throttle and stop. If it occurs after take-off with runway remaining, I'll lower the nose, close the throttle and land on the runway ahead with flaps as required. If it occurs without runway remaining, I'll lower the nose, glide at* ______ *kt and land within about 30° of the nose. I will not turn back below* ______ *ft."*
+
+- Make it **specific to today** — the runway, the wind, and what lies beyond the end of it
+- Look at the ground beyond the runway end **before** you need it
+
+<!--
+
+CASA A2.1(i, j): correctly identify critical airspeeds, configurations, and emergency and abnormal procedures; work out a plan of action, in advance, to ensure the safest outcome in the event of abnormal operations. NTS2 4(d): developing and implementing plans of action to mitigate threats. The ATSB's first strategy in the workbook reading is exactly this: pre-flight decision-making and planning for emergencies at the particular aerodrome.
+
+The wording above is a common Australian form, not a CASA script — the student should make it their own, but it must cover the roll, runway remaining, no runway remaining, and the turn-back height. Fill in the blanks with your training aircraft's best glide speed and your operator's minimum turn-back height (if it has one). Some operators add the speed at which the take-off is rejected, or a partial-power plan — see the partial power slide.
+
+From today the student says this brief, out loud, before every take-off. It's also the first thing a pre-solo check looks for — the FIM expects a student to be proficient at the pre take-off safety brief before first solo.
 
 -->
 
@@ -374,10 +442,11 @@ The higher and closer you are, the more choice you have:
 
 | Where in the circuit | Your best option |
 |---|---|
-| **Climb-out or early crosswind**, below your turn-back height | Engine failure after take-off — **land ahead** |
-| **Crosswind or early downwind**, at height | The runway — or another runway — may be within reach; if not, the **best field** ahead |
-| **Mid to late downwind** | Turn towards the runway **now** — a **glide approach**, cutting the corner if you need to |
-| **Base or final** | You're already where a glide approach starts — **glide approach** to the runway |
+| **Climb-out or early crosswind**, below turn-back height | Engine failure after take-off — **land ahead** |
+| **Crosswind or early downwind**, at height | The runway may be in reach; if not, the **best field** ahead |
+| **Mid to late downwind** | Turn to the runway **now** — **glide approach**, cutting the corner |
+| **Base** | **Marginal** — early base may reach it if you turn in at once; late base usually won't |
+| **Final** | Usually **below the glide path** — land on the **best surface ahead** |
 
 > The runway is only the answer if you can **reach** it — with height to spare.
 
@@ -386,6 +455,8 @@ The higher and closer you are, the more choice you have:
 CASA A6.2(t–w): correctly identify an engine failure during flight; apply the highest priority to controlling the aeroplane; perform recall actions; select a suitable landing area within gliding distance, on the aerodrome or elsewhere. Underpinning knowledge A6 4(d) (judging descent profiles) and A6 4(i) (performance in a glide).
 
 Recall the workbook number: about 3 km of glide from 1,000 ft in still air, and the downwind leg is only about 1 km from the runway. So from much of the downwind the runway *is* in reach — but a strong wind, a wide circuit or a late decision soon takes that away. The table is a guide, not a set of gates; the deciding question is always "can I reach it from here, with margin?"
+
+Going round the circuit, you lose height faster than you get closer, so the glide ratio you need rises all the way to final. Early base is further out than the start of final but much higher, so it asks for less. Final on a normal 3° approach is flatter than a 10:1 glide: at 1 nm you're about 320 ft up, which is only about half a mile of glide, so you land short.
 
 A circuit flown close in keeps more of it within gliding distance of the runway — one reason to fly a tidy circuit at the published spacing rather than a wide one.
 
@@ -512,20 +583,20 @@ Check your aircraft's flight manual for its glide speed, the approach speed with
 | Factor | Effect on distance over the ground |
 |---|---|
 | **Speed** | Best glide speed goes furthest — **faster or slower** both steepen it |
-| **Wind** | Headwind **shorter** (fly a few knots faster); tailwind **longer** |
+| **Wind** | Headwind **shorter** (fly a few knots faster — why?); tailwind **longer** |
 | **Weight** | Same glide **ratio** — a higher best glide speed when heavy |
 | **Flap**, windmilling propeller | More drag, a **steeper** glide — save flap until assured |
 | **Turns** | Each turn costs height — more with a steeper bank |
 
-> The one lever that never helps: **raising the nose** to stretch the glide. It only makes it steeper — and slower.
+> The instinct to resist: **raising the nose** to stretch the glide. It only makes it steeper — and slower.
 
 <!--
 
-Underpinning knowledge A6 4(i): aircraft performance in a glide. From your workbook: [How far can airplane glide?](https://www.youtube.com/watch?v=klqXonOpPB0) (Flight Club) or [CASA RPL PPL Tutorials #4 Glide Performance Wind Weight Configuration](https://www.youtube.com/watch?v=N9XfZb7iuJw) (Evionica) — whichever was set. Ask the student for the headwind and weight answers from topic 5 before revealing the rows. The tailwind's catch is worth adding out loud: the extra distance comes with a faster groundspeed at touchdown — one more reason a downwind landing after a turn back is a poor trade.
+Underpinning knowledge A6 4(i): aircraft performance in a glide. From your workbook: [How far can airplane glide?](https://www.youtube.com/watch?v=klqXonOpPB0) (Flight Club). Ask the student for the headwind and weight answers from topic 5 before revealing the rows. Why faster into a headwind: the air is a conveyor belt carrying you backwards for as long as you're in it. A few knots faster costs little glide ratio but cuts the time on the belt, so you cover more ground. The tailwind's catch is worth adding out loud: the extra distance comes with a faster groundspeed at touchdown — one more reason a downwind landing after a turn back is a poor trade.
 
 The recall to Lesson 3 is the best glide speed itself, sitting close to $V_Y$ — the minimum-drag speed. Lesson 17 opens with the full total-drag-curve treatment; here it's enough that best glide is a specific speed, and that slower is not better.
 
-The "raise the nose" line is the most dangerous instinct on the list, and the one that kills on a turn back: it feels like it should stretch the glide, it doesn't, and it walks the aeroplane towards the stall. Say it plainly.
+The "raise the nose" line is the most dangerous instinct on the list, and the one that kills on a turn back: it feels like it should stretch the glide, it doesn't, and it walks the aeroplane towards the stall. Say it plainly. Strictly, in a strong tailwind a little below best glide speed gives slightly more ground distance, the mirror of the headwind case. The gain is small and the margin to the stall is the price, so teach "hold best glide speed" and treat that as a refinement for later.
 
 Warrior figures, if that's your training aircraft: best glide about 73 KIAS at maximum weight, roughly a 10:1 glide ratio. Check the published figures for your aircraft type.
 
