@@ -4,7 +4,6 @@ theme: open-aviation-portrait
 title: Circuit Emergencies — Pre-flight Briefing Notes
 license: CC-BY-SA-4.0
 pdf: true
-draft: true
 ---
 
 <!-- _class: lead -->
@@ -138,7 +137,7 @@ I'M SAFE and PAVE are standing checks before **every** flight — by now the stu
 
 - **Transfer** · **Eliminate** · **Accept** · **Mitigate**
 
-Likely ones to surface: **low-level simulated failures** (mitigate — briefed minimum heights, instructor go-around call, "simulated" every time); **startle** on the first one (mitigate — rehearsed, and you know it's coming); **other traffic** during a glide approach (mitigate — radio calls, lookout, and a go-around if the spacing goes); **an engine that's slow to respond** after a long glide at idle (mitigate — carburettor heat, and clearing the engine during the descent per your operator).
+Likely ones to surface: **the ground beyond the runway ends** (mitigate — look at the aerodrome on satellite or other imagery beforehand, and note what's off each end and where you'd land); **low-level simulated failures** (mitigate — briefed minimum heights, instructor go-around call, "simulated" every time); **startle** on the first one (mitigate — rehearsed, and you know it's coming); **other traffic** during a glide approach (mitigate — radio calls, lookout, and a go-around if the spacing goes); **an engine that's slow to respond** after a long glide at idle (mitigate — carburettor heat, and clearing the engine during the descent per your operator).
 
 ---
 
