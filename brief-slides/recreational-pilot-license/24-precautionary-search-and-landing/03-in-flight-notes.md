@@ -79,13 +79,13 @@ Short-field take-off (A2.5: level 2) is revised here if the flight's practice fi
 # Simulated precautionary landing — instructor demonstration
 
 ## Sequence
-- In the training area, declare the scenario without warning: "Simulated deteriorating weather" (or "Simulated low fuel") — "Simulated precautionary landing"
+- In the training area, declare the scenario: "Simulated deteriorating weather" (or "Simulated low fuel", "Simulated oil pressure fluctuation", "Simulated sick passenger") — "Simulated precautionary landing"
 - **Decide** — narrate the decision out loud, tied to the simulated trigger
 - **Configure** — slow, safe cruise, some flap, appropriate height
 - **Select** — search the area and choose the field, narrating the WOSSSSET criteria out loud — approach/overshoot paths, length, surface
 - **Communicate** — simulate the PAN call to ATC (do not transmit unless genuinely required)
 - **Prepare** — narrate the passenger brief — both done before the first pass, not squeezed in during it
-- **Inspect** — join on the normal crosswind at 1000 ft trimmed for 80 kt, and time the field on downwind (10 s ≈ 400 m, 20 s ≈ 800 m). Then a wider 500 ft pass: time again and average the two timings (or use the GNSS groundspeed instead), and assess WOSSSSET again — aim for at least 400 m, and check the aircraft manual's short-field landing distance. Climb back to the 1000 ft circuit height after each pass. Then the first low pass at ~200 ft to the right of the landing path, with full power applied two-thirds of the way along the runway, circuit, second (dummy) pass at ~50–100 ft to the right (full power two-thirds along again), re-check
+- **Inspect** — join on the normal crosswind at 1000 ft trimmed for 80 kt, and time the field on downwind (10 s ≈ 400 m, 20 s ≈ 800 m). Then a wider 500 ft pass: time again and average the two timings (or use the GNSS groundspeed instead), and assess WOSSSSET again — aim for at least 400 m, and check the aircraft manual's short-field landing distance. Then stay at 500 ft, configured, and fly the circuit at 500 ft (the practice standard; in real life terrain might argue for 1000 ft, or cloud base for staying low). Then the first low pass at ~200 ft to the right of the landing path, with full power applied two-thirds of the way along the runway, circuit, second (dummy) pass at ~50–100 ft to the right (full power two-thirds along again), re-check
 - Fly the short-field landing, or go around no lower than the briefed minimum height
 
 <!--
@@ -99,7 +99,7 @@ CASA A6.4(f-p). Narrate every step out loud — this demonstration is the model 
 # Simulated precautionary landing — student flown
 
 ## Sequence
-- Repeat from varying positions relative to the training area/approved fields, and with both simulated triggers (weather, low fuel)
+- Repeat from varying positions relative to the training area/approved fields, and with different simulated triggers (weather, low fuel, an engine indication, a sick passenger)
 - Student flies the full vital-actions sequence from memory: decide, configure, select, communicate, prepare, inspect, land
 - Prompt only if a step is missed or out of order — in particular the PAN call and passenger brief must be done before the first pass — let the sequence run uninterrupted otherwise
 - Debrief briefly after each repetition: what worked, what would you do differently?

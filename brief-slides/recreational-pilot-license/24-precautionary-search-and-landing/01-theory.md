@@ -16,7 +16,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 <!--
 
-This lesson trains the response to deteriorating conditions away from the aerodrome — weather, fuel, or getting unsure of your position — with the engine running normally throughout: deciding early, configuring the aeroplane, searching for and inspecting a field, and completing a short-field landing. It also assesses the pre-flight operational documents (MEL, NOTAMs, GNSS RAIM, ERSA, AIP) and revises short-field take-off and landing from Lesson 22.
+This lesson trains the response to deteriorating conditions away from the aerodrome — weather, fuel, getting unsure of your position, or anything else the pilot isn't happy with — with the engine running throughout: deciding early, configuring the aeroplane, searching for and inspecting a field, and completing a short-field landing. It also assesses the pre-flight operational documents (MEL, NOTAMs, GNSS RAIM, ERSA, AIP) and revises short-field take-off and landing from Lesson 22.
 
 Confirm the pre-lesson workbook is done before starting — it covers the background/ factual material (why precautionary landings happen, turning illusions when flying low, fuel management and endurance, the pre-flight documents, the PAN call, and landing distance from the POH). This session builds on that rather than re-teaching it, and spends the live time on the judgement, the search, and the flying.
 
@@ -105,13 +105,20 @@ Height, fields, daylight, fuel and passenger calm all fall together as condition
 
 # Today's flying
 
-Unlike Lesson 17, the engine is running perfectly today — this is about planning and judgement, not a system failure. The same discipline applies: decide early, while you're still in full control.
+Unlike Lesson 17, the engine is still running today — this is about judgement, not an unmistakable failure. The same discipline applies: decide early, while you're still in full control.
+
+A precautionary search and landing is for **anything you're not happy with**, not only cloud and last light:
+
+- Weather closing in, fuel getting tight, or daylight running out
+- Oil pressure fluctuating, or another engine indication that isn't right
+- A sick or distressed passenger
+- Becoming unsure of your position
 
 > The aim today: build the judgement to decide early, and the plan to act on that decision calmly.
 
 <!--
 
-Contrast directly with Lesson 17's hook: there, the trigger (engine failure) is unmistakable; here, the trigger is a judgement call the student has to make themselves.
+Contrast directly with Lesson 17's hook: there, the trigger (engine failure) is unmistakable; here, the trigger is a judgement call the student has to make themselves. Stress that weather and fuel are only the classic examples — a fluctuating oil pressure or a sick passenger is just as good a reason to land early, and the same sequence applies. The trigger also shapes the real-life plan: a sick passenger or an engine indication argues for the nearest suitable field, quickly, while a deteriorating-weather scenario gives more time to search.
 
 -->
 
@@ -287,26 +294,26 @@ CASA A6.4(n,o): advise ATS or other agencies of situation and intentions; re-bri
   <circuit-path
     label="1 · Crosswind join and 500 ft pass"
     color="#a855f7cc"
-    points="2000,1800,305; 2000,-1000,305; -3000,-1000,305; -3000,300,152; -800,300,152; 500,300,152; 900,300,152; 2500,300,305; 2500,-1000,305; 250,-1000,305"
-    segment-labels="0:Join on the normal crosswind at 1000 ft trimmed for 80 kt — PAN call and passenger brief done before this point; 1:Downwind at 1000 ft — time threshold to threshold; 2:Base — wide of the field and descending to 500 ft; 3:Final — level at 500 ft, wider than the low passes; 4:500 ft pass — offset right, time threshold to threshold again to average with the downwind timing, and assess WOSSSSET again; 5:Continue level past the far threshold; 6:Climb away straight ahead to 1000 ft; 7:Turn onto crosswind and then downwind at 1000 ft; 8:Downwind at 1000 ft — back to the midpoint"
+    points="2000,1800,305; 2000,-1000,305; -3000,-1000,305; -3000,300,152; -800,300,152; 500,300,152; 900,300,152; 2500,300,152; 2500,-1000,152; 250,-1000,152"
+    segment-labels="0:Join on the normal crosswind at 1000 ft trimmed for 80 kt — PAN call and passenger brief done before this point; 1:Downwind at 1000 ft — time threshold to threshold; 2:Base — wide of the field and descending to 500 ft; 3:Final — level at 500 ft, wider than the low passes; 4:500 ft pass — offset right, time threshold to threshold again to average with the downwind timing, and assess WOSSSSET again; 5:Continue level past the far threshold; 6:Straight ahead, staying at 500 ft and configured — no climb; 7:Turn onto crosswind at 500 ft; 8:Downwind at 500 ft — the circuit height from here on"
   ></circuit-path>
   <circuit-path
     label="2 · First low pass — 200 ft"
     color="#3b82f6cc"
-    points="250,-1000,305; -3000,-1000,305; -3000,100,152; -800,100,61; 333,100,61; 500,100,61; 900,100,61; 2500,100,305; 2500,-1000,305; 250,-1000,305"
-    segment-labels="0:Extend downwind at 1000 ft — room on final to reach inspection height before the threshold; 1:Base — descending to 500 ft; 2:Final — descend to reach ~200 ft well before the threshold; 3:Low pass ~200 ft — offset right; check surface, drift and obstacles in the overshoot area; 4:Full power two-thirds of the way along the runway — for safety; 5:Continue level past the far threshold; 6:Climb away straight ahead to 1000 ft; 7:Turn, established downwind at 1000 ft; 8:Downwind at 1000 ft — back to the midpoint for the next pass"
+    points="250,-1000,152; -3000,-1000,152; -3000,100,152; -800,100,61; 333,100,61; 500,100,61; 900,100,61; 2500,100,152; 2500,-1000,152; 250,-1000,152"
+    segment-labels="0:Extend downwind at 500 ft — room on final to reach inspection height before the threshold; 1:Base at 500 ft; 2:Final — descend to reach ~200 ft well before the threshold; 3:Low pass ~200 ft — offset right; check surface, drift and obstacles in the overshoot area; 4:Full power two-thirds of the way along the runway — for safety; 5:Continue level past the far threshold; 6:Climb away straight ahead to 500 ft; 7:Turn onto crosswind at 500 ft; 8:Downwind at 500 ft — back to the midpoint for the next pass"
   ></circuit-path>
   <circuit-path
     label="3 · Second pass — 50-100 ft"
     color="#f59e0bcc"
-    points="250,-1000,305; -3000,-1000,305; -3000,100,152; -800,100,23; 333,100,23; 500,100,23; 900,100,23; 2500,100,305; 2500,-1000,305; 250,-1000,305"
-    segment-labels="0:Extend downwind at 1000 ft — room on final to reach inspection height before the threshold; 1:Base — descending to 500 ft; 2:Final — descend to reach ~50-100 ft well before the threshold; 3:Second (dummy) pass ~50-100 ft — offset right; re-check surface, obstacles, overshoot; 4:Full power two-thirds of the way along the runway — for safety; 5:Continue level past the far threshold; 6:Climb away straight ahead to 1000 ft; 7:Turn, established downwind at 1000 ft; 8:Downwind at 1000 ft — decide: land, or go around again"
+    points="250,-1000,152; -3000,-1000,152; -3000,100,152; -800,100,23; 333,100,23; 500,100,23; 900,100,23; 2500,100,152; 2500,-1000,152; 250,-1000,152"
+    segment-labels="0:Extend downwind at 500 ft — room on final to reach inspection height before the threshold; 1:Base at 500 ft; 2:Final — descend to reach ~50-100 ft well before the threshold; 3:Second (dummy) pass ~50-100 ft — offset right; re-check surface, obstacles, overshoot; 4:Full power two-thirds of the way along the runway — for safety; 5:Continue level past the far threshold; 6:Climb away straight ahead to 500 ft; 7:Turn onto crosswind at 500 ft; 8:Downwind at 500 ft — decide: land, or go around again"
   ></circuit-path>
   <circuit-path
     label="4 · Short-field approach and landing"
     color="#22c55ecc"
-    points="250,-1000,305; -1500,-1000,305; -1500,50,152; -600,20,30; -200,5,8; 0,0,1; 200,0,1; 400,0,1"
-    segment-labels="0:Continue downwind at 1000 ft to the base turn; 1:Base — descending; 2:Final — short-field profile, full flap; 4:Threshold at minimum recommended speed; 5:Touchdown; 6:Maximum braking — short ground roll"
+    points="250,-1000,152; -1500,-1000,152; -1500,50,152; -600,20,30; -200,5,8; 0,0,1; 200,0,1; 400,0,1"
+    segment-labels="0:Continue downwind at 500 ft to the base turn; 1:Base — descending; 2:Final — short-field profile, full flap; 4:Threshold at minimum recommended speed; 5:Touchdown; 6:Maximum braking — short ground roll"
   ></circuit-path>
 </circuit-diagram>
 
@@ -323,13 +330,15 @@ Toggle each pass in the legend, or fly it with its play button, to talk through 
 1. **Join on the normal crosswind** at 1000 ft, **trimmed for 80 kt** — and make your **PAN call to ATC** and give your **passenger brief** *before* the first pass
 2. **Downwind at 1000 ft** — time the field from threshold to threshold
 3. **Extend downwind**, turn base wide of the field, and descend to **500 ft** — wider than the low passes will be
-4. **500 ft pass** — offset right of the landing path, **time the field again**, and **assess WOSSSSET again** from this new height. Climb back to the **1000 ft circuit height**, then downwind
+4. **500 ft pass** — offset right of the landing path, **time the field again**, and **assess WOSSSSET again** from this new height. Then **stay at 500 ft**, configured, and fly the circuit at 500 ft
 
 <!--
 
 The crosswind join is labelled on the diagram as the point by which the PAN call and passenger brief must already be done — the student should not be making radio calls or briefing passengers while flying a low pass. If ATC isn't available, make the call on the area frequency or the CTAF as the operator's procedures require.
 
 Reassessing WOSSSSET on the 500 ft pass matters: the field looks different from circuit height than it did from the search height, and this is a low-cost chance to reject it before going lower. The 500 ft pass is deliberately wider than the later passes so the student has more of the field in view and room to turn away. The offsets and heights are illustrative — sanity-check the geometry against the diagram's rendered output, and against your own aircraft and training area, before using this live.
+
+After the 500 ft pass the aeroplane stays configured and the rest of the circuits are flown at 500 ft AGL, which is what CASA expects to see in training. Be clear that this is the practice standard: in a real event the height depends on why you're there — terrain around the field might argue for climbing back to 1000 ft, while a low cloud base might mean staying at or below 500 ft. Also tell the student that, once the problem is resolved, we will probably want to take off again from the same field, so the inspection should consider the departure as well as the landing.
 
 -->
 
@@ -357,7 +366,7 @@ Timing the pass is how the student works out the field's length (CASA A6.4(f): l
 
 # Flying the low passes
 
-1. **First low pass — 200 ft**, slightly right of the intended landing path, level from threshold to threshold — check the surface, note drift, look for obstacles in the overshoot area. **Apply full power two-thirds of the way along the runway**, then climb back to the **1000 ft circuit height** once past the far threshold
+1. **First low pass — 200 ft**, slightly right of the intended landing path, level from threshold to threshold — check the surface, note drift, look for obstacles in the overshoot area. **Apply full power two-thirds of the way along the runway**, then climb back to **500 ft** once past the far threshold and fly the circuit at 500 ft
 2. **Second pass — 50–100 ft**, again to the right, for a closer re-check — and again **full power two-thirds of the way along the runway**
 3. Repeat if you're not satisfied — then either fly the **short-field landing**, or go around and choose another field
 
@@ -424,7 +433,7 @@ Talk it through with the model as the field, saying each step out loud:
 
 Run this as a talk-through, with the 3D model on a desk as the field, or have the student walk the pattern themselves as "the aeroplane" while narrating.
 
-Hand over a scenario card (weather, fuel, or position trigger) to start; the student calls out their sign to decide now. Every step should get a spoken answer. If the student skips one, that's the one to dig into.
+Hand over a scenario card (weather, fuel, position, an engine indication or a sick passenger) to start; the student calls out their sign to decide now. Every step should get a spoken answer. If the student skips one, that's the one to dig into.
 
 Replaces the two static summary-table slides with a hands-on recap that exercises the whole sequence, not just recall: the decision to conduct a precautionary search and landing, configuring the aeroplane, applying the field-selection criteria, the PAN call, the passenger brief, flying the inspection pattern (including measuring the field length), the short-field landing, and securing the aircraft.
 
