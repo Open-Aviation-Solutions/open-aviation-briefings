@@ -20,7 +20,7 @@ All text and presenter notes in this briefing are licensed under [Creative Commo
 
 > **"trim for the glide"** — reinforces the action, not just the resulting state.
 
-> **"aviate, navigate, communicate"** — the standing priority order, repeated every exercise.
+> **"aviate, navigate, communicate, troubleshoot"** — the standing priority order, repeated every exercise.
 
 > **"MAYDAY early"** — say it before you need convincing you should have.
 
@@ -80,11 +80,11 @@ Climbing is assessed (A3.1: cruise climb, best rate climb — level **2**). Desc
 
 ## Sequence
 - From cruise, in the training area or over an approved practice field: throttle to idle without warning — "Simulated engine failure"
-- **Aviate** — trim for the glide at best glide speed, wings level, balance ball centred
-- **Checks** — the quick, fixable causes: carburettor heat on, fuel, mixture
-- **Field** — select and point out the chosen field, narrating the **WOSSSSET** criteria out loud
+- **Aviate** — throttle closed — confirm it's fully closed as part of the drill, as you would have to in a real failure — trim for the glide at best glide speed, wings level, balance ball centred; then the quick, fixable causes: carburettor heat on, fuel, mixture
+- **Navigate** — select and point out the chosen field, narrating the **WOSSSSET** criteria out loud
 - **Communicate** — simulate the MAYDAY call (do not transmit unless genuinely required); point out the transponder emergency code (7700) without necessarily selecting it
-- **Prepare** — narrate the passenger brief, the detailed trouble check (**CFMOST**) and the **BUSH FMMM** shutdown as height allows
+- **Troubleshoot** — narrate the detailed trouble check (**CFMOST**) as height allows, finishing with the partial power check — say it rather than do it ("open the throttle… no response… close it again"), since the engine here would of course respond
+- Then narrate the passenger brief and the **BUSH FMMM** shutdown
 - Fly the descent profile to the field using the **50c technique** — small turn, straight, reassess, all the way onto final — correcting for high/low as needed
 - Go around no lower than the briefed minimum height — apply full power, established climb, retract to clean configuration as appropriate
 
@@ -104,7 +104,7 @@ Roll out on final from the same small turns, not one large low turn — the stud
 
 ## Sequence
 - Repeat from varying heights and positions relative to the training area/approved fields
-- Student flies the full immediate/vital actions sequence from memory: **Aviate, Navigate, Communicate**
+- Student flies the full immediate/vital actions sequence from memory: **Aviate, Navigate, Communicate, Troubleshoot**
 - Prompt only if a step is missed or out of order — let the sequence run uninterrupted otherwise
 - Debrief briefly after each repetition: what worked, what would you do differently?
 
@@ -136,14 +136,14 @@ CASA A6.3(n-x): identify partial power failure, perform recall actions, adjust f
 # Simulated engine fire in flight
 
 ## Sequence
-- Brief this as fully simulated — "Simulated engine fire in flight", no actual actions on the mixture/fuel/master controls
-- Student talks through the actions in order: mixture — idle cut-off; fuel selector — OFF; cabin heat/vents — OFF (avoids drawing smoke into the cabin); increase airspeed or sideslip away from any smoke
-- With the engine now deliberately stopped, this **becomes a forced landing** — the student flies the same immediate/vital actions sequence practised above: field, MAYDAY/7700, passenger brief, shutdown
+- Brief this as fully simulated — "Simulated engine fire in flight". Throttle to idle as for the earlier failures; the student **touches and calls** the fire actions but does not move the fuel, ignition or mixture controls
+- Student calls the actions in order: mixture — idle cut-off; fuel selector — OFF; throttle — closed; cabin heat and cabin air — OFF (fresh-air vents from outside the engine bay can stay open); sideslip away from the smoke if needed (a gentle sideslip can be flown for real). Use your aircraft's checklist items and order where they differ — including what it says about the ignition and master switch
+- **No restart attempt** — it goes straight to the forced landing, flown with the same sequence as above: **Aviate, Navigate, Communicate** — field, MAYDAY/7700, passenger brief, shutdown. There's no Troubleshoot step this time
 - Debrief: what's different about this scenario, compared to the earlier practice failures?
 
 <!--
 
-CASA A6.5(a): correctly identify the situation and maintain safe control of the aeroplane at all times; manage the abnormal/emergency situation in accordance with relevant procedures. This exercise deliberately reuses the field-selection and immediate-actions sequence rather than teaching a separate one — the fire-specific actions (mixture idle cut-off, fuel off, heat/vents off) are what's new, everything after that is the same forced-landing sequence already flown twice today.
+CASA A6.5(a-c): correctly identify the situation and maintain safe control of the aeroplane at all times; manage the abnormal/emergency situation in accordance with relevant procedures. Introduced this lesson at level 3 — not assessed. The fire-specific actions (from the theory brief's "Engine fire in flight" slide, following the CASA Flight Instructor Manual) are what's new; everything after them is the forced-landing sequence already flown today, minus the trouble checks, since the engine is not to be restarted. The debrief answer to look for: no Troubleshoot step.
 
 -->
 

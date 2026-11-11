@@ -81,6 +81,9 @@ Murrman
 Mawilson
 Unicomb
 
+# Organisation and channel names in attributions
+Evionica
+
 # Place names / airports cited in slides
 Bankstown
 Gatwick
@@ -98,3 +101,4 @@ composable
 (?i)frontmatter
 Marp
 Starlight
+hPa

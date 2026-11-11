@@ -65,7 +65,7 @@ Write the aim briefly on the board — it anchors everything else.
 - Height for manoeuvres (recovery complete by **3000 ft AGL**): ______
 - Transit route & any transit lane: ______ &nbsp;&nbsp; CTAF / frequencies: ______
 
-**Draw** — the manoeuvre sequence as a simple ladder (the order you plan to fly):
+**Draw** — the manoeuvres as a numbered list, in the order you plan to fly them:
 
 1. Steep level turn — 45°, building to 60°
 2. Maximum-rate turn — 60°, full power, at the buffet

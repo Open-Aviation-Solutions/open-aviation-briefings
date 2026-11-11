@@ -13,15 +13,13 @@ pdf: true
 
 _CASA Recreational Pilot License (Aeroplane) — CASA Sample Syllabus Lesson 24, Pre-lesson Workbook_
 
-Complete this before your lesson — on your own, at your own pace. For each topic: watch a video, read an article, then answer the questions in the space provided. Print this out, or write your answers in a notebook. It should take about 30–45 minutes in total, and we'll check it together at the start of your pre-flight brief.
+Complete this before your lesson — on your own, at your own pace. For each topic: watch a video, read an article, then answer the questions in the space provided. Print this out, or write your answers in a notebook. It should take about 45–60 minutes in total, and we'll check it together at the start of your pre-flight brief.
 
 All text in this workbook is licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [More info](https://openaviation.solutions/licensing)
 
 <!--
 
-Each topic below lists a verified video or two and article options rather than
-a single pick — check these again before printing this for students, as
-although they were checked when last used, they may have changed since.
+Each topic below lists a verified video or two and article options rather than a single pick — check these again before printing this for students, as although they were checked when last used, they may have changed since.
 
 -->
 
@@ -29,7 +27,7 @@ although they were checked when last used, they may have changed since.
 
 # 1. Why precautionary landings happen
 
-Most precautionary landings have nothing to do with the engine — the aeroplane is running perfectly. They happen because of *planning*: weather closing in, fuel running lower than expected, or becoming unsure of your position as daylight fades. Recognising the situation early, while you're still in full control, is what makes the difference between a precautionary landing and an emergency.
+Most precautionary landings have nothing to do with an engine failure — the aeroplane is still running. They happen because of *planning*: weather closing in, fuel running lower than expected, or becoming unsure of your position as daylight fades. They can also be for anything else you're not happy with, such as an oil pressure that's fluctuating or a passenger who is unwell. Recognising the situation early, while you're still in full control, is what makes the difference between a precautionary landing and an emergency.
 
 **Read (pick one — real ATSB occurrence briefs):**
 - [Weather-related precautionary landing — Cessna 182, near Port Augusta, SA, 25 May 2026](https://www.atsb.gov.au/occurrence-briefs/ab-2026-031) — a recent, real example: visibility deteriorating and light fading, the pilot landed on a road nearby with no injury or damage.
@@ -81,24 +79,25 @@ Once you suspect a precautionary landing might be needed, knowing exactly how mu
 
 ---
 
-# 4. Pre-flight documents — MEL, NOTAM, RAIM, ERSA, AIP
+# 4. Pre-flight documents — maintenance release, MEL, NOTAM, ERSA, AIP
 
-Before every flight you check a handful of documents that tell you what's serviceable, what's changed, and what rules apply along your route. Knowing what each one covers means you actually use them, rather than just ticking a box: the **Minimum Equipment List (MEL)** lists what can legally be unserviceable and still fly; a **NOTAM** (Notice to Airmen) flags something that's changed since the charts were printed; **RAIM** (Receiver Autonomous Integrity Monitoring) is a prediction of whether your GNSS (satellite/GPS) receiver will be able to confirm its own accuracy along your route.
+Before every flight you check a handful of documents that tell you what's serviceable, what's changed, and what rules apply along your route. Knowing what each one covers means you actually use them, rather than just ticking a box: the **maintenance release** records the aircraft's defects and when maintenance is due; the **Minimum Equipment List (MEL)**, where the aircraft has one, lists what can legally be unserviceable and still fly; a **NOTAM** (Notice to Airmen) flags something that's changed since the charts were printed; the **ERSA** and **AIP** hold aerodrome details and the rules for operating in Australian airspace.
 
 **Read:**
 - [Flight Safety Australia — NOTAMs: decoding the details](https://www.flightsafetyaustralia.com/2026/04/notams-decoding-the-details/) — CASA's own safety magazine on how to actually read a NOTAM, not just skim past it.
 
-The MEL, GNSS RAIM prediction, ERSA and AIP are specific to your aircraft and your operator — check your operator's MEL and your CASA ERSA/AIP references directly, and ask your instructor to show you where each lives before your next flight if you haven't used them yet.
+The **ERSA** (En Route Supplement Australia) and **AIP** (Aeronautical Information Publication) are Airservices Australia publications that apply to everyone. The ERSA gives aerodrome-specific details like runways, frequencies and local procedures, and the AIP holds the rules and procedures for operating in Australian airspace. Both are free at airservicesaustralia.com. Before every flight you check the aircraft's **maintenance release** for defects and serviceability. If the aircraft also has an **MEL**, which is specific to that aircraft and operator, it tells you whether an item recorded as unserviceable still allows the flight to go ahead. Many training aircraft don't have an MEL. Ask your instructor to show you where your aircraft's documents live.
 
 **Answer:**
 
-1. What does the MEL tell you, and when would you need to check it? ________________________________
+1. What do you check on the maintenance release before every flight, and when would you also need the MEL? ________________________________
 
 2. What is a NOTAM? Even if the aircraft and weather are fine, list three examples of the kind of NOTAM that could still affect today's flight: ________________________________
 
-3. If you plan to rely on GNSS (GPS) navigation, what should you check before you fly, and why? ________________________________
+3. Find one item in the ERSA and one in the AIP that you'd use when planning a flight from your home aerodrome. Name each one and where you found it:
 
-4. Name one thing you'd look up in the ERSA, and one thing you'd look up in the AIP: ________________________________
+   - **ERSA:** item ________________ section ________________ page ______
+   - **AIP:** item ________________ section ________________ page ______
 
 ---
 
@@ -120,9 +119,62 @@ You already know the MAYDAY call from Lesson 17 — for a real emergency. A prec
 
 ---
 
+# 6. Landing distance from your POH
+
+A precautionary landing is only safe if the field is long enough for the aeroplane on the day. Your aircraft's **Pilot's Operating Handbook (POH)** or flight manual gives landing distances, but they change with weight, **pressure altitude**, **temperature** and the **surface** — so the number you remember from a cool day at sea level may be well short of what a hot day at a high field needs. In the lesson you'll time a field's length from the air; this is how you'll know what length you actually need.
+
+**Read:**
+- The **performance** section of the POH or flight manual for the aeroplane you'll fly in the lesson — the landing distance chart or table, and the notes and conditions printed alongside it.
+
+**Answer** — use **today's temperature** and the **area QNH**, and the elevation of the strip or area you'd use for a precautionary landing (for example the practice field; the ERSA lists aerodrome elevations):
+
+1. What are the elevation, temperature and QNH you're using? Work out the **pressure altitude** (elevation plus 30 ft for every hPa that QNH is below 1013) and the **density altitude**: ________________________________
+
+2. From the POH, what **landing distance** do you need for those conditions at your planned landing weight? Give both the **ground roll** and the distance to land over a **50 ft obstacle**: ________________________________
+
+3. What corrections does the POH give for the wind, slope and surface, and what margin would you add on top? ________________________________
+
+4. How does your answer compare with the rule of thumb that most small aeroplanes want **at least 400 m**? How would a hotter day, or a higher field, change it — and what would you do if the field you've chosen is shorter than the distance you need? ________________________________
+
+<!--
+
+Landing distance is type-specific, so there is no answer key here: check the student's answer at the pre-flight brief against the POH for the aeroplane they'll fly. Look for the right pressure altitude (a QNH below 1013 raises it, a QNH above 1013 lowers it), density altitude that rises on a hot day, and the correct chart conditions (flap setting, speed, surface, weight). Pressure altitude and the density altitude rule of thumb (about 120 ft per °C above ISA, where ISA is 15°C at sea level falling about 2°C per 1000 ft) are for a quick feel only — the POH chart handles temperature directly.
+
+CASA underpinning knowledge: contents of the aircraft flight manual and pilot's operating handbook [A3 4(m), A4 4(g), A6 4(l)]; A6.4(f), landing area length adequate for landing. This is the figure the theory brief's timing slide tells the student to compare their timed field length against.
+
+-->
+
+---
+
+# 7. Your precautionary search and landing checklist
+
+The precautionary search and landing is a sequence you'll fly from memory, in order, while you're busy. A checklist you make yourself — in your own words, for your own aeroplane — is far easier to learn than one you're handed, and it's what you'll refine with your instructor at the pre-flight brief and then use as the plan for the flight.
+
+The sequence is **Decide → Configure → Select → Communicate → Prepare → Inspect → Land**. The details are covered in the lesson, so for now build a first draft from what you already know: your Lesson 17 forced landing checklist and field-selection criteria, your POH, and your answers from the PAN call and landing distance topics above.
+
+**Do:**
+
+Draw up a one-page checklist, with a heading for each of the seven steps, and under each one the few actions and words you'd want in front of you. Aim for short prompts rather than sentences. At a minimum include:
+
+- **Configure** — the precautionary cruise configuration for your aeroplane from the POH: the RPM or power, the speed (try 80 kt, a speed that gives you time to look), and the flap setting, plus gear if retractable. Write down the actual numbers: RPM ______ &nbsp; KIAS ______ &nbsp; Flaps ______
+- **Select** — the field-selection criteria you'd narrate (from Lesson 17)
+- **Communicate** — your PAN call, in order
+- **Prepare** — what you'd tell your passengers
+- **Inspect** and **Land** — what you think you'll need to check, and the key numbers for a short-field landing in your aeroplane
+
+Leave gaps where you aren't sure — those are the things to ask about in the lesson.
+
+<!--
+
+There is no answer key, because the point is for the student to build their own and own it. At the pre-flight brief, look at the draft with the student and check it against the POH: the configuration numbers in particular (RPM, speed and flap should give a slow, safe cruise with good visibility and a margin above the stall), then the order of the sequence, the PAN call structure and the passenger brief. Note where they've left gaps, and fill them in on the whiteboard as you go through the lesson plan. The student can then take the refined checklist with them (for example on a kneeboard) to use during the flight. The student's own wording is more important than matching a model checklist — leave it unless it's unsafe or out of order.
+
+-->
+
+---
+
 # Bring this to your lesson
 
-- Bring your completed answers (printed, or your notebook) to the pre-flight brief
+- Bring your completed answers, and your draft checklist (printed, or your notebook), to the pre-flight brief
 - We'll check through them together and answer anything that didn't make sense
 - From there, the live theory brief builds on this: configuring the aeroplane for the search, choosing and inspecting a field, the vital-actions sequence, and revising the short-field landing from Lesson 22
 

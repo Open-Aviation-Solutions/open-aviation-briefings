@@ -65,7 +65,7 @@ Write the aim (briefly) on the board — it anchors everything else you draw.
 - CTAF / frequencies: ______
 - Who taxis / handles throttle: ______ (decide now — the student should do more of the flying today)
 
-**Draw** — in the training area, the exercise sequence (a simple ladder or list works well):
+**Draw** — in the training area, the exercises as a numbered list:
 
 1. **Establishing straight flight** — visual reference point, wings level, balance ball
 2. **Establishing level flight** — attitude reference, trim, altimeter cross-check
