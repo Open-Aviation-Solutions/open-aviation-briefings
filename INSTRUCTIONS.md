@@ -46,7 +46,8 @@ host as usual) and forwards the Astro dev server on port **4324**. Rootless
 podman keeps host file ownership automatically; under rootful docker the
 container runs as the host user for the same reason. The image rebuilds
 automatically when the `Dockerfile` changes (tracked via a `.image.stamp`
-file); `touch Dockerfile` forces a rebuild.
+file), or when the image has gone missing (e.g. after `podman image prune`);
+`touch Dockerfile` forces a rebuild.
 
 ## Architecture
 

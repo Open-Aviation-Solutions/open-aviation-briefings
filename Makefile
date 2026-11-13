@@ -35,8 +35,14 @@ CONTAINER_RUN := $(CONTAINER_RUNTIME) run --rm $(TTY) -v $(CURDIR):/app $(CONTAI
 NPM := $(CONTAINER_RUN) $(IMAGE) npm
 VALE := $(CONTAINER_RUN) $(IMAGE) vale
 # Stamp file marking the last successful image build, so plain `make` runs only
-# rebuild the image when the Dockerfile is newer (no runtime call otherwise).
+# rebuild the image when the Dockerfile is newer.
 IMAGE_STAMP := .image.stamp
+# The stamp can outlive the image itself (e.g. after `podman image prune`), which
+# would leave make treating a missing image as current. Drop the stamp whenever
+# the image is missing, so the next target that needs it rebuilds it.
+ifeq ($(shell $(CONTAINER_RUNTIME) image inspect $(IMAGE) >/dev/null 2>&1 && echo yes),)
+$(shell rm -f $(IMAGE_STAMP))
+endif
 else
 NPM := npm
 VALE := vale
@@ -48,7 +54,7 @@ help:
 ifdef USE_CONTAINER
 # Rebuild the image whenever the Dockerfile changes; `make` skips it otherwise
 # because the stamp is newer. `touch Dockerfile` (or delete the stamp) forces a
-# rebuild. A bind-mount image has no COPY steps, so the Dockerfile is its only input.
+# rebuild, and so does a missing image (see IMAGE_STAMP above). A bind-mount image has no COPY steps, so the Dockerfile is its only input.
 $(IMAGE_STAMP): Dockerfile
 	$(CONTAINER_RUNTIME) build -t $(IMAGE) .
 	@touch $@
