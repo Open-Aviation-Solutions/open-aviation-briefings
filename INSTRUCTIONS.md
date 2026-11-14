@@ -46,7 +46,8 @@ host as usual) and forwards the Astro dev server on port **4324**. Rootless
 podman keeps host file ownership automatically; under rootful docker the
 container runs as the host user for the same reason. The image rebuilds
 automatically when the `Dockerfile` changes (tracked via a `.image.stamp`
-file); `touch Dockerfile` forces a rebuild.
+file), or when the image has gone missing (e.g. after `podman image prune`);
+`touch Dockerfile` forces a rebuild.
 
 ## Architecture
 
@@ -144,9 +145,10 @@ Direction Indicator, and the two appear on the same pages.
 
 ### Lesson ordering and the look-ahead to the next lesson
 
-A lesson's notes close by introducing the next one. Take that ordering from the **RPL(A)
-sample syllabus** in `casa-sample-syllabus/`, not from the flight instructor rating
-package in the same directory — the two sequence the same material differently, and the
+A lesson's notes close by introducing the next one. Take that ordering from the lesson's
+own **student sample syllabus** in `casa-sample-syllabus/` — RPL(A) for
+`recreational-pilot-license/`, PPL(A) for `private-pilot-license/` — not from the flight
+instructor rating package in the same directory — the two sequence the same material differently, and the
 FIR order is the easier one to reach for by mistake. For example, Basic Instrument Flight
 is RPL(A) lesson 26 and is followed by lesson 27, Consolidation; in the Grade 3 aeroplane
 instructor syllabus the equivalent block (TE3-51…55) is followed by forced landings and
