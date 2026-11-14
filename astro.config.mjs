@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight'
 import sitemap from '@astrojs/sitemap'
 import fs from 'node:fs'
 import path from 'node:path'
-import { visit } from 'unist-util-visit'
+import { satteri } from '@astrojs/markdown-satteri'
 import { pdfDownloadName } from './src/lib/pdf-download-name.mjs'
 
 // When building on Cloudflare Pages (PR previews), CF_PAGES_URL is set automatically
@@ -54,24 +54,25 @@ const devPublicUnderBase = {
 // than colliding as identical "02-pre-flight-briefing-notes.pdf". External
 // links (NZ CAA / CASA / FAA whiteboards) are left untouched — the download
 // attribute is ignored cross-origin anyway.
-function rehypePdfDownloadName() {
-  return (tree) => {
-    visit(tree, 'element', (node) => {
-      if (node.tagName !== 'a') return
+const pdfDownloadNamePlugin = {
+  name: 'pdf-download-name',
+  element: {
+    filter: ['a'],
+    visit(node, ctx) {
       const href = node.properties?.href
       if (typeof href !== 'string') return
       if (/^[a-z]+:/i.test(href)) return // skip absolute/external URLs
       if (!href.includes('/brief-slides/') || !href.endsWith('.pdf')) return
-      node.properties.download = pdfDownloadName(href)
-    })
-  }
+      ctx.setProperty(node, 'download', pdfDownloadName(href))
+    },
+  },
 }
 
 export default defineConfig({
   site: SITE,
   base: BASE,
   markdown: {
-    rehypePlugins: [rehypePdfDownloadName],
+    processor: satteri({ hastPlugins: [pdfDownloadNamePlugin] }),
   },
   // When running inside the dev container (see Makefile/Dockerfile) the server
   // must listen on all interfaces so the forwarded host port can reach it.
@@ -100,7 +101,7 @@ export default defineConfig({
       sidebar: [
         {
           label: 'Recreational Pilot License',
-          autogenerate: { directory: 'recreational-pilot-license' },
+          items: [{ autogenerate: { directory: 'recreational-pilot-license' } }],
         },
       ],
     }),
