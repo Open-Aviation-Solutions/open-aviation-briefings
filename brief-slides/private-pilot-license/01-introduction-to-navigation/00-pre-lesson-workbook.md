@@ -41,7 +41,7 @@ Navigation).
 Every navigation flight starts at the map table. Australian VFR charts come in different scales for different jobs — planning the big picture, navigating en route, and finding your way near busy airspace — and the ERSA tells you everything about the aerodromes at either end.
 
 **Watch:**
-- CASA [Out-n-Back — Episode 1: Introduction and planning](https://www.youtube.com/watch?v=7L1x_vv9kL4) — CASA's own series following a real VFR navigation flight, starting with the planning.
+- CASA [Out-n-Back — Episode 1: Introduction and planning](https://www.youtube.com/watch?v=7L1x_vv9kL4) — CASA's own series following a real VFR navigation flight, starting with the planning (well, it's not a lot of detail but sets the scene and is a great series!)
 
 **Read:**
 - CASA [Visual Flight Rules Guide — Charts, p. 117](https://www.casa.gov.au/sites/default/files/2022-02/visual-flight-rules-guide.pdf#page=129) — which VFR charts exist and what each is for.
@@ -101,6 +101,8 @@ Running out of fuel is one of the most avoidable accident causes there is. The r
 **Read:**
 - CASA VFRG — [Fuel requirements, p. 98](https://www.casa.gov.au/sites/default/files/2022-02/visual-flight-rules-guide.pdf#page=110) — the fuel components and the final reserve table.
 
+The video is a very short summary of the VFRG. The VFRG itself has a worked example to help see how you apply the rules around fuel, which is very helpful too.
+
 **Answer:**
 
 1. What is the **final reserve** for a day VFR flight in a light piston-engine aeroplane? ________________________________
@@ -117,22 +119,22 @@ Running out of fuel is one of the most avoidable accident causes there is. The r
 
 Visual navigation isn't following roads from town to town — it's **dead reckoning**: flying a calculated heading for a calculated time, and using the map to *confirm* where you are. When you find yourself off track, the **1-in-60 rule** turns "how far off" into "how many degrees" in your head.
 
-**Watch (pick one):**
-- Flight Club — [1 in 60 rule](https://www.youtube.com/watch?v=WiXU2OrDeNo) — Australian, short and clear.
-- PilotPracticeExams — [1 in 60 Rule Explained For Flight Training](https://www.youtube.com/watch?v=Q3_Nlhj2R0Q) — a slower walk-through with worked examples.
-
 **Read:**
-- FAA [Pilot's Handbook of Aeronautical Knowledge, Chapter 16 (Navigation)](https://www.faa.gov/sites/faa.gov/files/18_phak_ch16.pdf) — the *Pilotage*, *Dead Reckoning* and *Wind Triangle* sections.
+- FAA [Pilot's Handbook of Aeronautical Knowledge, Chapter 16 (Navigation)](https://www.faa.gov/sites/faa.gov/files/18_phak_ch16.pdf) — the *Pilotage*, *Dead Reckoning* and *Wind Triangle* sections. The wind triangle examples, if you work through them, will show you how you can calculate your true heading to follow a track in any wind conditions. Though it takes some effort to work through, it is effort well spent to understand.
+
+**Watch:**
+- Flight Club — [1 in 60 rule](https://www.youtube.com/watch?v=WiXU2OrDeNo) - Flight Club provide 3 examples of using the 1 in 60 rule when you find yourself off course, starting with the simplest example and building up your understanding.
 
 **Answer:**
 
 1. In your own words, what's the difference between **heading** and **track**? What makes them differ? ________________________________
 
-2. You've flown 20 NM and find yourself 2 NM left of track. What's your **track error** in degrees? ________________________________
+2. Why is the **clock** (or your watch) one of the most important navigation instruments you have? ________________________________
 
-3. Why is the **clock** (or your watch) one of the most important navigation instruments you have? ________________________________
+3. You want to travel directly North. Your airspeed is 100 knots, and there's a 25 knot wind directly from the West. Draw the wind triangle to calculate your true heading. What would your magnetic heading in your location then be?
 
-<!-- TODO (instructor): pick one video above; delete the other. -->
+4. You've flown 20 NM and find yourself 2 NM left of track. What's your **track error** in degrees? ________________________________
+
 
 ---
 
@@ -140,14 +142,13 @@ Visual navigation isn't following roads from town to town — it's **dead reckon
 
 Your first navigation flight lands at an aerodrome with no control tower. Everyone there relies on everyone else making clear, well-timed radio calls on the **CTAF** — and on arriving in a predictable way.
 
-**Watch (pick one):**
-- CASA [Explaining the rules — Radio calls](https://www.youtube.com/watch?v=nW8TeUxE6_E) — short animation of the calls and when to make them.
-- Flight Safety Australia — [Radio calls at non-controlled aerodromes](https://www.youtube.com/watch?v=m4M_0Fu_AJ0) — planning your calls for each stage of the flight.
-- CASA [Out-n-Back — Episode 7](https://www.youtube.com/watch?v=1rsM_6BoLHo) — the "golden rules" of radio calls and operations at non-controlled aerodromes, on a real flight.
+**Watch:**
+- CASA [Explaining the rules — Radio calls](https://www.youtube.com/watch?v=nW8TeUxE6_E) — short (1m) animation of the calls and when to make them.
+- Flight Safety Australia — [Radio calls at non-controlled aerodromes](https://www.youtube.com/watch?v=m4M_0Fu_AJ0) — a 4m video with real examples together with explanations for CTAF calls (all at Bathurst Airport, NSW, Australia). 
 
 **Read:**
-- CASA [Be heard, be seen, be safe — radio procedures in non-controlled airspace](https://www.casa.gov.au/sites/default/files/2024-07/avsafety-radio-procedures-in-non-controlled-airspace-card.pdf) — a pocket card worth keeping in your flight bag.
-- CASA VFRG — [Non-controlled aerodromes, p. 238](https://www.casa.gov.au/sites/default/files/2022-02/visual-flight-rules-guide.pdf#page=250) — including the **overfly** procedure for joining at an unfamiliar aerodrome.
+- CASA [Be heard, be seen, be safe — radio procedures in non-controlled airspace](https://www.casa.gov.au/sites/default/files/2024-07/avsafety-radio-procedures-in-non-controlled-airspace-card.pdf) — a small pdf that is a good summary with example calls around a non-towered aerodrome.
+- CASA VFRG — [Radio use at Non-controlled aerodromes, p. 358](https://www.casa.gov.au/sites/default/files/2022-02/visual-flight-rules-guide.pdf#page=370) - everything from dealing with radio failures through to recommended calls in CTAF.
 
 **Answer:**
 
@@ -157,7 +158,8 @@ Your first navigation flight lands at an aerodrome with no control tower. Everyo
 
 3. What transponder code do you squawk in Class G airspace? ________________________________
 
-<!-- TODO (instructor): pick one video above; delete the others. -->
+4. What transponder code do you squawk if you find you can't use your radio? ________________________________
+
 
 ---
 

@@ -255,6 +255,8 @@ it. PHAK Ch 16 — Pilotage.
 
 # En-route checks
 
+TODO: change to CLEAROFF
+
 At regular intervals — and at every turning point — run a **FREDA** check:
 
 | | | Check |
@@ -342,6 +344,8 @@ the next slide.
 - 2 NM off after 20 NM flown → **6°**
 
 > The drift lines on your chart do this for you — each one is 10° of track error.
+
+TODO: remove the drift lines?
 
 <!--
 
