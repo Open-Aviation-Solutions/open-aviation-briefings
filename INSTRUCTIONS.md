@@ -43,7 +43,7 @@ which is how CI installs Vale on the runner directly.
 
 The container bind-mounts the repo (so edits and `node_modules` live on the
 host as usual) and forwards the Astro dev server on port **4324**. Rootless
-podman keeps host file ownership automatically; under rootful docker the
+podman and rootless docker keep host file ownership automatically; under rootful docker the
 container runs as the host user for the same reason. The image rebuilds
 automatically when the `Dockerfile` changes (tracked via a `.image.stamp`
 file), or when the image has gone missing (e.g. after `podman image prune`);

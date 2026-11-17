@@ -27,7 +27,7 @@ Pages headed "— controlled airspace module" are for a PPL student, or an RPL h
 
 > **"simulated"** — before every scenario: "simulated weather ahead", "simulated radio failure". Real weather and real problems always win.
 
-> **"say it out loud"** — the first step of every scenario: "I'm diverting", "I'm unsure of my position".
+> **"say it out loud"** — the first step of every scenario: "Due to weather I'm diverting to ______", "I'm unsure of my position".
 
 > **"where should we be now?"** — rather than "where are we?", which invites hunting the ground.
 
@@ -113,7 +113,7 @@ Common student error: reading back only part of a taxi clearance, or crossing a 
 # En route — revision and instrument flight
 
 ## Sequence
-- First leg: work cycle (time, map, ground), log, revised ETAs (±2 min), FREDA — as in Lesson 01
+- First leg: work cycle (time, map, ground, log, check), revised ETAs (±2 min), **CLEAROFF** checks
 - **Pre-descent and turning point checks** at each turning point
 - At a suitable point, clear of terrain and traffic: **basic instrument flight revision** under the hood — straight and level, a climb, a descent (about **0.3 hr**)
 - I keep the lookout throughout the instrument flight; hood off before any scenario that needs map reading
@@ -157,8 +157,8 @@ It's efficient to combine these with the diversion: fly the diversion leg for ra
 - If the student becomes unsure of position naturally — use it. Otherwise, after the hood or with the map withheld for a while: "Simulated — you're unsure of your position"
 - **Admit** — student says it out loud, **holds the heading**
 - **Check** — last positive fix, headings and times since; DI vs compass; variation and drift; track on the map; anything near the compass
-- **Search** — DR position; circle of uncertainty (±10% of distance since the fix); read **ground to map**, biggest features first; confirm with two or more
-- **Act** if still unsure — line feature, climb, reverse heading, or a simulated call to ATS for help; set up for **range**
+- **Search** — DR position; search area (30° either side of track from the fix, arc at the DR distance, 10% of the distance flown either side of the DR position); read **ground to map**, biggest features first; confirm with two or more
+- **Act** — with a fix: confirm it, then continue or **divert** (DERT) if fuel, daylight or position say so. If still unsure: line feature, climb, reverse heading, or a simulated call to ATS for help; set up for **range**
 - Discuss: at what point would you start a **precautionary search and landing**?
 
 <!--
@@ -195,7 +195,7 @@ Choose this leg's terrain and height in advance, and brief it as a hard floor. A
 
 ## Sequence
 - Mid-leg, at a point you've planned: "Simulated — weather has closed in ahead. Divert to ______"
-- **Decide** — student says it out loud
+- **Decide** — student says it out loud: "Due to ______ I'm diverting to ______"
 - **Estimate** — turns onto a rough heading **now**; logs the time
 - **Refine** — draws the track; measures track and distance; heading with drift; ETA; fuel and daylight check
 - **Tell** — simulated call to ATS (or a real one, per your operator): the diversion, the new ETA, an amended SARTIME
@@ -216,7 +216,7 @@ Measure the student's estimate against the refined heading and ETA: the first es
 
 ## Sequence — engine failure en route
 - Throttle closed at a safe height over suitable terrain: "Simulated engine failure"
-- **Aviate** — best glide, trim; **navigate** — field selection, using the chart to know what's around; **communicate** — simulated MAYDAY, squawk 7700 (talked, not set)
+- **Aviate** — best glide, trim; **navigate** — field selection, using the chart to know what's around; **communicate** — simulated MAYDAY, squawk 7700 (talked, not set); **troubleshoot** — **CFMOST**, with the rest of the Lesson 17 engine failure procedure
 - Go around at the briefed height: ______ ft AGL
 
 ## Sequence — turbulence (talk-through, or if met)

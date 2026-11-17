@@ -93,13 +93,13 @@ The student planned today's route; check it together, don't redo it.
 | Basic instrument flight revision | ______ |
 | Engine failure en route / turbulence / radio failure (talk-through) | ______ |
 
-**Ask** — "When I say 'divert to ______', what do you do first?"
+**Ask** — "When I say 'weather ahead — divert to ______', what do you do first?"
 
 **Expect** — *decide, estimate, refine, tell*: say it, turn onto a rough heading now, then measure it, then tell ATS.
 
 **Ask** — "And if nothing on the ground matches the map?"
 
-**Expect** — *admit, check, search, act*: say it, check the last fix and the DI, draw the circle of uncertainty and read ground to map, then ask for help or head for a line feature.
+**Expect** — *admit, check, search, act*: say it, check the last fix and the DI, draw the search area (30° either side of track, with a 10% arc either side of the DR position) and read ground to map, then, with a fix, continue or divert (DERT); without one, ask for help or head for a line feature.
 
 **Agree** — the GNSS rule for today: ______
 
@@ -173,7 +173,7 @@ Today's real lesson is **judgement**: every scenario is a decision that gets har
 
 **Ask** — "What's the first step of both the diversion and the lost procedure?"
 
-**Expect** — *say it out loud*. "I'm diverting." "I'm unsure of my position." Deciding is the hard part; the procedure follows.
+**Expect** — *say it out loud*. "Due to weather I'm diverting to ______." "I'm unsure of my position." Deciding is the hard part; the procedure follows.
 
 **Ask** — "Who are you allowed to ask for help, and when?"
 
@@ -198,7 +198,7 @@ Quick recap as you pack up the whiteboard:
 - **Diversion** — decide, estimate, refine, tell
 - **Lost** — admit, check, search, act — ask early
 - **Weather** — turn back while it's still an option; never below 500 ft AGL
-- **Range** for distance, **endurance** for time — power, attitude, trim, lean
+- **Range** for distance, **endurance** for time — **PAT**, then lean
 - *Controlled airspace module:* **no clearance, no entry**; read back; "unable" is fine
 
 Confirm walking out: chart, log, ERSA, computer, pencil, hood for the instrument flight; GNSS set up per today's rule; who flies the first leg: ______.

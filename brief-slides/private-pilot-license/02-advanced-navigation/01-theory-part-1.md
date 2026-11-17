@@ -139,13 +139,46 @@ Quick recall before we go on:
 - What's the difference between flying for **range** and flying for **endurance**?
 - What's the lowest you may fly over a **town**, and over open country?
 - What do you **squawk** if the radio fails?
-- From Lesson 01: what's the navigation work cycle, and what's the **last positive fix** for?
+- From Lesson 01: what's the navigation work cycle (time, map, ground, log, check), and what's the **last positive fix** for?
 
 <!--
 
 Confirm the workbook was actually completed and clear up anything that didn't land before moving on. If it wasn't done, take a few extra minutes here to cover it verbally. The alternate rules, the range and endurance definitions, the minimum heights and the radio failure codes are assumed known from here on.
 
 The Lesson 01 bridge matters most: the lost procedure starts from the last positive fix and the headings flown since. That's exactly the log the student kept on the first navigation flight. Dead reckoning that *recovers* is built on dead reckoning that was kept up.
+
+-->
+
+---
+
+# The en-route checks: CLEAROFF
+
+<style scoped>
+thead { display: none; }
+</style>
+
+Run these at regular intervals and at every turning point:
+
+| | | |
+| - | - | - |
+| **C** | Compass and directional gyro | Aligned |
+| **L** | Log | Times on the flight plan |
+| **E** | Engine | Oil temperatures and pressures; mixture leaned; fuel pump; carburettor heat |
+| **A** | Altitude, airspace, arrival | Level and altimeter; airspace ahead; arrival brief |
+| **R** | Radios, navaids, transponder | Frequency, volume, code |
+| **O** | Orientation | Map and course |
+| **F** | Fuel | Quantity against the log |
+| **F** | Forced landing options | Where would we go, right now? |
+
+<!--
+
+The navigation work cycle from Lesson 01 is a loop: **time** (how long since the last fix, where should we be), **map** (what should we see, and on which side), **ground** (find it, and confirm it with detail around it), **log** (record the fix and the time, revise the ETA, and note the next point), then **check** (CLEAROFF) and lookout until the next cycle. CLEAROFF is the *check* step of that cycle, not a replacement for it. The log step is about position, time and the next point; the L in CLEAROFF is the cross-check that those times are on the flight plan.
+
+Everything after this slide depends on these checks being habit: the diversion, the lost procedure and the fuel and endurance decisions all start from a log and a fuel figure that were kept up.
+
+The last F is the one that gets skipped. Forced landing options are part of every cycle, not only when something goes wrong; ask the student where they'd go from here.
+
+CASA NAV.4(h): perform pre-descent and turning point checks; NAV.4(j): monitor aircraft systems, manage fuel and engine to achieve flight-plan objectives. CLEAROFF is a widely used en-route check, not a CASA-mandated one. Reader instruction: use your operator's en-route, turning-point and pre-descent check format if it differs.
 
 -->
 
@@ -255,19 +288,22 @@ Note that best glide (also $V_{MD}$) and best range speed are the same idea: the
 
 # Setting it up in the aeroplane
 
-Check your aircraft's flight manual for its **range** and **endurance** figures before the flight. Then in the air:
+Check your aircraft's flight manual for its **range** and **endurance** figures before the flight. Then in the air, the same **PAT** from RPL Lesson 03, with **lean** added:
 
 - **Power** — set the flight manual's range or endurance power setting
-- **Attitude** — hold height as the speed settles; **trim**
+- **Attitude** — hold height as the speed settles
+- **Trim** — trim off the pressure; hands off
 - **Mixture** — **lean** per the flight manual. It's a big part of the saving
 - **Carburettor heat** — cold unless you need it
 - **Level** — the flight manual's range chart shows which level gives the best range; a better wind at another level may beat it
 
-> Range and endurance are configurations you set up, not speeds you hope for. **Power, attitude, trim — then lean.**
+> Range and endurance are configurations you set up, not speeds you hope for. **PAT — Power, Attitude, Trim — then lean.**
 
 <!--
 
-CASA A3.2 (select power, attitude and configuration; balance and trim accurately). FIM Ch 16 background on the engine side: for a normally aspirated engine and fixed-pitch propeller, the flight manual's cruise and range tables decide the best level; the student should know where those tables are and how to read them. Lean mixture and cold carburettor heat whenever possible. Consider climbing or descending to reduce a headwind or use a tailwind.
+CASA A3.2 (select power, attitude and configuration; balance and trim accurately). FIM Ch 16 background on the engine side: for a normally aspirated engine and fixed-pitch propeller, the flight manual's cruise and range tables decide the best level; the student should know where those tables are and how to read them. Lean mixture and cold carburettor heat whenever possible.
+
+PAT is the entry sequence the student learned in RPL Lesson 03 (climb and descent entry) and used again in Lesson 08. Cue it by name and add lean as the fourth step, rather than introducing a new sequence. Ask the student to say it back before they touch the throttle. Consider climbing or descending to reduce a headwind or use a tailwind.
 
 Reader instruction: fill in your aircraft's range and endurance power settings and speeds on the student's kneeboard card before the flight.
 
@@ -285,13 +321,13 @@ Reader instruction: fill in your aircraft's range and endurance power settings a
 
 # Why would we divert?
 
-**Ask** — before revealing: name four reasons you might need to land somewhere other than where you planned.
+Name four reasons you might need to land somewhere other than where you planned.
 
 ---
 
 # Why would we divert?
 
-**Ask** — before revealing: name four reasons you might need to land somewhere other than where you planned.
+Name four reasons you might need to land somewhere other than where you planned.
 
 - **Weather** — worse than forecast on the route or at the destination
 - **Fuel** — headwinds or delays have eaten into the margin
@@ -311,14 +347,16 @@ CASA NAV.7(a): make timely decision to divert. Underpinning knowledge NAV 4(e): 
 
 # Flying a diversion: decide
 
-> ***Decide*** — "I'm diverting to ______." Say it out loud.
+> **DERT** — Decide, Estimate, Refine, Tell
+>
+> ***Decide*** — "Due to ______ I'm diverting to ______." Say it out loud.
 
-- Name the reason, and pick the place: an alternate you planned, or the nearest suitable aerodrome
+- Name the **reason** (why) and the **place** (where): an alternate you planned, or the nearest suitable aerodrome, taking into account weather, clouds, fuel and CTA
 - **Fly the aeroplane first** — a diversion is a busy moment
 
 <!--
 
-The procedure is built up over the next four slides, one step at a time, the way the safety brief was built up in RPL Lesson 09. Have the student say the step out loud before revealing the next.
+The procedure has a memory hook: **DERT**. Say it as a word, then build it up over the next four slides, one step at a time, the way the safety brief was built up in RPL Lesson 09. Have the student say the step out loud before revealing the next.
 
 Saying the decision out loud matters: it turns a vague worry into a commitment, and it tells the instructor (or a passenger) what's happening.
 
@@ -328,7 +366,7 @@ Saying the decision out loud matters: it turns a vague worry into a commitment, 
 
 # Flying a diversion: decide, estimate
 
-> *Decide* — "I'm diverting to ______."
+> *Decide* — "Due to ______ I'm diverting to ______."
 >
 > ***Estimate*** — **turn now**, onto a rough heading towards it. Log the time.
 
@@ -347,7 +385,7 @@ Turning first, then refining, is the key technique. It keeps the aeroplane headi
 
 # Flying a diversion: decide, estimate, refine
 
-> *Decide* — "I'm diverting to ______."
+> *Decide* — "Due to ______ I'm diverting to ______."
 >
 > *Estimate* — turn now, onto a rough heading. Log the time.
 >
@@ -369,13 +407,15 @@ Thumb technique: on a 1:250,000 VNC a thumb width is a useful rough distance, so
 
 # Flying a diversion: decide, estimate, refine, tell
 
-> *Decide* — "I'm diverting to ______."
+> *Decide* — "Due to ______ I'm diverting to ______."
 >
 > *Estimate* — turn now, onto a rough heading. Log the time.
 >
 > *Refine* — track, distance, heading, ETA, fuel.
 >
 > ***Tell*** — ATS (or whoever holds your SARWATCH): your diversion, your new ETA, and an **amended SARTIME**.
+>
+> That's **DERT**.
 
 - Then **fly it** like any other leg: gross error check, a fix at the first checkpoint, revise the ETA
 - If fuel is the reason — fly for **range**. If you'll have to wait at the other end — **endurance**
@@ -386,7 +426,27 @@ CASA NAV.7(e): advise ATS of an intention to divert. NAV.4: maintain awareness o
 
 FIM Ch 16 diversion exercise: simulate deteriorating weather to force an unplanned diversion, have the student fly for range on the diversion leg, then simulate the need to hold near the alternate long enough to set up the endurance configuration. The in-flight notes use the same scenario.
 
-TODO: consider a creative way to practise this on the ground — e.g. stop the student mid-way along a leg of today's route on the chart and give them two minutes to divert to an aerodrome you name.
+-->
+
+---
+
+# An example diversion
+
+<!--
+
+Reader instruction: build this scenario on a local chart before the lesson, so it feels real. Choose a destination and a suitable alternate near the route, and mark the aeroplane's position on the chart.
+
+The scenario: you're 15 minutes away from your destination, with 50 minutes of fuel left. A SPECI has just been announced over the radio, via a hazard alert, for a new TEMPO due to storm activity at the destination.
+
+Have the student work through **DERT** out loud, with the chart in front of them:
+- **Decide** — "Due to the storm TEMPO at the destination I'm diverting to ______." Does 50 minutes of fuel still work with the diversion?
+- **Estimate** — turn now, onto a rough heading; log the time.
+- **Refine** — draw the track; measure the track, distance, heading, ETA and fuel; check the daylight.
+- **Tell** — the call to ATS, with the new ETA and an amended SARTIME.
+
+Give them about two minutes, as under time pressure in the air. Then debrief: did they decide early, turn before they measured, and check the fuel against the new ETA?
+
+This is the ground version of the in-flight diversion exercise, and an easy one to repeat with a different position on today's route.
 
 -->
 
@@ -559,19 +619,19 @@ These four checks find the cause of most "lost" situations: a gross error, not b
 >
 > *Check* — last positive fix, and what you've flown since.
 >
-> ***Search*** — work out your **DR position**, draw a **circle of uncertainty** around it, and read from **ground to map** inside it.
+> ***Search*** — work out your **DR position**, draw a **search area** around it, and read from **ground to map** inside it.
 
-- Circle radius: about **10%** of the distance flown since the last fix
+- Search area: from the last fix, lines **30° either side of track**, and an **arc** at the DR distance, reaching **10%** of the distance flown either side of the DR position
 - Look for the **big** features first — a coastline, a lake, a railway, a range of hills — and check **two or more** before believing a fix
 - If you're nearing the ETA for a checkpoint, carry on for about **10%** more of the time since the last fix
 
 <!--
 
-CASA NAV.6(c, d): apply recognised method to re-establish position; fix position. FIM Ch 16 background: establish a circle of uncertainty centred on the DR position with a radius of 10% of the distance from the last fix; if en route, continue to the next checkpoint while map reading from ground to map; at ETA, continue for a further 10% of the time since the last fix. When a position seems established, double-check every feature: one feature alone may not establish it, but two or more within a reasonable time can.
+CASA NAV.6(c, d): apply recognised method to re-establish position; fix position. FIM Ch 16 background describes a circle of uncertainty centred on the DR position with a radius of 10% of the distance from the last fix; this lesson teaches the sector version used at the school instead (30° either side of track, with an arc at the DR distance reaching 10% of the distance flown either side of the DR position). Reader instruction: use your operator's method if it differs. If en route, continue to the next checkpoint while map reading from ground to map; at ETA, continue for a further 10% of the time since the last fix. When a position seems established, double-check every feature: one feature alone may not establish it, but two or more within a reasonable time can.
 
-Ground to map, not map to ground: when you're sure of your position, you read map to ground ("I should see a river"). When you're not, you read ground to map ("I see a river bend; where is there one like that inside my circle?").
+Ground to map, not map to ground: when you're sure of your position, you read map to ground ("I should see a river"). When you're not, you read ground to map ("I see a river bend; where is there one like that inside my search area?").
 
-TODO image: find a graphic showing a chart with a track, the last positive fix, the DR position and a circle of uncertainty of radius 10% of the distance flown, with a line feature crossing the area. No suitable component; PHAK Ch 16 (lost procedures) checked. Consider drawing one.
+TODO image: find a graphic showing a chart with a track, the last positive fix, the DR position and a search area made of 30° lines either side of track from the last fix, with an arc at the DR distance reaching 10% of the distance flown either side of the DR position, with a line feature crossing the area. No suitable component; PHAK Ch 16 (lost procedures) checked. Consider drawing one.
 
 -->
 
@@ -579,18 +639,22 @@ TODO image: find a graphic showing a chart with a track, the last positive fix, 
 
 # The lost procedure: admit it, check, search, act
 
-> *Admit · check · search* — and if you still can't fix your position, ***act***:
+> *Admit · check · search* — then ***act***:
 
-- **Ask for help** — ATS can help. Ask **early**, not as a last resort
-- **Head for a line feature** — coastline, railway, highway, river
-- **Climb**, if cloud and airspace allow, to see further
-- **Reverse heading** back towards the last fix
-- **Keep the log going**; set up for **range** if fuel is a concern
-- If fuel or daylight is running out: a **precautionary search and landing** — while you still have time to do it properly
+- **If you get a fix** — confirm it with two or more features, then decide: carry on, or **divert** (**DERT**) to somewhere you can reach with the fuel and daylight you have
+- **If you still can't fix your position:**
+  - **Ask for help** — ATS can help. Ask **early**, not as a last resort
+  - **Head for a line feature** — coastline, railway, highway, river
+  - **Climb**, if cloud and airspace allow, to see further
+  - **Reverse heading** back towards the last fix
+  - **Keep the log going**; set up for **range** if fuel is a concern
+  - If fuel or daylight is running out: a **precautionary search and landing** — while you still have time to do it properly
 
 <!--
 
 CASA NAV.6(e, f): use radio to request assistance, if applicable; plan a timely precautionary search and landing if unable to complete the flight safely to a suitable aerodrome. NAV.6(b): configure the aircraft for range and endurance as required.
+
+A fix isn't the end of the procedure: the next question is whether the original plan still works from here. With the new position, check the fuel and daylight against the remaining route. If it doesn't work, or the fix shows you're somewhere you didn't expect, divert using DERT, with the fix as the starting point for the new track.
 
 FIM Ch 16 background: pilots are often reluctant to ask ATS for help, fearing an incident report; the wisdom of asking early rather than as a final resort should be stressed. Keep the log going: it helps you and anyone trying to help you. Remind the student to work out a safe endurance and to consider flying for maximum range.
 
@@ -639,7 +703,7 @@ Reader instruction: agree today's GNSS rule in the pre-flight brief: covered unt
 | --------- | ------------- |
 | **Radio failure** | Check the obvious (volume, frequency, headset, push-to-talk); **squawk 7600**; transmit blind; continue per the ERSA radio failure procedures |
 | **Turbulence** | Slow to the flight manual's **turbulence speed**; **hold the attitude**, not the height; secure loose items and harnesses |
-| **Engine failure en route** | **Aviate** (best glide), **navigate** (field selection), **communicate** — as in Lesson 17, with the chart showing where you are |
+| **Engine failure en route** | **Aviate** (best glide and quick CFMS check), **navigate** (field selection, using the chart for position and what's within reach), **communicate** (MAYDAY with your position), then the **CFMOST** trouble check — with the rest of your engine failure procedure from Lesson 17 |
 
 - From your workbook: the **ERSA EMERG** section, and the codes **7600** and **7700**
 - Basic instrument flight from Lesson 26 — revised today, under the hood
@@ -688,12 +752,12 @@ TODO: consider swapping this for a creative recap activity. For example: deal th
 | Topic | Key points |
 | ----- | ---------- |
 | Planning for options | Alternate, holding, extra fuel, en-route alternates; decision points set on the ground |
-| Range and endurance | Range: $V_{MD}$, faster into wind. Endurance: $V_{MP}$, wind irrelevant. Power, attitude, trim, lean |
-| Diversion | **Decide · estimate · refine · tell** — then fly it like any leg |
+| Range and endurance | Range: $V_{MD}$, faster into wind. Endurance: $V_{MP}$, wind irrelevant. PAT, then lean |
+| Diversion | **DERT** — **decide · estimate · refine · tell**, then fly it like any leg |
 | Weather | Set limits before you go; turn back early; never into cloud |
 | Low level | Slow down; more features, in profile; assume an overdue feature is passed; ≥ 500 ft AGL |
-| Lost procedure | **Admit · check · search · act** — circle of uncertainty, ground to map, ask early |
-| Emergencies | Radio: 7600, ERSA. Turbulence: speed, attitude. Engine: aviate, navigate, communicate |
+| Lost procedure | **Admit · check · search · act** — 30° search area with a 10% arc, ground to map, ask early |
+| Emergencies | Radio: 7600, ERSA. Turbulence: speed, attitude. Engine: aviate, navigate, communicate, CFMOST |
 
 ---
 

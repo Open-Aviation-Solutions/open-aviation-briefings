@@ -2,12 +2,15 @@
   "name": "open-aviation-briefings",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22.23.4"
+  },
   "scripts": {
     "marp:build": "marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-slides",
     "marp:pdf": "node scripts/build-pdfs.mjs",
     "marp:watch": "marp --config marp.config.js --input-dir ./brief-slides -o ./public/brief-slides --watch",
     "marp:serve": "marp --server . --config marp.config.js",
-    "dev": "npm run marp:build && npm run marp:pdf && concurrently --names marp,astro -c blue,cyan \"npm run marp:watch\" \"astro dev --port 4324\"",
+    "dev": "npm run marp:build && npm run marp:pdf && concurrently --kill-others-on-fail --names marp,astro -c blue,cyan \"npm run marp:watch\" \"astro dev --port 4324\"",
     "build": "npm run marp:build && npm run marp:pdf && astro build",
     "build:pages": "npm run marp:build && astro build"
   },
@@ -17,7 +20,7 @@
     "@astrojs/starlight": "^0.43.1",
     "@marp-team/marp-cli": "^4.5.1",
     "@marp-team/marp-core": "^4.4.0",
-    "@open-aviation-solutions/components": "^0.1.14",
+    "@open-aviation-solutions/components": "^0.1.15",
     "astro": "^7.4.12",
     "concurrently": "^10.0.7"
   },

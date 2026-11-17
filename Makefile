@@ -22,10 +22,13 @@ ifeq ($(CONTAINER_RUNTIME),)
 $(error npm is not installed and no container runtime (podman/docker) was found — install one of them)
 endif
 
-# Rootless podman maps the container's root to the host user, so bind-mounted
-# files keep the right ownership. Rootful docker does not, so run as the host
-# user there to avoid root-owned files in the working tree.
-ifeq ($(findstring podman,$(CONTAINER_RUNTIME)),)
+# Rootless podman and rootless docker map the container's root to the host
+# user, so bind-mounted files keep the right ownership (and forcing --user
+# would map to an unprivileged subuid that cannot write to the mount). Rootful
+# docker does not, so run as the host user there to avoid root-owned files in
+# the working tree.
+ROOTLESS := $(findstring rootless,$(shell $(CONTAINER_RUNTIME) info --format '{{.SecurityOptions}}' 2>/dev/null))
+ifeq ($(findstring podman,$(CONTAINER_RUNTIME))$(ROOTLESS),)
 CONTAINER_USER := --user $(shell id -u):$(shell id -g) -e HOME=/tmp -e npm_config_cache=/tmp/.npm
 endif
 
