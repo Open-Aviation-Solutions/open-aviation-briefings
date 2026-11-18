@@ -211,6 +211,7 @@ At a towered aerodrome, you need a clearance to taxi, to enter or cross a runway
 # Bring this to your lesson
 
 - Bring your completed answers (printed, or your notebook) to the theory brief
+- Bring your **flight plan as far as you've planned it**, with your chart and flight log. We'll use it during the lesson, and add to it
 - We'll check through them together and answer anything that didn't make sense
 - From there, the live theory brief builds on this: what to do when the plan changes — diverting, the lost procedure, low level, range and endurance — and, if your lesson includes it, flying in controlled airspace and at a controlled aerodrome
 

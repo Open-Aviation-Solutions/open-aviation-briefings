@@ -161,6 +161,35 @@ Run these at regular intervals and at every turning point:
 
 | | | |
 | - | - | - |
+| **C** | | |
+| **L** | | |
+| **E** | | |
+| **A** | | |
+| **R** | | |
+| **O** | | |
+| **F** | | |
+| **F** | | |
+
+<!--
+
+Reveal the letters only and have the student work down them: what does each one stand for, and what are you checking? The answers are on the next slide.
+
+The navigation work cycle from Lesson 01 is a loop: **time** (how long since the last fix, where should we be), **map** (what should we see, and on which side), **ground** (find it, and confirm it with detail around it), **log** (record the fix and the time, revise the ETA, and note the next point), then **check** (CLEAROFF) and lookout until the next cycle. CLEAROFF is the *check* step of that cycle, not a replacement for it. The log step is about position, time and the next point; the L in CLEAROFF is the cross-check that those times are on the flight plan.
+
+Everything after these slides depends on the checks being habit: the diversion, the lost procedure and the fuel and endurance decisions all start from a log and a fuel figure that were kept up.
+
+-->
+
+---
+
+# The en-route checks: CLEAROFF in full
+
+<style scoped>
+thead { display: none; }
+</style>
+
+| | | |
+| - | - | - |
 | **C** | Compass and directional gyro | Aligned |
 | **L** | Log | Times on the flight plan |
 | **E** | Engine | Oil temperatures and pressures; mixture leaned; fuel pump; carburettor heat |
@@ -171,10 +200,6 @@ Run these at regular intervals and at every turning point:
 | **F** | Forced landing options | Where would we go, right now? |
 
 <!--
-
-The navigation work cycle from Lesson 01 is a loop: **time** (how long since the last fix, where should we be), **map** (what should we see, and on which side), **ground** (find it, and confirm it with detail around it), **log** (record the fix and the time, revise the ETA, and note the next point), then **check** (CLEAROFF) and lookout until the next cycle. CLEAROFF is the *check* step of that cycle, not a replacement for it. The log step is about position, time and the next point; the L in CLEAROFF is the cross-check that those times are on the flight plan.
-
-Everything after this slide depends on these checks being habit: the diversion, the lost procedure and the fuel and endurance decisions all start from a log and a fuel figure that were kept up.
 
 The last F is the one that gets skipped. Forced landing options are part of every cycle, not only when something goes wrong; ask the student where they'd go from here.
 
