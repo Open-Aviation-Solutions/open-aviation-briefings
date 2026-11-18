@@ -3,7 +3,6 @@ marp: true
 theme: open-aviation
 title: Advanced Navigation — Theory Part 1
 license: CC-BY-SA-4.0
-draft: true
 header: "Advanced Navigation — Theory Part 1: When the Plan Changes"
 ---
 
@@ -451,15 +450,17 @@ Turning first, then refining, is the key technique. It keeps the aeroplane headi
 >
 > *Estimate* — turn now, onto a rough heading. Log the time.
 >
-> ***Refine*** — draw the track, then measure the **track**, **distance**, **heading**, **ETA** and **fuel**.
+> ***Refine*** — draw the track, then work through **PARES**.
 
-- Track and distance: a protractor and scale rule, or your thumb and the 10° drift lines as a guide
-- Heading: the drift you've been allowing for on this flight; 1-in-60 to correct the first estimate
-- **Check the fuel and the daylight** against the new ETA — do they still work?
+- **P** — **Planned track**: track, distance, heading (with the drift you've been allowing for) and ETA. A protractor and scale rule, or your thumb and the 10° drift lines as a guide; 1-in-60 to correct the first estimate
+- **A** — **Airspace and LSALT**: what's on the new track, and the lowest safe altitude for it
+- **R** — **Radio and navaids**: the frequencies and navaids for the new leg
+- **E** — **Endurance**: the fuel and the daylight against the new ETA. Do they still work?
+- **S** — **SARTIME**: amend it, which is the next step, *Tell*
 
 <!--
 
-CASA NAV.7(d): revise flight plan considering weather, terrain, airspace and fuel available. The student's Lesson 01 skills (1-in-60, drift, ETA) do all the work here; this is them under time pressure.
+CASA NAV.7(d): revise flight plan considering weather, terrain, airspace and fuel available. PARES is the checklist for that: planned track, airspace and LSALT, radio and navaids, endurance, SARTIME. The S is the same SARTIME amendment as the Tell step, so it's listed here as a prompt and made in the call to ATS. The student's Lesson 01 skills (1-in-60, drift, ETA) do all the work here; this is them under time pressure.
 
 Thumb technique: on a 1:250,000 VNC a thumb width is a useful rough distance, so measure your own thumb against the scale rule before the flight. Reader instruction: have the student measure theirs during planning.
 
@@ -473,7 +474,7 @@ Thumb technique: on a 1:250,000 VNC a thumb width is a useful rough distance, so
 >
 > *Estimate* — turn now, onto a rough heading. Log the time.
 >
-> *Refine* — track, distance, heading, ETA, fuel.
+> *Refine* — **PARES**: planned track, airspace and LSALT, radio and navaids, endurance (and SARTIME, below).
 >
 > ***Tell*** — ATS (or whoever holds your SARWATCH): your diversion, your new ETA, and an **amended SARTIME**.
 >
@@ -487,28 +488,6 @@ Thumb technique: on a 1:250,000 VNC a thumb width is a useful rough distance, so
 CASA NAV.7(e): advise ATS of an intention to divert. NAV.4: maintain awareness of SARTIME and revise as required. If the SARTIME is held by the operator rather than Airservices, "tell" means them (and ATS anyway if in controlled airspace or receiving a service).
 
 FIM Ch 16 diversion exercise: simulate deteriorating weather to force an unplanned diversion, have the student fly for range on the diversion leg, then simulate the need to hold near the alternate long enough to set up the endurance configuration. The in-flight notes use the same scenario.
-
--->
-
----
-
-# An example diversion
-
-<!--
-
-Reader instruction: build this scenario on a local chart before the lesson, so it feels real. Choose a destination and a suitable alternate near the route, and mark the aeroplane's position on the chart.
-
-The scenario: you're 15 minutes away from your destination, with 50 minutes of fuel left. A SPECI has just been announced over the radio, via a hazard alert, for a new TEMPO due to storm activity at the destination.
-
-Have the student work through **DERT** out loud, with the chart in front of them:
-- **Decide** — "Due to the storm TEMPO at the destination I'm diverting to ______." Does 50 minutes of fuel still work with the diversion?
-- **Estimate** — turn now, onto a rough heading; log the time.
-- **Refine** — draw the track; measure the track, distance, heading, ETA and fuel; check the daylight.
-- **Tell** — the call to ATS, with the new ETA and an amended SARTIME.
-
-Give them about two minutes, as under time pressure in the air. Then debrief: did they decide early, turn before they measured, and check the fuel against the new ETA?
-
-This is the ground version of the in-flight diversion exercise, and an easy one to repeat with a different position on today's route.
 
 -->
 
@@ -543,9 +522,19 @@ Reader instruction: check that the diversion aerodromes the student chose are re
 
 <!--
 
-About two minutes. This is the example diversion from earlier, now on today's actual route.
+About two minutes. The student works through DERT out loud on today's actual route, as under time pressure in the air.
 
-Reader instruction: before the lesson, pick a point on today's route and a reason (weather ahead, fuel lower than planned, or daylight running short). Place the aeroplane at that point on the chart and ask the student to work through DERT with a diversion aerodrome from the previous slide. Debrief: did they decide early, turn before they measured, and check the fuel against the new ETA?
+Reader instruction: before the lesson, pick a point on today's route and a reason, and place the aeroplane at that point on the chart. Ask the student to divert to one of the aerodromes from the previous slide.
+
+For example, put the aeroplane 15 minutes from the destination with 50 minutes of fuel left, and announce a SPECI over the radio, via a hazard alert, for a new TEMPO due to storm activity at the destination. Other reasons: weather ahead, fuel lower than planned, or daylight running short.
+
+Prompts, step by step:
+- **Decide** — "Due to the storm TEMPO at the destination I'm diverting to ______." Does the fuel still work with the diversion?
+- **Estimate** — turn now, onto a rough heading; log the time.
+- **Refine** — draw the track and work through PARES; check the daylight.
+- **Tell** — the call to ATS, with the new ETA and an amended SARTIME.
+
+Debrief: did they decide early, turn before they measured, and check the fuel against the new ETA? It's an easy one to repeat with a different position on the route.
 
 -->
 
@@ -815,6 +804,8 @@ On today's chart, plan how you'd re-establish your position:
 - **Last positive fix** — on leg ______ it's ______
 - **Where we'd most easily become unsure** — ______
 - **If we're still unsure there** — we ______
+
+**Scenario:** ______
 
 <!--
 
