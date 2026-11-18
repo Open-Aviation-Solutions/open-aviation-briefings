@@ -81,18 +81,18 @@ FIM Ch 16 background: the instructor should stress that no set of rules covers e
 
 <briefing-overview plane-position="0" controls-start>
   <briefing-topic label="Learning&#10;Objectives" time="2"></briefing-topic>
-  <briefing-topic label="Planning&#10;for Options" time="8"></briefing-topic>
-  <briefing-topic label="Range and&#10;Endurance" time="8"></briefing-topic>
-  <briefing-topic label="Diversion" time="10"></briefing-topic>
-  <briefing-topic label="Weather and&#10;Low Level" time="10"></briefing-topic>
-  <briefing-topic label="Lost&#10;Procedure" time="10"></briefing-topic>
-  <briefing-topic label="En-route&#10;Emergencies" time="5"></briefing-topic>
+  <briefing-topic label="Planning&#10;for Options" time="9"></briefing-topic>
+  <briefing-topic label="Range and&#10;Endurance" time="9"></briefing-topic>
+  <briefing-topic label="Diversion" time="12"></briefing-topic>
+  <briefing-topic label="Weather and&#10;Low Level" time="11"></briefing-topic>
+  <briefing-topic label="Lost&#10;Procedure" time="11"></briefing-topic>
+  <briefing-topic label="En-route&#10;Emergencies" time="6"></briefing-topic>
   <briefing-topic label="Recap" time="4"></briefing-topic>
 </briefing-overview>
 
 <!--
 
-About 57 minutes, which leaves about 30 minutes of the 1.5 hr long-briefing window for Part 2 (the controlled airspace module). For a student training for the RPL navigation endorsement alone, Part 2 isn't needed, and the spare time is best spent working a diversion on the chart together.
+About 64 minutes, which leaves about 26 minutes of the 1.5 hr long-briefing window for Part 2 (the controlled airspace module). For a student training for the RPL navigation endorsement alone, Part 2 isn't needed, and the spare time is best spent working a diversion on the chart together.
 
 Much of the reference material (alternate and holding requirements, range and endurance definitions, minimum heights, radio failure procedures) is already covered in the workbook. This session is about applying it.
 
@@ -258,6 +258,24 @@ Reader instruction: work the Ask on the chart for the route you'll fly, marking 
 
 ---
 
+# Application for today's navigation
+
+On today's chart and flight plan, refine the plan you made before the lesson:
+
+- **Destination alternate** — ______, because ______
+- **Holding and extra fuel** — we carry ______ minutes of holding fuel, because ______
+- **Decision points** — at ______ we check ______; if ______, then we ______
+
+<!--
+
+About a minute. The student planned today's route beforehand, so this slide refines and adds to that plan rather than starting it. Work down the blanks on the chart and flight plan together, and write any change into the plan as you go.
+
+Reader instruction: before the lesson, check the student's plan for an alternate and a fuel figure they can justify, so you can prompt with a question rather than the answer.
+
+-->
+
+---
+
 # Waypoint 2 — Range and Endurance
 
 <briefing-overview plane-position="1" controls></briefing-overview>
@@ -331,6 +349,25 @@ CASA A3.2 (select power, attitude and configuration; balance and trim accurately
 PAT is the entry sequence the student learned in RPL Lesson 03 (climb and descent entry) and used again in Lesson 08. Cue it by name and add lean as the fourth step, rather than introducing a new sequence. Ask the student to say it back before they touch the throttle. Consider climbing or descending to reduce a headwind or use a tailwind.
 
 Reader instruction: fill in your aircraft's range and endurance power settings and speeds on the student's kneeboard card before the flight.
+
+-->
+
+---
+
+# Application for today's navigation
+
+Check your aircraft's flight manual and today's forecast winds, then fill in:
+
+- **Range** — power setting ______, speed ______
+- **Endurance** — power setting ______, speed ______
+- **Where we'd use each today** — range if ______; endurance (holding) at ______
+- **Level** — the wind at ______ ft is ______, so we choose ______
+
+<!--
+
+About a minute. The flight manual figures are the aircraft's own, so the student reads them off rather than recalling them. The level question ties back to the range chart and the wind: a better wind at another level may beat the level the range chart suggests.
+
+Reader instruction: bring the flight manual's range and endurance figures and the forecast winds to the lesson, so the blanks can be filled in on the spot.
 
 -->
 
@@ -477,6 +514,43 @@ This is the ground version of the in-flight diversion exercise, and an easy one 
 
 ---
 
+# Application for today's navigation
+
+On today's chart, name your diversion options:
+
+- **Diversion aerodromes** — from leg ______ we'd divert to ______; from leg ______ we'd divert to ______
+- **Point of no return** — for fuel or daylight, it's at ______
+- **Most likely reason today** — ______
+
+<!--
+
+About a minute. This is the plan for where the diversion would go. The next slide practises the decision itself.
+
+Reader instruction: check that the diversion aerodromes the student chose are reachable with the fuel and daylight at those points on the route, and name the ones that are not.
+
+-->
+
+---
+
+# Application for today's navigation: a diversion
+
+> Your instructor chooses a point on today's route.
+>
+> **DERT** — "Due to ______ I'm diverting to ______."
+
+- Work through **Decide, Estimate, Refine, Tell** on today's chart, out loud
+- Check the **fuel** and the **daylight** against the new ETA
+
+<!--
+
+About two minutes. This is the example diversion from earlier, now on today's actual route.
+
+Reader instruction: before the lesson, pick a point on today's route and a reason (weather ahead, fuel lower than planned, or daylight running short). Place the aeroplane at that point on the chart and ask the student to work through DERT with a diversion aerodrome from the previous slide. Debrief: did they decide early, turn before they measured, and check the fuel against the new ETA?
+
+-->
+
+---
+
 # Waypoint 4 — Weather and Low Level
 
 <briefing-overview plane-position="3" controls></briefing-overview>
@@ -568,6 +642,25 @@ TODO image: find a graphic contrasting the same landscape seen from cruise heigh
 <!--
 
 CASA NAV.5(e): maintain separation from terrain and obstacles, allowing for wind and turbulence at low level. The downwind-turn illusion: close to the ground in a strong wind, the drift can tempt the pilot to skid or to raise the nose in a downwind turn, which is the setup for a stall at low level. Link to RPL Lesson 05 and 16.
+
+-->
+
+---
+
+# Application for today's navigation
+
+On today's chart and plan, set your limits and your terrain:
+
+- **Our limits** — we turn back if the cloud base is below ______ or the visibility is below ______
+- **Where we'd turn back** — at ______ on leg ______
+- **Highest terrain** — ______ ft on leg ______, so the lowest we'd go is ______
+- **Where we'd be low** — ______
+
+<!--
+
+About a minute. The limits are the student's own, set on the ground before the flight, as on the "When the cloud comes down" slide. Agree them together and write them on the flight plan.
+
+Reader instruction: check the highest terrain and the minimum heights on today's route against the chart before the lesson, so the student's numbers can be confirmed quickly.
 
 -->
 
@@ -714,6 +807,25 @@ Reader instruction: agree today's GNSS rule in the pre-flight brief: covered unt
 
 ---
 
+# Application for today's navigation
+
+On today's chart, plan how you'd re-establish your position:
+
+- **Big line features** — ______ and ______, on the ______ side of track
+- **Last positive fix** — on leg ______ it's ______
+- **Where we'd most easily become unsure** — ______
+- **If we're still unsure there** — we ______
+
+<!--
+
+About a minute. The line features are the ones the student would head for in the Act step, so check that each leg has at least one. The place where they'd most easily become unsure is usually featureless country or a turning point with nothing near it.
+
+Reader instruction: look at the route before the lesson for the legs with the thinnest line features, and ask the student about those first.
+
+-->
+
+---
+
 # Waypoint 6 — En-route Emergencies
 
 <briefing-overview plane-position="5" controls></briefing-overview>
@@ -740,6 +852,25 @@ CASA OGA: perform actions in the event of abnormal operations and emergencies (e
 Reader instruction: check your aircraft's flight manual for its turbulence penetration speed (or the manoeuvring speed $V_A$ if there's no separate figure).
 
 Radio failure in controlled airspace has its own procedure, covered in Part 2 for students doing the controlled airspace module.
+
+-->
+
+---
+
+# Application for today's navigation
+
+On today's chart, plan for an engine, radio or turbulence problem:
+
+- **Forced landing options** — on leg ______, fields near ______; within glide range from ______ ft
+- **Area frequency** — for ______ it's ______
+- **Squawks** — **7700** for an emergency, **7600** for radio failure
+- **Today** — we'll practise ______ and talk through ______
+
+<!--
+
+About a minute. The forced landing options use the same field selection as RPL Lesson 17, now tied to the route. The practice choice is your decision: engine failure en route is flown, and the radio failure and turbulence are usually talked through.
+
+Reader instruction: check the area frequency and the fields along the route before the lesson, and choose which emergency to practise.
 
 -->
 
