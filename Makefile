@@ -73,7 +73,7 @@ local-components-symlink: ## Symlink ../open-aviation-components into node_modul
 
 install: node_modules ## Install dependencies
 
-dev: node_modules ## Build slides and start dev server at localhost:4324
+dev: node_modules ## Build slides and start dev server at localhost:4324 (USE_CONTAINER=1 to run in a container)
 ifdef USE_CONTAINER
 	$(CONTAINER_RUN) -p 4324:4324 $(IMAGE) npm run dev
 else

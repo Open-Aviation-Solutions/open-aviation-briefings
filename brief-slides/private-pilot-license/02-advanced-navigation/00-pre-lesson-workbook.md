@@ -109,12 +109,8 @@ Most aeroplanes — and every phone — have GNSS (GPS). It's a great navigation
 **Read:**
 - CASA VFRG — [VFR navigation requirements and GNSS, pp. 202–203](https://www.casa.gov.au/sites/default/files/2022-02/visual-flight-rules-guide.pdf#page=214).
 
-**Watch (pick one):**
-- [RAIM Explained](https://www.youtube.com/watch?v=To9aHYOeWDk) — ATPL Student, about 6 minutes. How GNSS fixes a position, and how RAIM checks it.
-- [What is RAIM](https://www.youtube.com/watch?v=7ESZcUCKieA) — FlightInsight, about 4 minutes. Clear on the principles; it's American, so ignore the US rules it mentions.
-
-**Optional, for more depth:**
-- [Use of Navaids and GNSS in VFR Navigation](https://www.youtube.com/watch?v=XgOh2Rsx2k4) — Aviation Theory, about 18 minutes.
+**Watch:**
+- [What is RAIM](https://www.youtube.com/watch?v=7ESZcUCKieA) — FlightInsight, about 4 minutes. Clear on the principles; it's American, but most transfers. It has an excellent explanation of how RAIM works in overview.
 
 **Answer:**
 
@@ -135,11 +131,11 @@ Most aeroplanes — and every phone — have GNSS (GPS). It's a great navigation
 Radios fail — often just a volume knob, a loose headset plug or the wrong frequency. When it's a real failure, there's a set procedure, and a transponder code that tells ATC about it without a word.
 
 **Watch (both):**
-- [What to do when your radio fails — GoFly Fix](https://www.youtube.com/watch?v=Lzxz8AzNO0U) — GoFly Online, about 3 minutes. An Australian instructor walks through the procedure.
-- [How to operate the transponder — GoFly Fix](https://www.youtube.com/watch?v=aA-Oj9PEhtk) — GoFly Online, about 4 minutes. Including the emergency codes.
+- [What to do when your radio fails — GoFly Fix](https://www.youtube.com/watch?v=Lzxz8AzNO0U) — GoFly Online, about 3 minutes. An Australian instructor walks through the practical procedure of approaching an uncontrolled aerodrome with a radio failure (look out and give way, continue to transmit).
+- [How to operate the transponder — GoFly Fix](https://www.youtube.com/watch?v=aA-Oj9PEhtk) — GoFly Online, about 4 minutes. An overview of transponder use in Australia, including the emergency codes.
 
 **Read:**
-- CASA VFRG — [transponder emergency codes, p. 234](https://www.casa.gov.au/sites/default/files/2022-02/visual-flight-rules-guide.pdf#page=246) and [radio failure en route in Class G and E, p. 362](https://www.casa.gov.au/sites/default/files/2022-02/visual-flight-rules-guide.pdf#page=374).
+- CASA VFRG — [transponder emergency codes, p. 234](https://www.casa.gov.au/sites/default/files/2022-02/visual-flight-rules-guide.pdf#page=246) and [radio failure en route in Class G and E, p. 362](https://www.casa.gov.au/sites/default/files/2022-02/visual-flight-rules-guide.pdf#page=373) - which stresses the importance of joining crosswind or downwind for visibility, together with normal landing lights, anti-collision lights and transponder where equipped.
 
 **Answer:**
 
