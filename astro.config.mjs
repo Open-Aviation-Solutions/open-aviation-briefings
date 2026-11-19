@@ -103,6 +103,10 @@ export default defineConfig({
           label: 'Recreational Pilot License',
           items: [{ autogenerate: { directory: 'recreational-pilot-license' } }],
         },
+        {
+          label: 'Private Pilot License',
+          items: [{ autogenerate: { directory: 'private-pilot-license' } }],
+        },
       ],
     }),
     sitemap(),

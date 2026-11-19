@@ -19,6 +19,8 @@ VNE
 VSO
 VX
 VY
+FREDA
+VRPs
 
 # Aviation / navigation terms
 (?i)airframes?
@@ -50,6 +52,9 @@ TAFs?
 unstalls?
 (?i)waypoints?
 (?i)weathervan(e|ing)
+(?i)hotspots?
+(?i)navaids?
+(?i)readbacks?
 
 # Aircraft types
 PA28
@@ -81,11 +86,18 @@ Unicomb
 
 # Organisation and channel names in attributions
 Evionica
+AvSafety
+GoFly
+UKGroundSchool
 
 # Place names / airports cited in slides
 Bankstown
 Gatwick
 Yass
+Archerfield
+Jandakot
+Moorabbin
+Parafield
 
 # Common abbreviations used in slide shorthand
 config
@@ -98,5 +110,5 @@ CLI
 composable
 (?i)frontmatter
 Marp
-Starlight
+(?i)starlight
 hPa

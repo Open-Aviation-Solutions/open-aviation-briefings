@@ -22,10 +22,13 @@ ifeq ($(CONTAINER_RUNTIME),)
 $(error npm is not installed and no container runtime (podman/docker) was found — install one of them)
 endif
 
-# Rootless podman maps the container's root to the host user, so bind-mounted
-# files keep the right ownership. Rootful docker does not, so run as the host
-# user there to avoid root-owned files in the working tree.
-ifeq ($(findstring podman,$(CONTAINER_RUNTIME)),)
+# Rootless podman and rootless docker map the container's root to the host
+# user, so bind-mounted files keep the right ownership (and forcing --user
+# would map to an unprivileged subuid that cannot write to the mount). Rootful
+# docker does not, so run as the host user there to avoid root-owned files in
+# the working tree.
+ROOTLESS := $(findstring rootless,$(shell $(CONTAINER_RUNTIME) info --format '{{.SecurityOptions}}' 2>/dev/null))
+ifeq ($(findstring podman,$(CONTAINER_RUNTIME))$(ROOTLESS),)
 CONTAINER_USER := --user $(shell id -u):$(shell id -g) -e HOME=/tmp -e npm_config_cache=/tmp/.npm
 endif
 
@@ -35,8 +38,14 @@ CONTAINER_RUN := $(CONTAINER_RUNTIME) run --rm $(TTY) -v $(CURDIR):/app $(CONTAI
 NPM := $(CONTAINER_RUN) $(IMAGE) npm
 VALE := $(CONTAINER_RUN) $(IMAGE) vale
 # Stamp file marking the last successful image build, so plain `make` runs only
-# rebuild the image when the Dockerfile is newer (no runtime call otherwise).
+# rebuild the image when the Dockerfile is newer.
 IMAGE_STAMP := .image.stamp
+# The stamp can outlive the image itself (e.g. after `podman image prune`), which
+# would leave make treating a missing image as current. Drop the stamp whenever
+# the image is missing, so the next target that needs it rebuilds it.
+ifeq ($(shell $(CONTAINER_RUNTIME) image inspect $(IMAGE) >/dev/null 2>&1 && echo yes),)
+$(shell rm -f $(IMAGE_STAMP))
+endif
 else
 NPM := npm
 VALE := vale
@@ -48,7 +57,7 @@ help:
 ifdef USE_CONTAINER
 # Rebuild the image whenever the Dockerfile changes; `make` skips it otherwise
 # because the stamp is newer. `touch Dockerfile` (or delete the stamp) forces a
-# rebuild. A bind-mount image has no COPY steps, so the Dockerfile is its only input.
+# rebuild, and so does a missing image (see IMAGE_STAMP above). A bind-mount image has no COPY steps, so the Dockerfile is its only input.
 $(IMAGE_STAMP): Dockerfile
 	$(CONTAINER_RUNTIME) build -t $(IMAGE) .
 	@touch $@
@@ -64,7 +73,7 @@ local-components-symlink: ## Symlink ../open-aviation-components into node_modul
 
 install: node_modules ## Install dependencies
 
-dev: node_modules ## Build slides and start dev server at localhost:4324
+dev: node_modules ## Build slides and start dev server at localhost:4324 (USE_CONTAINER=1 to run in a container)
 ifdef USE_CONTAINER
 	$(CONTAINER_RUN) -p 4324:4324 $(IMAGE) npm run dev
 else
